@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\bin\Debug\LastKNumbersSums.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\bin\Debug\LastKNumbersSums.exe
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\bin\Debug\LastKNumbersSums.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\obj\Debug\LastKNumbersSums.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\obj\Debug\LastKNumbersSums.exe
+C:\Users\nasko\Desktop\ArraysAndLists\LastKNumbersSums\obj\Debug\LastKNumbersSums.pdb

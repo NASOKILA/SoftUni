@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\bin\Debug\Holidays between two dates.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\bin\Debug\Holidays between two dates.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\bin\Debug\Holidays between two dates.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\obj\Debug\Holidays between two dates.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\obj\Debug\Holidays between two dates.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Holidays between two dates\obj\Debug\Holidays between two dates.csprojResolveAssemblyReference.cache

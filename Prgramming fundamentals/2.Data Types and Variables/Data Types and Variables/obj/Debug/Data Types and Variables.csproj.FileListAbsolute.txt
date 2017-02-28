@@ -1,0 +1,7 @@
+C:\Users\nasko\Desktop\Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.pdb

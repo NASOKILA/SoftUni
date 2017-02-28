@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Circle Area (12 Digits Precision)\bin\Debug\Circle Area (12 Digits Precision).exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Circle Area (12 Digits Precision)\bin\Debug\Circle Area (12 Digits Precision).exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Circle Area (12 Digits Precision)\bin\Debug\Circle Area (12 Digits Precision).pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Circle Area (12 Digits Precision)\obj\Debug\Circle Area (12 Digits Precision).exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Circle Area (12 Digits Precision)\obj\Debug\Circle Area (12 Digits Precision).pdb

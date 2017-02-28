@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\bin\Debug\RemoveNegativesAndReverse.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\bin\Debug\RemoveNegativesAndReverse.exe
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\bin\Debug\RemoveNegativesAndReverse.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\obj\Debug\RemoveNegativesAndReverse.exe
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\obj\Debug\RemoveNegativesAndReverse.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\RemoveNegativesAndReverse\obj\Debug\RemoveNegativesAndReverse.csprojResolveAssemblyReference.cache

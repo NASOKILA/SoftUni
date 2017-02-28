@@ -1,0 +1,12 @@
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.exe.config
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.exe
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.pdb
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.exe
+C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\bin\Debug\Methods.DebuggingAndTroubleshootingCode.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Methods.DebuggingAndTroubleshootingCode\obj\Debug\Methods.DebuggingAndTroubleshootingCode.csprojResolveAssemblyReference.cache

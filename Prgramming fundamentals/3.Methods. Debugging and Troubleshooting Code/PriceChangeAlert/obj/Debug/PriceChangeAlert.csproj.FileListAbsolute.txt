@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PriceChangeAlert\bin\Debug\PriceChangeAlert.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PriceChangeAlert\bin\Debug\PriceChangeAlert.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PriceChangeAlert\bin\Debug\PriceChangeAlert.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PriceChangeAlert\obj\Debug\PriceChangeAlert.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PriceChangeAlert\obj\Debug\PriceChangeAlert.pdb

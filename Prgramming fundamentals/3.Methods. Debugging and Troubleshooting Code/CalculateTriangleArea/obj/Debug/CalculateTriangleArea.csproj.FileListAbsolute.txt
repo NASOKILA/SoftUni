@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CalculateTriangleArea\bin\Debug\CalculateTriangleArea.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CalculateTriangleArea\obj\Debug\CalculateTriangleArea.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CalculateTriangleArea\obj\Debug\CalculateTriangleArea.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Double Palindromes\bin\Debug\Double Palindromes.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Double Palindromes\bin\Debug\Double Palindromes.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Double Palindromes\bin\Debug\Double Palindromes.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Double Palindromes\obj\Debug\Double Palindromes.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Double Palindromes\obj\Debug\Double Palindromes.pdb

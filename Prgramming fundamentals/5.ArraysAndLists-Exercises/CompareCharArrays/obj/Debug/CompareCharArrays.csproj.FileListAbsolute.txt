@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\bin\Debug\CompareCharArrays.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\bin\Debug\CompareCharArrays.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\bin\Debug\CompareCharArrays.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\obj\Debug\CompareCharArrays.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\obj\Debug\CompareCharArrays.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\CompareCharArrays\obj\Debug\CompareCharArrays.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\PrintPartOfTheASCIITable\bin\Debug\PrintPartOfTheASCIITable.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\PrintPartOfTheASCIITable\bin\Debug\PrintPartOfTheASCIITable.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\PrintPartOfTheASCIITable\bin\Debug\PrintPartOfTheASCIITable.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\PrintPartOfTheASCIITable\obj\Debug\PrintPartOfTheASCIITable.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\PrintPartOfTheASCIITable\obj\Debug\PrintPartOfTheASCIITable.pdb

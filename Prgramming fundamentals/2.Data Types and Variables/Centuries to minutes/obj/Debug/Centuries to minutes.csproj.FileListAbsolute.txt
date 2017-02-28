@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Centuries to minutes\bin\Debug\Centuries to minutes.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Centuries to minutes\bin\Debug\Centuries to minutes.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Centuries to minutes\bin\Debug\Centuries to minutes.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Centuries to minutes\obj\Debug\Centuries to minutes.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Centuries to minutes\obj\Debug\Centuries to minutes.pdb

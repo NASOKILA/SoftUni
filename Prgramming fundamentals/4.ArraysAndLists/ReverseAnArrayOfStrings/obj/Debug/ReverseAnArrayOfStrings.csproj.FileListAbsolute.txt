@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfStrings\bin\Debug\ReverseAnArrayOfStrings.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfStrings\bin\Debug\ReverseAnArrayOfStrings.exe
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfStrings\bin\Debug\ReverseAnArrayOfStrings.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfStrings\obj\Debug\ReverseAnArrayOfStrings.exe
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfStrings\obj\Debug\ReverseAnArrayOfStrings.pdb

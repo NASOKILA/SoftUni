@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\bin\Debug\MasterNumbers.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\bin\Debug\MasterNumbers.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\bin\Debug\MasterNumbers.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\obj\Debug\MasterNumbers.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\obj\Debug\MasterNumbers.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\MasterNumbers\obj\Debug\MasterNumbers.csprojResolveAssemblyReference.cache

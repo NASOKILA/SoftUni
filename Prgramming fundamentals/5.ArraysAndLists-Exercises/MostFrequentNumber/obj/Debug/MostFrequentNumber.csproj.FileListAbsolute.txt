@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\bin\Debug\MostFrequentNumber.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\obj\Debug\MostFrequentNumber.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\obj\Debug\MostFrequentNumber.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MostFrequentNumber\obj\Debug\MostFrequentNumber.pdb

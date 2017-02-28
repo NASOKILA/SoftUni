@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\bin\Debug\AppendLists.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\bin\Debug\AppendLists.exe
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\bin\Debug\AppendLists.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.exe
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.csprojResolveAssemblyReference.cache

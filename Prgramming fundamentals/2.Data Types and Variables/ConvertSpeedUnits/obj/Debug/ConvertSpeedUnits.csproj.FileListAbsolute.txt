@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\bin\Debug\ConvertSpeedUnits.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\bin\Debug\ConvertSpeedUnits.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\bin\Debug\ConvertSpeedUnits.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\obj\Debug\ConvertSpeedUnits.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\obj\Debug\ConvertSpeedUnits.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ConvertSpeedUnits\obj\Debug\ConvertSpeedUnits.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ArraysAndLists\CondenseArrayToNumber\bin\Debug\CondenseArrayToNumber.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\CondenseArrayToNumber\bin\Debug\CondenseArrayToNumber.exe
+C:\Users\nasko\Desktop\ArraysAndLists\CondenseArrayToNumber\bin\Debug\CondenseArrayToNumber.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\CondenseArrayToNumber\obj\Debug\CondenseArrayToNumber.exe
+C:\Users\nasko\Desktop\ArraysAndLists\CondenseArrayToNumber\obj\Debug\CondenseArrayToNumber.pdb

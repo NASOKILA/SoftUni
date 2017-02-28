@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice floating points\bin\Debug\Practice floating points.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice floating points\bin\Debug\Practice floating points.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice floating points\bin\Debug\Practice floating points.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice floating points\obj\Debug\Practice floating points.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice floating points\obj\Debug\Practice floating points.pdb

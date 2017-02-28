@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\bin\Debug\Refactor Special Numbers.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\bin\Debug\Refactor Special Numbers.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\bin\Debug\Refactor Special Numbers.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\obj\Debug\Refactor Special Numbers.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\obj\Debug\Refactor Special Numbers.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Special Numbers\obj\Debug\Refactor Special Numbers.pdb

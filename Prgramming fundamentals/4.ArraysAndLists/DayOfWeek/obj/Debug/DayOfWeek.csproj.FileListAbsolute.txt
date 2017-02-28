@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ArraysAndLists\DayOfWeek\bin\Debug\DayOfWeek.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\DayOfWeek\bin\Debug\DayOfWeek.exe
+C:\Users\nasko\Desktop\ArraysAndLists\DayOfWeek\bin\Debug\DayOfWeek.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\DayOfWeek\obj\Debug\DayOfWeek.exe
+C:\Users\nasko\Desktop\ArraysAndLists\DayOfWeek\obj\Debug\DayOfWeek.pdb

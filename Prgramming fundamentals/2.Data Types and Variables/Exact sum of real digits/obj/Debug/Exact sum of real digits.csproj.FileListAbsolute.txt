@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\bin\Debug\Exact sum of real digits.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\bin\Debug\Exact sum of real digits.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\bin\Debug\Exact sum of real digits.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\obj\Debug\Exact sum of real digits.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\obj\Debug\Exact sum of real digits.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Exact sum of real digits\obj\Debug\Exact sum of real digits.csprojResolveAssemblyReference.cache

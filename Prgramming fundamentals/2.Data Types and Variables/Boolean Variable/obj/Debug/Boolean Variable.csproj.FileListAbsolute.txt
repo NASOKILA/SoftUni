@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\bin\Debug\Boolean Variable.exe.config
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\bin\Debug\Boolean Variable.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\bin\Debug\Boolean Variable.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\obj\Debug\Boolean Variable.exe
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\obj\Debug\Boolean Variable.pdb
+C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Boolean Variable\obj\Debug\Boolean Variable.csprojResolveAssemblyReference.cache

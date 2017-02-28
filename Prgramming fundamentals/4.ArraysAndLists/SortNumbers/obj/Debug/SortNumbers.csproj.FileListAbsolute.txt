@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ArraysAndLists\SortNumbers\bin\Debug\SortNumbers.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\SortNumbers\bin\Debug\SortNumbers.exe
+C:\Users\nasko\Desktop\ArraysAndLists\SortNumbers\bin\Debug\SortNumbers.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\SortNumbers\obj\Debug\SortNumbers.exe
+C:\Users\nasko\Desktop\ArraysAndLists\SortNumbers\obj\Debug\SortNumbers.pdb

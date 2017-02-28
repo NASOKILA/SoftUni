@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\ReverseAnArrayOfIntegers.exe.config
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\ReverseAnArrayOfIntegers.exe
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\ReverseAnArrayOfIntegers.pdb
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.exe
+C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.pdb
