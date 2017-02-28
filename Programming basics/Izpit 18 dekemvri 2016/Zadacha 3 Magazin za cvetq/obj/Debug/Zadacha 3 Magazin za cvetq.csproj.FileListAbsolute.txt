@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\bin\Debug\Zadacha 3 Magazin za cvetq.exe.config
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\bin\Debug\Zadacha 3 Magazin za cvetq.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\bin\Debug\Zadacha 3 Magazin za cvetq.pdb
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\obj\Debug\Zadacha 3 Magazin za cvetq.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\obj\Debug\Zadacha 3 Magazin za cvetq.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 3 Magazin za cvetq\obj\Debug\Zadacha 3 Magazin za cvetq.pdb

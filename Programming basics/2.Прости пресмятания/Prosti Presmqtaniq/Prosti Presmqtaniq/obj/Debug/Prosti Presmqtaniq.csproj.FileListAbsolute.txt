@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\bin\Debug\Prosti Presmqtaniq.exe.config
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\bin\Debug\Prosti Presmqtaniq.exe
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\bin\Debug\Prosti Presmqtaniq.pdb
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\obj\Debug\Prosti Presmqtaniq.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\obj\Debug\Prosti Presmqtaniq.exe
+C:\Users\nasko\Desktop\Prosti Presmqtaniq\Prosti Presmqtaniq\obj\Debug\Prosti Presmqtaniq.pdb

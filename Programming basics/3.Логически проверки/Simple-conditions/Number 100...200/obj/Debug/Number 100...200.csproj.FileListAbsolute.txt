@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Simple-conditions\Number 100...200\bin\Debug\Number_100._._._200.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Number 100...200\bin\Debug\Number_100._._._200.exe
+C:\Users\nasko\Desktop\Simple-conditions\Number 100...200\bin\Debug\Number_100._._._200.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Number 100...200\obj\Debug\Number_100._._._200.exe
+C:\Users\nasko\Desktop\Simple-conditions\Number 100...200\obj\Debug\Number_100._._._200.pdb

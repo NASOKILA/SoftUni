@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\bin\Debug\Chetna i nechetna suma.exe.config
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\bin\Debug\Chetna i nechetna suma.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\bin\Debug\Chetna i nechetna suma.pdb
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\obj\Debug\Chetna i nechetna suma.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\obj\Debug\Chetna i nechetna suma.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetna i nechetna suma\obj\Debug\Chetna i nechetna suma.pdb

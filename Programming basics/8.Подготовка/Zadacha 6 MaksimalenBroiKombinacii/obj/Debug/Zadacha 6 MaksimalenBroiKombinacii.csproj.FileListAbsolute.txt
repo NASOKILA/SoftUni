@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\bin\Debug\Zadacha 6 MaksimalenBroiKombinacii.exe.config
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\bin\Debug\Zadacha 6 MaksimalenBroiKombinacii.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\bin\Debug\Zadacha 6 MaksimalenBroiKombinacii.pdb
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\obj\Debug\Zadacha 6 MaksimalenBroiKombinacii.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\obj\Debug\Zadacha 6 MaksimalenBroiKombinacii.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 6 MaksimalenBroiKombinacii\obj\Debug\Zadacha 6 MaksimalenBroiKombinacii.pdb
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Zadacha 6 MaksimalenBroiKombinacii\bin\Debug\Zadacha 6 MaksimalenBroiKombinacii.exe.config
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Zadacha 6 MaksimalenBroiKombinacii\obj\Debug\Zadacha 6 MaksimalenBroiKombinacii.exe
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Zadacha 6 MaksimalenBroiKombinacii\obj\Debug\Zadacha 6 MaksimalenBroiKombinacii.pdb

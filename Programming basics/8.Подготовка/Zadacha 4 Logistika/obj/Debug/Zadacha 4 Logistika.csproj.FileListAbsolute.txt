@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\bin\Debug\Zadacha 4 Logistika.exe.config
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\bin\Debug\Zadacha 4 Logistika.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\bin\Debug\Zadacha 4 Logistika.pdb
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\obj\Debug\Zadacha 4 Logistika.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\obj\Debug\Zadacha 4 Logistika.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 4 Logistika\obj\Debug\Zadacha 4 Logistika.pdb

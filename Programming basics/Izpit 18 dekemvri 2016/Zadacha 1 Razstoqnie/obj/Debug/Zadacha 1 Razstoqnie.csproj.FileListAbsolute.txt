@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 1 Razstoqnie\bin\Debug\Zadacha 1 Razstoqnie.exe.config
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 1 Razstoqnie\bin\Debug\Zadacha 1 Razstoqnie.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 1 Razstoqnie\bin\Debug\Zadacha 1 Razstoqnie.pdb
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 1 Razstoqnie\obj\Debug\Zadacha 1 Razstoqnie.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 1 Razstoqnie\obj\Debug\Zadacha 1 Razstoqnie.pdb

@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\bin\Debug\Metric Converter.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\bin\Debug\Metric Converter.exe
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\bin\Debug\Metric Converter.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\obj\Debug\Metric Converter.exe
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\obj\Debug\Metric Converter.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Metric Converter\obj\Debug\Metric Converter.csprojResolveAssemblyReference.cache

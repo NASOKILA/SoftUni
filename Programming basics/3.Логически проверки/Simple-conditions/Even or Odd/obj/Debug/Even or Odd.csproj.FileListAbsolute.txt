@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Simple-conditions\Even or Odd\bin\Debug\Even or Odd.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Even or Odd\bin\Debug\Even or Odd.exe
+C:\Users\nasko\Desktop\Simple-conditions\Even or Odd\bin\Debug\Even or Odd.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Even or Odd\obj\Debug\Even or Odd.exe
+C:\Users\nasko\Desktop\Simple-conditions\Even or Odd\obj\Debug\Even or Odd.pdb

@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\bin\Debug\Zadacha 3 Velosustezanie.exe.config
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\bin\Debug\Zadacha 3 Velosustezanie.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\bin\Debug\Zadacha 3 Velosustezanie.pdb
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\obj\Debug\Zadacha 3 Velosustezanie.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\obj\Debug\Zadacha 3 Velosustezanie.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 3 Velosustezanie\obj\Debug\Zadacha 3 Velosustezanie.pdb

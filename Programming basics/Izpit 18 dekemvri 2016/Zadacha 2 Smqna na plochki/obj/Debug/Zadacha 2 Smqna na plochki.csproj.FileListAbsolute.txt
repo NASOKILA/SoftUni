@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\bin\Debug\Zadacha 2 Smqna na plochki.exe.config
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\bin\Debug\Zadacha 2 Smqna na plochki.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\bin\Debug\Zadacha 2 Smqna na plochki.pdb
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\obj\Debug\Zadacha 2 Smqna na plochki.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\obj\Debug\Zadacha 2 Smqna na plochki.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 2 Smqna na plochki\obj\Debug\Zadacha 2 Smqna na plochki.pdb

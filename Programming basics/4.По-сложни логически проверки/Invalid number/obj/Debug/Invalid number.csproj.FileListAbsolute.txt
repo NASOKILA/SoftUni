@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\bin\Debug\Invalid number.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\bin\Debug\Invalid number.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\bin\Debug\Invalid number.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\obj\Debug\Invalid number.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\obj\Debug\Invalid number.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Invalid number\obj\Debug\Invalid number.pdb

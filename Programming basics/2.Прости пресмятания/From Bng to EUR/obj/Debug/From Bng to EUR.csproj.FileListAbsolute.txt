@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\bin\Debug\From Bng to EUR.exe.config
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\bin\Debug\From Bng to EUR.exe
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\bin\Debug\From Bng to EUR.pdb
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From Bng to EUR.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From_Bng_to_EUR.Form1.resources
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From_Bng_to_EUR.Properties.Resources.resources
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From Bng to EUR.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From Bng to EUR.exe
+C:\Users\nasko\Desktop\Simple calculations\From Bng to EUR\obj\Debug\From Bng to EUR.pdb

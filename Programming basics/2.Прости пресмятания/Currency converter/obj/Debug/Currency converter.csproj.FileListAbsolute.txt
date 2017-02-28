@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\bin\Debug\Currency converter.exe.config
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\bin\Debug\Currency converter.exe
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\bin\Debug\Currency converter.pdb
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\obj\Debug\Currency converter.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\obj\Debug\Currency converter.exe
+C:\Users\nasko\Desktop\Simple calculations\Currency converter\obj\Debug\Currency converter.pdb

@@ -1,0 +1,10 @@
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\bin\Debug\Chertane s kostenurka.exe.config
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\bin\Debug\Chertane s kostenurka.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\bin\Debug\Chertane s kostenurka.pdb
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\bin\Debug\Nakov.TurtleGraphics.dll
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane s kostenurka.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane_s_kostenurka.FormTurtleGraphics.resources
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane_s_kostenurka.Properties.Resources.resources
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane s kostenurka.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane s kostenurka.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane s kostenurka\obj\Debug\Chertane s kostenurka.pdb

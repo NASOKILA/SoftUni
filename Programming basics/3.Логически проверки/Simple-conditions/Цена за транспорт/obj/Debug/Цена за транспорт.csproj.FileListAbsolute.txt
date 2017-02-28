@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\bin\Debug\Цена за транспорт.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\bin\Debug\Цена за транспорт.exe
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\bin\Debug\Цена за транспорт.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\obj\Debug\Цена за транспорт.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\obj\Debug\Цена за транспорт.exe
+C:\Users\nasko\Desktop\Simple-conditions\Цена за транспорт\obj\Debug\Цена за транспорт.pdb

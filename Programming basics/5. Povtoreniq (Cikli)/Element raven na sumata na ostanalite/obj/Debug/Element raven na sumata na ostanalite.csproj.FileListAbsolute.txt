@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Element raven na sumata na ostanalite\bin\Debug\Element raven na sumata na ostanalite.exe.config
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Element raven na sumata na ostanalite\bin\Debug\Element raven na sumata na ostanalite.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Element raven na sumata na ostanalite\bin\Debug\Element raven na sumata na ostanalite.pdb
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Element raven na sumata na ostanalite\obj\Debug\Element raven na sumata na ostanalite.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Element raven na sumata na ostanalite\obj\Debug\Element raven na sumata na ostanalite.pdb

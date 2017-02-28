@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Tablica s chisla\bin\Debug\Tablica s chisla.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Tablica s chisla\bin\Debug\Tablica s chisla.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Tablica s chisla\bin\Debug\Tablica s chisla.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Tablica s chisla\obj\Debug\Tablica s chisla.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Tablica s chisla\obj\Debug\Tablica s chisla.pdb

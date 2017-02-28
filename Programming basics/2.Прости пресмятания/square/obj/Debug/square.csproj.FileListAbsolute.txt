@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Simple calculations\square\bin\Debug\square.exe.config
+C:\Users\nasko\Desktop\Simple calculations\square\bin\Debug\square.exe
+C:\Users\nasko\Desktop\Simple calculations\square\bin\Debug\square.pdb
+C:\Users\nasko\Desktop\Simple calculations\square\obj\Debug\square.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple calculations\square\obj\Debug\square.exe
+C:\Users\nasko\Desktop\Simple calculations\square\obj\Debug\square.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\square\bin\Debug\square.exe.config
+C:\Users\nasko\Desktop\softuni\Simple calculations\square\obj\Debug\square.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\square\obj\Debug\square.pdb

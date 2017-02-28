@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\obrushtenie spored vuzrast i pol\bin\Debug\obrushtenie spored vuzrast i pol.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\obrushtenie spored vuzrast i pol\bin\Debug\obrushtenie spored vuzrast i pol.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\obrushtenie spored vuzrast i pol\bin\Debug\obrushtenie spored vuzrast i pol.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\obrushtenie spored vuzrast i pol\obj\Debug\obrushtenie spored vuzrast i pol.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\obrushtenie spored vuzrast i pol\obj\Debug\obrushtenie spored vuzrast i pol.pdb

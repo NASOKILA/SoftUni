@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\bin\Debug\Lice na trapec2.exe.config
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\bin\Debug\Lice na trapec2.exe
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\bin\Debug\Lice na trapec2.pdb
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\obj\Debug\Lice na trapec2.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\obj\Debug\Lice na trapec2.exe
+C:\Users\nasko\Desktop\Simple calculations\Lice na trapec2\obj\Debug\Lice na trapec2.pdb

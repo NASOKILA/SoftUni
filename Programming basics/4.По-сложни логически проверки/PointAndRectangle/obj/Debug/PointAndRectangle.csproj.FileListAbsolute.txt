@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\bin\Debug\PointAndRectangle.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\bin\Debug\PointAndRectangle.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\bin\Debug\PointAndRectangle.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.FormPointAndRectangle.resources
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.Properties.Resources.resources
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\PointAndRectangle\obj\Debug\PointAndRectangle.pdb

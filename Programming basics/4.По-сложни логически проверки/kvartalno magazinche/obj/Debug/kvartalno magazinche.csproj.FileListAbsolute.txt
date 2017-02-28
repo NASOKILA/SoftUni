@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\bin\Debug\kvartalno magazinche.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\bin\Debug\kvartalno magazinche.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\bin\Debug\kvartalno magazinche.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\obj\Debug\kvartalno magazinche.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\obj\Debug\kvartalno magazinche.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kvartalno magazinche\obj\Debug\kvartalno magazinche.pdb

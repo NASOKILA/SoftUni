@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Simple calculations\inches to centimeters\bin\Debug\inches to centimeters.exe.config
+C:\Users\nasko\Desktop\Simple calculations\inches to centimeters\bin\Debug\inches to centimeters.exe
+C:\Users\nasko\Desktop\Simple calculations\inches to centimeters\bin\Debug\inches to centimeters.pdb
+C:\Users\nasko\Desktop\Simple calculations\inches to centimeters\obj\Debug\inches to centimeters.exe
+C:\Users\nasko\Desktop\Simple calculations\inches to centimeters\obj\Debug\inches to centimeters.pdb

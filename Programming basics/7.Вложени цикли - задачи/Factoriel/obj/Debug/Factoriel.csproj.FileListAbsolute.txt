@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\bin\Debug\Factoriel.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\bin\Debug\Factoriel.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\bin\Debug\Factoriel.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\obj\Debug\Factoriel.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\obj\Debug\Factoriel.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Factoriel\obj\Debug\Factoriel.pdb

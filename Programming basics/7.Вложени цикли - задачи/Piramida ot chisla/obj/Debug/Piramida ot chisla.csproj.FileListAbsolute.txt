@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\bin\Debug\Piramida ot chisla.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\bin\Debug\Piramida ot chisla.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\bin\Debug\Piramida ot chisla.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\obj\Debug\Piramida ot chisla.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\obj\Debug\Piramida ot chisla.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Piramida ot chisla\obj\Debug\Piramida ot chisla.csprojResolveAssemblyReference.cache

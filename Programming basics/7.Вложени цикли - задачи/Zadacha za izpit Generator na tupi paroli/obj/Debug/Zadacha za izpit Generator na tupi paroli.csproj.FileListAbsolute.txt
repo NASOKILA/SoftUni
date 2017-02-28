@@ -1,0 +1,12 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.pdb
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.exe.config
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.exe
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.pdb
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.exe
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\bin\Debug\Zadacha za izpit Generator na tupi paroli.pdb
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Zadacha za izpit Generator na tupi paroli\obj\Debug\Zadacha za izpit Generator na tupi paroli.csprojResolveAssemblyReference.cache

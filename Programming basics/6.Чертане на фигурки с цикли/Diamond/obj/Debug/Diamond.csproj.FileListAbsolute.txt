@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\bin\Debug\Diamond.exe.config
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\bin\Debug\Diamond.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\bin\Debug\Diamond.pdb
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\obj\Debug\Diamond.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\obj\Debug\Diamond.pdb
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Diamond\obj\Debug\Diamond.csprojResolveAssemblyReference.cache

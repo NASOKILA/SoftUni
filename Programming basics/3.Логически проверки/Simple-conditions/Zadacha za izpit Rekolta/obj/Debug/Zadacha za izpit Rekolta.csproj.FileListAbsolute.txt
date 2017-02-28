@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\bin\Debug\Zadacha za izpit Rekolta.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\bin\Debug\Zadacha za izpit Rekolta.exe
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\bin\Debug\Zadacha za izpit Rekolta.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\obj\Debug\Zadacha za izpit Rekolta.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\obj\Debug\Zadacha za izpit Rekolta.exe
+C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Rekolta\obj\Debug\Zadacha za izpit Rekolta.pdb

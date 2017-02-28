@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot 2 na nuleva do 2 na enta stepen\bin\Debug\Chislata ot 2 na nuleva do 2 na enta stepen.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot 2 na nuleva do 2 na enta stepen\bin\Debug\Chislata ot 2 na nuleva do 2 na enta stepen.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot 2 na nuleva do 2 na enta stepen\bin\Debug\Chislata ot 2 na nuleva do 2 na enta stepen.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot 2 na nuleva do 2 na enta stepen\obj\Debug\Chislata ot 2 na nuleva do 2 na enta stepen.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot 2 na nuleva do 2 na enta stepen\obj\Debug\Chislata ot 2 na nuleva do 2 na enta stepen.pdb

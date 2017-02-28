@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\bin\Debug\Izpit 18 dekemvri 2016.exe.config
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\bin\Debug\Izpit 18 dekemvri 2016.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\bin\Debug\Izpit 18 dekemvri 2016.pdb
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\obj\Debug\Izpit 18 dekemvri 2016.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\obj\Debug\Izpit 18 dekemvri 2016.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\obj\Debug\Izpit 18 dekemvri 2016.pdb
+C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\bin\Debug\Izpit 18 dekemvri 2016.exe.config
+C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\obj\Debug\Izpit 18 dekemvri 2016.exe
+C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Izpit 18 dekemvri 2016\obj\Debug\Izpit 18 dekemvri 2016.pdb

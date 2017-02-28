@@ -1,0 +1,12 @@
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.exe.config
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.exe
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.pdb
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.exe
+C:\Users\nasko\Desktop\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.exe.config
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\bin\Debug\Zadacha za izpit 1000 dni na zemqta.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit 1000 dni na zemqta\Zadacha za izpit 1000 dni na zemqta\obj\Debug\Zadacha za izpit 1000 dni na zemqta.csprojResolveAssemblyReference.cache

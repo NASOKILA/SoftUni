@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\bin\Debug\Podgotovka.exe.config
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\bin\Debug\Podgotovka.exe
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\bin\Debug\Podgotovka.pdb
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\obj\Debug\Podgotovka.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\obj\Debug\Podgotovka.exe
+C:\Users\nasko\Desktop\Podgotovka\Podgotovka\obj\Debug\Podgotovka.pdb
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Podgotovka\bin\Debug\Podgotovka.exe.config
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Podgotovka\obj\Debug\Podgotovka.exe
+C:\Users\nasko\Desktop\softuni\8.Подготовка\Podgotovka\obj\Debug\Podgotovka.pdb

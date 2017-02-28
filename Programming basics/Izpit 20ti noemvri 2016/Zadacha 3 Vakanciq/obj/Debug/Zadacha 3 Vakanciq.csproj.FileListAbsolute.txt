@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\bin\Debug\Zadacha 3 Vakanciq.exe.config
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\bin\Debug\Zadacha 3 Vakanciq.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\bin\Debug\Zadacha 3 Vakanciq.pdb
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\obj\Debug\Zadacha 3 Vakanciq.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\obj\Debug\Zadacha 3 Vakanciq.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 3 Vakanciq\obj\Debug\Zadacha 3 Vakanciq.pdb

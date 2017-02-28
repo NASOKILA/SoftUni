@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Sumator\Sumator\bin\Debug\Sumator.exe.config
+C:\Users\nasko\Desktop\Sumator\Sumator\bin\Debug\Sumator.exe
+C:\Users\nasko\Desktop\Sumator\Sumator\bin\Debug\Sumator.pdb
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.FormCalculate.resources
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.Properties.Resources.resources
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.exe
+C:\Users\nasko\Desktop\Sumator\Sumator\obj\Debug\Sumator.pdb

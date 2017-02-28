@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Simple-conditions\Equal Words\bin\Debug\Equal Words.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Equal Words\bin\Debug\Equal Words.exe
+C:\Users\nasko\Desktop\Simple-conditions\Equal Words\bin\Debug\Equal Words.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Equal Words\obj\Debug\Equal Words.exe
+C:\Users\nasko\Desktop\Simple-conditions\Equal Words\obj\Debug\Equal Words.pdb

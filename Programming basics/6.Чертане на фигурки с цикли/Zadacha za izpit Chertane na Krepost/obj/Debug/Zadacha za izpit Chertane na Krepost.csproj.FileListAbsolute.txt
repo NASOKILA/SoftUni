@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\bin\Debug\Zadacha za izpit Chertane na Krepost.exe.config
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\bin\Debug\Zadacha za izpit Chertane na Krepost.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\bin\Debug\Zadacha za izpit Chertane na Krepost.pdb
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\obj\Debug\Zadacha za izpit Chertane na Krepost.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\obj\Debug\Zadacha za izpit Chertane na Krepost.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Chertane na Krepost\obj\Debug\Zadacha za izpit Chertane na Krepost.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 1 Ribna borsa\bin\Debug\Zadacha 1 Ribna borsa.exe.config
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 1 Ribna borsa\bin\Debug\Zadacha 1 Ribna borsa.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 1 Ribna borsa\bin\Debug\Zadacha 1 Ribna borsa.pdb
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 1 Ribna borsa\obj\Debug\Zadacha 1 Ribna borsa.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 1 Ribna borsa\obj\Debug\Zadacha 1 Ribna borsa.pdb

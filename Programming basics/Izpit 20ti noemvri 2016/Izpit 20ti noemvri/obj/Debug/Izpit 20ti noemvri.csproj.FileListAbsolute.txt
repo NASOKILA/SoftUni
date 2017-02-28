@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\bin\Debug\Izpit 20ti noemvri.exe.config
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\bin\Debug\Izpit 20ti noemvri.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\bin\Debug\Izpit 20ti noemvri.pdb
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\obj\Debug\Izpit 20ti noemvri.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\obj\Debug\Izpit 20ti noemvri.exe
+C:\Users\nasko\Desktop\Izpit 20ti noemvri\Izpit 20ti noemvri\obj\Debug\Izpit 20ti noemvri.pdb

@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\bin\Debug\Umnata Lili.exe.config
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\bin\Debug\Umnata Lili.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\bin\Debug\Umnata Lili.pdb
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\obj\Debug\Umnata Lili.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\obj\Debug\Umnata Lili.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Umnata Lili\obj\Debug\Umnata Lili.pdb

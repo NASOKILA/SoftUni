@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\bin\Debug\Turgovski komisionni.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\obj\Debug\Turgovski komisionni.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\bin\Debug\Turgovski komisionni.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\bin\Debug\Turgovski komisionni.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\obj\Debug\Turgovski komisionni.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Turgovski komisionni\obj\Debug\Turgovski komisionni.pdb

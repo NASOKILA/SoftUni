@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\bin\Debug\Kushtichka.exe.config
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\bin\Debug\Kushtichka.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\bin\Debug\Kushtichka.pdb
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\obj\Debug\Kushtichka.exe
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\obj\Debug\Kushtichka.pdb
+C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Kushtichka\obj\Debug\Kushtichka.csprojResolveAssemblyReference.cache

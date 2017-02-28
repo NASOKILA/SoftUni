@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadratna ramka\bin\Debug\Kvadratna ramka.exe.config
+C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadratna ramka\bin\Debug\Kvadratna ramka.exe
+C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadratna ramka\bin\Debug\Kvadratna ramka.pdb
+C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadratna ramka\obj\Debug\Kvadratna ramka.exe
+C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadratna ramka\obj\Debug\Kvadratna ramka.pdb

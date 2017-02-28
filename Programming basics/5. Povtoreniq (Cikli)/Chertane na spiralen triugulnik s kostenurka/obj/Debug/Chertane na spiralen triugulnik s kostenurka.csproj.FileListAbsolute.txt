@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\bin\Debug\Chertane na spiralen triugulnik s kostenurka.exe.config
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\bin\Debug\Chertane na spiralen triugulnik s kostenurka.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\bin\Debug\Chertane na spiralen triugulnik s kostenurka.pdb
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\bin\Debug\Nakov.TurtleGraphics.dll
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\obj\Debug\Chertane_na_spiralen_triugulnik_s_kostenurka.Form1.resources
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\obj\Debug\Chertane_na_spiralen_triugulnik_s_kostenurka.Properties.Resources.resources
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\obj\Debug\Chertane na spiralen triugulnik s kostenurka.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\obj\Debug\Chertane na spiralen triugulnik s kostenurka.exe
+C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chertane na spiralen triugulnik s kostenurka\obj\Debug\Chertane na spiralen triugulnik s kostenurka.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Simple-conditions\Number 0...9 to Text\bin\Debug\Number_0._._._9_to_Text.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\Number 0...9 to Text\bin\Debug\Number_0._._._9_to_Text.exe
+C:\Users\nasko\Desktop\Simple-conditions\Number 0...9 to Text\bin\Debug\Number_0._._._9_to_Text.pdb
+C:\Users\nasko\Desktop\Simple-conditions\Number 0...9 to Text\obj\Debug\Number_0._._._9_to_Text.exe
+C:\Users\nasko\Desktop\Simple-conditions\Number 0...9 to Text\obj\Debug\Number_0._._._9_to_Text.pdb

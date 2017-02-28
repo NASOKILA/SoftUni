@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot n do 1 v obraten red\bin\Debug\Chislata ot n do 1 v obraten red.exe.config
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot n do 1 v obraten red\bin\Debug\Chislata ot n do 1 v obraten red.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot n do 1 v obraten red\bin\Debug\Chislata ot n do 1 v obraten red.pdb
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot n do 1 v obraten red\obj\Debug\Chislata ot n do 1 v obraten red.exe
+C:\Users\nasko\Desktop\Vlojeni cikli\Chislata ot n do 1 v obraten red\obj\Debug\Chislata ot n do 1 v obraten red.pdb

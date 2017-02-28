@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 5 Christmas hat\bin\Debug\Zadacha 5 Christmas hat.exe.config
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 5 Christmas hat\bin\Debug\Zadacha 5 Christmas hat.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 5 Christmas hat\bin\Debug\Zadacha 5 Christmas hat.pdb
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 5 Christmas hat\obj\Debug\Zadacha 5 Christmas hat.exe
+C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 5 Christmas hat\obj\Debug\Zadacha 5 Christmas hat.pdb

@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 1 Cena na jilishte\bin\Debug\Zadacha 1 Cena na jilishte.exe.config
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 1 Cena na jilishte\bin\Debug\Zadacha 1 Cena na jilishte.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 1 Cena na jilishte\bin\Debug\Zadacha 1 Cena na jilishte.pdb
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 1 Cena na jilishte\obj\Debug\Zadacha 1 Cena na jilishte.exe
+C:\Users\nasko\Desktop\Podgotovka\Zadacha 1 Cena na jilishte\obj\Debug\Zadacha 1 Cena na jilishte.pdb

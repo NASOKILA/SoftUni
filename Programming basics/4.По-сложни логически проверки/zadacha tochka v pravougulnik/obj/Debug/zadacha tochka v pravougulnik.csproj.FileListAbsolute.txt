@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\bin\Debug\zadacha tochka v pravougulnik.exe.config
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\bin\Debug\zadacha tochka v pravougulnik.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\bin\Debug\zadacha tochka v pravougulnik.pdb
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\obj\Debug\zadacha tochka v pravougulnik.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\obj\Debug\zadacha tochka v pravougulnik.exe
+C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha tochka v pravougulnik\obj\Debug\zadacha tochka v pravougulnik.pdb

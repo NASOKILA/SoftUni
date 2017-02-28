@@ -1,0 +1,9 @@
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormCoonverter.resources
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\nasko\Desktop\Simple-conditions\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

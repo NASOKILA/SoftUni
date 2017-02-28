@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\bin\Debug\adacha za izpit Remont na plochki.exe.config
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\bin\Debug\adacha za izpit Remont na plochki.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\bin\Debug\adacha za izpit Remont na plochki.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\obj\Debug\adacha za izpit Remont na plochki.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\obj\Debug\adacha za izpit Remont na plochki.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\adacha za izpit Remont na plochki\obj\Debug\adacha za izpit Remont na plochki.pdb

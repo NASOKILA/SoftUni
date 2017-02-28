@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\bin\Debug\Zadacha za izpit uchebna zala.exe.config
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\bin\Debug\Zadacha za izpit uchebna zala.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\bin\Debug\Zadacha za izpit uchebna zala.pdb
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\obj\Debug\Zadacha za izpit uchebna zala.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\obj\Debug\Zadacha za izpit uchebna zala.exe
+C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacha za izpit uchebna zala\obj\Debug\Zadacha za izpit uchebna zala.pdb

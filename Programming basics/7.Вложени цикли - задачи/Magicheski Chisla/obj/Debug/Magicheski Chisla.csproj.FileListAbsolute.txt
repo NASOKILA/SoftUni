@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\bin\Debug\Magicheski Chisla.exe.config
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\bin\Debug\Magicheski Chisla.exe
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\bin\Debug\Magicheski Chisla.pdb
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\obj\Debug\Magicheski Chisla.exe
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\obj\Debug\Magicheski Chisla.pdb
+C:\Users\nasko\Desktop\softuni\7.Вложени цикли - задачи\Magicheski Chisla\obj\Debug\Magicheski Chisla.csprojResolveAssemblyReference.cache
