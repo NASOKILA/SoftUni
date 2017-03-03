@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\bin\Debug\AMinerTask.exe.config
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\bin\Debug\AMinerTask.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\bin\Debug\AMinerTask.pdb
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\obj\Debug\AMinerTask.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\obj\Debug\AMinerTask.pdb
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\AMinerTask\obj\Debug\AMinerTask.csprojResolveAssemblyReference.cache

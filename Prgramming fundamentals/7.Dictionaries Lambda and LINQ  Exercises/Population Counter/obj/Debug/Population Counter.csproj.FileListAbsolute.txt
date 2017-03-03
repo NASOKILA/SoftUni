@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\bin\Debug\Population Counter.exe.config
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\bin\Debug\Population Counter.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\bin\Debug\Population Counter.pdb
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\obj\Debug\Population Counter.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\obj\Debug\Population Counter.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Population Counter\obj\Debug\Population Counter.pdb
