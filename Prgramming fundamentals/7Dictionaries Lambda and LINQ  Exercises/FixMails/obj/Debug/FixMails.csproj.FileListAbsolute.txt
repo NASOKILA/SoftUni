@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\FixMails\bin\Debug\FixMails.exe.config
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\FixMails\bin\Debug\FixMails.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\FixMails\bin\Debug\FixMails.pdb
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\FixMails\obj\Debug\FixMails.exe
+C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\FixMails\obj\Debug\FixMails.pdb
