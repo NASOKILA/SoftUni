@@ -7,3 +7,6 @@ C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\UserLogs2\obj\Deb
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\bin\Debug\UserLogs2.exe.config
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\obj\Debug\UserLogs2.exe
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\obj\Debug\UserLogs2.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\bin\Debug\UserLogs2.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\bin\Debug\UserLogs2.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs2\obj\Debug\UserLogs2.csprojResolveAssemblyReference.cache
