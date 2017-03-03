@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Phonebook\bin\Debug\Phonebook.exe.config
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Phonebook\bin\Debug\Phonebook.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Phonebook\bin\Debug\Phonebook.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Phonebook\obj\Debug\Phonebook.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Phonebook\obj\Debug\Phonebook.pdb

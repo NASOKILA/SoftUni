@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\bin\Debug\Dictionaries Lambda and LINQ  Exercises.exe.config
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\bin\Debug\Dictionaries Lambda and LINQ  Exercises.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\bin\Debug\Dictionaries Lambda and LINQ  Exercises.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\obj\Debug\Dictionaries Lambda and LINQ  Exercises.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\obj\Debug\Dictionaries Lambda and LINQ  Exercises.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\Dictionaries Lambda and LINQ  Exercises\obj\Debug\Dictionaries Lambda and LINQ  Exercises.pdb
