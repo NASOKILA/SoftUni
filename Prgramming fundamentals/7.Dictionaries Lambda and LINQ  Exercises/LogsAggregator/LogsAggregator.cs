@@ -59,29 +59,40 @@ namespace LogsAggregator
         private static void PrintNameDurationIp(SortedDictionary<string, int> userDuration,
             SortedDictionary<string, List<string>> userIps)
         {
-            int counterforComas = 1;
+           // int counterforComas = 1;
+
             foreach (var user in userDuration)
             {
-                Console.Write("{0}: {1} [",user.Key, user.Value);
-                foreach (var ip in userIps[user.Key].OrderBy(x => x))
-                {
-                    Console.Write(ip);
+                string userName = user.Key;
+                int totalDuration = userDuration[user.Key];
+                List<string> allIps = userIps[user.Key].ToList();
 
-                    if (!counterforComas.Equals(userIps[user.Key].Count))
-                    {
-                        Console.Write(", ");
-                        counterforComas++;
-                    }
+                Console.WriteLine("{0}: {1} [{2}]", userName, totalDuration, string.Join(", ",allIps));
+
+
+
+
+
+            //    Console.Write("{0}: {1} [",user.Key, user.Value);
+            //    foreach (var ip in userIps[user.Key].OrderBy(x => x))
+            //    {
+            //        Console.Write(ip);
+
+            //        if (!counterforComas.Equals(userIps[user.Key].Count))
+            //        {
+            //            Console.Write(", ");
+            //            counterforComas++;
+            //        }
                   
 
 
-                }
-                Console.WriteLine("]");
-                counterforComas = 1;
+            //    }
+            //    Console.WriteLine("]");
+            //    counterforComas = 1;
+
+
+
             }
-
-
-
         }
     }
 }

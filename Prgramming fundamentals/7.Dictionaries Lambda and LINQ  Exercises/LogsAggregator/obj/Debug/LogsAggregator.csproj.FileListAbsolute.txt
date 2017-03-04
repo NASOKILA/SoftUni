@@ -7,3 +7,6 @@ C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\LogsAggregator\ob
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\bin\Debug\LogsAggregator.exe.config
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\obj\Debug\LogsAggregator.exe
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\obj\Debug\LogsAggregator.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\bin\Debug\LogsAggregator.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\bin\Debug\LogsAggregator.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LogsAggregator\obj\Debug\LogsAggregator.csprojResolveAssemblyReference.cache

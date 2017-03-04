@@ -1,1 +1,6 @@
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\bin\Debug\LegendaryFarming.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\bin\Debug\LegendaryFarming.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\bin\Debug\LegendaryFarming.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\obj\Debug\LegendaryFarming.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\obj\Debug\LegendaryFarming.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\LegendaryFarming\obj\Debug\LegendaryFarming.pdb
