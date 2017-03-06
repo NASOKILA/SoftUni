@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\ObjectsAndClassesExercises\ObjectsAndClassesExercises\bin
 C:\Users\nasko\Desktop\ObjectsAndClassesExercises\ObjectsAndClassesExercises\obj\Debug\ObjectsAndClassesExercises.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\ObjectsAndClassesExercises\ObjectsAndClassesExercises\obj\Debug\ObjectsAndClassesExercises.exe
 C:\Users\nasko\Desktop\ObjectsAndClassesExercises\ObjectsAndClassesExercises\obj\Debug\ObjectsAndClassesExercises.pdb
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\ObjectsAndClassesExercises\bin\Debug\ObjectsAndClassesExercises.exe.config
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\ObjectsAndClassesExercises\obj\Debug\ObjectsAndClassesExercises.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\ObjectsAndClassesExercises\obj\Debug\ObjectsAndClassesExercises.pdb
