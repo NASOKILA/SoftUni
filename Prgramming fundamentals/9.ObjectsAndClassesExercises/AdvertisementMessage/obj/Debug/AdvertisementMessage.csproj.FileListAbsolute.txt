@@ -1,0 +1,5 @@
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AdvertisementMessage\bin\Debug\AdvertisementMessage.exe.config
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AdvertisementMessage\bin\Debug\AdvertisementMessage.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AdvertisementMessage\bin\Debug\AdvertisementMessage.pdb
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AdvertisementMessage\obj\Debug\AdvertisementMessage.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AdvertisementMessage\obj\Debug\AdvertisementMessage.pdb
