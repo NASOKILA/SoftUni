@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\bin\Debug\RectanglePosition.exe.config
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\bin\Debug\RectanglePosition.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\bin\Debug\RectanglePosition.pdb
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\obj\Debug\RectanglePosition.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\obj\Debug\RectanglePosition.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\RectanglePosition\obj\Debug\RectanglePosition.pdb

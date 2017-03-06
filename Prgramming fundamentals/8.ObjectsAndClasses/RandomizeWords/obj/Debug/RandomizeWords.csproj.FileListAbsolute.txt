@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ObjectsAndClasses\RandomizeWords\bin\Debug\RandomizeWords.exe.config
+C:\Users\nasko\Desktop\ObjectsAndClasses\RandomizeWords\bin\Debug\RandomizeWords.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\RandomizeWords\bin\Debug\RandomizeWords.pdb
+C:\Users\nasko\Desktop\ObjectsAndClasses\RandomizeWords\obj\Debug\RandomizeWords.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\RandomizeWords\obj\Debug\RandomizeWords.pdb
