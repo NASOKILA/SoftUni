@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace IntersectionOfCircles
 {
-    class IntersectionOfCircles
+   public class IntersectionOfCircles
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             int[] inputCircleOne = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             Circle circleOne = SetCircleProperties(inputCircleOne);

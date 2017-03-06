@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace AverageGrades
 {
-    class Student
+    public class Student
     {
         public string Name { set; get; }
         public List<double> Grades { set; get; }
         
         public double AverageGrade() {
-
-            return Grades.Average();
+            double gradeAverage = this.Grades.Average();
+            return gradeAverage;
                 }  // readOnly
 
     }

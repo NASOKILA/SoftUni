@@ -1,55 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace AverageGrades
 {
     class AverageGrades
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            SortedDictionary<string, double> QualifiedStudents = new SortedDictionary<string, double>();
-            Student students = new Student();
+           
+            List<Student> Students = new List<Student>();
+
+
+
             for (int i = 0; i < n; i++)
             {
                 string[] input = Console.ReadLine()
                     .Split(' ').ToArray();
 
                 List<double> GradesList = new List<double>();
-
-                students.Name = input[0];
-             //   if (QualifiedStudents.Contains(students.Name)) { QualifiedStudents.Add(students.Name, ); }
+                string studentName = input[0];        // imeto
 
                 for (int j = 1; j < input.Length; j++)
                 {
-                    double gradeToDouble = double.Parse(input[j]);
-                    if(gradeToDouble > 6)
-                        gradeToDouble  = gradeToDouble / 100;
 
-                    GradesList.Add(gradeToDouble);
+                    double grades = double.Parse(input[j]);
+                    if (grades > 6)
+                        grades = grades / 100;
+
+                    GradesList.Add(grades);     // we add grades to gradeList
                 }
-                students.Grades = GradesList;
 
-                double average = students.AverageGrade();
+                Student student = new Student();   // DOBAVQME NAME, GRADES I AVERAGE GRADES TOVA NE E NAI PRAVILNIQ NACHIN !
+                student.Name = studentName;
+                student.Grades = GradesList;
 
-                if(average >= 5)
+                Students.Add(student); // dobavqme si studenta v spisuka studenti
+
+            }
+
+            // Students sega sudurja vsichki studenti !!!
+
+                foreach (var student1  in Students
+                    .Where(s => s.AverageGrade() >= 5)  // vzimame tezi koito imat average > 5
+                    .OrderBy(s => s.Name)           // podrejdame po imena
+                    .ThenByDescending(s => s.AverageGrade()))  // podrejdame po Average grade obache descending (ot gore na dolo)
                 {
-                    
 
-                    QualifiedStudents[students.Name] = average;
+                Console.WriteLine("{0} -> {1:f2}",student1.Name, student1.AverageGrade());
                 }
-
-
-            }
-
-            foreach (var qualifiedStudent in QualifiedStudents)
-            {
-                Console.WriteLine("{0} -> {1:f2}", qualifiedStudent.Key, qualifiedStudent.Value);
-            }
-
+                
+         
         }
     }
 }

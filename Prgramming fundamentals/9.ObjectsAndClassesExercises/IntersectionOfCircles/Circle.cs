@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntersectionOfCircles
 {
-    class Circle
+    public class Circle
     {
         public int centerPointX { set; get; }
         public int centerPointY { set; get; }
