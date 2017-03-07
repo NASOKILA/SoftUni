@@ -11,10 +11,14 @@ namespace AverageGrades
         public string Name { set; get; }
         public List<double> Grades { set; get; }
         
-        public double AverageGrade() {
-            double gradeAverage = this.Grades.Average();
-            return gradeAverage;
-                }  // readOnly
+
+        public double AverageGrade
+        {
+            get {
+               return Grades.Average();
+                }
+        
+        }   // TOVA NE E METOD TOVA E READ ONLY PROPERTY
 
     }
 }

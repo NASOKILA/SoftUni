@@ -10,6 +10,7 @@ namespace AndreyAndBilliard
     {
         public string Name { set; get; }
         public Dictionary<string, int> BougthProductAndQuantity { set; get; }
+        public decimal Bill { set; get; }
 
     }
 }

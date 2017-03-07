@@ -44,12 +44,12 @@ namespace AverageGrades
             // Students sega sudurja vsichki studenti !!!
 
                 foreach (var student1  in Students
-                    .Where(s => s.AverageGrade() >= 5)  // vzimame tezi koito imat average > 5
+                    .Where(s => s.AverageGrade >= 5)  // vzimame tezi koito imat average > 5
                     .OrderBy(s => s.Name)           // podrejdame po imena
-                    .ThenByDescending(s => s.AverageGrade()))  // podrejdame po Average grade obache descending (ot gore na dolo)
+                    .ThenByDescending(s => s.AverageGrade))  // podrejdame po Average grade obache descending (ot gore na dolo)
                 {
 
-                Console.WriteLine("{0} -> {1:f2}",student1.Name, student1.AverageGrade());
+                Console.WriteLine("{0} -> {1:f2}",student1.Name, student1.AverageGrade);
                 }
                 
          
