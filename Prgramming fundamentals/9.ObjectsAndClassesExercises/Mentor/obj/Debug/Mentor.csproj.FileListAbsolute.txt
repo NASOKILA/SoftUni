@@ -1,0 +1,6 @@
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\bin\Debug\Mentor.exe.config
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\bin\Debug\Mentor.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\bin\Debug\Mentor.pdb
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\obj\Debug\Mentor.csprojResolveAssemblyReference.cache
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\obj\Debug\Mentor.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\Mentor\obj\Debug\Mentor.pdb
