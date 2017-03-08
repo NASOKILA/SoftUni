@@ -51,6 +51,9 @@ namespace AndreyAndBilliard
             Console.WriteLine("Total bill: {0:f2}", totalBill);
         }
 
+
+
+
         private static void SetCostumerShopList(string clients, List<Costumer> Clients,
             Dictionary<string, decimal> Shop)
         {
@@ -64,50 +67,51 @@ namespace AndreyAndBilliard
                 string name = NameProductQuantity[0];
                 string product = NameProductQuantity[1];
                 int quantity = int.Parse(NameProductQuantity[2]);
-                
-                if (!Shop.ContainsKey(product))         // Ako nqma takuv produkt v Shopa da mine na sledvashtiq
+
+                if (Shop.ContainsKey(product))         // Ako nqma takuv produkt v Shopa da mine na sledvashtiq
                 {
-                    continue;
-                }
 
-                if (Clients.Any(c => c.Name == name))
-                {
-                    // ANY PROVERQVA DALI NQKOI OT OBEKTITE NA DADENIQ LIST SUDURJA ELEMENT KOITO OTGOVARQ NA DADENO USLOVIE
-                    // s ANY mojem da obhojdame elementite na daden obekt VAJNO , DAVA TRUE AKO SUSHTESTVUVATAKUV OBEKT !
-                    // V sluchaq proverqvame dali veche ima KLIENT S IME KATO name
 
-                    Costumer costumer = Clients.First(c => c.Name == name); // pravim sushtata proverka s first()
 
-                    if (!costumer.BougthProductAndQuantity.ContainsKey(product))
+                    if (Clients.Any(c => c.Name == name))
                     {
-                        // proverqvame dali veche ima takava poruchka, ako nqma q dobavqme !
-                        costumer.BougthProductAndQuantity.Add(product, quantity);
+                        // ANY PROVERQVA DALI NQKOI OT OBEKTITE NA DADENIQ LIST SUDURJA ELEMENT KOITO OTGOVARQ NA DADENO USLOVIE
+                        // s ANY mojem da obhojdame elementite na daden obekt VAJNO , DAVA TRUE AKO SUSHTESTVUVATAKUV OBEKT !
+                        // V sluchaq proverqvame dali veche ima KLIENT S IME KATO name
+
+                        Costumer costumer = Clients.First(c => c.Name == name); // pravim sushtata proverka s first()
+
+                        if (!costumer.BougthProductAndQuantity.ContainsKey(product))
+                        {
+                            // proverqvame dali veche ima takava poruchka, ako nqma q dobavqme !
+                            costumer.BougthProductAndQuantity.Add(product, quantity);
+
+                        }
+                        else
+                        {
+                            // Ako ima takava poruchka prosto i subirame quantity-to
+                            costumer.BougthProductAndQuantity[product] += quantity;
+
+                        }
+
+                        costumer.Bill += quantity * Shop[product];   // TOVA E SMETKATA
 
                     }
                     else
                     {
-                        // Ako ima takava poruchka prosto i subirame quantity-to
-                        costumer.BougthProductAndQuantity[product] += quantity;
+                        // Ako v spisuka Clients ne se sudurja klient s Ime = na name
+                        Costumer costumer = new Costumer();  //suzdavame si go si go
+                        costumer.Name = name;
+                        costumer.BougthProductAndQuantity = new Dictionary<string, int>(); // inicializirame si direktoriqta za da ne grumne !
 
+                        costumer.BougthProductAndQuantity.Add(product, quantity); //dobavqme si poruchkata
+                        costumer.Bill += quantity * Shop[product]; // Pravim si smetkata
+
+                        Clients.Add(costumer); // dobavqme si klienta kum spisuka s klienti
                     }
 
-                    costumer.Bill += quantity * Shop[product];   // TOVA E SMETKATA
-
                 }
-                else
-                {
-                    // Ako v spisuka Clients ne se sudurja klient s Ime = na name
-                    Costumer costumer = new Costumer();  //suzdavame si go si go
-                    costumer.Name = name;
-                    costumer.BougthProductAndQuantity = new Dictionary<string, int>(); // inicializirame si direktoriqta za da ne grumne !
-
-                    costumer.BougthProductAndQuantity.Add(product, quantity); //dobavqme si poruchkata
-                    costumer.Bill += quantity * Shop[product]; // Pravim si smetkata
-
-                    Clients.Add(costumer); // dobavqme si klienta kum spisuka s klienti
-                }
-
-
+                
 
 
                 clients = Console.ReadLine();
