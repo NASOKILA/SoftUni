@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDemos.exe.config
+C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDemos.exe
+C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDemos.pdb
+C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.exe
+C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.pdb

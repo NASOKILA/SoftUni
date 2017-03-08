@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesDirectoriesAndExceptions", "FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions.csproj", "{C2256920-2784-407B-B1A6-8B65D637BC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileDemos", "fileDemos\fileDemos.csproj", "{7A2022E6-EC46-41BB-A625-A0BF671135BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2256920-2784-407B-B1A6-8B65D637BC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2256920-2784-407B-B1A6-8B65D637BC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2256920-2784-407B-B1A6-8B65D637BC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2256920-2784-407B-B1A6-8B65D637BC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2022E6-EC46-41BB-A625-A0BF671135BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2022E6-EC46-41BB-A625-A0BF671135BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2022E6-EC46-41BB-A625-A0BF671135BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2022E6-EC46-41BB-A625-A0BF671135BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
