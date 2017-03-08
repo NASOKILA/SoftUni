@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDem
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDemos.pdb
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.exe
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.pdb
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\fileDemos\bin\Debug\fileDemos.exe.config
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\fileDemos\obj\Debug\fileDemos.pdb

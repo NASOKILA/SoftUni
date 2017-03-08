@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptio
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.exe
 C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.pdb
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\bin\Debug\FilesDirectoriesAndExceptions.exe.config
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.exe
+C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.pdb
