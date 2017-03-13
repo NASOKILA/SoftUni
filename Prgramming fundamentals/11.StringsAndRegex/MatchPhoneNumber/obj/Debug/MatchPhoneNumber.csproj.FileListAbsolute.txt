@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\StringsAndRegex\MatchPhoneNumber\bin\Debug\MatchPhoneNumber.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\MatchPhoneNumber\bin\Debug\MatchPhoneNumber.exe
+C:\Users\nasko\Desktop\StringsAndRegex\MatchPhoneNumber\bin\Debug\MatchPhoneNumber.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\MatchPhoneNumber\obj\Debug\MatchPhoneNumber.exe
+C:\Users\nasko\Desktop\StringsAndRegex\MatchPhoneNumber\obj\Debug\MatchPhoneNumber.pdb

@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\bin\Debug\MelrahShake.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\bin\Debug\MelrahShake.exe
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\bin\Debug\MelrahShake.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\obj\Debug\MelrahShake.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\obj\Debug\MelrahShake.exe
+C:\Users\nasko\Desktop\StringsAndRegex\MelrahShake\obj\Debug\MelrahShake.pdb

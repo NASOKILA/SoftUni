@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\StringsAndRegex\TextFilter\bin\Debug\TextFilter.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\TextFilter\bin\Debug\TextFilter.exe
+C:\Users\nasko\Desktop\StringsAndRegex\TextFilter\bin\Debug\TextFilter.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\TextFilter\obj\Debug\TextFilter.exe
+C:\Users\nasko\Desktop\StringsAndRegex\TextFilter\obj\Debug\TextFilter.pdb

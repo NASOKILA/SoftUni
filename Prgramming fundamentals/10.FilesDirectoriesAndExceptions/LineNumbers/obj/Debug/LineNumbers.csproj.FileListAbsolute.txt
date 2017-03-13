@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\LineNumbers\bin\Debug\LineNumbers.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\LineNumbers\bin\Debug\LineNumbers.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\LineNumbers\bin\Debug\LineNumbers.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\LineNumbers\obj\Debug\LineNumbers.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\LineNumbers\obj\Debug\LineNumbers.pdb

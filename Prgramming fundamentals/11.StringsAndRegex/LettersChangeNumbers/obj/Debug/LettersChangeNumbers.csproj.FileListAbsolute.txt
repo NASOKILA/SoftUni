@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\bin\Debug\LettersChangeNumbers.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\bin\Debug\LettersChangeNumbers.exe
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\bin\Debug\LettersChangeNumbers.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\obj\Debug\LettersChangeNumbers.exe
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\obj\Debug\LettersChangeNumbers.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\LettersChangeNumbers\obj\Debug\LettersChangeNumbers.csprojResolveAssemblyReference.cache

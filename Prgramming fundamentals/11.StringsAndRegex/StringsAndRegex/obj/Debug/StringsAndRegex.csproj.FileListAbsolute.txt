@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\bin\Debug\StringsAndRegex.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\bin\Debug\StringsAndRegex.exe
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\bin\Debug\StringsAndRegex.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\obj\Debug\StringsAndRegex.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\obj\Debug\StringsAndRegex.exe
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex\obj\Debug\StringsAndRegex.pdb

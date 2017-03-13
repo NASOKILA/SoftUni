@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\bin\Debug\CharacterMultiplier.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\bin\Debug\CharacterMultiplier.exe
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\bin\Debug\CharacterMultiplier.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\obj\Debug\CharacterMultiplier.exe
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\obj\Debug\CharacterMultiplier.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\CharacterMultiplier\obj\Debug\CharacterMultiplier.csprojResolveAssemblyReference.cache

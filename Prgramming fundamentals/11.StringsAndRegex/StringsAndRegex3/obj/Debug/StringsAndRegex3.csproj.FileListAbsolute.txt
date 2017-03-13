@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex3\bin\Debug\StringsAndRegex3.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex3\bin\Debug\StringsAndRegex3.exe
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex3\bin\Debug\StringsAndRegex3.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex3\obj\Debug\StringsAndRegex3.exe
+C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex3\obj\Debug\StringsAndRegex3.pdb

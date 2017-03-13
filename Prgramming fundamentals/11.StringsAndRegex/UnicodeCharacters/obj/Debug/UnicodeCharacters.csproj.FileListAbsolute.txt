@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\StringsAndRegex\UnicodeCharacters\bin\Debug\UnicodeCharacters.exe.config
+C:\Users\nasko\Desktop\StringsAndRegex\UnicodeCharacters\bin\Debug\UnicodeCharacters.exe
+C:\Users\nasko\Desktop\StringsAndRegex\UnicodeCharacters\bin\Debug\UnicodeCharacters.pdb
+C:\Users\nasko\Desktop\StringsAndRegex\UnicodeCharacters\obj\Debug\UnicodeCharacters.exe
+C:\Users\nasko\Desktop\StringsAndRegex\UnicodeCharacters\obj\Debug\UnicodeCharacters.pdb

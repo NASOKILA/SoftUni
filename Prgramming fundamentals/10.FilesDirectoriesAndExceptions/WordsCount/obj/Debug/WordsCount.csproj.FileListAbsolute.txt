@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\bin\Debug\WordsCount.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\bin\Debug\WordsCount.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\bin\Debug\WordsCount.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\obj\Debug\WordsCount.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\obj\Debug\WordsCount.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\WordsCount\obj\Debug\WordsCount.csprojResolveAssemblyReference.cache
