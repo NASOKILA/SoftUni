@@ -25,7 +25,6 @@ namespace BookLibrary
                     Title = input[0],
                     Autor = input[1],
                     Publisher = input[2],
-
                     ReleaseDate = DateTime.ParseExact(input[3],
                     "dd.MM.yyyy", CultureInfo.InvariantCulture),
 
@@ -76,11 +75,7 @@ namespace BookLibrary
                 if (containsAutor == false)   
                     sortedBooks.Add(books[i]);  // Ako nqma takava kniga s takuv avtor mi dobavi knigata
 
-
             }
-
-
-
 
             foreach (var book in sortedBooks
                 .OrderByDescending(b => b.Price)
