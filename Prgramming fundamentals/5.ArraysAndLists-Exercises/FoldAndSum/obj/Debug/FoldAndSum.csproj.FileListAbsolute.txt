@@ -5,3 +5,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercise
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\obj\Debug\FoldAndSum.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\obj\Debug\FoldAndSum.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\obj\Debug\FoldAndSum.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\bin\Debug\FoldAndSum.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\obj\Debug\FoldAndSum.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\FoldAndSum\obj\Debug\FoldAndSum.pdb

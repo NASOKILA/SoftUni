@@ -45,7 +45,7 @@ namespace StringsAndRegex3
             string text2 = "Today is 2016-17-10. Yesterday was 2016-16-10";
             MatchCollection matches = regex2.Matches(text2);
 
-            // STAVA NA MASIV SUS VSICHKI MATCHOVE KATO ELEMENTI, SUDURJA I OSHTE DRUGI RABOTI
+            // STAVA KATO MASIV SUS VSICHKI MATCHOVE KATO ELEMENTI, SUDURJA I OSHTE DRUGI RABOTI
             foreach (Match matched in matches)
             {
                 Console.WriteLine(matched);
@@ -82,6 +82,7 @@ namespace StringsAndRegex3
             // Ako NAPISHEM  . V REGEX OZNACHAVA KAKVOTO I DA E
             //  .* oznachava KAKVOTO I DA E EDIN ILI POVECHE PUTI
             // \S oznachava  ne prazno mqsto
+
             // + tursi pone edin sinvol a * tursi 0 ili poveche sinvoli
 
 
@@ -134,6 +135,34 @@ namespace StringsAndRegex3
 
 
 
+
+
+
+
+
+
+            /*
+             LOOK AROUNDS:
+             positive look ahead, negative look ahead
+             positive look behind, negative look behind
+
+            MEJDU TQH SE SLAGAT REGEXI
+            MESTAT KURSERA KUDETO NA NAS NI TRQBVA, POMAGAT MNOGO
+
+            (?=...) - positive look ahead
+            (?<=...) - positive look behind
+            
+            primer:
+            
+            tursim text mejdu taga <p>...</p>
+             (?=<p>)...PISHEM SI REGEKSA...(?<=</p>)
+
+
+
+            negative look ahead i negative look behind gledat da go nqma edin element za da matchne 
+            za razlika ot positive koito gleda da go ima .
+
+             */
 
 
 

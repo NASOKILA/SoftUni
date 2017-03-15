@@ -81,7 +81,7 @@ namespace StringsAndRegex2
                 // suzdaveme ot chisloto edin string i go dobavqme kum resultata
             }
 
-            st.Stop(); // pirame hronometura
+            st.Stop(); // s pirame hronometura
             Console.WriteLine("Sus string:  " + st.Elapsed); // st.Elapsed() ni pokazva kolko vreme e izminalo ot start do end na hronometura ! 
 
 
@@ -112,7 +112,7 @@ namespace StringsAndRegex2
             Tova e sobstven ezik ne e kato C#, java, javascript i t.n. , toi e ezik za suzdavane na izrazi
             NARICHA SE REGEX I E MNOGO LESEN.
 
-            regulqrniq izraz se izpolzva vurhu nqkakuv string za da nameri neshto v neso.
+            regulqrniq izraz se izpolzva vurhu nqkakuv string za da nameri neshto v nego.
             MOJEM DA OTIDEM NA SAITA www.regexr.com i da testvame tam
              
             abc - gi namira gledaiki posledobatelnostta
@@ -127,17 +127,17 @@ namespace StringsAndRegex2
             \d - hvashta vsichki chisla obache edno po edno 
             \D - vsichko koeto ne e chislo
              
-            \s - namira vsichki prazni mesta 
-            \S - vsichko koeto ne e prazno mqsto
+            \s - namira vsichki prazni mesta  i nqkoi sinvoli kato +,.&/\"'><)( i bukvite ot 1 do 9
+            \S - vsichko koeto e obratnoto na gornoto
 
             ZA HVASHTANE NA DUMI POLZVAME KATO DOBAVIM NESHTO NA KRAQ, * , + ILI ?
-            [...]+ tursi edin ili poveche ot edin sinvol , trqbva da ima pone edno chislo
+            [...]+ tursi edin ili poveche ot edin sinvol , moje da ima pone edno chislo
             [...]* tursi 0 ili poveche elem, moje da go nqma moje i da go ima
             [...]? vhashta ili 0 ili edin sinvol
 
 
             EDNA TABULACIQ E EDNO NATISKANE NA TAB ILI \t
-            PO NQKOGA SHTE SE NALOJI DA POLZVAME TABULACII ZA PODRAVNQVANEKATO V DOLNIQ PRIMER
+            PO NQKOGA SHTE SE NALOJI DA POLZVAME TABULACII ZA PODRAVNQVANE, KATO V DOLNIQ PRIMER
 
             Name: \t\w+\nPhone:\s*\+\d+
             \Name:
@@ -183,7 +183,7 @@ namespace StringsAndRegex2
 
 
             KAK DA HVANEM SPECIFICHNO NESHTO:
-            ^(?:Hi|Hello), (\w+)
+            (?:Hi|Hello), (\w+)
             Hi, Naso
 
             SINVOLAT '|' OZNACHAVA    ILI

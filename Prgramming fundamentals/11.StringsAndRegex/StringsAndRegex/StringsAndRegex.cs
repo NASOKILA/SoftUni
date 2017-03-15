@@ -25,7 +25,7 @@ namespace StringsAndRegex
             string e Klas System.String
             stringa e masiv ot charachters i stringa e READ ONLY
 
-            predi inicializiraneto stringo ima stoinost NULL
+            predi inicializiraneto stringa ima stoinost NULL
             vsichki operacii sus string vsushtnost dobavqt nov string
 
             OPERATORA + E BAVEN ZASHTOTO DOBAVQ NOV STRING
@@ -43,7 +43,7 @@ namespace StringsAndRegex
             string str2 = "angel";
             string str1 = "Angel";
 
-            // TOVA E FORMA Case-insensative T.E. true ne proverqva za golemi bukvi
+            // TOVA E FORMA Case-insensative T.E. ne proverqva za golemi bukvi
             int resultCaseInsensative = string.Compare(str1, str2, true); 
             Console.WriteLine(resultCaseInsensative); // v sluchaq dava 0 
             // vrushta 0 ako str1 e raven na str2
@@ -98,7 +98,7 @@ namespace StringsAndRegex
             int age = 24;
             string nameAge = name + " " + age;  // integera stava na string
             Console.WriteLine(nameAge);
-            // TAKA MOJEM DA ZALEPVAME KAKVOTO I DA E SAMOCHE SUS + DOBAVQME NA NOVO MQSTO I ZADELQME NOVA PAMET
+            // TAKA MOJEM DA ZALEPVAME KAKVOTO I DA E SAMOCHE SUS + DOBAVQME NA PRAZNO MQSTO I ZADELQME NOVA PAMET
             
             //MOJE I SUS CONCAT()
             string nameAge2 = string.Concat(name, " ", age);

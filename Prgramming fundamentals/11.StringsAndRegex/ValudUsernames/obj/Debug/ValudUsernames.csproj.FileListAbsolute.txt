@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\bin\Debug\ValudUsernames.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\bin\Debug\ValudUsernames.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\bin\Debug\ValudUsernames.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\obj\Debug\ValudUsernames.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\obj\Debug\ValudUsernames.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ValudUsernames\obj\Debug\ValudUsernames.pdb

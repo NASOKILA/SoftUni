@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\test1\bin\Debug\test1.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\test1\bin\Debug\test1.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\test1\bin\Debug\test1.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\test1\obj\Debug\test1.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\test1\obj\Debug\test1.pdb

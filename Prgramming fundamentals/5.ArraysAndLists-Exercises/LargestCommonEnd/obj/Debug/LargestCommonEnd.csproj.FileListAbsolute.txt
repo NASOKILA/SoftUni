@@ -7,3 +7,6 @@ C:\Users\nasko\Desktop\ArraysAndLists-Exercises\LargestCommonEnd\obj\Debug\Large
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\bin\Debug\LargestCommonEnd.exe.config
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\obj\Debug\LargestCommonEnd.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\obj\Debug\LargestCommonEnd.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\bin\Debug\LargestCommonEnd.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\obj\Debug\LargestCommonEnd.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\LargestCommonEnd\obj\Debug\LargestCommonEnd.pdb
