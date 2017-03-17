@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\RectangleWithStars\bin\Debug\RectangleWithStars.exe.config
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\RectangleWithStars\bin\Debug\RectangleWithStars.exe
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\RectangleWithStars\bin\Debug\RectangleWithStars.pdb
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\RectangleWithStars\obj\Debug\RectangleWithStars.exe
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\RectangleWithStars\obj\Debug\RectangleWithStars.pdb

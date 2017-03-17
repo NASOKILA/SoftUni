@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\bin\Debug\Diamond.exe.config
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\bin\Debug\Diamond.exe
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\bin\Debug\Diamond.pdb
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\obj\Debug\Diamond.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\obj\Debug\Diamond.exe
+C:\Users\nasko\Desktop\Izpit 17 July 2016\Diamond\obj\Debug\Diamond.pdb

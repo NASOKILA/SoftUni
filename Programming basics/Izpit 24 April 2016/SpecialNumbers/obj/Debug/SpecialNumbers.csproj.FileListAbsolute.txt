@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.exe.config
+C:\Users\nasko\Desktop\Izpit 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.exe
+C:\Users\nasko\Desktop\Izpit 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.pdb
+C:\Users\nasko\Desktop\Izpit 24 April 2016\SpecialNumbers\obj\Debug\SpecialNumbers.exe
+C:\Users\nasko\Desktop\Izpit 24 April 2016\SpecialNumbers\obj\Debug\SpecialNumbers.pdb

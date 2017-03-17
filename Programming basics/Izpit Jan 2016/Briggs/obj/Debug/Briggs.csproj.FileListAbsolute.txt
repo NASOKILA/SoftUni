@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\Briggs\bin\Debug\Briggs.exe.config
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\Briggs\bin\Debug\Briggs.exe
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\Briggs\bin\Debug\Briggs.pdb
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\Briggs\obj\Debug\Briggs.exe
+C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\Briggs\obj\Debug\Briggs.pdb

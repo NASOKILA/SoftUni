@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Izpit 24 April 2016\Stop\bin\Debug\Stop.exe.config
+C:\Users\nasko\Desktop\Izpit 24 April 2016\Stop\bin\Debug\Stop.exe
+C:\Users\nasko\Desktop\Izpit 24 April 2016\Stop\bin\Debug\Stop.pdb
+C:\Users\nasko\Desktop\Izpit 24 April 2016\Stop\obj\Debug\Stop.exe
+C:\Users\nasko\Desktop\Izpit 24 April 2016\Stop\obj\Debug\Stop.pdb

@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\bin\Debug\Hospital.exe.config
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\bin\Debug\Hospital.exe
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\bin\Debug\Hospital.pdb
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\obj\Debug\Hospital.exe
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\obj\Debug\Hospital.pdb
+C:\Users\nasko\Desktop\Izpit 28ti August 2016\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
