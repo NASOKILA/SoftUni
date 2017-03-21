@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\bin\Debug\FootballLeague.exe.config
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\bin\Debug\FootballLeague.exe
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\bin\Debug\FootballLeague.pdb
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\obj\Debug\FootballLeague.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\obj\Debug\FootballLeague.exe
+C:\Users\nasko\Desktop\ExamPreparation2\FootballLeague\obj\Debug\FootballLeague.pdb
