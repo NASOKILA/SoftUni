@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\ExamPreparation2\SweetDesert\bin\Debug\SweetDesert.exe.config
+C:\Users\nasko\Desktop\ExamPreparation2\SweetDesert\bin\Debug\SweetDesert.exe
+C:\Users\nasko\Desktop\ExamPreparation2\SweetDesert\bin\Debug\SweetDesert.pdb
+C:\Users\nasko\Desktop\ExamPreparation2\SweetDesert\obj\Debug\SweetDesert.exe
+C:\Users\nasko\Desktop\ExamPreparation2\SweetDesert\obj\Debug\SweetDesert.pdb

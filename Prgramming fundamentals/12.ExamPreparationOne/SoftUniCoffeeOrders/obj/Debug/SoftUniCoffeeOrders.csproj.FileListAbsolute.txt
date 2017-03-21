@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationOne\SoftUniCoffeeOrders\bin\Debug\SoftUniCoffeeOrders.exe.config
-C:\Users\nasko\Desktop\ExamPreparationOne\SoftUniCoffeeOrders\bin\Debug\SoftUniCoffeeOrders.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\SoftUniCoffeeOrders\bin\Debug\SoftUniCoffeeOrders.pdb
-C:\Users\nasko\Desktop\ExamPreparationOne\SoftUniCoffeeOrders\obj\Debug\SoftUniCoffeeOrders.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\SoftUniCoffeeOrders\obj\Debug\SoftUniCoffeeOrders.pdb

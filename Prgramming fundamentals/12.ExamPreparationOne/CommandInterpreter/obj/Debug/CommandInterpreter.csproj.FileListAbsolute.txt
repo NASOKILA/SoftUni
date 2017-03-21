@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\bin\Debug\CommandInterpreter.exe.config
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\bin\Debug\CommandInterpreter.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\bin\Debug\CommandInterpreter.pdb
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\obj\Debug\CommandInterpreter.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\obj\Debug\CommandInterpreter.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\CommandInterpreter\obj\Debug\CommandInterpreter.pdb

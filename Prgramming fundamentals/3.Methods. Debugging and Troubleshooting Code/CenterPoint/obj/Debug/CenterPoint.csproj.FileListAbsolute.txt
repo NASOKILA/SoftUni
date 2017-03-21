@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and 
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\bin\Debug\CenterPoint.pdb
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\obj\Debug\CenterPoint.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\obj\Debug\CenterPoint.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\bin\Debug\CenterPoint.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\obj\Debug\CenterPoint.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CenterPoint\obj\Debug\CenterPoint.pdb
