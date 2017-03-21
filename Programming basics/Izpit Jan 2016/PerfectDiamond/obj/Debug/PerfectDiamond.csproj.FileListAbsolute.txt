@@ -3,3 +3,9 @@ C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PerfectDiamond\bin\Debug\PerfectDia
 C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PerfectDiamond\bin\Debug\PerfectDiamond.pdb
 C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PerfectDiamond\obj\Debug\PerfectDiamond.exe
 C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PerfectDiamond\obj\Debug\PerfectDiamond.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\bin\Debug\PerfectDiamond.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\obj\Debug\PerfectDiamond.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\obj\Debug\PerfectDiamond.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\bin\Debug\PerfectDiamond.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\bin\Debug\PerfectDiamond.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\PerfectDiamond\obj\Debug\PerfectDiamond.csprojResolveAssemblyReference.cache

@@ -13,19 +13,38 @@ namespace PerfectDiamond
 
             int n = int.Parse(Console.ReadLine());
 
-            Console.Write(new string(' ', n - 1));
-            Console.Write("*");
-
-            for (int i = 0; i < n-1; i++)
+            if (n == 1)
             {
+                Console.WriteLine("*");
+                return;
+            }
+
+            Console.Write(new string(' ', n - 1));
+            Console.WriteLine("*");
+
+            for (int i = 1; i < n; i++)
+            {
+                Console.Write(new string(' ', n - 1 - i));
+
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write("*");
-                    Console.Write("_");
-
+                    Console.Write("*-");                    
                 }
-                Console.Write("*");
+                Console.WriteLine("*");
+              
             }
+
+            for (int i = 1; i < n-1; i++)
+            {
+                Console.Write(new string(' ', i));
+                for (int j = n-i; j > 1; j--)
+                {
+                    Console.Write("*-");
+                }
+                Console.WriteLine("*");
+            }
+            Console.Write(new string(' ', n - 1));
+            Console.WriteLine("*");
 
         }
     }
