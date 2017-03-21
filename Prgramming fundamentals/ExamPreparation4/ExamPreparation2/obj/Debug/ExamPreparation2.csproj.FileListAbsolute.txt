@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\bin\Debug\ExamPreparation2.exe.config
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\bin\Debug\ExamPreparation2.exe
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\bin\Debug\ExamPreparation2.pdb
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\obj\Debug\ExamPreparation2.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\obj\Debug\ExamPreparation2.exe
-C:\Users\nasko\Desktop\ExamPreparation2\ExamPreparation2\obj\Debug\ExamPreparation2.pdb

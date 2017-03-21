@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\bin\Debug\CubicMessages.exe.config
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\bin\Debug\CubicMessages.exe
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\bin\Debug\CubicMessages.pdb
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\obj\Debug\CubicMessages.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\obj\Debug\CubicMessages.exe
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages\obj\Debug\CubicMessages.pdb

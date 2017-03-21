@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\bin\Debug\ArrayManipulator.exe.config
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\bin\Debug\ArrayManipulator.exe
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\bin\Debug\ArrayManipulator.pdb
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\obj\Debug\ArrayManipulator.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\obj\Debug\ArrayManipulator.exe
-C:\Users\nasko\Desktop\ExamPreparation2\ArrayManipulator\obj\Debug\ArrayManipulator.pdb
