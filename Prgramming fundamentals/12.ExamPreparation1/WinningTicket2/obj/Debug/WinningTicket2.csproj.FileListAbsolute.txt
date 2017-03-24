@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\bin\Debug\WinningTicket2.exe.config
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\bin\Debug\WinningTicket2.exe
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\bin\Debug\WinningTicket2.pdb
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\obj\Debug\WinningTicket2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\obj\Debug\WinningTicket2.exe
+C:\Users\user\Desktop\ExamPreparation1\WinningTicket2\obj\Debug\WinningTicket2.pdb

@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\bin\Debug\SinoTheWalker.exe.config
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\bin\Debug\SinoTheWalker.exe
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\bin\Debug\SinoTheWalker.pdb
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\obj\Debug\SinoTheWalker.exe
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\obj\Debug\SinoTheWalker.pdb
+C:\Users\user\Desktop\ExamPreparation1\SinoTheWalker\obj\Debug\SinoTheWalker.csprojResolveAssemblyReference.cache

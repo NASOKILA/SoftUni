@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\bin\Debug\ExamPreparation1.exe.config
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\bin\Debug\ExamPreparation1.exe
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\bin\Debug\ExamPreparation1.pdb
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\obj\Debug\ExamPreparation1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\obj\Debug\ExamPreparation1.exe
+C:\Users\user\Desktop\ExamPreparation1\ExamPreparation1\obj\Debug\ExamPreparation1.pdb
