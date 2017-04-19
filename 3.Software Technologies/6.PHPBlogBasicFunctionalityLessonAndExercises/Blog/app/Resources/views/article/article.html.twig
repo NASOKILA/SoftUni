@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+<!-- Sledniq html kod vzima zaglavieto na statiqta sudurjanieto na statiqta i neiniq avtor
+sushto taka ima i  buton back za vrushtane kum index stranicata ! -->
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md- 12">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}</h2>
+                    </header>
+                    <p>
+                        {{ article.content }}
+                    </p>
+                    <small class="author">
+                       Written by {{ article.author }}
+                    </small>
+                    <footer>
+                        <div class="pull-right">
+                            {% if app.getUser() and (app.getUser().isAuthor(article) or app.getUser().isAdmin()) %}
+                            <a class="btn btn-default btn-xs" href="{{path('article_edit',{id: article.id}) }}">edit &raquo;</a>
+                            <a class="btn btn-default btn-xs" href="{{path('article_delete',{id: article.id}) }}">delete &raquo;</a>
+                            {% endif %}
+
+                            <a class="btn btn-default btn-xs" href="{{path('blog_index') }}">back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
