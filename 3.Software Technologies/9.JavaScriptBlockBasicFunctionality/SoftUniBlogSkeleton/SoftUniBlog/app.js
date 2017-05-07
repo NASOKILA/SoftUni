@@ -1,0 +1,13 @@
+const express = require('express');
+const config = require('./config/config');
+const app = express();
+
+let env = 'development';
+require('./config/database')(config[env]);
+require('./config/express')(app, config[env]);
+require('./config/passport')();
+require('./config/routes')(app);
+
+module.exports = app;
+
+// Zadachata na tova e da startira i da konfigurira neshtata
