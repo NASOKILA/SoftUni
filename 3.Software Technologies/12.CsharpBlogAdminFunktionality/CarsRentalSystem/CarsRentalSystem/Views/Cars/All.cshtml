@@ -1,0 +1,80 @@
+﻿
+@model IEnumerable<CarsRentalSystem.Models.Cars.ListCarModel>
+
+<!--Sthom e spisuk znachi si pravim modela taka-->
+
+@{
+    ViewBag.Title = "All";
+}
+
+<h2 class="text-center mt-60">Our Cars - Page @ViewBag.CurrentPage</h2>
+
+
+@if (!Model.Any())
+{
+    // Ako stigna stranica v koqto nqma koli pishem suobshtenie kum usera i mahame butona next
+    // no tova shte stane sus "disabled tam kudeto sme napravili butona"
+    <h2 class="text-center">No more cars my friend !</h2>
+}
+else
+{
+    // ako sme si na normalna stranica v all cars iskame da slojim search bar
+
+    <div  class="text-center mt-60">
+
+        @using(Html.BeginForm("All", "Cars", FormMethod.Get)){
+           <!--PRAVIM SI FORMICHKATA DO SUSHTOTO MQSTO I SUSHTOQ KONTROLET S FORM METOD GET !!! 
+              SLEDOVATELNO KATO KLIKNEM BUTONA SHTE IZPRATIM INFORMACIQ S IME "search" ZASHTOTO TAKA
+               SME GO POKAZALI PO DOLO, DO ACTION ALL V CARS CONTROLERA
+              I TAM TRQBVA DA NAPISHEM KAKVO POLUCHAVAME !  
+              -->  
+        
+        
+          <input type="text" name="search" class="form-control" style="display:inline-block" value="@Request.QueryString["search"]" />
+            <!--Tova ni e searcbara pravim go da e inline block za ne ni minava avtomatichn o na nov red
+            i pravim diva da e text-center !!! -->
+            <input class="btn btn-default" type="submit" value="Search" />
+        }
+    </div>
+}
+
+@foreach (var cars in Model)
+{
+    <div class="row mt-60" style="margin: 25px">
+        <!--RAZCEPVAME NA DVE-->
+
+        <!--AKO KOLATA E RENTNATA TRQBVA DA NAPRAVIM KARTINKATA PO BLEDA-->
+        <div class="col-md-6">
+            <img src="@cars.ImageUrl" class="img-responsive" @( cars.IsRented ? "style=opacity:0.5" : string.Empty) />
+        </div>                                          <!--Ako kolata e rentnata pravim kartinkata po bleda !  -->
+
+        <div class="col-md-6">
+            <h2>@cars.Brand @cars.Model (@cars.Year)</h2>
+            <h3>@cars.PricePerDay BNG/Day</h3>
+
+            <a href="/Cars/Details/@cars.Id" class="btn @(cars.IsRented ? "btn-default" : "btn-primary")">@(cars.IsRented ? "This car is rented..." : "See More")</a>
+        </div><!--Ako kolata e rentnata butona da e default i da pishe "See More" ako ne butona da e primary i da pishe  "This car is rented..."-->
+    </div>
+}
+
+
+@{ 
+
+    var CurrentUserQuery = Request.QueryString["user"];
+
+    // TRQBVA DA PODADEM QUERITO KAKTO NAPRAVIHME I ZA CurrentUserQuery OTGORE
+    var CurrentSearchQuery = Request.QueryString["search"];
+
+}
+
+
+<p class="text-center">
+    <a href="/Cars/All?page=@(ViewBag.CurrentPage - 1)@(CurrentUserQuery != null ? "&user=" + CurrentUserQuery : string.Empty)" class="btn btn-primary" 
+       @(ViewBag.CurrentPage == 1 ? "Disabled" : string.Empty)><< Prev</a>
+    <!--Sushtiq kato butona next samoche sus -1 i e disabled ako sme na stranica 1 -->
+    
+    <a href="/Cars/All?page=@(ViewBag.CurrentPage +1)@(CurrentUserQuery != null ? "&user=" + CurrentUserQuery : string.Empty)" class="btn btn-primary" 
+       @(Model.Count() < 5 || !Model.Any() ? "Disabled" : string.Empty)>Next >></a>
+    <!--Ako modela e prazen i nqma poveche koli ili ima no sa po malko ot 5 znachi sme na poslednata stranica 
+        sledovatelno pravim butona da e disabled ako li ne pishem empty string !      -->
+</p>

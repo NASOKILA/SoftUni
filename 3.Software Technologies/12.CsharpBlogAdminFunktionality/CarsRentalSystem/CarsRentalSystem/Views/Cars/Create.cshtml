@@ -1,0 +1,29 @@
+﻿
+@model CarsRentalSystem.Models.Cars.CreateCarModel
+
+@{
+    ViewBag.Title = "Add Car For Rent"; // PROMENQME SI IMETO OT GORE V LQVO NA STRANICATA
+ }
+
+
+<!-- KLIOMBAHtml.EditorForModel()     shte ni suzdade samo formichka SAMOCHE NE E MNOGO UMNO ! -->
+
+@using (Html.BeginForm("Create", "Cars", FormMethod.Post))
+{
+    // ZAPOCHVAME FORMICHKATA I KAZAHME DOKUDE TRQBVA DA STIGA, DO ACTION S IME CREATE KOITO E HttpPost
+    // I SE NAMIRA VUV KONTROLLER CARS
+
+    <br />
+
+
+    @Html.EditorForModel()
+    @Html.LabelFor(m => m.EngineType) 
+    @Html.EnumDropDownListFor(m => m.EngineType)
+    <!-- KAZVAME MU DA NI NAPRAVI DROP DOWN LIST OT ENUM ZA ENGINETYPE I DA SLOJI LABEL PREDI TOVA ! -->
+
+    <br />
+    <div>
+        <input type="submit" class="btn btn-primary" value="Save Car"/>
+    </div>
+
+}

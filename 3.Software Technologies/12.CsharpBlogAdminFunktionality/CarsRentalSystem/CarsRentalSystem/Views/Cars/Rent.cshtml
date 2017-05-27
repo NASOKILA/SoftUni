@@ -1,0 +1,33 @@
+﻿
+
+@model CarsRentalSystem.Models.Renting.RentCarModel
+
+@{
+    ViewBag.Title = "Rent";
+}
+
+<h2 class="text-center">Are you sure you want to rent @Model.CarName ?</h2>
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <img src="@Model.CarImgUrl" class="img-responsive" width="600" />
+    </div>
+</div>
+
+<p class="text-center">@Model.Days Days * @Model.Price = @Model.TotalPrice lv,</p>
+
+
+@using (Html.BeginForm("Rent", "Cars", FormMethod.Post))
+{
+<!--Otvarqme si formichka i pishem kakvo iskame da rentnem -->
+
+    @Html.HiddenFor(m => m.CarId)
+    @Html.HiddenFor(m => m.Days)
+
+
+    <div class="text-center mt-60">
+        <input type="submit" class="btn btn-primary" value="Rent !"/>
+        <a href="/Cars/Details/@Model.CarId" class="btn btn-default">Back <<</a>
+    </div>
+
+}
