@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9.Multiplication Table\bin\Debug\9.Multiplication Table.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9.Multiplication Table\bin\Debug\9.Multiplication Table.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9.Multiplication Table\bin\Debug\9.Multiplication Table.pdb
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9.Multiplication Table\obj\Debug\9.Multiplication Table.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9.Multiplication Table\obj\Debug\9.Multiplication Table.pdb

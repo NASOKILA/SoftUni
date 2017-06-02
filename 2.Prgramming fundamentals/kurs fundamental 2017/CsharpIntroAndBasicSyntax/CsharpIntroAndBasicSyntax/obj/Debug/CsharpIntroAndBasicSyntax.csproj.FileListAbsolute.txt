@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\bin\Debug\CsharpIntroAndBasicSyntax.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\bin\Debug\CsharpIntroAndBasicSyntax.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\bin\Debug\CsharpIntroAndBasicSyntax.pdb
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\obj\Debug\CsharpIntroAndBasicSyntax.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\obj\Debug\CsharpIntroAndBasicSyntax.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\CsharpIntroAndBasicSyntax\obj\Debug\CsharpIntroAndBasicSyntax.pdb

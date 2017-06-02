@@ -1,0 +1,3 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\RectangleArea\bin\Debug\RectangleArea.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\RectangleArea\obj\Debug\RectangleArea.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\RectangleArea\obj\Debug\RectangleArea.pdb

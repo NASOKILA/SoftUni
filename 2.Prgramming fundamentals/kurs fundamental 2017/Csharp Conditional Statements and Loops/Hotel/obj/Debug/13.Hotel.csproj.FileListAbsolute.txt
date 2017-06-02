@@ -1,0 +1,3 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Hotel\obj\Debug\Hotel.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Hotel\obj\Debug\Hotel.pdb

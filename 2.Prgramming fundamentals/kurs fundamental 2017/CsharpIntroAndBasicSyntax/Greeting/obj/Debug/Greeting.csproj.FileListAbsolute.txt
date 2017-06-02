@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Greeting\bin\Debug\Greeting.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Greeting\bin\Debug\Greeting.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Greeting\bin\Debug\Greeting.pdb
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Greeting\obj\Debug\Greeting.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Greeting\obj\Debug\Greeting.pdb

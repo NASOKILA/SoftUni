@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\Izpit 28ti August 2016\Izpit 28ti August 2016\bin\Debug\I
 C:\Users\nasko\Desktop\Izpit 28ti August 2016\Izpit 28ti August 2016\obj\Debug\Izpit 28ti August 2016.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\Izpit 28ti August 2016\Izpit 28ti August 2016\obj\Debug\Izpit 28ti August 2016.exe
 C:\Users\nasko\Desktop\Izpit 28ti August 2016\Izpit 28ti August 2016\obj\Debug\Izpit 28ti August 2016.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Izpit 28ti August 2016\bin\Debug\Izpit 28ti August 2016.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Izpit 28ti August 2016\obj\Debug\Izpit 28ti August 2016.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Izpit 28ti August 2016\obj\Debug\Izpit 28ti August 2016.pdb

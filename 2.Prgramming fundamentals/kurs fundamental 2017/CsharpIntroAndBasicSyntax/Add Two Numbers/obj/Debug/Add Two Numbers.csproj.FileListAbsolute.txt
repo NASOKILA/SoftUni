@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Add Two Numbers\bin\Debug\Add Two Numbers.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Add Two Numbers\bin\Debug\Add Two Numbers.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Add Two Numbers\bin\Debug\Add Two Numbers.pdb
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Add Two Numbers\obj\Debug\Add Two Numbers.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\Add Two Numbers\obj\Debug\Add Two Numbers.pdb

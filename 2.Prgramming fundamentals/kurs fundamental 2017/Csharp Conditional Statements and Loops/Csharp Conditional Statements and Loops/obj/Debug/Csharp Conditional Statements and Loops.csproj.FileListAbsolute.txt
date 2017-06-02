@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\bin\Debug\Csharp Conditional Statements and Loops.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\bin\Debug\Csharp Conditional Statements and Loops.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\bin\Debug\Csharp Conditional Statements and Loops.pdb
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\obj\Debug\Csharp Conditional Statements and Loops.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\obj\Debug\Csharp Conditional Statements and Loops.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\Csharp Conditional Statements and Loops\obj\Debug\Csharp Conditional Statements and Loops.pdb
