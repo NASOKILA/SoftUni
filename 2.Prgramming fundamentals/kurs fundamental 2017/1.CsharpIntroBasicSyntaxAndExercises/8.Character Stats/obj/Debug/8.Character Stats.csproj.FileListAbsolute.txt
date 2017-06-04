@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\bin\Debug\8.Character Stats.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\bin\Debug\8.Character Stats.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\bin\Debug\8.Character Stats.pdb
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\obj\Debug\8.Character Stats.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\obj\Debug\8.Character Stats.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\8.Character Stats\obj\Debug\8.Character Stats.pdb

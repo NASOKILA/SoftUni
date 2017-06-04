@@ -1,0 +1,3 @@
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\DebitCardNumber\bin\Debug\DebitCardNumber.exe.config
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\DebitCardNumber\obj\Debug\DebitCardNumber.exe
+C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\DebitCardNumber\obj\Debug\DebitCardNumber.pdb
