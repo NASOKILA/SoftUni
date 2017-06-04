@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Release\3.Employee Data.exe.config
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Release\3.Employee Data.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Release\3.Employee Data.pdb
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\obj\Release\3.Employee Data.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\obj\Release\3.Employee Data.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\obj\Release\3.Employee Data.pdb

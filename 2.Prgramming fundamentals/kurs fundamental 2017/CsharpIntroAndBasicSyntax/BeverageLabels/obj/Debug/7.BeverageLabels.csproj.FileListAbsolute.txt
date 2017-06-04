@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\BeverageLabels\bin\Debug\BeverageLabels.exe.config
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\BeverageLabels\bin\Debug\BeverageLabels.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\BeverageLabels\bin\Debug\BeverageLabels.pdb
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\BeverageLabels\obj\Debug\BeverageLabels.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\BeverageLabels\obj\Debug\BeverageLabels.pdb

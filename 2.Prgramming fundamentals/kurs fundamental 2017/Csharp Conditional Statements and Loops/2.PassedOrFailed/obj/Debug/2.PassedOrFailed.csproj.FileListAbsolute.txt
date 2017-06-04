@@ -1,1 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\2.PassedOrFailed\bin\Debug\2.PassedOrFailed.exe.config

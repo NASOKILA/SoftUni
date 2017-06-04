@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\3.Back in 30 minutes\bin\Debug\3.Back in 30 minutes.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\3.Back in 30 minutes\bin\Debug\3.Back in 30 minutes.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\3.Back in 30 minutes\bin\Debug\3.Back in 30 minutes.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\3.Back in 30 minutes\obj\Debug\3.Back in 30 minutes.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\3.Back in 30 minutes\obj\Debug\3.Back in 30 minutes.pdb

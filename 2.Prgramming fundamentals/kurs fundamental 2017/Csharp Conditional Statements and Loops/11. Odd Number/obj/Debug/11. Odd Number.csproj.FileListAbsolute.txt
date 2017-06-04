@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\bin\Debug\_11.Odd_Number.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\bin\Debug\_11.Odd_Number.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\bin\Debug\_11.Odd_Number.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\obj\Debug\11. Odd Number.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\obj\Debug\_11.Odd_Number.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\11. Odd Number\obj\Debug\_11.Odd_Number.pdb
