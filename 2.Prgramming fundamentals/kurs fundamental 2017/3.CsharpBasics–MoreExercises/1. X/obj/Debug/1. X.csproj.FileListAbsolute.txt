@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\1. X\bin\Debug\_1.X.exe.config
+C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\1. X\bin\Debug\_1.X.exe
+C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\1. X\bin\Debug\_1.X.pdb
+C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\1. X\obj\Debug\_1.X.exe
+C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\1. X\obj\Debug\_1.X.pdb
