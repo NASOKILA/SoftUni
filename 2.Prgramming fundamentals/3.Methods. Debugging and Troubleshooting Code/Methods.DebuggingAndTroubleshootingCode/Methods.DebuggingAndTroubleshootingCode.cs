@@ -49,14 +49,9 @@ namespace Methods.DebuggingAndTroubleshootingCode
 
 
         }
-
-
-
-
+        
 
         static double GetSquare(double i) { // primer za metod
-
-
 
             return i * i; // rezultat shte bude double !
             // sled tozi return nikaniv kod nqma da se izpulni !!!
@@ -116,12 +111,12 @@ namespace Methods.DebuggingAndTroubleshootingCode
 
          */
         /*Debugging code:
-           debugging pomaga mnogo, mnamira i oprava greshki na dadeniq red.
+           debugging pomaga mnogo, namira i oprava greshki na dadeniq red.
            chervenata tochka se kazva breakpoint. SLAGA SE S   F9 
         */
 
         /*Naming Methods and best practices:
-         Metodut trqbva da kzva kakvo pravi.
+         Metodut trqbva da kazva kakvo pravi.
          AKO PECHATAME NESHTO ZNACHI TRQVBA DA E    Print
          AKO CHETE NESHTO ZNACHI E                  Read
          AKO VRUSHTA NESHTO ZNACHI E                Return
@@ -142,7 +137,7 @@ namespace Methods.DebuggingAndTroubleshootingCode
 
         /*SUMMARY :
          Metodite sa do 30 reda i se polzvat za razbivane na programata na malki chasti.
-          Vikat se po imeto, priemat parametri, vrushtat sushtiq tip stoinost, void e 
+         Vikat se po imeto, priemat parametri, vrushtat sushtiq tip stoinost, void e 
          metod koito ne vrushta nishto. 
          Debugera pomaga za namirane na greshka i otstranqvane na neq.
          

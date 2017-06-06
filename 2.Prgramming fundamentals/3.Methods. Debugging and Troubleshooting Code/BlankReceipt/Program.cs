@@ -10,25 +10,26 @@ namespace BlankReceipt
     {   // ZA SEGA NQMA ZNACHENIE DALI DEKLARIRAME METODA PREDI MAIN ILI SLED NEGO !
         // SLED VREME SHTE IMA ZASHTOTO KODA SHTE SE IZPULNQVA RED PO RED, NQMA DA IMA KOMPILACIQ !
 
-        static void PrintHeader()
+        private static void PrintReceipt()
+        {
+            PrintHeader();
+            PrintBody();
+            PrintFooter();
+        }
+        private static void PrintHeader()
         {
             Console.WriteLine("CASH RECEIPT");
             Console.WriteLine("------------------------------");
         }
-        static void PrintBody()
+        private static void PrintBody()
         {
             Console.WriteLine("Charged to____________________");
             Console.WriteLine("Received by___________________");
         }
-        static void PrintFooter()
-        {           
+        private static void PrintFooter()
+        {
             Console.WriteLine("------------------------------");
-            Console.WriteLine("© SoftUni");
-        }
-        static void PrintReceipt() {
-            PrintHeader();
-            PrintBody();
-            PrintFooter();
+            Console.WriteLine("\u00a9 SoftUni");
         }
         static void Main(string[] args)
         {
