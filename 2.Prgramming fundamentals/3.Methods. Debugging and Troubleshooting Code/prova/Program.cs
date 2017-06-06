@@ -17,7 +17,7 @@ namespace prova
             for (int j = 1; j < n; j++)
             {
 
-
+                 
                 int result = j;
                 int chislo = j;
                 while (true)
