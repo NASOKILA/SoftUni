@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variable
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\obj\Debug\CenturiesToNanoseconds.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\obj\Debug\CenturiesToNanoseconds.pdb
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\obj\Debug\CenturiesToNanoseconds.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\bin\Debug\CenturiesToNanoseconds.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\obj\Debug\CenturiesToNanoseconds.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\CenturiesToNanoseconds\obj\Debug\CenturiesToNanoseconds.pdb

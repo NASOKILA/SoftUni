@@ -23,7 +23,7 @@ namespace Practice_integers
             sbyte n1 = -100;
             byte n2 = 128;
             short n3 = -3540;
-             int n4 = 64876;    // trqbva da e unshort no go nqma 
+            ushort n4 = 64876;    
             uint n5 = 2147483648;
             int n6 = -1141583228;
             long n7 = -1223372036854775808;

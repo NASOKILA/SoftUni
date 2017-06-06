@@ -32,9 +32,9 @@ namespace Data_Types_and_Variables
             short [-32 768,... 32 767] 16 bit
             ushort [0,...65 535] unshort 16 bit
             int [-2 147 483 648,...2 147 483 647] 32 bit
-            uint[0,...4 294 967 295] unshort 32 bit
+            uint[0,...4 294 967 295] uint 32 bit
             long[-9 223 372 036 854 755 808,...9 223 372 036 854 755 807] unshort 64 bit
-            undlong[0...18 446 744 073 709 551 615] 64 bit
+            ulong[0...18 446 744 073 709 551 615] ulong 64 bit
 
             Trqbva da mojem da izberem koe ni trqbva v zavisimost ot tova koeto pravim.           
             POVECHETO PUTI SE IZPOLZVA INT, AKO NI TRQBVA PO GOLQMO CHISLO POLZVAME LONG !

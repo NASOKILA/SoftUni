@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variable
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\bin\Debug\StringsAndObjects.pdb
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\obj\Debug\StringsAndObjects.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\obj\Debug\StringsAndObjects.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\bin\Debug\StringsAndObjects.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\obj\Debug\StringsAndObjects.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\StringsAndObjects\obj\Debug\StringsAndObjects.pdb

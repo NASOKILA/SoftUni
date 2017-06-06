@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variable
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ReversedChars\bin\Debug\ReversedChars.pdb
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ReversedChars\obj\Debug\ReversedChars.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ReversedChars\obj\Debug\ReversedChars.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ReversedChars\bin\Debug\ReversedChars.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ReversedChars\obj\Debug\ReversedChars.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ReversedChars\obj\Debug\ReversedChars.pdb

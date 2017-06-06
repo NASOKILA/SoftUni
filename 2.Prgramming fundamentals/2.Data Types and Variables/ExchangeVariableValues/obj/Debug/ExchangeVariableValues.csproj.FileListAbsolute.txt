@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variable
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\bin\Debug\Data Types and Variables.pdb
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\obj\Debug\Data Types and Variables.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\obj\Debug\Data Types and Variables.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\bin\Debug\Data Types and Variables.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\obj\Debug\Data Types and Variables.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\ExchangeVariableValues\obj\Debug\Data Types and Variables.pdb

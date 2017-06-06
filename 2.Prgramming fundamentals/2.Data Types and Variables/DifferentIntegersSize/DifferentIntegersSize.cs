@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DifferentIntegersSize
 {
@@ -6,97 +7,63 @@ namespace DifferentIntegersSize
     {
         public static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            string num = Console.ReadLine();
             try
             {
-                long n = long.Parse(input); // parsvame stringa !!! ELEMENTARNO
-                
-            if (n >= -128 && n <= 0) {
-                    Console.WriteLine("{0} can fit in:",n);
-                    Console.WriteLine("* sbyte");
-                    Console.WriteLine("* short");
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* long");
-                }
-                else if (n >= 0 && n <= 127)
+
+                long n = long.Parse(num);
+
+                List<string> result = new List<string>();
+
+
+                if (n >= sbyte.MinValue && n <= sbyte.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);
-                    Console.WriteLine("* sbyte");
-                    Console.WriteLine("* byte");
-                    Console.WriteLine("* short");
-                    Console.WriteLine("* unshort");
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");                  
+                    result.Add("sbyte");
                 }
-                else if (n >= 128 && n <= 255)
+                if (n >= byte.MinValue && n <= byte.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);                 
-                    Console.WriteLine("* byte");
-                    Console.WriteLine("* short");
-                    Console.WriteLine("* unshort");
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");
+                    result.Add("byte");
                 }
-                else if (n >= -32768 && n <= -129   )
+                if (n >= short.MinValue && n <= short.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);           
-                    Console.WriteLine("* short");                  
-                    Console.WriteLine("* int");                  
-                    Console.WriteLine("* long");                 
+                    result.Add("short");
                 }
-                else if (n >= 256 && n <= 32767)
+                if (n >= ushort.MinValue && n <= ushort.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);                 
-                    Console.WriteLine("* short");
-                    Console.WriteLine("* unshort");
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");
+                    result.Add("ushort");
                 }
-                else if (n >= 32768 && n <= 65535)
+                if (n >= int.MinValue && n <= int.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);                   
-                    Console.WriteLine("* unshort");
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");
+                    result.Add("int");
                 }
-                else if (n >= -2147483648 && n <= -32769)
+                if (n >= uint.MinValue && n <= uint.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);                
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* long");                 
+                    result.Add("uint");
                 }
-                else if (n >= 65536 && n <= 2147483647)
+                if (n >= long.MinValue && n <= long.MaxValue)
                 {
-                    Console.WriteLine("{0} can fit in:", n);                   
-                    Console.WriteLine("* int");
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");
+                    result.Add("long");
                 }
-                else if (n >= 2147483648 && n <= 4294967295)
+
+
+
+                if (result.Count.Equals(0))
+                    Console.WriteLine($"{n} can't fit in any type");
+                else
                 {
-                    Console.WriteLine("{0} can fit in:", n);                 
-                    Console.WriteLine("* uint");
-                    Console.WriteLine("* long");
-                }
-                else if (n >= -9223372036854755808 && n <= -2147483649)
-                {
-                    Console.WriteLine("{0} can fit in:", n);               
-                    Console.WriteLine("* long");
-                }
-                else if (n >= 4294967296 && n <= 9223372036854755807)
-                {
-                    Console.WriteLine("{0} can fit in:", n);
-                    Console.WriteLine("* long");
+
+                    Console.WriteLine($"{n} can fit in:");
+                    for (int i = 0; i < result.Count; i++)
+                    {
+                        Console.WriteLine("* " + result[i]);
+                    }
                 }
             }
-            catch (OverflowException)
-            {// if it breaks it will show me this !!!
-                Console.WriteLine("{0} can't fit in any type", input);
+            catch
+            {
+                Console.WriteLine($"{num} can't fit in any type");
             }
+
         }
     }
 }
