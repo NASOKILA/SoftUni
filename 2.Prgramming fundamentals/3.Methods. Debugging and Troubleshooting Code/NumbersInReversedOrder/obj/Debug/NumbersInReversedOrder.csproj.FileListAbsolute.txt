@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and 
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\obj\Debug\NumbersInReversedOrder.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\obj\Debug\NumbersInReversedOrder.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\obj\Debug\NumbersInReversedOrder.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\bin\Debug\NumbersInReversedOrder.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\obj\Debug\NumbersInReversedOrder.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\NumbersInReversedOrder\obj\Debug\NumbersInReversedOrder.pdb

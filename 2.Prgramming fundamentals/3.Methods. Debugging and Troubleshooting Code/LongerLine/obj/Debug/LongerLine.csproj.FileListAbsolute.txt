@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and 
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\obj\Debug\LongerLine.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\obj\Debug\LongerLine.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\obj\Debug\LongerLine.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\bin\Debug\LongerLine.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\obj\Debug\LongerLine.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\LongerLine\obj\Debug\LongerLine.pdb

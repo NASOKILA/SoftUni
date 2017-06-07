@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Linq;
 
 namespace NumbersInReversedOrder
 {
@@ -10,7 +10,7 @@ namespace NumbersInReversedOrder
         {
 
             // vsekistring e suvkupnost ot sinvoli MOJEM DADOSTUPVAME VSEKI EDIN ELEMENT PO OTDELNO
-
+           
             string result = "";
             for (int i = number.Length - 1; i >= 0; i--)
             {

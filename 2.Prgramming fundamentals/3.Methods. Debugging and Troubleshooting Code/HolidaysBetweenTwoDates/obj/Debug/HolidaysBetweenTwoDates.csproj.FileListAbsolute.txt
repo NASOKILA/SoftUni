@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and 
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\obj\Debug\HolidaysBetweenTwoDates.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\obj\Debug\HolidaysBetweenTwoDates.exe
 C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\obj\Debug\HolidaysBetweenTwoDates.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\bin\Debug\HolidaysBetweenTwoDates.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\obj\Debug\HolidaysBetweenTwoDates.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\HolidaysBetweenTwoDates\obj\Debug\HolidaysBetweenTwoDates.pdb
