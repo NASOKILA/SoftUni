@@ -3,3 +3,6 @@ C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\Reverse
 C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\ReverseAnArrayOfIntegers.pdb
 C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.exe
 C:\Users\nasko\Desktop\ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\ReverseAnArrayOfIntegers\bin\Debug\ReverseAnArrayOfIntegers.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\ReverseAnArrayOfIntegers\obj\Debug\ReverseAnArrayOfIntegers.pdb

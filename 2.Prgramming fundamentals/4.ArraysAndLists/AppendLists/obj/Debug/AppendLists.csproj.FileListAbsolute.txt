@@ -4,3 +4,9 @@ C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\bin\Debug\AppendLists.pdb
 C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.exe
 C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.pdb
 C:\Users\nasko\Desktop\ArraysAndLists\AppendLists\obj\Debug\AppendLists.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\bin\Debug\AppendLists.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\obj\Debug\AppendLists.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\obj\Debug\AppendLists.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\bin\Debug\AppendLists.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\bin\Debug\AppendLists.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\AppendLists\obj\Debug\AppendLists.csprojResolveAssemblyReference.cache
