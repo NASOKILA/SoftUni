@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\bin\Debug\Practice2.exe.config
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\bin\Debug\Practice2.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\bin\Debug\Practice2.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\obj\Debug\Practice2.exe
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\obj\Debug\Practice2.pdb
+C:\Users\nasko\Desktop\ssoftuni\SoftUni\2.Prgramming fundamentals\4.ArraysAndLists\Practice2\obj\Debug\Practice2.csprojResolveAssemblyReference.cache
