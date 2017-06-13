@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\05.Pizza Ingredients\bin\Debug\05.Pizza Ingredients.exe.config
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\05.Pizza Ingredients\bin\Debug\05.Pizza Ingredients.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\05.Pizza Ingredients\bin\Debug\05.Pizza Ingredients.pdb
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\05.Pizza Ingredients\obj\Debug\05.Pizza Ingredients.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\05.Pizza Ingredients\obj\Debug\05.Pizza Ingredients.pdb

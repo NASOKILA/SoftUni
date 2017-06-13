@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\bin\Debug\02.Manipulate Array.exe.config
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\bin\Debug\02.Manipulate Array.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\bin\Debug\02.Manipulate Array.pdb
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\obj\Debug\02.Manipulate Array.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\obj\Debug\02.Manipulate Array.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\02.Manipulate Array\obj\Debug\02.Manipulate Array.pdb
