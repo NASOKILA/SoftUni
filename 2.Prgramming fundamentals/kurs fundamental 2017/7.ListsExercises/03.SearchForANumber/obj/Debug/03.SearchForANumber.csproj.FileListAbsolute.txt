@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\7.ListsExercises\03.SearchForANumber\bin\Debug\03.SearchForANumber.exe.config
+C:\Users\user\Desktop\7.ListsExercises\03.SearchForANumber\bin\Debug\03.SearchForANumber.exe
+C:\Users\user\Desktop\7.ListsExercises\03.SearchForANumber\bin\Debug\03.SearchForANumber.pdb
+C:\Users\user\Desktop\7.ListsExercises\03.SearchForANumber\obj\Debug\03.SearchForANumber.exe
+C:\Users\user\Desktop\7.ListsExercises\03.SearchForANumber\obj\Debug\03.SearchForANumber.pdb

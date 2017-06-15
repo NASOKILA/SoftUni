@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\bin\Debug\07.Bomb Numbers.exe.config
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\bin\Debug\07.Bomb Numbers.exe
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\bin\Debug\07.Bomb Numbers.pdb
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\obj\Debug\07.Bomb Numbers.exe
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\obj\Debug\07.Bomb Numbers.pdb
+C:\Users\user\Desktop\7.ListsExercises\07.Bomb Numbers\obj\Debug\07.BombNumbers.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\bin\Debug\7.ListsExercises.exe.config
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\bin\Debug\7.ListsExercises.exe
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\bin\Debug\7.ListsExercises.pdb
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\obj\Debug\ListsExercises.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\obj\Debug\7.ListsExercises.exe
+C:\Users\user\Desktop\7.ListsExercises\7.ListsExercises\obj\Debug\7.ListsExercises.pdb

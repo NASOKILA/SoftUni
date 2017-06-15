@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\bin\Debug\05.ArrayManipulator.exe.config
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\bin\Debug\05.ArrayManipulator.exe
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\bin\Debug\05.ArrayManipulator.pdb
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\obj\Debug\05.ArrayManipulator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\obj\Debug\05.ArrayManipulator.exe
+C:\Users\user\Desktop\7.ListsExercises\05.ArrayManipulator\obj\Debug\05.ArrayManipulator.pdb
