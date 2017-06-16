@@ -1,0 +1,6 @@
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe.config
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\bin\Debug\06.FoldAndSum.pdb
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\obj\Debug\06.FoldAndSum.exe
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\obj\Debug\06.FoldAndSum.pdb
+c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\06.FoldAndSum\obj\Debug\06.FoldAndSum.csprojResolveAssemblyReference.cache
