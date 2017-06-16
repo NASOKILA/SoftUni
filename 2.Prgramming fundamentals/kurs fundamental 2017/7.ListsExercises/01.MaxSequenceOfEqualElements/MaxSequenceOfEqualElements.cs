@@ -13,26 +13,50 @@ namespace _01.MaxSequenceOfEqualElements
                 .Select(int.Parse)
                 .ToList();
 
-            int length = 1;
-            int start = 0;
-            int maxSequence = 0;
+            
+            var maxSequenceOfEqualElements = FirstMaxSequenceOfEqualElements(numbers);
 
-            for (int i = start; i < numbers.Count - 1; i++)
+            Console.WriteLine(string.Join(" ", maxSequenceOfEqualElements));
+        }
+
+        private static int[] FirstMaxSequenceOfEqualElements(List<int> numbers)
+        {
+
+            List<int> longestSequence = new List<int>();
+            List<int> currentSequence = new List<int>();
+            currentSequence.Add(numbers[0]); // dobavqme edin element
+
+            for (int i = 1; i < numbers.Count; i++)
             {
-                if (numbers[i] == numbers[i + 1])
-                    length++;
-                else
-                    length = 1;
-                   
-                if (length > maxSequence)
+                int currentNum = numbers[i];
+                int searchedNum = currentSequence[0];
+
+                if (currentNum == searchedNum)
                 {
-                    maxSequence = length;
-                    start = i+1 - maxSequence;
+                    currentSequence.Add(currentNum);
+                    // dobavqme current num kum currenteSequence
+                }
+                else
+                {
+                    if (currentSequence.Count > longestSequence.Count)
+                    {
+                        longestSequence = new List<int>(currentSequence);
+                        // taka clonirame edin spisuk v drug
+                    }
+                    currentSequence.Clear(); // sus clear() izchistvame vsichki elementi ot edin masiv
+                    currentSequence.Add(currentNum);
                 }
 
+                if (currentSequence.Count > longestSequence.Count)
+                {
+                    longestSequence = new List<int>(currentSequence);
+                    // taka clonirame edin spisuk v drug
+                }
             }
+           
 
-            Console.WriteLine(string.Join(" ", numbers.Skip(start+1).Take(maxSequence)));
+            return longestSequence.ToArray();
+
         }
     }
 }

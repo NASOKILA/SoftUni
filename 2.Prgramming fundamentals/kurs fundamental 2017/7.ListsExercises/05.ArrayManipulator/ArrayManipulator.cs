@@ -8,7 +8,7 @@
         {
             static void Main(string[] args)
             {
-                List<int> numbers = Console.ReadLine()
+                List<int> list = Console.ReadLine()
                     .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(int.Parse)
                     .ToList();
@@ -16,8 +16,6 @@
                 string[] command = Console.ReadLine()
                     .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
-
-
 
                 int index = 0;
                 int position = 0;
@@ -31,7 +29,7 @@
                         index = int.Parse(command[1]);
                         element = int.Parse(command[2]);
 
-                        numbers.Insert(index, element);
+                        list.Insert(index, element);
                     }
                     else if (command[0] == "addMany")
                     {
@@ -42,50 +40,61 @@
                              .Select(int.Parse)
                              .ToList();
 
-                        numbers.InsertRange(index, numstoInsert);
+                        list.InsertRange(index, numstoInsert);
 
                     }
                     else if (command[0] == "contains")
                     {
                         element = int.Parse(command[1]);
-                        if (numbers.Contains(element))
-                            Console.WriteLine(numbers.IndexOf(element));
+                        if (list.Contains(element))
+                            Console.WriteLine(list.IndexOf(element));
                         else
                             Console.WriteLine("-1");
                     }
                     else if (command[0] == "remove")
                     {
                         index = int.Parse(command[1]);
-                        numbers.RemoveAt(index);
+                        list.RemoveAt(index);
 
                     }
                     else if (command[0] == "shift")
                     {
                          int first = 0;
-                         position = int.Parse(command[1]);
+                         position = int.Parse(command[1]) % list.Count;
                          for (int i = 0; i < position; i++)
                          {
-                             first = numbers[0];
-                             numbers.RemoveAt(0);
-                             numbers.Add(first);
+                             first = list[0];
+                             list.RemoveAt(0);
+                             list.Add(first);
                          }
 
                     }
                     else if (command[0] == "sumPairs")
                     {
-                        for (int i = 0; i < numbers.Count; i++)
+
+                    var sumPairs = new List<int>();
+
+                        for (int i = 0; i < list.Count; i+=2)
                         {
-                            numbers[i] = numbers[i] + numbers[i + 1];
-                            numbers.Remove(numbers[i + 1]);
+                            var currentElement = list[i];
+                            var nextElement = 0;
+
+                            if(i < list.Count - 1)
+                                nextElement = list[i + 1];
+
+                            var elementsSum = currentElement + nextElement;
+                            sumPairs.Add(elementsSum);
                         }
+                    list = sumPairs;
                     }
 
-                    command = Console.ReadLine()
+                command = Console.ReadLine()
                     .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
+
                 }
 
-                Console.WriteLine("[" + string.Join(", ", numbers) + "]");
+                Console.WriteLine("[{0}]", string.Join(", ", list));
             }
         }
     }
