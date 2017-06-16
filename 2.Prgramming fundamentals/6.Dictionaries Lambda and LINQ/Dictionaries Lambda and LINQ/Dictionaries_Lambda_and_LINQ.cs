@@ -119,7 +119,7 @@ namespace Dictionaries_Lambda_and_LINQ
 
             // mojem da napishem var
             double[] nums = Console.ReadLine()
-               .Split()
+               .Split(' ')
                .Select(number => double.Parse(number))
                .Select(number => number + Math.PI) // TOVA SUBIRA number s PI
                .ToArray();
@@ -137,7 +137,7 @@ namespace Dictionaries_Lambda_and_LINQ
 
 
 
-
+           
 
             /*Ot LINQ imame funkciq OrderBy() i OrderByDescending() koeto 
              podrejda elementite ot malko kum golqmo.
@@ -160,7 +160,7 @@ namespace Dictionaries_Lambda_and_LINQ
 
 
 
-            Console.WriteLine(); Console.WriteLine();
+                Console.WriteLine(); Console.WriteLine();
 
             // Using Take(), Skip()
 
@@ -171,8 +171,8 @@ namespace Dictionaries_Lambda_and_LINQ
             Console.WriteLine(string.Join(" ", nums1));// nums = [1, 2, 3]
 
             int[] nums2 = numbers.Skip(3).ToArray();// sus Skip() prezkachame podadenite elementi i vzimame vsichki ostanali
-            Console.WriteLine(string.Join(" ", nums2));
-           
+            Console.WriteLine(string.Join(" ", nums2)); // nums = [4, 5, 6]
+
             //ako masiva ima samo dva elementa a nie vuv skip napishem primerno 3, shte ni vurne prazen masiv
             // NIE NE PROMENQME MASIVA numbers !!!
 
@@ -202,8 +202,8 @@ namespace Dictionaries_Lambda_and_LINQ
             var even = nnn.Where(x => x % 2 == 0); // v where() proverqvame ako chisloto e chetno!
             var odd = nnn.Where(x => x % 2 == 1);
 
-            var evenCount = nnn.Count(x => x % 2 == 0);
-            var oddCount = nnn.Count(x => x % 2 == 1);
+            var evenCount = nnn.Count(x => x % 2 == 0); // vzimame broikata samo na chetnite chisla
+            var oddCount = nnn.Count(x => x % 2 == 1);  // vzimame broikata samo na nechetnite chisla
 
             Console.WriteLine(string.Join(" ", even)); // vrushta samo chetnite chisla v nnn
             Console.WriteLine(string.Join(" ", odd));
