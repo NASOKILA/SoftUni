@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\03.Safe Manipulation\bin\Debug\03.Safe Manipulation.exe.config
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\03.Safe Manipulation\bin\Debug\03.Safe Manipulation.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\03.Safe Manipulation\bin\Debug\03.Safe Manipulation.pdb
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\03.Safe Manipulation\obj\Debug\03.Safe Manipulation.exe
+C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\03.Safe Manipulation\obj\Debug\03.Safe Manipulation.pdb

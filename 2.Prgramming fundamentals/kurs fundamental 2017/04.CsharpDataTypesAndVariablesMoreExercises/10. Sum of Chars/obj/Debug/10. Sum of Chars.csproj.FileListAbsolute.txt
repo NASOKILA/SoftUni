@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\10. Sum of Chars\bin\Debug\_10.Sum_of_Chars.exe.config
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\10. Sum of Chars\bin\Debug\_10.Sum_of_Chars.exe
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\10. Sum of Chars\bin\Debug\_10.Sum_of_Chars.pdb
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\10. Sum of Chars\obj\Debug\_10.Sum_of_Chars.exe
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\10. Sum of Chars\obj\Debug\_10.Sum_of_Chars.pdb

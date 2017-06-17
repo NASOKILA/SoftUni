@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\02.PhonebookUpgrade\bin\Debug\02.PhonebookUpgrade.exe.config
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\02.PhonebookUpgrade\bin\Debug\02.PhonebookUpgrade.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\02.PhonebookUpgrade\bin\Debug\02.PhonebookUpgrade.pdb
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\02.PhonebookUpgrade\obj\Debug\02.PhonebookUpgrade.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\02.PhonebookUpgrade\obj\Debug\02.PhonebookUpgrade.pdb

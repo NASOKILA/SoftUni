@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\bin\Debug\_05.Weather_Forecast.exe.config
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\bin\Debug\_05.Weather_Forecast.exe
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\bin\Debug\_05.Weather_Forecast.pdb
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\obj\Debug\05. Weather Forecast.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\obj\Debug\_05.Weather_Forecast.exe
+C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\05. Weather Forecast\obj\Debug\_05.Weather_Forecast.pdb

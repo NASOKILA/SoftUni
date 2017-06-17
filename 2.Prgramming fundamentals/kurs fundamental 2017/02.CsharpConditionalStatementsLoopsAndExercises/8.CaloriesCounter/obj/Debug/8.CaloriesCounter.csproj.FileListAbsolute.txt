@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\bin\Debug\8.CaloriesCounter.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\bin\Debug\8.CaloriesCounter.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\bin\Debug\8.CaloriesCounter.pdb
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\obj\Debug\8.CaloriesCounter.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\obj\Debug\8.CaloriesCounter.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.CaloriesCounter\obj\Debug\8.CaloriesCounter.pdb

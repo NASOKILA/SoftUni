@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\bin\Debug\6.Theatre Promotions.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\bin\Debug\6.Theatre Promotions.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\bin\Debug\6.Theatre Promotions.pdb
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\obj\Debug\6.Theatre Promotions.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\obj\Debug\6.Theatre Promotions.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\6.Theatre Promotions\obj\Debug\6.Theatre Promotions.pdb

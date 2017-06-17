@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\03.AMinerTask\bin\Debug\03.AMinerTask.exe.config
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\03.AMinerTask\bin\Debug\03.AMinerTask.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\03.AMinerTask\bin\Debug\03.AMinerTask.pdb
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\03.AMinerTask\obj\Debug\03.AMinerTask.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\03.AMinerTask\obj\Debug\03.AMinerTask.pdb

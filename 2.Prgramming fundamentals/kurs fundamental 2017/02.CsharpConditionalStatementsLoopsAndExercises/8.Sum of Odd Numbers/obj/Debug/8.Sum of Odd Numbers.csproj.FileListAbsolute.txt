@@ -1,0 +1,5 @@
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.Sum of Odd Numbers\bin\Debug\8.Sum of Odd Numbers.exe.config
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.Sum of Odd Numbers\bin\Debug\8.Sum of Odd Numbers.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.Sum of Odd Numbers\bin\Debug\8.Sum of Odd Numbers.pdb
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.Sum of Odd Numbers\obj\Debug\8.Sum of Odd Numbers.exe
+C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\8.Sum of Odd Numbers\obj\Debug\8.Sum of Odd Numbers.pdb

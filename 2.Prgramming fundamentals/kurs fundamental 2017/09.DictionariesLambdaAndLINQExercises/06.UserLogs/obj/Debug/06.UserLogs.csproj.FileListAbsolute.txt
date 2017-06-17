@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\bin\Debug\06.UserLogs.exe.config
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\bin\Debug\06.UserLogs.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\bin\Debug\06.UserLogs.pdb
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\obj\Debug\06.UserLogs.exe
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\obj\Debug\06.UserLogs.pdb
+C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\06.UserLogs\obj\Debug\06.UserLogs.csprojResolveAssemblyReference.cache
