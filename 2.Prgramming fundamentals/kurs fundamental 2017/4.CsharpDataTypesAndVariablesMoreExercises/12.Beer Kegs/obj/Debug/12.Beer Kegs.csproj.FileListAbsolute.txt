@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\12.Beer Kegs\bin\Debug\12.Beer Kegs.exe.config
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\12.Beer Kegs\bin\Debug\12.Beer Kegs.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\12.Beer Kegs\bin\Debug\12.Beer Kegs.pdb
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\12.Beer Kegs\obj\Debug\12.Beer Kegs.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\12.Beer Kegs\obj\Debug\12.Beer Kegs.pdb

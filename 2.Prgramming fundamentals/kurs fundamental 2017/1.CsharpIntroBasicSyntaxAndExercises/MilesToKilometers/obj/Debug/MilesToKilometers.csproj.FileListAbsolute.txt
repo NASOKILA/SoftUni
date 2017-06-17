@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\MilesToKilometers\bin\Debug\MilesToKilometers.exe.config
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\MilesToKilometers\bin\Debug\MilesToKilometers.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\MilesToKilometers\bin\Debug\MilesToKilometers.pdb
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\MilesToKilometers\obj\Debug\MilesToKilometers.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\MilesToKilometers\obj\Debug\MilesToKilometers.pdb

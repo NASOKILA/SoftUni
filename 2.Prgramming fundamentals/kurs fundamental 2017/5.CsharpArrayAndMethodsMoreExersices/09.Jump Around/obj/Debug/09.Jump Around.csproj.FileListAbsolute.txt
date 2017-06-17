@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\bin\Debug\09.Jump Around.exe.config
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\bin\Debug\09.Jump Around.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\bin\Debug\09.Jump Around.pdb
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\obj\Debug\09.Jump Around.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\obj\Debug\09.Jump Around.pdb
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\09.Jump Around\obj\Debug\09.Jump Around.csprojResolveAssemblyReference.cache

@@ -4,3 +4,9 @@ C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries La
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.exe
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\bin\Debug\UserLogs.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\bin\Debug\UserLogs.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\bin\Debug\UserLogs.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\UserLogs\obj\Debug\UserLogs.csprojResolveAssemblyReference.cache

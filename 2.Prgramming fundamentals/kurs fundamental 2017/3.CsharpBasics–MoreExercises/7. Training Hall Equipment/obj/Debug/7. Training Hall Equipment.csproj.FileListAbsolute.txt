@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\bin\Debug\_7.Training_Hall_Equipment.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\bin\Debug\_7.Training_Hall_Equipment.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\bin\Debug\_7.Training_Hall_Equipment.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\obj\Debug\7. Training Hall Equipment.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\obj\Debug\_7.Training_Hall_Equipment.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\7. Training Hall Equipment\obj\Debug\_7.Training_Hall_Equipment.pdb

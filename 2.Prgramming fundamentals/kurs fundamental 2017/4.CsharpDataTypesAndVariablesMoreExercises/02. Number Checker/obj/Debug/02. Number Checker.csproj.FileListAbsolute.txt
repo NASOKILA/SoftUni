@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\02. Number Checker\bin\Debug\_02.Number_Checker.exe.config
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\02. Number Checker\bin\Debug\_02.Number_Checker.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\02. Number Checker\bin\Debug\_02.Number_Checker.pdb
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\02. Number Checker\obj\Debug\_02.Number_Checker.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\02. Number Checker\obj\Debug\_02.Number_Checker.pdb

@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\6. DNA Sequences\bin\Debug\_6.DNA_Sequences.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\6. DNA Sequences\bin\Debug\_6.DNA_Sequences.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\6. DNA Sequences\bin\Debug\_6.DNA_Sequences.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\6. DNA Sequences\obj\Debug\_6.DNA_Sequences.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\6. DNA Sequences\obj\Debug\_6.DNA_Sequences.pdb

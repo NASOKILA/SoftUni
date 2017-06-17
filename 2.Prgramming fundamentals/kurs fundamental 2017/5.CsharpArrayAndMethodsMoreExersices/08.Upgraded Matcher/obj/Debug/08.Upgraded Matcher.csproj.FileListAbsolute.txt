@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\08.Upgraded Matcher\bin\Debug\08.Upgraded Matcher.exe.config
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\08.Upgraded Matcher\bin\Debug\08.Upgraded Matcher.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\08.Upgraded Matcher\bin\Debug\08.Upgraded Matcher.pdb
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\08.Upgraded Matcher\obj\Debug\08.Upgraded Matcher.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\08.Upgraded Matcher\obj\Debug\08.Upgraded Matcher.pdb

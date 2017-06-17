@@ -1,5 +1,0 @@
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe.config
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.pdb
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.pdb

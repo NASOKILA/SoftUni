@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Debug\3.Employee Data.exe.config
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Debug\3.Employee Data.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\bin\Debug\3.Employee Data.pdb
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\obj\Debug\3.Employee Data.exe
-C:\Users\nasko\Desktop\CsharpIntroAndBasicSyntax\3.Employee Data\obj\Debug\3.Employee Data.pdb

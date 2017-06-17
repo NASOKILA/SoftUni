@@ -1,5 +1,0 @@
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\05.ShortWordsSorted\bin\Debug\05.ShortWordsSorted.exe.config
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\05.ShortWordsSorted\bin\Debug\05.ShortWordsSorted.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\05.ShortWordsSorted\bin\Debug\05.ShortWordsSorted.pdb
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\05.ShortWordsSorted\obj\Debug\05.ShortWordsSorted.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\05.ShortWordsSorted\obj\Debug\05.ShortWordsSorted.pdb

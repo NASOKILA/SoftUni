@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\bin\Debug\15.Neighbour Wars.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\bin\Debug\15.Neighbour Wars.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\bin\Debug\15.Neighbour Wars.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\obj\Debug\15.Neighbour Wars.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\obj\Debug\15.Neighbour Wars.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\15.Neighbour Wars\obj\Debug\15.Neighbour Wars.pdb
