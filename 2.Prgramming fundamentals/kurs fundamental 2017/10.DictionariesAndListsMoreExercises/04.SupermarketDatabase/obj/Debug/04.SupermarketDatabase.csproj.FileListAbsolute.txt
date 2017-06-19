@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\bin\Debug\04.SupermarketDatabase.exe.config
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\bin\Debug\04.SupermarketDatabase.exe
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\bin\Debug\04.SupermarketDatabase.pdb
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\obj\Debug\04.SupermarketDatabase.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\obj\Debug\04.SupermarketDatabase.exe
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\04.SupermarketDatabase\obj\Debug\04.SupermarketDatabase.pdb

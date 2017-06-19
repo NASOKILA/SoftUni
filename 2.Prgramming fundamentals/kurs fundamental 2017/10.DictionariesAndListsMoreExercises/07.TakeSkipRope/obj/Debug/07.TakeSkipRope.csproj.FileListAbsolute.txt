@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.exe.config
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.exe
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.pdb
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.exe
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.pdb
+C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.csprojResolveAssemblyReference.cache
