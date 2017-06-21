@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\7.ListsExercises\02.ChangeList\bin\Debug\02.ChangeList.exe.config
-C:\Users\user\Desktop\7.ListsExercises\02.ChangeList\bin\Debug\02.ChangeList.exe
-C:\Users\user\Desktop\7.ListsExercises\02.ChangeList\bin\Debug\02.ChangeList.pdb
-C:\Users\user\Desktop\7.ListsExercises\02.ChangeList\obj\Debug\02.ChangeList.exe
-C:\Users\user\Desktop\7.ListsExercises\02.ChangeList\obj\Debug\02.ChangeList.pdb

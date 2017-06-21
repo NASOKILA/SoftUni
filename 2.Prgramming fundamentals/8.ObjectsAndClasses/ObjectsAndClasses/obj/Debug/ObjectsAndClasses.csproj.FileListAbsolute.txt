@@ -7,3 +7,6 @@ C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndC
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\bin\Debug\ObjectsAndClasses.exe.config
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.exe
 C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\bin\Debug\ObjectsAndClasses.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\8.ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.pdb

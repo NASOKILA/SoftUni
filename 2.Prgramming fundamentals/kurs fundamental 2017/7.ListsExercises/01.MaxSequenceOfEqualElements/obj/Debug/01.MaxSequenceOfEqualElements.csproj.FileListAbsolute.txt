@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\bin\Debug\01.MaxSequenceOfEqualElements.exe.config
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\bin\Debug\01.MaxSequenceOfEqualElements.exe
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\bin\Debug\01.MaxSequenceOfEqualElements.pdb
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\obj\Debug\01.MaxSequenceOfEqualElements.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\obj\Debug\01.MaxSequenceOfEqualElements.exe
-C:\Users\user\Desktop\7.ListsExercises\01.MaxSequenceOfEqualElements\obj\Debug\01.MaxSequenceOfEqualElements.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\01.MaxSequenceOfEqualElements\bin\Debug\01.MaxSequenceOfEqualElements.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\01.MaxSequenceOfEqualElements\obj\Debug\01.MaxSequenceOfEqualElements.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\01.MaxSequenceOfEqualElements\obj\Debug\01.MaxSequenceOfEqualElements.pdb

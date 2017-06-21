@@ -89,7 +89,7 @@ namespace _05.ParkingValidation
                     Console.WriteLine($"ERROR: invalid license plate {licensePlateNumber}");       
                 // if the same user is trying to register a second plate 
                 else if (namesAndPlates.ContainsKey(username))
-                    Console.WriteLine($"ERROR: already registered with plate number {licensePlateNumber}");
+                    Console.WriteLine($"ERROR: already registered with plate number {namesAndPlates[username]}");
                 //if the plate is already in use
                 else if (namesAndPlates.ContainsValue(licensePlateNumber))
                     Console.WriteLine($"ERROR: license plate {licensePlateNumber} is busy");
