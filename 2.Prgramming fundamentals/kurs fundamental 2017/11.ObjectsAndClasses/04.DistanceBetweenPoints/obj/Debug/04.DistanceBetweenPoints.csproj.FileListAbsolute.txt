@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.exe.config
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.pdb
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\obj\Debug\04.DistanceBetweenPoints.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\obj\Debug\04.DistanceBetweenPoints.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\04.DistanceBetweenPoints\obj\Debug\04.DistanceBetweenPoints.pdb

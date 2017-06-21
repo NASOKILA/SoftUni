@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\bin\Debug\07.SalesReport.exe.config
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\bin\Debug\07.SalesReport.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\bin\Debug\07.SalesReport.pdb
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\obj\Debug\07.SalesReport.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\obj\Debug\07.SalesReport.exe
+C:\Users\nasko\Desktop\ObjectsAndClasses\07.SalesReport\obj\Debug\07.SalesReport.pdb

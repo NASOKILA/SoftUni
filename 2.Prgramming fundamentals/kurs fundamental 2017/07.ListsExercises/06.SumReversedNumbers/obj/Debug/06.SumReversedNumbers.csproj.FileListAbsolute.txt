@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\7.ListsExercises\06.SumReversedNumbers\bin\Debug\06.SumReversedNumbers.exe.config
+C:\Users\user\Desktop\7.ListsExercises\06.SumReversedNumbers\bin\Debug\06.SumReversedNumbers.exe
+C:\Users\user\Desktop\7.ListsExercises\06.SumReversedNumbers\bin\Debug\06.SumReversedNumbers.pdb
+C:\Users\user\Desktop\7.ListsExercises\06.SumReversedNumbers\obj\Debug\06.SumReversedNumbers.exe
+C:\Users\user\Desktop\7.ListsExercises\06.SumReversedNumbers\obj\Debug\06.SumReversedNumbers.pdb
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\06.SumReversedNumbers\bin\Debug\06.SumReversedNumbers.exe.config
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\06.SumReversedNumbers\obj\Debug\06.SumReversedNumbers.exe
+C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\7.ListsExercises\06.SumReversedNumbers\obj\Debug\06.SumReversedNumbers.pdb

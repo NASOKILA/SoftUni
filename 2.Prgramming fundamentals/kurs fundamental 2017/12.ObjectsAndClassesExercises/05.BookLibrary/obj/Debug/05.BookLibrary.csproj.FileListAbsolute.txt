@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\bin\Debug\05.BookLibrary.exe.config
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\bin\Debug\05.BookLibrary.exe
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\bin\Debug\05.BookLibrary.pdb
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\obj\Debug\05.BookLibrary.exe
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\obj\Debug\05.BookLibrary.pdb
+C:\Users\nasko\Desktop\ObjectsAndClassesExercises\05.BookLibrary\obj\Debug\05.BookLibrary.csprojResolveAssemblyReference.cache
