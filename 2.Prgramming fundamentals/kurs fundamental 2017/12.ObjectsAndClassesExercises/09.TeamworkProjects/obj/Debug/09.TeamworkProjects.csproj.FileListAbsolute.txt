@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\bin\Debug\09.TeamworkProjects.exe.config
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\bin\Debug\09.TeamworkProjects.exe
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\bin\Debug\09.TeamworkProjects.pdb
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\obj\Debug\09.TeamworkProjects.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\obj\Debug\09.TeamworkProjects.exe
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\09.TeamworkProjects\obj\Debug\09.TeamworkProjects.pdb

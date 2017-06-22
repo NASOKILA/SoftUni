@@ -8,14 +8,9 @@ namespace _04.AverageGrades
     class Student
     {
         public string Name { get; set; }
-        public List<double> Grades { get; set; }
-        public double AverageGrade
-        {
-            get
-            {
-                return Grades.Sum() / Grades.Count;
-            }            
-        }
+        public IEnumerable<double> Grades { get; set; } // IEnumerable e universalno za kolekcii, moje da e masiv, spisuk, stack ili drugo !
+        public double AverageGrade => Grades.Average(); // tova e CALCULATED PROPERTY   
+        
 
         class AverageGrades
         {
@@ -34,7 +29,7 @@ namespace _04.AverageGrades
 
                     string name = input.First();
 
-                    List<double> grades = input
+                    var grades = input //Polzvali sme IEnumerable
                         .Skip(1)
                         .Select(double.Parse)
                         .ToList();
@@ -53,10 +48,14 @@ namespace _04.AverageGrades
 
             private static void PrintStudents(List<Student> students)
             {
-                foreach (var item in students.Where(a => a.AverageGrade >= 5.00)
-                    .OrderBy(b => b.Name).ThenByDescending(a => a.AverageGrade))
+                // We order our list of students  
+                students = students
+                    .Where(a => a.AverageGrade >= 5)
+                    .OrderBy(b => b.Name).ThenByDescending(a => a.AverageGrade).ToList();
+
+                foreach (var student in students)
                 {
-                    Console.WriteLine($"{item.Name} -> {item.AverageGrade:F2}");
+                    Console.WriteLine($"{student.Name} -> {student.AverageGrade:F2}");
                 }
             }
 

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.BookLibraryModification
 {
@@ -28,15 +26,36 @@ namespace _06.BookLibraryModification
         static void Main(string[] args)
         {
 
-            int n = int.Parse(Console.ReadLine());
-
-
-
             Library MyLibrary = new Library()
             {
                 Name = "NasosLibrary",
                 BookList = new List<Book>()
             };
+
+            SetBooks(MyLibrary);
+
+            DateTime afterDate =  DateTime.ParseExact(Console.ReadLine()
+                ,"dd.MM.yyyy"
+                , CultureInfo.InvariantCulture);
+
+            PrintResult(afterDate, MyLibrary);
+
+        }
+
+        private static void PrintResult(DateTime afterDate, Library MyLibrary)
+        {
+
+            var newBookList = MyLibrary.BookList.Where(d => d.ReleaseDate > afterDate).OrderBy(a => a.ReleaseDate).ThenBy(a => a.Title).ToList();
+
+            foreach (var item in newBookList)
+            {
+                Console.WriteLine($"{item.Title} -> {item.ReleaseDate.Day:D2}.{item.ReleaseDate.Month:D2}.{item.ReleaseDate.Year}");
+            }
+        }
+
+        private static void SetBooks(Library MyLibrary)
+        {
+            int n = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < n; i++)
             {
@@ -52,17 +71,9 @@ namespace _06.BookLibraryModification
                     ReleaseDate = DateTime.ParseExact(input[3], "dd.MM.yyyy", CultureInfo.InvariantCulture),
                     ISBN = input[4],
                     Price = double.Parse(input[5])
-
                 };
 
                 MyLibrary.BookList.Add(Mybook);
-
-            }
-
-
-            foreach (var item in MyLibrary.BookList)
-            {
-
             }
 
         }

@@ -46,14 +46,16 @@ namespace _01.CountWorkingDays
 
 
             
-            int counter = 0;
-            for (DateTime today = startDate; today <= endDate; today = today.AddDays(1))
+            int workingDays = 0;
+            for (DateTime currentDay = startDate; currentDay <= endDate; currentDay = currentDay.AddDays(1))
             {              
-                if (!holidays.Contains(today) && today.DayOfWeek.ToString() != "Saturday" && today.DayOfWeek.ToString() != "Sunday")
-                    counter++;
+                if (!holidays.Any(d => d.Day == currentDay.Day && d.Month == currentDay.Month) 
+                    && currentDay.DayOfWeek.ToString() != "Saturday" 
+                    && currentDay.DayOfWeek.ToString() != "Sunday")
+                    workingDays++;
             }
 
-            Console.WriteLine(counter);
+            Console.WriteLine(workingDays);
         }
     }
 }

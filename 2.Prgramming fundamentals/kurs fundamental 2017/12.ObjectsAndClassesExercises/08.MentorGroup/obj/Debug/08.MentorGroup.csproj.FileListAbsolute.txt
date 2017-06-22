@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\bin\Debug\08.MentorGroup.exe.config
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\bin\Debug\08.MentorGroup.exe
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\bin\Debug\08.MentorGroup.pdb
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\obj\Debug\08.MentorGroup.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\obj\Debug\08.MentorGroup.exe
+C:\Users\user\Desktop\Softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\12.ObjectsAndClassesExercises\08.MentorGroup\obj\Debug\08.MentorGroup.pdb
