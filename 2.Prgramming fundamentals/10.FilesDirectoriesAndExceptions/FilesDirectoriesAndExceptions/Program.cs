@@ -17,9 +17,9 @@ namespace FilesDirectoriesAndExceptions
              kak da se zapazva tazi informaciq vuv failpvete.
              TOVA NQMA DA GO IMA NA IZPITA NO SHTE NI TRQBVA ZA NAPRED
 
-            1.operacii s failove 
+            1. operacii s failove 
             2. operacii s direktorii
-            3.kakvo sa exeptions i kak da se spravqme s tqh
+            3. kakvo sa exeptions i kak da se spravqme s tqh
             4. kak se opravlqvat greshkite
 
             trqbva ni 
