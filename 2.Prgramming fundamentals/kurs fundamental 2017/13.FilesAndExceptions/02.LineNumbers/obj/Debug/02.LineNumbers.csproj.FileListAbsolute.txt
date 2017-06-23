@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe.config
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.pdb
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.exe
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.pdb
+C:\Users\nasko\Desktop\FilesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.csprojResolveAssemblyReference.cache

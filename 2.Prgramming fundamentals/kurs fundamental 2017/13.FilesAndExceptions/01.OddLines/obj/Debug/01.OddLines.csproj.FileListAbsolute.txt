@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe.config
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\bin\Debug\01.OddLines.pdb
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\obj\Debug\01.OddLines.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\obj\Debug\01.OddLines.exe
+C:\Users\nasko\Desktop\FilesAndExceptions\01.OddLines\obj\Debug\01.OddLines.pdb
