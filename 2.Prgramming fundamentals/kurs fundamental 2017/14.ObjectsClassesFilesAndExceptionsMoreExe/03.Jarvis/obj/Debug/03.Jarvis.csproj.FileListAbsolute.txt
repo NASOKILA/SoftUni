@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\bin\Debug\03.Jarvis.exe.config
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\bin\Debug\03.Jarvis.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\bin\Debug\03.Jarvis.pdb
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\obj\Debug\03.Jarvis.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\obj\Debug\03.Jarvis.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\03.Jarvis\obj\Debug\03.Jarvis.pdb

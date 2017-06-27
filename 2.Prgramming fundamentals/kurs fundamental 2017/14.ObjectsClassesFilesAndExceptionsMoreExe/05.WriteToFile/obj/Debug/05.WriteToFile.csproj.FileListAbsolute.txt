@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\bin\Debug\05.WriteToFile.exe.config
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\bin\Debug\05.WriteToFile.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\bin\Debug\05.WriteToFile.pdb
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\obj\Debug\05.WriteToFile.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\obj\Debug\05.WriteToFile.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\05.WriteToFile\obj\Debug\05.WriteToFile.pdb

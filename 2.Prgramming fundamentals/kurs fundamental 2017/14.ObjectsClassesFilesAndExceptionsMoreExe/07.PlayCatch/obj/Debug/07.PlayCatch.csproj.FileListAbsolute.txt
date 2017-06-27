@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\bin\Debug\07.PlayCatch.exe.config
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\bin\Debug\07.PlayCatch.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\bin\Debug\07.PlayCatch.pdb
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\obj\Debug\07.PlayCatch.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\obj\Debug\07.PlayCatch.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\07.PlayCatch\obj\Debug\07.PlayCatch.pdb

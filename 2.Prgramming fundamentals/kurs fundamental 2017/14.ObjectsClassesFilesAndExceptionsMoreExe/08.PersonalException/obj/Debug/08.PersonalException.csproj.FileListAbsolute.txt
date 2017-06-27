@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\bin\Debug\08.PersonalException.exe.config
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\bin\Debug\08.PersonalException.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\bin\Debug\08.PersonalException.pdb
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\obj\Debug\08.PersonalException.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\obj\Debug\08.PersonalException.exe
+C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\08.PersonalException\obj\Debug\08.PersonalException.pdb
