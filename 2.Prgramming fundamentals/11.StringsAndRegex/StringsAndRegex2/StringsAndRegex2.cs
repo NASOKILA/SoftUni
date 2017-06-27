@@ -52,7 +52,7 @@ namespace StringsAndRegex2
              
             sb.Remove(int start , int length) - trie charove v daden range
              
-            sb.Insert(int index, string str) - dobavq string ili obekt v daden ranges
+            sb.Insert(int index, string str) - dobavq string ili obekt v daden range
              
             sb.Replace(string oldString, string newString) - razmenq vsichki podadeni stringove s novite podadeni strngove
             

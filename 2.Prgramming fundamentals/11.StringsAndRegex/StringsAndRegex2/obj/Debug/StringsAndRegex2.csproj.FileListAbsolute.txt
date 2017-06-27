@@ -7,3 +7,6 @@ C:\Users\nasko\Desktop\StringsAndRegex\StringsAndRegex2\obj\Debug\StringsAndRege
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\bin\Debug\StringsAndRegex2.exe.config
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\obj\Debug\StringsAndRegex2.exe
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\obj\Debug\StringsAndRegex2.pdb
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\bin\Debug\StringsAndRegex2.exe.config
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\obj\Debug\StringsAndRegex2.exe
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\StringsAndRegex2\obj\Debug\StringsAndRegex2.pdb
