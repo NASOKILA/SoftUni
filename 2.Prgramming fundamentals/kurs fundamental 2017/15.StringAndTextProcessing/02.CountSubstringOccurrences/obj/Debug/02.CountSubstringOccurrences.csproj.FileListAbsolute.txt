@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe.config
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.exe
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\user\Desktop\StringAndTextProcessing\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.csprojResolveAssemblyReference.cache

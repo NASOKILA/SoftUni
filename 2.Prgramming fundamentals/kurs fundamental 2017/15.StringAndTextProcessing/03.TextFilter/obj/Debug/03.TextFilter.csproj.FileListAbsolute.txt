@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\bin\Debug\03.TextFilter.exe.config
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\obj\Debug\03.TextFilter.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\bin\Debug\03.TextFilter.exe
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\bin\Debug\03.TextFilter.pdb
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\obj\Debug\03.TextFilter.exe
+C:\Users\user\Desktop\StringAndTextProcessing\03.TextFilter\obj\Debug\03.TextFilter.pdb
