@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\bin\Debug\06.SumBigNumbers.exe.config
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\bin\Debug\06.SumBigNumbers.exe
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\bin\Debug\06.SumBigNumbers.pdb
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\obj\Debug\06.SumBigNumbers.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\obj\Debug\06.SumBigNumbers.exe
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\06.SumBigNumbers\obj\Debug\06.SumBigNumbers.pdb

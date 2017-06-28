@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\05.MagicExchangeableWords\bin\Debug\05.MagicExchangeableWords.exe.config
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\05.MagicExchangeableWords\bin\Debug\05.MagicExchangeableWords.exe
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\05.MagicExchangeableWords\bin\Debug\05.MagicExchangeableWords.pdb
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\05.MagicExchangeableWords\obj\Debug\05.MagicExchangeableWords.exe
+C:\Users\user\Desktop\StringsAndTextProcessingExerciser\05.MagicExchangeableWords\obj\Debug\05.MagicExchangeableWords.pdb
