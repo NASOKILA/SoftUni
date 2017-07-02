@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\bin\Debug\08.UseYourChainsBuddy.exe.config
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\bin\Debug\08.UseYourChainsBuddy.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\bin\Debug\08.UseYourChainsBuddy.pdb
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\obj\Debug\08.UseYourChainsBuddy.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\obj\Debug\08.UseYourChainsBuddy.pdb
+C:\Users\user\Desktop\RegularExspressionsExcescises\08.UseYourChainsBuddy\obj\Debug\08.UseYourChainsBuddy.csprojResolveAssemblyReference.cache

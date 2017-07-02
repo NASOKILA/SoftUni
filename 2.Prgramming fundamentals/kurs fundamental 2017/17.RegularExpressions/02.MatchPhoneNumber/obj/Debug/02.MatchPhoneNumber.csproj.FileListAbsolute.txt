@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\bin\Debug\02.MatchPhoneNumber.exe.config
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\bin\Debug\02.MatchPhoneNumber.exe
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\bin\Debug\02.MatchPhoneNumber.pdb
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\obj\Debug\02.MatchPhoneNumber.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\obj\Debug\02.MatchPhoneNumber.exe
+C:\Users\user\Desktop\RegularExpressions\02.MatchPhoneNumber\obj\Debug\02.MatchPhoneNumber.pdb

@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\bin\Debug\03.MatchHexadecimalNumbers.exe.config
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\bin\Debug\03.MatchHexadecimalNumbers.exe
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\bin\Debug\03.MatchHexadecimalNumbers.pdb
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\obj\Debug\03.MatchHexadecimalNumbers.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\obj\Debug\03.MatchHexadecimalNumbers.exe
+C:\Users\user\Desktop\RegularExpressions\03.MatchHexadecimalNumbers\obj\Debug\03.MatchHexadecimalNumbers.pdb

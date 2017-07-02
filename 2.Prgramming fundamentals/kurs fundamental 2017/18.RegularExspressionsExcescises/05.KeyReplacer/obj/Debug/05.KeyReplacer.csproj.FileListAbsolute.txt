@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\bin\Debug\05.KeyReplacer.exe.config
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\obj\Debug\05.KeyReplacer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\bin\Debug\05.KeyReplacer.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\bin\Debug\05.KeyReplacer.pdb
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\obj\Debug\05.KeyReplacer.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\05.KeyReplacer\obj\Debug\05.KeyReplacer.pdb

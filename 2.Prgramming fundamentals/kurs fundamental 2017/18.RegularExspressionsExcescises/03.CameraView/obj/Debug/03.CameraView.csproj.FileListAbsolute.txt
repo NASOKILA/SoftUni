@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\bin\Debug\03.CameraView.exe.config
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\bin\Debug\03.CameraView.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\bin\Debug\03.CameraView.pdb
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\obj\Debug\03.CameraView.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\obj\Debug\03.CameraView.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\03.CameraView\obj\Debug\03.CameraView.pdb

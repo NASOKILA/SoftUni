@@ -4,3 +4,6 @@ C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRege
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\obj\Debug\ExtractEmails.csprojResolveAssemblyReference.cache
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\obj\Debug\ExtractEmails.exe
 C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\obj\Debug\ExtractEmails.pdb
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\bin\Debug\ExtractEmails.exe.config
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\obj\Debug\ExtractEmails.exe
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractEmails\obj\Debug\ExtractEmails.pdb

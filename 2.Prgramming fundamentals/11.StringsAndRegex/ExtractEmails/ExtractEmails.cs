@@ -26,7 +26,7 @@ namespace ExtractEmails
             [a-zA-Z\-]+ - eskeipvame tireto ot a do z malko i ot A do Z golqmo samo vednuj da go ima edin ili poveche puti
             (\.[a-z]+)+ - Nove grupa koqto zapochva s tochkata, bukvi ot a do z malko, da se povatea edin ili poveche puti
             i da se povtarq ftupata edin ili poveche puti
-            
+                
             \b) - zatvarqme purvata grupa
 
              */

@@ -154,9 +154,6 @@ namespace StringsAndRegex2
             Phone:  +39588204212 
 
 
-
-
-
             //ANCHORS : KOTVI, IMAME KOTVA V NACHALOTO I KOTVA V KRAQ
 
             ^ - start
@@ -169,7 +166,7 @@ namespace StringsAndRegex2
             [a-z]+$ - hvashta poslednata duma
 
 
-
+            
 
             ZA DA NAMERIM Slednoto :
             22-Jan-2016

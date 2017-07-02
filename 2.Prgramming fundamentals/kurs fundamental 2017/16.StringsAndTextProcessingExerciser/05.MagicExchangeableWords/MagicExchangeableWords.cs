@@ -17,73 +17,70 @@ namespace MagicExchangeableWords
             string firstWord = words[0];
             string secondWord = words[1];
 
-            int minLen = Math.Min(firstWord.Length, secondWord.Length);
-            int maxLen = Math.Max(firstWord.Length, secondWord.Length);
+            bool sameLength = true;
 
-            for (int i = 0; i < minLen; i++)
+            if (firstWord.Length != secondWord.Length)
+                sameLength = false;
+
+            var shorter = firstWord.Length <= secondWord.Length 
+                ? firstWord 
+                : secondWord;
+
+
+            for (int i = 0; i < shorter.Length; i++)
             {
                 if (!map.ContainsKey(firstWord[i]))
-                {          // ako ne sudurja klucha
-                    if (map.ContainsValue(secondWord[i]))
+                {//ako ne sudurja takuv kluch
+                    if (!map.ContainsValue(secondWord[i]))
+                    {// ako ne sudurja takova value
+                        map[firstWord[i]] = secondWord[i]; // gi dobavi
+                    }
+                    else
                     {
                         Console.WriteLine("false");
                         return;
                     }
-                    map.Add(firstWord[i], secondWord[i]); // go dobavi
-                }
+                }       
                 else
-                {         // ako se sudurja klucha
-                    if (map[firstWord[i]] != secondWord[i])
-                    { // ako sa razlichni 
+                {
+                    if (!map.ContainsValue(secondWord[i]))
+                    {
                         Console.WriteLine("false");
                         return;
                     }
                 }
-
             }
 
 
-
-
-            if (firstWord.Length == secondWord.Length)
+            if (!sameLength)
             {
-                Console.WriteLine("true");
-                return;
-            }
+                string longer = words.Where(w => w != shorter).FirstOrDefault().ToString();
 
-
-
-            string substring = string.Empty;
-
-            if (firstWord.Length > secondWord.Length)
-            {
-                substring = firstWord.Substring(minLen);  // vadim po malkata duma ot po golqmata i slagame ostatuka v substring
-            }
-            else
-            {
-                substring = secondWord.Substring(minLen);  // vadim po malkata duma ot po golqmata i slagame ostatuka v substring
-            }
-
-            //if (substring.All(ch => !map.Values.Contains(ch) && !map.Keys.Contains(ch)))
-            //{   // dava true ako ostatuka se sudurja nqkade v mapa, v kluchovete ili v stoinostite
-
-            //    Console.WriteLine("true");
-            //    return;                    // SLAGAME RETURN ZA DA NE SLAGAME ELSE NAKRAQ
-            //}
-            //// NE SLAGAME ELSE ZASHTOTO IMA return;
-
-
-            foreach (char c in substring) // obhojdame vsichki elementi
-            {
-                if (!map.Keys.Contains(c) && !map.Values.Contains(c))
-                {       // ako kluchovete i stoinostite na mapa ne sudurjat elementa na substringa
-                    Console.WriteLine("false");
-                    return;
+                if (longer == secondWord)
+                {
+                    foreach (var @char in longer)
+                    {
+                        if (!map.ContainsValue(@char))
+                        {
+                            Console.WriteLine("false");
+                            return;
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (var @char in longer)
+                    {
+                        if (!map.ContainsKey(@char))
+                        {
+                            Console.WriteLine("false");
+                            return;
+                        }
+                    }
                 }
             }
 
             Console.WriteLine("true");
-
         }
     }
 }

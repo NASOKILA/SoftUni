@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\bin\Debug\07.QueryMess.exe.config
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\bin\Debug\07.QueryMess.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\bin\Debug\07.QueryMess.pdb
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\obj\Debug\07.QueryMess.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\obj\Debug\07.QueryMess.exe
+C:\Users\user\Desktop\RegularExspressionsExcescises\07.QueryMess\obj\Debug\07.QueryMess.pdb

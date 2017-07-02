@@ -4,3 +4,6 @@ C:\Users\user\Desktop\StringsAndTextProcessingExerciser\StringsAndTextProcessing
 C:\Users\user\Desktop\StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\obj\Debug\StringsAndTextProcessingExerciser.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\obj\Debug\StringsAndTextProcessingExerciser.exe
 C:\Users\user\Desktop\StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\obj\Debug\StringsAndTextProcessingExerciser.pdb
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\bin\Debug\StringsAndTextProcessingExerciser.exe.config
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\obj\Debug\StringsAndTextProcessingExerciser.exe
+C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\StringsAndTextProcessingExerciser\obj\Debug\StringsAndTextProcessingExerciser.pdb
