@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\bin\Debug\08.Mines.exe.config
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\bin\Debug\08.Mines.exe
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\bin\Debug\08.Mines.pdb
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\obj\Debug\08.Mines.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\obj\Debug\08.Mines.exe
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\08.Mines\obj\Debug\08.Mines.pdb

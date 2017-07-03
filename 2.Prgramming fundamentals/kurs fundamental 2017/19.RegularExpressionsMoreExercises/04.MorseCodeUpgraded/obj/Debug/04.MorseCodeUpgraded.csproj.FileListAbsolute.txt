@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\bin\Debug\04.MorseCodeUpgraded.exe.config
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\bin\Debug\04.MorseCodeUpgraded.exe
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\bin\Debug\04.MorseCodeUpgraded.pdb
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\obj\Debug\04.MorseCodeUpgraded.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\obj\Debug\04.MorseCodeUpgraded.exe
+C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\04.MorseCodeUpgraded\obj\Debug\04.MorseCodeUpgraded.pdb
