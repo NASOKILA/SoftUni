@@ -9,36 +9,31 @@ namespace _03.KarateStrings
     class KarateStrings
     {
         static void Main(string[] args)
-        {
-            string punches = Console.ReadLine();
-            int totalPunches = 0;
-            for (int i = 0; i < punches.Length; i++)
+         {
+            string path = Console.ReadLine();
+            int power = 0;
+            for (int i = 0; i < path.Length; i++)
             {
-                if (punches[i] == '>')
+                if (path[i] == '>')
                 {
                     
-                    totalPunches += int.Parse(punches[i+1].ToString());
-                    int lettersToRemove = totalPunches;
-                    for (int j = i+1; j < i+1 + totalPunches; j++)
+                    power += int.Parse(path[i+1].ToString());
+                    int lettersToRemove = power;
+                    i++;
+                    while (i < path.Length && power > 0)
                     {
-                        try
-                        {
-                            if (punches[j] != '>')
-                            {
-                                punches = punches.Remove(j, 1);
-                                totalPunches--;
-                                j--;
-                            }
-                        }
-                        catch
-                        { }
+                        if (path[i] == '>')
+                            break;
+
+                        path.Remove(i,1);
+                        power--;
                     }
-                    
+                    i--;
                 }
             }
 
 
-            Console.WriteLine(punches);
+            Console.WriteLine(path);
         }
     }
 }

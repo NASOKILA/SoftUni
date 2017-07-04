@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\bin\Debug\ExamPreparationOne.exe.config
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\bin\Debug\ExamPreparationOne.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\bin\Debug\ExamPreparationOne.pdb
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\obj\Debug\ExamPreparationOne.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\obj\Debug\ExamPreparationOne.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\ExamPreparationOne\obj\Debug\ExamPreparationOne.pdb

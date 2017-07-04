@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\bin\Debug\04.WinningTicket.exe.config
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\bin\Debug\04.WinningTicket.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\bin\Debug\04.WinningTicket.pdb
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\obj\Debug\04.WinningTicket.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\obj\Debug\04.WinningTicket.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\04.WinningTicket\obj\Debug\04.WinningTicket.pdb

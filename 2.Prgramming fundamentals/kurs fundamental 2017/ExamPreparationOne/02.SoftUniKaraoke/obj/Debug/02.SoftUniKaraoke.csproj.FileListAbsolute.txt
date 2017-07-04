@@ -1,0 +1,6 @@
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\bin\Debug\02.SoftUniKaraoke.exe.config
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\bin\Debug\02.SoftUniKaraoke.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\bin\Debug\02.SoftUniKaraoke.pdb
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\obj\Debug\02.SoftUniKaraoke.csprojResolveAssemblyReference.cache
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\obj\Debug\02.SoftUniKaraoke.exe
+C:\Users\nasko\Desktop\ExamPreparationOne\02.SoftUniKaraoke\obj\Debug\02.SoftUniKaraoke.pdb

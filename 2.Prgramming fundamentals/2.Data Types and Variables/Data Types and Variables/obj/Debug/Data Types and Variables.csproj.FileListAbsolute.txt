@@ -11,3 +11,6 @@ C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\2.Data Types and 
 C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.exe.config
 C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.exe
 C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.pdb
+C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\bin\Debug\Data Types and Variables.exe.config
+C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.exe
+C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Data Types and Variables\obj\Debug\Data Types and Variables.pdb
