@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _02.Ladybugs
 {
@@ -12,9 +10,10 @@ namespace _02.Ladybugs
         {
             int sizeOfTheField = int.Parse(Console.ReadLine());
 
-            List<int> indexesOfAllLadybugs = Console.ReadLine()
+            List<long> indexesOfAllLadybugs = Console.ReadLine()
                 .Split(new char[] { }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
+                .Select(long.Parse)
+                .Where(a => a >= 0 && a < sizeOfTheField)
                 .ToList();
 
 
@@ -57,7 +56,7 @@ namespace _02.Ladybugs
             }
 
 
-            if ((ladyBugIndex >= 0 && ladyBugIndex <= initialField.Length) && initialField[ladyBugIndex] != 0)
+            if ((ladyBugIndex >= 0 && ladyBugIndex <= initialField.Length-1) && initialField[ladyBugIndex] != 0)
             {  // if there is a ladybug at that index and if it's a valid index
 
                 initialField[ladyBugIndex] = 0; // delete that ladybug
@@ -70,14 +69,14 @@ namespace _02.Ladybugs
                         initialField[ladyBugIndex + flyLength] = 1;
                         break;
                     }
-                    ladyBugIndex++;
+                    ladyBugIndex += flyLength;
                 }
             }
         }
 
         private static void MoveLadyBugToLeft(int ladyBugIndex, int flyLength, int[] initialField)
         {
-            if ((ladyBugIndex >= 0 && ladyBugIndex <= initialField.Length) && initialField[ladyBugIndex] != 0)
+            if ((ladyBugIndex >= 0 && ladyBugIndex <= initialField.Length-1) && initialField[ladyBugIndex] != 0)
             {  // if there is a ladybug at that index and if it's a valid index
 
                 if (flyLength < 0)
@@ -96,16 +95,16 @@ namespace _02.Ladybugs
                         initialField[ladyBugIndex - flyLength] = 1;
                         break;
                     }
-                    ladyBugIndex--;
+                    ladyBugIndex -= flyLength;
                 }
             }
         }
 
-        private static void SetInitialField(int[] initialField, List<int> indexesOfAllLadybugs)
+        private static void SetInitialField(int[] initialField, List<long> indexesOfAllLadybugs)
         {
             foreach (var index in indexesOfAllLadybugs)
             {
-                if (index >= 0 && index <= initialField.Length)
+                if (index >= 0 && index <= initialField.Length-1)
                     initialField[index] = 1;
             }
         }

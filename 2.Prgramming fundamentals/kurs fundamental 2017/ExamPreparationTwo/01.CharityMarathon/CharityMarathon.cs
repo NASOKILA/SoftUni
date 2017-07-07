@@ -8,30 +8,21 @@ namespace _01.CharityMarathon
         {
 
             short daysOFMarathon = short.Parse(Console.ReadLine());
-            long numberOfRunners = long.Parse(Console.ReadLine());
-            byte averageNumberOfLapsPerRunner = byte.Parse(Console.ReadLine());
-            long lapLength = long.Parse(Console.ReadLine());
+            long runnersCount = long.Parse(Console.ReadLine());
+            byte lapsCount = byte.Parse(Console.ReadLine());
+            long trackLength = long.Parse(Console.ReadLine());
             short trackCpacity = short.Parse(Console.ReadLine());
-            decimal amountOfMoneyDonatedPerKilometer = decimal.Parse(Console.ReadLine());
+            decimal moneyPerKm = decimal.Parse(Console.ReadLine());
 
-            int maxRunners = daysOFMarathon * trackCpacity;
-            if (maxRunners >= numberOfRunners)
-            {
-                decimal totalMeters = numberOfRunners * averageNumberOfLapsPerRunner * lapLength;
-                long totalKilometers = (long)(totalMeters / 1000);
-                decimal moneyRaisedForTheMarathon = amountOfMoneyDonatedPerKilometer * totalKilometers;
+            long maxRunners = daysOFMarathon * trackCpacity;
+            long runners = Math.Min(maxRunners, runnersCount);
 
-                Console.WriteLine($"Money raised: {moneyRaisedForTheMarathon:F2}");
+            decimal totalMeters = runners * lapsCount * trackLength;
+            long totalKilometers = (long)(totalMeters / 1000);
+            decimal moneyRaisedForTheMarathon = moneyPerKm * totalKilometers;
 
-            }
-            else
-            {
-                decimal totalMeters = maxRunners * averageNumberOfLapsPerRunner * lapLength;
-                long totalKilometers = (long)(totalMeters / 1000);
-                decimal moneyRaisedForTheMarathon = amountOfMoneyDonatedPerKilometer * totalKilometers;
+            Console.WriteLine($"Money raised: {moneyRaisedForTheMarathon:F2}");
 
-                Console.WriteLine($"Money raised: {moneyRaisedForTheMarathon:F2}");
-            }
         }
     }
 }

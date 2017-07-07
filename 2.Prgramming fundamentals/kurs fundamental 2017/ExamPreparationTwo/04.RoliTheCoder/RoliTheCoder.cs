@@ -27,7 +27,11 @@ namespace _04.RoliTheCoder
                 {
                     List<string> partecipants = new List<string>();
                     for (int i = 2; i < input.Length; i++)
-                        partecipants.Add(input[i]);
+                    {
+                        if(input[i].First() == '@')
+                            partecipants.Add(input[i]);
+                    }
+                        
 
                     if (!idsAndEvents.ContainsKey(id))
                     {
@@ -70,7 +74,7 @@ namespace _04.RoliTheCoder
 
         private static void PrintResult(Dictionary<int, string> idsAndEvents, Dictionary<string, List<string>> eventsAndParticipants, Dictionary<string, int> eventsAndCountOfPartecipants)
         {
-            eventsAndParticipants =  eventsAndParticipants
+            eventsAndParticipants = eventsAndParticipants
                 .OrderByDescending(a => a.Value.Count)
                 .ThenBy(x => x.Key)
                 .ToDictionary(b => b.Key, c => c.Value);

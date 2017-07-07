@@ -60,8 +60,7 @@ namespace _03.NetherRealms
         {
             long result = 0;
 
-            
-            var matches = Regex.Matches(deamon, "[a-zA-Z]")
+            var matches = Regex.Matches(deamon, @"[^\d+\-*\/\.]")
                 .Cast<Match>()
                 .Select(a => a.Value)
                 .Select(a => Convert.ToChar(a))
