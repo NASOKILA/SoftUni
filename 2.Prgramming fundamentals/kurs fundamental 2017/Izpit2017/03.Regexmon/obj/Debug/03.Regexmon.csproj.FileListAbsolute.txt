@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\bin\Debug\03.Regexmon.exe.config
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\obj\Debug\03.Regexmon.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\bin\Debug\03.Regexmon.exe
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\bin\Debug\03.Regexmon.pdb
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\obj\Debug\03.Regexmon.exe
+C:\Users\user\Desktop\Izpit2017\03.Regexmon\obj\Debug\03.Regexmon.pdb

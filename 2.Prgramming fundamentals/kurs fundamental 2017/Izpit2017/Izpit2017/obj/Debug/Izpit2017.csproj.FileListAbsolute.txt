@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\Izpit2017\Izpit2017\bin\Debug\Izpit2017.exe.config
+C:\Users\user\Desktop\Izpit2017\Izpit2017\bin\Debug\Izpit2017.exe
+C:\Users\user\Desktop\Izpit2017\Izpit2017\bin\Debug\Izpit2017.pdb
+C:\Users\user\Desktop\Izpit2017\Izpit2017\obj\Debug\Izpit2017.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Izpit2017\Izpit2017\obj\Debug\Izpit2017.exe
+C:\Users\user\Desktop\Izpit2017\Izpit2017\obj\Debug\Izpit2017.pdb
