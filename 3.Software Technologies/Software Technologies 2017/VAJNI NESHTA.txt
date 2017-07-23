@@ -1,0 +1,42 @@
+1. S CTRL + ALT + V v phpstorm vadim promenliva
+
+2.HOW TO USE DEBUGGER PHPSTORM:
+Step Into (F7), 
+Step Out (Shift+F8), 
+Step Over (F8), and others. 
+To have the program run automatically up to the next breakpoint F9
+
+3.Za da gledash realniq kod natiskash F12, otivash na sources i otvarqsh faila
+na koito si.
+
+4. ternary operator e sukrateno if i else VAJNO!
+
+5.V intellyJ Idea shte moje da pishem na vsichko osven na C#, na C# moje da pishem v Rider ide
+
+6.V PHP, JAVA i JAVASCRIPT array_filter(); e kato .where(); v #C, array_map(), e kato .select(); i array_reduce(); e kato .aggregate();
+
+7.KATO SELECKCIONIRAME EDNA DUMA I NATISNEM SHIFT + F6 MOJEM DA SMENIM IMETO NA 
+NEQ I NA VSICHI KATO NEQ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
