@@ -12,7 +12,14 @@ module.exports = {
       //Nakraq renderirame viewto kato mu podavame vzetite artikuli!
 
       Article.find({}).limit(6).populate('author').then(articles => {
-         res.render('home/index', {articles: articles});
+
+       articles.forEach( article => {
+           // rejem vseki artikul do 20 sinvola i dobavqme tochki
+           article.content = article.content.substring(0, 20) + ' . . . '});
+          // dobavqme promenlivata koqto durji vseki otrqzan artikul
+          res.render('home/index', {articles: articles});
+
+
       });
 
       /*

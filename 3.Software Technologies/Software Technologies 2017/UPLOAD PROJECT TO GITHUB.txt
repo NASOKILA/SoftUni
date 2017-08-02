@@ -9,8 +9,12 @@ Content sudurja CSS-ove
 Scripts sudurja JAVASCRIPTI
 DRUGITE PAPKI GI ZNAEM
 
-
+ZA C#:
 TRIEM PAPKITE App_Data, bin i obj 
+
+
+ZA JS:
+JS PROEKT SE KACHVA V GITHUB BEZ PAPKITE node_modules I .git !!!!!
 
 
 
