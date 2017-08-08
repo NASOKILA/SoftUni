@@ -18,12 +18,33 @@ public class User {
 
     private Set<Role> roles;
 
+    // DOBAVQME SI I STATII KUM USERA NO TRQBVA DA E SET A NE LIST ZASHTOTO NQMA KAK
+    // DA IMAME EDNI I SUSHTI STATII
+    private Set<Article> articles;
+
+
+
     public User(String email, String fullName, String password) {
         this.email = email;
         this.password = password;
         this.fullName = fullName;
-
+        // vrushtame nov set ot statii
+        this.articles = new HashSet<>();
         this.roles = new HashSet<>();
+    }
+
+
+    //PRAVIM SI GETER I SETER ZA STATIITE:
+
+    //Davame mu OneToMany Relaciq I GO MAPVAME KUM POLETO V DTUGIQ KLAS
+    //KOETO DURJI TAZI STOINOST
+    @OneToMany(mappedBy = "author")
+    public Set<Article> getArticles() {
+        return articles;
+    }
+
+    public void setArticles(Set<Article> articles) {
+        this.articles = articles;
     }
 
     public User() {    }
