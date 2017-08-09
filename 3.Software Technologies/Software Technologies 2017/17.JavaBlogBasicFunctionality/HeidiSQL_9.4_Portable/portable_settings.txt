@@ -35,7 +35,7 @@ ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
 ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
 ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
 ColSort_MainForm.ListStatus<|||>1<|||>0,0
-ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,154
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,215
 ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
 ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
 ColSort_MainForm.ListProcesses<|||>1<|||>0,1
@@ -81,7 +81,7 @@ Servers\Database Connection\SSL_Cert<|||>1<|||>
 Servers\Database Connection\SSL_CA<|||>1<|||>
 Servers\Database Connection\SSL_Cipher<|||>1<|||>
 Servers\Database Connection\ServerVersionFull<|||>1<|||>10.1.13-MariaDB - mariadb.org binary distribution
-Servers\Database Connection\ConnectCount<|||>3<|||>10
+Servers\Database Connection\ConnectCount<|||>3<|||>11
 Servers\Database Connection\ServerVersion<|||>3<|||>100113
-Servers\Database Connection\LastConnect<|||>1<|||>2017-08-07 23:29:04
+Servers\Database Connection\LastConnect<|||>1<|||>2017-08-09 12:45:39
 Servers\Database Connection\lastUsedDB<|||>1<|||>java_blog
