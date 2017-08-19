@@ -8,6 +8,7 @@
 
 
 1. Importvame si proekta v IntelliJ kato selektirame MAVEN
+VAJNO E DA MU DADEM SUSHTOTO IME ZASHTOTO SHTE NI DADE GREHKA !!!!!!!!!!
 
 2. Chrez Shift dva puti vijdame kude trqbva da rabotim
 

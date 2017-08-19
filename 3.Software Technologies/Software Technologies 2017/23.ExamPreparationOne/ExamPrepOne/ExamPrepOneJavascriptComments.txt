@@ -53,9 +53,45 @@ mongoose.exports = Task;
 
 
 
+VAJNOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+9.1 OTIVAME V ROBOMONGO I SI PRAVIM BAZATA AKO Q NQMA:
+Dqsno na MyConnections, Create Database , NO TRQBVA DA DADEM TOCHNOTO IME.
+IMETO GO VZIMAME OT SKELETA, KATO OTIDEM NA config.js NA connectionString VIJDAME:
+connectionString: 'mongodb://localhost:27017/teistermask'
+
+VZIMAME POSLEDNOTO KOETO E teistermask I TOVA NI E IMETO NA BAZATA !!!!!!!!!!!!!
+
+
+
+VAJNOOOOOOOOOOOOOOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!
+9.2 Insertvame v bazata taskove chrez robomongo : DAVAME DQSNO KOPCHE NA KOLEKCIQTA I KLIKVAME Insert Document.
+I PISHEM PRIMERNO:
+ title: "TaskOne",
+ status: "Open"
+I KLIKVAME Save BUTONA
+
+
+9.3 Davame F5 koeto e refresh na bazata za da vidim dali vsicho e ok !
+
+
 10. Zapochvame rabota v kontrollera, imame poveche todo-ta zashtoto imame get i set metodi
 
-10.1 PUSKAME SI PROETA SUS PLAY BUTONCHE I AKO IZPISHE MongoDB readi! ZNACHI VSICHKO E OK
+
+VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!
+10.1 Pravim si konfiguraciq za da si pusnem proekta: 
+Davame na EditConfigurations, Zelenoto Plusche, Dobavqme Node.js, Davame mu ime,
+POD NODE INTERRETER posochvame kude nie node.exe faila
+POD WORKING DIRECTORY posochvame papkata na nashiq proekt
+POD JAVASCRIPT FILE pishem bin/www 
+
+!!!!!
+AKO PORTA NI E ZAET I SE NALOJI DA SMENIM PORTA: OTVORQME SI FAILA www SUS NOTEPAD SI PISHE NA KOI PORT VURVI PROEKTA, PROSTO GO PROMENQME !!!!!!!!!!!!!!!!
+
+VAJNOOOOOOOOOOOOO   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    :
+10.2 PUSKAME SI PROETA SUS PLAY BUTONCHE I AKO IZPISHE MongoDB readi! ZNACHI VSICHKO E OK, MOJEM DA GO ZAPALIM I OT KONZOLATA KATO NAPISHEM 'npm start' !!!!!!!!!
+DAJE AKO IMAME GRESHKA NI Q PISHE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+SPIRA SE SUS CTRL + C !!!!!!!!!!!!!!!!!!
+
 
 11. pravim si index metoda:
 index: (req, res) => {
@@ -93,8 +129,8 @@ createPost: (req, res) => {
 		{
 			//Ako title ili comments sa prazni, vrushtame usera kum create stranivcata
 			res.redirect('/create');
-            return;
-        }
+            		return;
+        	}
 
 		//Ako taska nqma prazni poleta
 		// ZAPISVAME GO V BAZATA:
@@ -102,6 +138,7 @@ createPost: (req, res) => {
 		Task.create(task).then(task => {
 			res.redirect('/');
 		})
+
 
 
 	},
@@ -169,6 +206,8 @@ deletePost: (req, res) => {
 
 	}
 
+
+16.1 AKO IMAME EDIT METODI SI GI PRAVIM I TEH:
 
 
 
