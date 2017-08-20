@@ -39,8 +39,12 @@ We add 'title'(in our case) and press enter, then we specify the type: OR JUST P
 7.4 Fill in the information for the properties you want the model to have
 GLEDAI OT LABA !!!!      VIJDAME CHE V PAPKATA Entity IMAME MODEL Task SUS VSICHKO VECHE GENERIRANO VUTRE.
 
+
+
+VAJNOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!!!!
 7.5 Updatevame bazata za da mojem da vidim tova koeto sme generirali: PISHEM V TERMINALA: php bin/console doctrine:schema:update --force
     Sega v HeidySQL mojem da vidim kakvo sme napravili !!!
+
 
 8. Create the form in Form folder, TaskType File WATCH FROM OLDER PROJECTS !!! ILI IZTRIVAME FAILA I SI PRAVIM NOV CHREZ TERMINALA !
 We type:    php bin/console doctrine:generate:form AppBundle:Task                 NAKRAZ KAZVAME ZA KOI MODEL NI E TAZI FORMA !!!!!
