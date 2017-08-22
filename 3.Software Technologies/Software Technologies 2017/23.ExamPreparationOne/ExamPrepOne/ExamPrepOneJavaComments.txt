@@ -6,7 +6,9 @@
 !!!!!. Smeni im imenata takache da nqma " " v tqh inache moje da dava greshki
 
 
-
+0.Puskame si xampp na nego vkluchvame MySQL servera koito vurvi na 3306 i si otvarqme heidySQL
+za da si gledame bazata.
+	
 1. Importvame si proekta v IntelliJ kato selektirame MAVEN
 VAJNO E DA MU DADEM SUSHTOTO IME ZASHTOTO SHTE NI DADE GREHKA !!!!!!!!!!
 
@@ -14,6 +16,7 @@ VAJNO E DA MU DADEM SUSHTOTO IME ZASHTOTO SHTE NI DADE GREHKA !!!!!!!!!!
 
 3. Zapochvame ot Entity modela ZNAEM CHE TRQBVA DA E OT TIP string I DA E required
 
+    // ZA ID-to NIKOGA NE IZPOLZVAI int, VINAGI Integer ZASHTOTO TAKA PRAVIM REFERENCIQ
 
 @Entity
 @Table(name = "tasks")

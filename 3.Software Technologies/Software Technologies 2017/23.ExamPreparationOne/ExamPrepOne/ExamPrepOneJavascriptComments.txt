@@ -16,7 +16,7 @@ MNOGO VAJNO !!!!!: NE SELEKTIRAI NISHTO V KONZOLNOTO PROZORCHE INACHE SHTE SPRE 
 
 3. Otvarqme si konzola tam kudeto ni e JS proekta, MOJE DA E GITBASH 
 
-4. Pishem npm install za da ni instalira vsichki dependencita koito sa ni nujni
+4. Pishem "npm install" za da ni instalira vsichki dependencita koito sa ni nujni
 
 5. Otvarqme webStorm i otvarqme si JS skeleta I AKO IMAME PAPKA node_modules ZNCHI VSICHKO E OK
 
@@ -65,6 +65,7 @@ VZIMAME POSLEDNOTO KOETO E teistermask I TOVA NI E IMETO NA BAZATA !!!!!!!!!!!!!
 
 VAJNOOOOOOOOOOOOOOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!
 9.2 Insertvame v bazata taskove chrez robomongo : DAVAME DQSNO KOPCHE NA KOLEKCIQTA I KLIKVAME Insert Document.
+
 I PISHEM PRIMERNO:
  title: "TaskOne",
  status: "Open"

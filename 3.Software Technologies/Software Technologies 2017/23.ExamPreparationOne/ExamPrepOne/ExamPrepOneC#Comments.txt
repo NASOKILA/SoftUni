@@ -8,9 +8,15 @@
 
 1. Otivame v C# skeleta i si go otvarqme ot tam chrez visual studio
 
+1.1 Otivame na Package Manager Console i ni pita dali iskame da estornem vsichki paketi,
+KLIKVAME RESTORE.
+
+MNOOOOOOGOOO VAJNOOOOOOOOOOOOO ! ! !!!! ! !!! 
+1.2 Otivame na References i cukvame na malkata strelkichka ot lqvo, Otvarqt ni se mnogo neshto s WARNING ZNAK NA TQH, PROSTO POSOCHVAME NA EDNOTO OT TQH BEZ DA PRAVIM NISHTO I ZNAKUT REQBVA DA IZCHEZNE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 2. Kato zaredi proekta natiskame CTRL + SHIFT + B za da ni instalira nutget paketite
 
-3. V solution explorera klikvame dqsnoto kopche na proekta(TOVA KOETO IMA ZELENO TOPCHE NA NEGO) i posle properties/web/ i ot dolo na projectUrl mu davame http://localhost:8000/ I CUKUME NA BUTONA Create Virtual Directory 
+3. V solution explorera klikvame dqsnoto kopche na proekta(TOVA KOETO IMA ZELENO TOPCHE NA NEGO) i posle properties/web/ i ot dolo na projectUrl mu davame http://localhost:8000/ I KO GO NQMA.      CUKUME NA BUTONA Create Virtual Directory i sme gotovi
 
 4. Zapochvame ot modela
 polzvame shortkuta prop + TAB + TAB za da si napravim propertitata
