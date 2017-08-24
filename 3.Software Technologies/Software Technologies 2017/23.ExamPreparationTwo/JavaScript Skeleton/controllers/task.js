@@ -27,24 +27,18 @@ module.exports = {
 		});
 
 		/*
-		* Ima po lesen nachin :
-		*
-		*
-		* index: (req, res) => {
-		*
-		* Task.findAll().then( tasks => {
-		*
-		* res.render('task/index', {
-		*
-		* 'openTasks': tasks.filter(t => t.status == "Open"),
-		* 'inProgressTasks': tasks.filter(t => t.status === "In Progress",
-		* 'finishedTasks': tasks.filter(t => t.status === "Finished",
-		*
-		* });
-		*
-		* }
-		*
-		* */
+		 Ima po lesen nachin :
+
+
+		  Task.find().then( tasks => {
+		      res.render('task/index', {
+		         'openTasks': tasks.filter(t => t.status === "Open"),
+		         'inProgressTasks': tasks.filter(t => t.status === "In Progress"),
+		         'finishedTasks': tasks.filter(t => t.status === "Finished")
+		      });
+		  });
+
+		 */
 
 	},
 
