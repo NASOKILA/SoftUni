@@ -12,7 +12,7 @@
 KLIKVAME RESTORE.
 
 MNOOOOOOGOOO VAJNOOOOOOOOOOOOO ! ! !!!! ! !!! 
-1.2 Otivame na References i cukvame na malkata strelkichka ot lqvo, Otvarqt ni se mnogo neshto s WARNING ZNAK NA TQH, PROSTO POSOCHVAME NA EDNOTO OT TQH BEZ DA PRAVIM NISHTO I ZNAKUT REQBVA DA IZCHEZNE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+1.2 Otivame na References i cukvame na malkata strelkichka ot lqvo, Otvarqt ni se mnogo neshta s WARNING ZNAK NA TQH, PROSTO POSOCHVAME NA EDNOTO OT TQH BEZ DA PRAVIM NISHTO I ZNACITE REQBVA DA IZCHEZNAT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 2. Kato zaredi proekta natiskame CTRL + SHIFT + B za da ni instalira nutget paketite
 

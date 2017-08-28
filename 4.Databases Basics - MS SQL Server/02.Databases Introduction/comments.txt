@@ -56,7 +56,7 @@ Kato izprashtame zaqvki nie gi izprashtame kum INSTANCE
 Data files and Logs Files !!!!!
 Data dailovete sudurjat dannite t.e. samata informaciq.
 Logs failovete sudurjat informaciq za tranzakciite, TRANZAKCIITE SA DOBUR NACHIN DA SE OSUGURI ZDAVINA NA BAZATA.
-DOKATO SERVERA RABOTI TOI SI ZAPISVA PROMENITE V LOGS FAILOVETE I POSLE KOGATO TRANZAKCIITE PRIKLUCHAT GI METI V DATA FAILOVETE.
+DOKATO SERVERA RABOTI TOI SI ZAPISVA PROMENITE V LOGS FAILOVETE I POSLE KOGATO TRANZAKCIITE PRIKLUCHAT GI MESTI V DATA FAILOVETE.
 
 Vutre v data i logs failovete informaciqta e podredena i zarpredelena na stranici!
 
