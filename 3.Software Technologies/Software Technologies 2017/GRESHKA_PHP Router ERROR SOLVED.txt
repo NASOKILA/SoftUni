@@ -1,0 +1,1 @@
+You are using Windows and antivirus app is messing with symfony router.php file something i run into all the time when i am on windows, remove the vendor directory and then run composer install AFTER disabling your antivirus and all will run fine. I have to go through this problem several times in a week when i am on windows.

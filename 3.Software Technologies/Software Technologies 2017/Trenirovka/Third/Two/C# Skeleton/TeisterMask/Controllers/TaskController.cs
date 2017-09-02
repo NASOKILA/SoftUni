@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 using TeisterMask.Models;
@@ -12,14 +13,18 @@ namespace TeisterMask.Controllers
             [Route("")]
 	    public ActionResult Index()
 	    {
-		    // TODO: Implement me...
+            using (var db = new TeisterMaskDbContext())
+            {
+                List<Task> tasks = db.Tasks.ToList();
+                return View(tasks);
+            }
 		}
 
         [HttpGet]
         [Route("create")]
         public ActionResult Create()
 		{
-		    // TODO: Implement me...
+            return View();
 		}
 
 		[HttpPost]
@@ -27,14 +32,40 @@ namespace TeisterMask.Controllers
         [ValidateAntiForgeryToken]
 		public ActionResult Create(Task task)
 		{
-			// TODO: Implement me...
+            if (ModelState.IsValid)
+            {
+                using (var db = new TeisterMaskDbContext())
+                {
+                    if (task.Title.Equals("") || task.Status.Equals(""))
+                    {
+                        return View(task);
+                    }
+
+                    db.Tasks.Add(task);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+            }
+
+            return View(task);
         }
 
 		[HttpGet]
 		[Route("edit/{id}")]
         public ActionResult Edit(int id)
 		{
-			// TODO: Implement me...
+            using (var db = new TeisterMaskDbContext())
+            {
+                Task task = db.Tasks.Find(id);
+
+                if (task == null)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                return View(task);
+            }
+
         }
 
 		[HttpPost]
@@ -42,7 +73,34 @@ namespace TeisterMask.Controllers
         [ValidateAntiForgeryToken]
 		public ActionResult EditConfirm(int id, Task taskModel)
 		{
-			// TODO: Implement me...
-		}
+            if (ModelState.IsValid)
+            {
+                using (var db = new TeisterMaskDbContext())
+                {
+                    Task task = db.Tasks.Find(id);
+
+                    if (task == null)
+                    {
+                        return View(task);
+                    }
+
+                    task.Title = taskModel.Title;
+                    task.Status = taskModel.Status;
+
+                    if (task.Title.Equals("") || task.Status.Equals(""))
+                    {
+                        return View(task);
+                    }
+
+                    db.SaveChanges();
+
+                    return RedirectToAction("Index");
+                   
+                }
+            }
+
+            return RedirectToAction("Edit");
+
+        }
 	}
 }

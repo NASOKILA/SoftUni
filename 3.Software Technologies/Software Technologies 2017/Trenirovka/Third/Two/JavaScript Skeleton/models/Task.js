@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 let taskSchema = mongoose.Schema({
-	// TODO: Implement me...
+	title: {type: String, required: true},
+    status: {type: String, required: true}
 });
 
 let Task = mongoose.model('Task', taskSchema);

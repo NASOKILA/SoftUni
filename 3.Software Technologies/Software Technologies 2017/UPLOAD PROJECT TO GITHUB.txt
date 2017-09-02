@@ -1,4 +1,4 @@
-delete folder vs(is for users) and packages(contains nutget packages).
+ZA C#: delete folder vs(is for users) and packages(contains nutget packages).
 Visual studio downloads the nutget packages automaticalli
 
 V papkata na nasheto prilojenie imame papkite:

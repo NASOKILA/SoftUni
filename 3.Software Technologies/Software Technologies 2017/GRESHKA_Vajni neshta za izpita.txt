@@ -1,0 +1,9 @@
+
+pri Java gledai da sa ti edni i sushti propertitata na model i na binding modela,
+po dobre da sa s malki bukvi.
+
+V javascripta gledai na mesta nachina po koito se podavat danni kum viwto, ponqkoga ne e {task:task}  a e prosto task
+
+
+v php ne zabravqi php bin/console doctrine:schema:update --force
+

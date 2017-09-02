@@ -17,7 +17,18 @@ class TaskController extends Controller
      */
     public function index(Request $request)
     {
-       // TODO: Implement me...
+        $tasksRepo = $this->getDoctrine()->getRepository(Task::class);
+
+        $openTasks = $tasksRepo->findBy(['status' => 'Open']);
+        $inProgressTasks = $tasksRepo->findBy(['status' => 'In Progress']);
+        $finishedTasks = $tasksRepo->findBy(['status' => 'Finished']);
+
+        return $this->render('task/index.html.twig',
+            [
+                'openTasks' => $openTasks,
+                'inProgressTasks' => $inProgressTasks,
+                'finishedTasks' => $finishedTasks
+            ]);
     }
 
     /**
@@ -27,7 +38,25 @@ class TaskController extends Controller
      */
     public function create(Request $request)
     {
-        // TODO: Implement me...
+        $task = new Task();
+        $form = $this->createForm(TaskType::class, $task);
+        $form->handleRequest($request);
+
+        if($form->isSubmitted() || $form->isValid())
+        {
+            if($task->getTitle() == null || $task->getStatus() == null)
+            {
+                return $this->render('task/create.html.twig', ['form' => $form->createView()]);
+            }
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($task);
+            $em->flush();
+
+            return $this->redirect("/");
+        }
+
+        return $this->render('task/create.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -39,6 +68,34 @@ class TaskController extends Controller
      */
     public function edit($id, Request $request)
     {
-       // TODO: Implement me...
+        $task = $this->getDoctrine()->getRepository(Task::class)->find($id);
+        $form = $this->createForm(TaskType::class, $task);
+        $form->handleRequest($request);
+
+
+        if($form->isSubmitted() || $form->isValid())
+        {
+            if($task->getTitle() == null || $task->getStatus() == null)
+            {
+                return $this->render('task/edit.html.twig',
+                    [
+                        'task' => $task,
+                        'form' => $form->createView()
+                    ]);
+
+            }
+
+            $em = $this->getDoctrine()->getManager();
+            $em->merge($task);
+            $em->flush();
+
+            return $this->redirect("/");
+        }
+
+        return $this->render('task/edit.html.twig',
+            [
+            'task' => $task,
+            'form' => $form->createView()
+            ]);
     }
 }
