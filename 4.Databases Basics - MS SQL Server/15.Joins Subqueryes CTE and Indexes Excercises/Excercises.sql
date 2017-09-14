@@ -252,15 +252,41 @@ ORDER BY c.CountryName;
 --Find all continents and their most used currency
 
 --1. find most used currency for one Continent
-select 
-c.ContinentCode 
-from Countries As c
-Where (c.ContinentCode = 'AF')
 
+	
 
+	select 
+		usages.ContinentCode, 
+		usages.CurrencyCode, 
+		usages.Usage AS CurrencyUsage 
+	from
+	(
+		select 
+		c.ContinentCode, c.CurrencyCode, COUnt(*) AS Usage
+		from Countries AS c
+		group by c.ContinentCode, c.CurrencyCode
+		having count(*) > 1
+	) AS usages
+	JOIN 
+	(
+		select Usages.ContinentCode, MAX(Usages.Usage) AS maxUsed from
+		(
+			select 
+			c.ContinentCode, c.CurrencyCode, COUnt(*) AS Usage
+			from Countries AS c
+			group by c.ContinentCode, c.CurrencyCode
+		) AS usages 
+		GROUP BY Usages.ContinentCode
+	) AS maxUsages
+	ON  usages.ContinentCode = maxUsages.ContinentCode 
+	AND usages.Usage = maxUsages.maxUsed
+	ORDER BY usages.ContinentCode;
 
+	--NAPRAVIHME VE ZAQVKI I GI JOINAHME za da selektirme tovakoeto ni trqbva
 
-select * from Continents
+	--VTOROTO RESHENIE e S DENSE_RANK() koeto sortira po counta na 
+	--valutite kato dobavim partition continenCode
+
 
 --16.Countries without any Mountains
 
@@ -280,24 +306,24 @@ from Countries AS cc
 
 --17. Highest Peak and Longest River by Country
 
-
 select top 5
 	c.CountryName,
 	MAX(p.Elevation) AS HiestPeakElevation,
 	MAX(r.Length) AS LongestRiverLength 
 from Countries AS c
-	FULL JOIN MountainsCountries AS mc
+	LEFT JOIN MountainsCountries AS mc
 	ON c.CountryCode = mc.CountryCode
-	FULL JOIN Mountains AS m
+	LEFT JOIN Mountains AS m
 	ON m.Id = mc.MountainId
-	FULL JOIN Peaks AS p
+	LEFT JOIN Peaks AS p
 	ON p.MountainId = m.Id
-	FULL JOIN CountriesRivers AS cr
+	LEFT JOIN CountriesRivers AS cr
 	ON cr.CountryCode = c.CountryCode
-	FULL JOIN Rivers AS r
+	LEFT JOIN Rivers AS r
 	ON r.Id = cr.RiverId
 GROUP BY c.CountryName
 ORDER BY HiestPeakElevation DESC, LongestRiverLength DESC, c.CountryName
 
---STAVA I NAVSQKUDE S LEFT JOIN 
+--Mountains JOINa mojme i da go mahnem
+--STAVA I NAVSQKUDE S FULL JOIN 
 
