@@ -5,8 +5,10 @@
 
     </head>
     <body>
+
         <form>
             N: <input type="text" name="num" />
+
             <input type ="submit" />
             <br/>
 
@@ -19,6 +21,8 @@
             $result = $n * 2;
             echo $result;
             ?>
+
         </form>
+
     </body>
 </html>

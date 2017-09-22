@@ -16,15 +16,14 @@
             $n = intval($_GET['num']);
         }
 
+
         for ($i = 1; $i <= $n;$i++)
         {
-            echo " ". $i;
+           echo ' '.$i;
         }
     ?>
 
 </form>
-
-
 
 </body>
 </html>

@@ -49,7 +49,7 @@
 		--Hvurlqme greshka
 
 		ROLLBACK
-		RAISERROE('Invalid account!', 16, 1)
+		RAISERROR('Invalid account!', 16, 1)
 		RETURN
 	END
 	

@@ -9,51 +9,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="16.DrawAnSWithButtons.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16.DrawAnSWithButtons.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="714">
               <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-              <folding>
-                <marker date="1491874494628" expanded="true" signature="184:207" ph="..." />
-                <marker date="1491874494628" expanded="true" signature="298:321" ph="..." />
-                <marker date="1491874494628" expanded="true" signature="482:505" ph="..." />
-                <marker date="1491874494628" expanded="true" signature="672:695" ph="..." />
-                <marker date="1491874494628" expanded="true" signature="781:804" ph="..." />
-                <marker date="1491874494628" expanded="true" signature="1285:1307" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17.RGB_Table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17.RGB_Table.php">
+      <file leaf-file-name="5.NumbersFromOneToN.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.NumbersFromOneToN.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1491876478154" expanded="true" signature="547:579" ph="..." />
-                <marker date="1491876478154" expanded="true" signature="581:589" ph="..." />
-                <marker date="1491876478154" expanded="true" signature="624:656" ph="..." />
-                <marker date="1491876478154" expanded="true" signature="692:743" ph="..." />
-                <marker date="1491876478154" expanded="true" signature="701:733" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18.FiftyShadesOfGrey.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/18.FiftyShadesOfGrey.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <marker date="1491948005011" expanded="true" signature="165:204" ph="..." />
-                <marker date="1491948005011" expanded="true" signature="165:205" ph="..." />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,12 +34,9 @@
       <file leaf-file-name="15.SubLists.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15.SubLists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <marker date="1491873495053" expanded="true" signature="443:481" ph="..." />
-                <marker date="1491873495053" expanded="true" signature="490:551" ph="..." />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,7 +60,7 @@
       <list>
         <option value="$PROJECT_DIR$/PHPSyntaxBasicWebExercices.html" />
         <option value="$PROJECT_DIR$/fyjkdfyuku" />
-        <option value="$USER_HOME$/Desktop/PHP Syntax  Basic Web/index.php" />
+        <option value="$PROJECT_DIR$/../../../PHP Syntax  Basic Web/index.php" />
         <option value="$PROJECT_DIR$/MultiplyTwoNumbers.html" />
         <option value="$PROJECT_DIR$/MultiplyNumberByTwo.php" />
         <option value="$PROJECT_DIR$/MultiplyDivideNumbers.php" />
@@ -108,7 +78,6 @@
         <option value="$PROJECT_DIR$/10.NotDivisoreNumbers.php" />
         <option value="$PROJECT_DIR$/11.FibonacciSequence.php" />
         <option value="$PROJECT_DIR$/4.ProductOf3Numbers.php" />
-        <option value="$PROJECT_DIR$/5.NumbersFromOneToN.php" />
         <option value="$PROJECT_DIR$/12.TribonacciSequence.php" />
         <option value="$USER_HOME$/Downloads/13.%09Prime Numbers from N to 1 _Скелет.php" />
         <option value="$PROJECT_DIR$/13PrimeNumbersFromNtoOne.php" />
@@ -117,6 +86,9 @@
         <option value="$PROJECT_DIR$/16.DrawAnSWithButtons.php" />
         <option value="$PROJECT_DIR$/17.RGB_Table.php" />
         <option value="$PROJECT_DIR$/18.FiftyShadesOfGrey.php" />
+        <option value="$PROJECT_DIR$/1.MultiplyNumberByTwo.php" />
+        <option value="$PROJECT_DIR$/2.MultiplyTwoNumbers.php" />
+        <option value="$PROJECT_DIR$/5.NumbersFromOneToN.php" />
       </list>
     </option>
   </component>
@@ -126,8 +98,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="589" />
     <option name="y" value="126" />
     <option name="width" value="802" />
@@ -148,27 +120,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPSyntaxBasicWebExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPSyntaxBasicWebExercise" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="04.PHPSyntaxBasicWebLessonAndExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04.PHPSyntaxBasicWebLessonAndExercise" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -184,21 +153,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.18.FiftyShadesOfGrey.php">
-    <configuration default="false" name="14.HTMLButtons.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/14.HTMLButtons.php">
-      <method />
-    </configuration>
-    <configuration default="false" name="15.SubLists.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/15.SubLists.php">
-      <method />
-    </configuration>
-    <configuration default="false" name="16.DrawAnSWithButtons.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/16.DrawAnSWithButtons.php">
-      <method />
-    </configuration>
-    <configuration default="false" name="17.RGB_Table.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/17.RGB_Table.php">
-      <method />
-    </configuration>
-    <configuration default="false" name="18.FiftyShadesOfGrey.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/18.FiftyShadesOfGrey.php">
-      <method />
+  <component name="RunManager" selected="JavaScript Debug.5.NumbersFromOneToN.php">
+    <configuration name="17.RGB_Table.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/17.RGB_Table.php" />
+    <configuration name="18.FiftyShadesOfGrey.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHPSyntaxBasicWebExercise/18.FiftyShadesOfGrey.php" />
+    <configuration name="1.MultiplyNumberByTwo.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/04.PHPSyntaxBasicWebLessonAndExercise/1.MultiplyNumberByTwo.php" />
+    <configuration name="2.MultiplyTwoNumbers.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/04.PHPSyntaxBasicWebLessonAndExercise/2.MultiplyTwoNumbers.php" />
+    <configuration name="5.NumbersFromOneToN.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/04.PHPSyntaxBasicWebLessonAndExercise/5.NumbersFromOneToN.php" />
+    <configuration name="Trenirovka" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" port="1234" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
@@ -241,15 +209,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -270,24 +229,21 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="Trenirovka" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" port="1234">
-      <method />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Trenirovka" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.14.HTMLButtons.php" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.15.SubLists.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.16.DrawAnSWithButtons.php" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.17.RGB_Table.php" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.18.FiftyShadesOfGrey.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.17.RGB_Table.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.18.FiftyShadesOfGrey.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1.MultiplyNumberByTwo.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2.MultiplyTwoNumbers.php" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.5.NumbersFromOneToN.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.18.FiftyShadesOfGrey.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.17.RGB_Table.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.16.DrawAnSWithButtons.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.15.SubLists.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.14.HTMLButtons.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.5.NumbersFromOneToN.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2.MultiplyTwoNumbers.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1.MultiplyNumberByTwo.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.18.FiftyShadesOfGrey.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.17.RGB_Table.php" />
       </list>
     </recent_temporary>
   </component>
@@ -303,27 +259,27 @@
       <updated>1491768827065</updated>
       <workItem from="1491768828340" duration="4869000" />
       <workItem from="1491773917853" duration="20163000" />
+      <workItem from="1506030078888" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25140000" />
+    <option name="totallyTimeSpent" value="27527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="589" y="126" width="802" height="675" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07379135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -334,7 +290,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -344,6 +300,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/16.DrawAnSWithButtons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17.RGB_Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.FiftyShadesOfGrey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1503436279850" expanded="true" signature="165:205" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.SubLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MultiplyNumberBy2.php" />
     <entry file="file://$PROJECT_DIR$/MultiplyNumberBy2.php" />
     <entry file="file://$PROJECT_DIR$/fyjkdfyuku" />
@@ -387,22 +377,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/PHP Syntax  Basic Web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="543" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../PHP Syntax  Basic Web/index.php" />
     <entry file="file://$PROJECT_DIR$/LESSION.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="537" column="7" lean-forward="true" selection-start-line="537" selection-start-column="7" selection-end-line="537" selection-end-column="7" />
-          <folding>
-            <marker date="1491773621645" expanded="true" signature="3758:3765" ph="..." />
-            <marker date="1491773621645" expanded="false" signature="4192:4288" ph="..." />
-            <marker date="1491773621645" expanded="true" signature="4289:4394" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,14 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.MultiplyTwoNumbers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.MultiplyDivideNumbers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -433,22 +405,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/PHP Syntax  Basic Web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="543" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../PHP Syntax  Basic Web/index.php" />
     <entry file="file://$PROJECT_DIR$/LESSION.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="412" column="0" lean-forward="true" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
-          <folding>
-            <marker date="1491773621645" expanded="true" signature="3758:3765" ph="..." />
-            <marker date="1491773621645" expanded="false" signature="4192:4288" ph="..." />
-            <marker date="1491773621645" expanded="true" signature="4289:4394" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,22 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.NumbersFromOneToN.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.MultiplyNumberByTwo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7.EvenNumbersFromOneToN.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -532,14 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/13.%09Prime Numbers from N to 1 _Скелет.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/13.%09Prime Numbers from N to 1 _Скелет.php" />
     <entry file="file://$PROJECT_DIR$/13PrimeNumbersFromNtoOne.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -558,52 +497,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/15.SubLists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <marker date="1491873495053" expanded="true" signature="443:481" ph="..." />
-            <marker date="1491873495053" expanded="true" signature="490:551" ph="..." />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16.DrawAnSWithButtons.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="714">
           <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <marker date="1491874494628" expanded="true" signature="184:207" ph="..." />
-            <marker date="1491874494628" expanded="true" signature="298:321" ph="..." />
-            <marker date="1491874494628" expanded="true" signature="482:505" ph="..." />
-            <marker date="1491874494628" expanded="true" signature="672:695" ph="..." />
-            <marker date="1491874494628" expanded="true" signature="781:804" ph="..." />
-            <marker date="1491874494628" expanded="true" signature="1285:1307" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/17.RGB_Table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1491876478154" expanded="true" signature="547:579" ph="..." />
-            <marker date="1491876478154" expanded="true" signature="581:589" ph="..." />
-            <marker date="1491876478154" expanded="true" signature="624:656" ph="..." />
-            <marker date="1491876478154" expanded="true" signature="692:743" ph="..." />
-            <marker date="1491876478154" expanded="true" signature="701:733" ph="..." />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/18.FiftyShadesOfGrey.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <marker date="1491948005011" expanded="true" signature="165:204" ph="..." />
-            <marker date="1491948005011" expanded="true" signature="165:205" ph="..." />
+            <marker date="1503436279850" expanded="true" signature="165:205" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.MultiplyNumberByTwo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.MultiplyTwoNumbers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.NumbersFromOneToN.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

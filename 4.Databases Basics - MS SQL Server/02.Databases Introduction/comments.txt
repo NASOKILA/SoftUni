@@ -6,6 +6,12 @@ Dannite mogat da se text, chisla, dati, json i oshte.
 
 
 
+
+NERELACIONNATA BAZA DANNI E MongoDB KOQTO DURJI DANNITE POD FORMA NA JSON OBEKTI.
+
+
+
+
 Za skladirane na danni stava slojno kato dannite stanat prealeno mnogo
 Kolko lesno se poddurjat tezi tablici i kak da turim v tqh.
 

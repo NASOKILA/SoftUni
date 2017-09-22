@@ -9,6 +9,7 @@
     <form>
             N: <input type="text" name="num1"/>
             M: <input type="text" name="num2"/>
+
             <input type="submit" value="Send">
 
             <?php

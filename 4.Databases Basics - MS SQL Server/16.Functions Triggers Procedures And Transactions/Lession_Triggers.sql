@@ -72,7 +72,7 @@ Where TownID = 1;
 	Toi direktno zamenq cqlata operaciq:
 */
 
---Kogat oiztriem daden da dobavim nov s ime 'NewTown'
+--Kogato iztriem daden grad da dobavim nov s ime 'NewTown'
 CREATE TRIGGER tr_TownsDelete ON Towns 
 INSTEAD OF DELETE
 AS
@@ -93,6 +93,35 @@ ROLLBACK;
 
 
 
+/*
+Trigerite sa ok samoche na momenti zabravqme che gi ima i nqma da znaem zashto bazata
+pravi dadeni neshta.
+NE E PREPORUCHITELNO DA SE POLZVA MNOGO I DA SE PISHE SLOJNA LOGIKA ZASHTOTO TE 
+OPERIRAT NEVIDIMO OT NAS I PONQKOGA E TRUDNO DA RABEREM POVEDENIETO NA 
+DADENA TABLICA.
+
+ZA POVECHETO NESHTA E PO DOBRE DA POLZVAME PROCEDURI I FUNKCII !!!!!!!!
+*/
+
+
+/*
+	Procedurata e seria ot operacii kato delete, insert, update, select i dr 
+	koqto iskame da vikame ot mnogo mesta mnogo puti.
+
+	Funkciqta priema parametri i vrushta rezultat, mojem da q slojim v select statement
+	dokato procedurata ne mojem.
+	
+	Obache procedurata moje da vika funkcii !!!
+
+	Trigera sushto moje da vika proceduri i funkcii.
+	
+	PO DOBRE DA POLZVAME PROCEDURI OTKOLKOTO TRIGERI.
+
+	Transakciq e dobre da se polzva za testvane, vuv vseki sluchai kogato moje neshto da 
+	se oburka e hubavo da polzvame ROLLBACK v Tranzakciq.
+	Polzvat se i kogato pishem dve ili poveche zaqvki na vednuj zashtoto mejdu tqh
+	moje da stane neshto i samo ednata da se izpulni.
+*/
 
 
 
