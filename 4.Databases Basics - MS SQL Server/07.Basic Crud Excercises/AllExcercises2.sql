@@ -134,7 +134,6 @@ RESTORE DATABASE SoftUni
 FROM DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER2\MSSQL\Backup\SoftUni.bak';
 
 
-
 --22. All Mountain Peaks
 --use Geography
 SELECT 
@@ -143,10 +142,9 @@ FROM Peaks AS p
 ORDER BY PeakName ASC
 
 
-
 --23. Biggest Countries by Population
 SELECT TOP (30)
-	CountryName, Population
+	CountryName, [Population]
 FROM Countries
 WHERE ContinentCode = 'EU'
 ORDER BY Population DESC, CountryName ASC

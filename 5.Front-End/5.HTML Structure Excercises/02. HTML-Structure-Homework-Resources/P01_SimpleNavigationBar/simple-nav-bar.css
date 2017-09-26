@@ -2,28 +2,28 @@
 
 body
 {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; /*Tova e stilut na texta !*/
 }
 
 
 ul
 {
     padding: 0;
-    height: 40px;
-    line-height: 30px;
+    height: 40px; /*Visochina na spisuka*/
+    line-height: 30px; /*Tova oznachava kude e samiq text v blokcheto.*/
     background-color: #84b3ad;
 }
 
 li
 {
     width: 100px;
-    margin: 0 5px;
-    padding: 5px 0;
-    cursor: pointer;
-    color: #ffffff;
-    text-align: center;
+    margin: 0 5px; /*Ot gore i ot dolo shte ima 0 margin a ot strani 5px*/
+    padding: 5px 0; /*Tuk Ot gore i ot dolo shte ima 5px margin a ot strani 0px*/
+    cursor: pointer; /*Ozn kato posochim mishkata ni stava na ruchichka, tova e cursor*/
+    color: #ffffff; /*cvqt nateksta*/
+    text-align: center; /*centrirame texta*/
 
-    display: inline-block;
+    display: inline-block; /*ozn da sa edno do drugo vmesto edno pod drugo.*/
 }
 
 li,a
@@ -32,7 +32,7 @@ li,a
     color: #ffffff;
 }
 
-li:hover
+li:hover /*Kakvo da se sluchi kato posochim mishkata vurhu li-to.*/
 {
     background-color: #135e3e;
     padding: 5px 0;

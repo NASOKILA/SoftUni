@@ -1,12 +1,19 @@
 
 
+*
+{ /*Mahame vsqkukvi avtomatichni paddingi i margini*/
+    margin: 0;
+    padding: 0;
+}
 
 
+/*slagame table, th, td da imat border po 1 pixel*/
 table, th, td
 {
     border: 1px solid #c6c7cc;
 }
 
+/*Slagame i m padding da ne sa mnogo zalepeni edno do drugo*/
 th, td
 {
     padding: 7px;
@@ -15,17 +22,14 @@ th, td
 table
 {
     border-collapse: collapse;
+    /*Tova e za da sa edna do druga kletkite,
+    t.e. da nqma razstoqnie mejdu tqh*/
 }
 
+/*slagame texta da e v centura na kletkata.*/
 thead>tr>th
 {
     text-align: center;
-}
-
-*
-{
-    margin: 0;
-    padding: 0;
 }
 
 

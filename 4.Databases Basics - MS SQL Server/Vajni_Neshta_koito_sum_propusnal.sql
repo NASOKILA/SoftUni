@@ -27,4 +27,9 @@ no mojem i da napishem CREATE OR ALTER koeto ni pozvolqva i dvete
 samoche nqma da mine v judge razbirase.
 
 
+Kogato dadena tablica ne se razpoznava refreshvame cash pametts sus 
+CTRL + SHIFT  R.
+
+Kogato daena kolona ni q pokazva v sinio slagame q mejdu [] !!!
+
 */

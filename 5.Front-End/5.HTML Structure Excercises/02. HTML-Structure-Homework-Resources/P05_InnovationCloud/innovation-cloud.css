@@ -91,19 +91,22 @@ img
 }
 
 
+
+
+/*Ot tuk zapochva nashata zadacha :*/
 footer
 {
     background-color: #000000;
 }
 
-footer>p
+footer>p /*paragrafite vuv footera*/
 {
-    color: #ffffff;
-    font-size: 14px;
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
-    text-align: center;
+    color: #ffffff; /*cvqt na texta*/
+    font-size: 14px; /*goemina na texta*/
+    height: 80px; /*visochina na texta*/
+    line-height: 80px; /*poziciqta v samoto blokche, dali shte e ponagore ili poadolo !*/
+    margin: 0; /*nikakuv margin ot nikade t.e. da ne se izmestva na nikude*/
+    text-align: center; /*da e v centura*/
 }
 
 
