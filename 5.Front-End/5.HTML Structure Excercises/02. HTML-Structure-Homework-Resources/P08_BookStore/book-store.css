@@ -1,0 +1,51 @@
+
+
+
+
+table, th, td
+{
+    border: 1px solid #c6c7cc;
+}
+
+th, td
+{
+    padding: 7px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+thead>tr>th
+{
+    text-align: center;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+
+body
+{
+    font-family: "Lato", sans-serif;
+}
+
+
+ul
+{
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    background-color: #84b3ad;
+}
+
+li
+{
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+
+    display: inline-block;
+}
+
+li,a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li:hover
+{
+    background-color: #135e3e;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
