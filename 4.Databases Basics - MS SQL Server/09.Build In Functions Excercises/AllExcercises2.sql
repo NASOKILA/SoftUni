@@ -58,7 +58,8 @@ SELECT * FROM Towns AS t
 WHERE t.Name NOT LIKE 'R%' AND t.Name NOT LIKE 'B%'
 AND t.Name NOT LIKE 'D%'
 ORDER BY t.Name;
-
+--Moje i taka  ...Name LIKE '[^RDB]%'  ...
+-- sus '[RDB]%' hte seektira vsichki.
 
 --08. Create View Employees Hired After
 GO

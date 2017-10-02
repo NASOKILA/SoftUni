@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        p#header.intro{ text-decoration: underline; color: #C00;}
+        a#one:hover
+        {
+            background-color: yellow;
+            font-size: large;
+            color:red;
+        }
+
+        a#two:visited
+        {
+            background-color: blue;
+            font-size: large;
+            color:darkviolet;
+        }
+
+        a#three:active
+        {
+            background-color: red;
+            font-size: large;
+            color:orange;
+        }
+
+        /*Dobavqm neshta predi i sled tova koeto selektirame*/
+        a#four:before {  content: "\00AB\0020"  }
+        a#four:after {  content: "\0020\00BB"  }
+
+        p#p_one:first-line{ background-color: blue; }
+        p#p_one:first-letter{ background-color: red; }
+
+        tr:nth-child(2n) { background-color: red; } /* s 2n vzimame chetnite*/
+        tr:nth-child(2n+1) { background-color: green; } /* s 2n+1 vzimame NE chetnite*/
+        tr:nth-of-type(5) { background-color: blue; }
+        /* v sluchaq vzimame 5tiq element ot tr OBACHE : ako imame oshte edna tablica shteshe
+        i ot tam da vzeme 5 tiq element !!! */
+
+        /*first-of-type() { ... } vzima purviq element ot daden tip*/
+
+    </style>
+
+
+</head>
+<body>
+
+<!--edin sait moje da se schupi na edin brawser i da trugne na drug.-->
+<!--
+
+
+  /*Predi da zapochnem da rabotim trqbva da si importnem tova
+  koeto ni trqbva i da izchistim default margini i paddingi.*/
+
+  /*VAJNO !!!
+  Margina se polzva za mestene na elementi a
+  paddinga za da e po podredeno !!!*/
+
+  ZA NAPRED SHTE POLZVAME SAMO PROCENTI ZASHTOTO SHTE PRAVIM
+  RESPONSIVE SAITOVE KUDETO PRI SMALQVANE NA EKRANA AKO IMAME
+  PRIMERNO SNIMKA OT 30%, TQ SHTE SE NAMELI OBACHE AKO E 30px
+  NQMA KAK DA SE PROMENI.
+
+  ZATOVA PO DOBRE DA POLZVAME PROCENTI !!!!!!!!!!!!!!!!!!
+  OBACHE TRQBVA MNOGO DA VNIMAVAME S PADDINGITE.
+  SLAGAI BORDERI ZA PO LESNO.
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--Kak da kombinirame selektori.
+        MOJME DA IMAME KLAS I ID NA EDIN I SUSHT ELEMENT !
+        stilizirame go taka: p#header.intro { ... }
+    Purvo pishem imeto na taga, posle idto i nakraq klasa.
+    NE E PREPORUCHITELNO DA SE POLZVA NO MOJE I DA SE NALOJI.
+    -->
+    <p id="header" class="intro"> My name is Atanas.</p>
+
+
+    <!--Psevdo selektori:
+        po lesno e s tqh da selektirame i da
+        manipulirame obekti.
+
+        Primer:   :hover { ... } e kogato dadem s mishkata
+        vurhu dadeno neshto.
+
+        :visited { ... } tova e kogato primerno sme vlizali na
+        daden link i ni go dava v lilavo !!!!!!! mojem damu
+        slagame kakvoto si iskme.
+
+        :active { ... }  tova e kogato kliknem i zadurjim na dadeno
+        neshto da se promenqt dadeni stilizacii kakvito mu podadem.
+
+        :first-line { ... } mojem s tova da vzemem samo purviq red na daden
+        paragraf primerno ili drugo.
+        IMAME  first-letter { ... }, first-child { ... } KAKTO IMAME I S 'last'
+
+        ::before { ... } Tova e sus ::, s nego mojem da slagame neshta predi
+        tova koeto selektirame
+
+        ::after { ... } Tova e sus ::, s nego mojem da slagame neshta sled
+        tova koeto selektirame
+    -->
+
+    <a href="#" id="one">Link1</a>
+    <a href="#" id="two">Link2</a>
+    <a href="#" id="three">Link3</a>
+    <a href="#" id="four">Link4</a>
+
+    <p id="p_one">This has become a very popular technique lately, and for good reason.
+        It removes all default margin and padding for every object on the page,
+        no holds barred, regardless of browser.
+        This provides a nice clean slate for design and ensures that all spacing is intentional,
+        explict, and ubiquitous across browsers.
+        There is no reason not to do this.
+    </p>
+
+    <br><br><br>
+    <!--
+        Oshte psevdo selektori :
+
+        nth-child(2n) { ... } vzimame vsichkite chetni kletki v tablica
+        nth-child(2n + 1) { ... } vzimame vsichkite NEchetni kletki v tablica
+        nth-of-type() { ... } s nego mojem da vzemem tochno opredelen element
+        first-of-type() { ... } vzima purviq element ot daden tip
+    -->
+        <table>
+            <tr><td>First Row</td></tr>
+            <tr><td>Second Row</td></tr>
+            <tr><td>Third Row</td></tr>
+            <tr><td>Fourth Row</td></tr>
+            <tr><td>Fifth Row</td></tr>
+        </table>
+
+
+</body>
+</html>
