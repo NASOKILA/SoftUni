@@ -237,6 +237,9 @@ values
 ('Naso',3);
 
 
+select * from Drivers
+select * from Cars
+
 /*
 Shte napravim baza football. 
 Trqbva da imame otbori, ligi, igrachi i manigeri. 
@@ -250,7 +253,6 @@ CREATE TABLE Teams(
 Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
 Name varchar(50) NOT NULL
 )
-
 
 CREATE TABLE Leagues(
 Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
@@ -279,29 +281,29 @@ REFERENCES Leagues(Id)
 
 
 CREATE TABLE Players(
-Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-PlayerNumber INT,
-FirstName varchar(50) NOT NULL,
-LastName varchar(50) NOT NULL,
-Salary Decimal(8,2) default 0,
-TeamId INT,
-CONSTRAINT FK_Teams_Players
-FOREIGN KEY (TeamId)
-REFERENCES Teams(Id) 
+	Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	PlayerNumber INT,
+	FirstName varchar(50) NOT NULL,
+	LastName varchar(50) NOT NULL,
+	Salary Decimal(8,2) default 0,
+	TeamId INT,
+	CONSTRAINT FK_Teams_Players
+	FOREIGN KEY (TeamId)
+	REFERENCES Teams(Id) 
 )
 --Za parite sme dali 0 po default, mojem da polzvame MONEY kato tip!
 --Imame vruzka OneToMany kum Otborite zatova modificirame Players
 
 
 CREATE TABLE Managers(
-Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-FirstName varchar(50) NOT NULL,
-LastName varchar(50) NOT NULL,
-Salary Decimal(8,2) default 0,
-TeamId INT UNIQUE NOT NULL,
-CONSTRAINT FK_Teams_Managers
-FOREIGN KEY (TeamId)
-REFERENCES Teams(Id) 
+	Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	FirstName varchar(50) NOT NULL,
+	LastName varchar(50) NOT NULL,
+	Salary Decimal(8,2) default 0,
+	TeamId INT UNIQUE NOT NULL,
+	CONSTRAINT FK_Teams_Managers
+	FOREIGN KEY (TeamId)
+	REFERENCES Teams(Id) 
 )
 --Pri vruzka OneToOne s Managers i Teams, slagame UNIQUE i NOT NULL
 --zshtoto nqma kak da ima otbor bez menidger.
@@ -386,6 +388,11 @@ ORDER BY Elevation DESC;
 
 /*
 KASKADNI OPERACII (Cascade Operations)
+
+
+KATO TRIE ILI UPDEITVAME NQKAKVA taBLICA DA SE DELETVAT ILI UPDEITVAT DANNITE
+I V DRUGA TABLICA AKO DVETE SA SVURZANI !!!!!!!!!!!!!!!
+
 Pri deletvane ili updatvene na dannite v nashata baza trqbva da osigurim 
 operaciite takache da sa pravilni bez da ostavqt dupki v kolonite, t.e. da 
 nqma koloni sus stoinost NULL.
@@ -395,8 +402,9 @@ Kaskadnata operaciq moje da e Delete ili Update
 Kaskadnata operaciq NE se polzva za logichesko iztrivane t.e. koeto oznachava
 dizaktivirane i kogato iskame da zapazim istoriqta.
 
-Pozva se kato napishem ON DELETE CASCADE vuv Constraint FK_... sled REFRENCES
-Samoche Idto ne trqbva da ima IDENTITY
+Pozva se kato napishem ON DELETE CASCADE ili ON UPDATE CASCADE vuv 
+Constraint FK_... sled REFRENCES
+Samoche Idto ne trqbva da ima IDENTITY !!!!!!!!!!!!!!!!!!!
 
 */
 
@@ -435,7 +443,9 @@ SELECT * FROM Store
 Cascade Update e kogato prosto promenim stoinostta na daden red v malkata tablica,
 togava vsichki redove v drugata tablica koito sa imali tova Id ot purvta tablica
 trqbva i te da se promenat !!!!!!!!!!!
-Nai dobre se polzva zaedno s UNIQUE !!!
+
+Nai bezopsno e da se polzva zaedno s UNIQUE !!!!!!!!!!!!!!
+
 NE SE POLZVA KOGATO PRIMARY KEY E IDENTITY !!!!!!!!!!!!!!!!!!!!!
 
 Ako Primary Key NE e IDENTITY znachi mojem da go promenqme.
@@ -443,6 +453,10 @@ BLAGODARENIE NA PROCEDURI I TRIGERI MNOJEM DA PRESKOCHIM Cacade Update.
 
 Pozva se kato napishem ON UPDATE CASCADE vuv Constraint FK_... sled REFRENCES
 Samoche Idto ne trqbva da ima IDENTITY
+
+VAJNO !!! :
+NE POLZVAI CASCATE UPDATE KOGATO IMASH IENTITY NA PRIMARY KEY !!!!!!!!!!
+
 
 */
 
@@ -475,6 +489,7 @@ CREATE TABLE Factory
 --Dobavihme si danni ot interfaisa
 --Promenqme produkta
 
+
 --Promenqme Idto na 11 na Atanas
 UPDATE Owners
 SET Id = 11
@@ -500,4 +515,26 @@ Za da vidim diagramata na bazata davame dqsno kopche na Database Didagrams i dav
 New Database Diagram, selektirame koito tablici iskame, davame Close i ni izlizat vsichki 
 podredeni i svurzani.
 */
+
+/*
+LOGICAL DELETE:
+Tova e kogato ne iskame da triem neshto a prosto go markirame kato iztrito.
+S drugi dumi go dezaktivirame. 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

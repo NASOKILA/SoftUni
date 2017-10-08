@@ -1,0 +1,183 @@
+
+
+
+
+*
+{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    background-color: #24437C;
+}
+
+.nav-brand
+{
+    padding: 2%;
+    width: 10%;
+}
+
+.nav-primary
+{
+
+    display: block;
+    padding: 0;
+    float:right;
+    list-style: none;
+    width:39%;
+}
+
+.nav-item
+{
+    display: inline-block;
+    padding: 1% 3%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+
+.nav-item
+{
+    text-transform: capitalize;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: #BFC6D3;
+    font-size: 100%;
+}
+
+.nav-item a
+{
+    background: transparent;
+}
+
+.nav-item:hover
+{
+    background-color: #3DC1EF;
+    cursor: pointer;
+    color: #F3F4F7;
+}
+
+
+.header-title
+{
+    color: #F3F4F7;
+    text-align: center;
+    font-size: 45px;
+}
+
+.header-title
+{
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+
+
+.header-subtitle
+{
+    text-align: center;
+    color: #3F678E;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#button-container
+{
+    display: block;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.header-btn
+{
+    border: 1px solid transparent;
+    padding: 0.5% 1%;
+    color: #BFC6D3;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.header-btn:hover
+{
+    background-color: #3DC1EF;
+    color: #F3F4F7;
+    cursor: pointer;
+}
+
+.header-services
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.service
+{
+    display: inline-block;
+    border: 1px solid transparent;
+    width: 20%;
+    padding: 2%;
+}
+
+.service:hover
+{
+    background-color: #3DC1EF;
+}
+
+.service-title
+{
+    background: transparent;
+    color: #F3F4F7;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5%;
+    text-transform: capitalize;
+}
+
+article
+{
+    background: transparent;
+}
+
+.service-intro
+{
+    color: #F3F4F7;
+    background: transparent;
+    text-align: left;
+}
+
+.service-intro a
+{
+    margin-top: 5%;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.service-intro a:before{
+    content:"\a\a";
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

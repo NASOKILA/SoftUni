@@ -1,0 +1,164 @@
+
+/*Predi da zapochnem da rabotim trqbva da si importnem tova
+koeto ni trqbva i da izchistim default margini i paddingi.*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*VAJNO !!!
+  Margina se polzva za mestene na elementi a
+  paddinga za da e po podredeno !!!*/
+
+body
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+main
+{
+    width:1024px; /*da e s maximalnata shirochina*/
+    margin: 0 auto; /*da e v centura*/
+}
+
+
+/*sekcita ni e dva puti po golqma ot asade bar-a !!!*/
+.content
+{
+    width:600px;
+    float: left; /*kazvame sekciqta da e v lqvo*/
+}
+
+aside
+{
+    width:300px;
+    float: right;
+    /*kazvame asade bar-a da e v dqsno za da se razmine
+    sus sekciata*/
+}
+
+
+/*VAJNO : S max-width: 100%; KAZVAME CHE NQMA KAK DA
+  IZLEZNAT SNIMKITE OT KONTEINERA V KOITO SEDAT!*/
+img
+{
+    max-width: 100%;
+}
+
+header
+{
+    /*kazvame mu da ne se povtarq i da e v centura.
+    pishem center center zastoto imame X i Y.*/
+    background: url("images/header.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+header h1
+{
+    color: white;
+    text-align: center;
+}
+
+.content h1
+{
+    margin: 10px 0;
+}
+
+.date
+{
+    margin: 10px 0;
+}
+
+article button
+{
+    background: none;
+    border: 1px solid #ec5353;
+    border-radius: 25px;
+    color: #ec5353;
+    text-align: center;
+    padding: 10px;
+}
+
+article button :hover
+{
+    background-color: #ec5353;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+aside h1
+{
+    padding:  15px 0;
+}
+
+aside p
+{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

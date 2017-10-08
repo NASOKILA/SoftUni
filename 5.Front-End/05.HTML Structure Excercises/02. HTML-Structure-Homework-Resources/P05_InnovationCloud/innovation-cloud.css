@@ -1,0 +1,135 @@
+
+
+
+body
+{
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+
+.container
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    background: url(background-image.jpg) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+.container2
+{
+    margin: 50px 200px;
+    max-width: 1060px;
+    padding: 0 10px;
+}
+
+h1
+{
+    font-size: 80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+h2
+{
+    color: #234465;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+main>p
+{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    width: 800px;
+}
+
+
+header>p
+{
+    font-size: 27px;
+    font-weight: 100;
+    margin: 20px;
+}
+
+img
+{
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin: 10px 50px 0 0;
+}
+
+.btn
+{
+    color: #ffffff;
+    background: none;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+.btn:hover
+{
+    background: #000;
+    border-color: #000;
+    cursor: pointer;
+}
+
+/* VAJNO: Taka si risetvame vseki default margin ili padding !*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Ot tuk zapochva nashata zadacha :*/
+footer
+{
+    background-color: #000000;
+}
+
+footer>p /*paragrafite vuv footera*/
+{
+    color: #ffffff; /*cvqt na texta*/
+    font-size: 14px; /*goemina na texta*/
+    height: 80px; /*visochina na texta*/
+    line-height: 80px; /*poziciqta v samoto blokche, dali shte e ponagore ili poadolo !*/
+    margin: 0; /*nikakuv margin ot nikade t.e. da ne se izmestva na nikude*/
+    text-align: center; /*da e v centura*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

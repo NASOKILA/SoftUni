@@ -67,8 +67,14 @@ Imeto na domaina behe stefanivo.tk
 
 
 6.Razgledahme wordpress.com koito ti dava da napravish edin sait, posle razgledahme kak se polzva lokalen wordpress SEGA SHTE RAZGLEDAME WORDPRESS ONLINE:
-Registrirame se na http://freesubdomain.org/ tova e bezplaten domain i chakame email za potvurjdenie. Vlizame v httpcpanel.website.tk i pishem dannite koito sme poluchili.
+Registrirame se na http://freesubdomain.org/ tova e bezplaten domain i chakame email za potvurjdenie. Vlizame v cpanel.website.tk i pishem dannite koito sme poluchili.
 I ni se otvarq panela za kontrol na websaitove
+
+cpanel.website.tk:
+username: wetk_20649495
+password: bg9212060000
+
+we can og in to prestashow wordpress and more, we can create new projects.
 
 7. Vlizame v panela i v online file manager i v htdoct papkata kudeto sa ni saitovete
 tam nie imame otdelen harddisk kakto na nashiq kompiuter

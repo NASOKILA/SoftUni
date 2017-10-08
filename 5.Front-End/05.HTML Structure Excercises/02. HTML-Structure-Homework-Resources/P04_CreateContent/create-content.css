@@ -1,0 +1,52 @@
+
+
+
+body
+{
+    Font-family: "Lato", sans-serif;
+}
+
+
+.container
+{
+    margin: 50px 200px; /*ot gore i dolo 50px ot lqvo i dqsno 200px*/
+    max-width: 1060px; /*max razmer na shirochina da e 1060px t.e. texta ne moje da otide po na dqsno !*/
+    padding: 0 10px;
+}
+
+h2
+{
+    color: #234465;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+p
+{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    width: 800px; /*kolko da sa shiroki paragrafite.*/
+}
+
+img
+{
+    float: left; /*butame q v lqvo i q slivame s texta !!!*/
+    width: 180px;/*shirochina na snimkata*/
+    height: 100px; /*visochina na snimkata*/
+    margin: 10px 50px 0 0; /*otgore 10px, otdolo 50px, otlqvo i dqsno po 0px*/
+}
+
+
+
+
+
+
+
+
+
+
+
+

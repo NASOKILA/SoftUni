@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+         span.sky{  background-color: red;  }
+
+         span.sky2 {  background-color: green;  }
+
+         div.items a {  color: green;  font-weight: bold;  }
+
+        .dc>span {  background-color: aqua;  }
+        .dc>span>p {  background-color: brown;  }
+
+        .apple {  color: red;  }
+        .orange {  color: orange;  }
+        .small { font-size: 16px}
+        .apple.orange { font-style: italic; color:blue;}
+
+         a[title="menu"]{ color: violet; font-size: 22px; text-decoration: none;}
+
+         h1, h2, p { background-color: yellow; }
+
+    </style>
+</head>
+<body>
+
+    <!-- SPAN:
+
+        mojem da polzvame span a stilizaciq na obekt v HTML
+        no e preporuchitelno da go pravim sus css.
+        Na span mojem da mu dadem Id ili klas
+    -->
+
+    <!--Mojem da imame edin i sushti klas na dva spana-->
+    <span class="sky">
+        some text
+    </span>
+    <br>
+    <span class="sky">
+        some more text
+    </span>
+
+    <br><br><br>
+    <!--Mojem da imame edin i sushti klas na dva ELEMENTA zatova v CSS e
+    dobra praktika da pishem primerno: span.sky{ ... } zashtoto ako napishem
+     samo .sky{ ... } mojem da imame primerno div s klas .sky i da stilizirame i nego
+     bez da iskame !!!!!!-->
+    <span class="sky2">
+        some text
+    </span>
+    <br>
+    <div class="sky2">
+        some more text
+    </div>
+
+
+<br><br><br>
+    <!--
+        Vlojeni selektori: ( nested selektors)
+
+    imame div s li-ta i v nego spisuk s oshte li-ta
+     v CSS-a stilizirame vsichki <a> v klasa items
+     -->
+
+    <div class="items">
+        <a href="#">Item1</a>
+        <a href="#">Item2</a>
+        <a href="#">Item3</a>
+        <ul>
+            <li><a href="">Item4</a></li>
+            <li><a href="">Item5</a></li>
+            <li><a href="">Item6</a></li>
+        </ul>
+    </div>
+    <br><br><br>
+
+    <!--
+        VAJNO : Ako imame dva paragrafa, s
+        p + p { ... } mojem da stilizirame paragrafa sled paragrafa.
+
+    Moje da e polezno v opredelena situaciq.
+    -->
+
+    <!--
+        VAJNO :  '>' oznachava direct child t.e. izpolzva se za direktno
+        nasledqvane.  T.e. element koito direkctno se namira v drug element.
+    -->
+
+    <div class="dc">
+        <span>
+             Dei testi:
+            <p>Text1</p>
+            <p>Text2</p>
+        </span>
+    </div>
+
+    <!--
+        Multiple Classes:
+        MOJEM DA IMAME MNOGO KLASAOVE ZA EDIN ELEMENT.
+        V CSS imame prioriteti no zasega e vajno da znaem che poslednoto
+        napisano ima prioritet.
+    -->
+    <h2 class="apple orange small">Apple + Orange</h2>
+    <h2 class="apple">Apple</h2>
+    <h2 class="orange">Orange</h2>
+
+    <!--
+       Attributi: Dostupvane na elementi chrez atributi.
+       na ednoto li imame title="menu".
+       V CSS Mojem da go dostupim chrez a[title="menu"]{ ... }
+
+    -->
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#" title="menu">Menu</a></li>
+    </ul>
+
+    <!--Mutiple selectors element:
+    S h1, h2, p { ... }  gi stilizirame vsichki.
+    -->
+
+        <h1>Welcome ...</h1>
+        <h2>My name is ...</h2>
+        <p>I live in Italy.</p>
+        <p>And I love girls.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
