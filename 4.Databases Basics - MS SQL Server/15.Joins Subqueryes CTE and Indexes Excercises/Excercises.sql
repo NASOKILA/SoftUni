@@ -64,17 +64,18 @@ WHERE(d.Name = 'Sales');
 
 --05. Employees Without Projects
 
-	select top (3) t1.EmployeeID, t1.EmployeeWithNoProject AS FirstName from
-	(select
-		e.EmployeeID,
-	CASE
-		WHEN (e.EmployeeID NOT IN (select distinct EmployeeID from EmployeesProjects))
-		THEN (e.FirstName) 
-		ELSE 'Has Project'
-	END AS EmployeeWithNoProject
-	FROM Employees AS e) AS t1
-	WHERE t1.EmployeeWithNoProject != 'Has Project'
-	ORDER BY t1.EmployeeID
+	select top (3) 
+			   t1.EmployeeID, 
+			   t1.EmployeeWithNoProject AS FirstName 
+		  from (select e.EmployeeID,
+				  CASE
+				  WHEN (e.EmployeeID NOT IN (select distinct EmployeeID from EmployeesProjects))
+				  THEN (e.FirstName) 
+				  ELSE 'Has Project'
+				END AS EmployeeWithNoProject
+		  FROM Employees AS e) AS t1
+		 WHERE t1.EmployeeWithNoProject <> 'Has Project'
+	  ORDER BY t1.EmployeeID
 
 	/*
 		Vzeh vsichki prisustvashti IDta ot EmployeesProjects tablicaca s edno malko query.
@@ -122,6 +123,7 @@ ORDER BY EmployeeID
 
 
 
+
 --08. Employee 24
 --Vmesto da kastvam i da polzvam DATEPART() moga prosto da napisha < '2005-01-01'
 SELECT 
@@ -153,6 +155,7 @@ JOIN Employees AS m
 ON m.EmployeeID = e.ManagerID
 WHERE m.EmployeeID = 3 OR m.EmployeeID = 7
 ORDER BY e.EmployeeID
+
 
 
 
@@ -282,7 +285,7 @@ ORDER BY c.CountryName;
 	AND usages.Usage = maxUsages.maxUsed
 	ORDER BY usages.ContinentCode;
 
-	--NAPRAVIHME VE ZAQVKI I GI JOINAHME za da selektirme tovakoeto ni trqbva
+	--NAPRAVIHME DVE ZAQVKI I GI JOINAHME za da selektirme tova koeto ni trqbva
 
 	--VTOROTO RESHENIE e S DENSE_RANK() koeto sortira po counta na 
 	--valutite kato dobavim partition continenCode
