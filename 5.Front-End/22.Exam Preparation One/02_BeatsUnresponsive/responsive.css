@@ -1,0 +1,147 @@
+
+
+@media screen and (max-width: 640px) {
+
+    body > nav > .nav-primary {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    body > nav > .nav-primary > .nav-item {
+        padding: 10px;
+    }
+
+    body>main>.solo>.solo-title
+    {
+        text-align: center;
+    }
+
+    body>main>.solo>.solo-description
+    {
+        text-align: center;
+    }
+
+
+    body>main>.solo>.solo-cta
+    {
+        display: block;
+        margin:0 auto;
+        margin-top: 15%;
+    }
+
+
+    body>main>.second-row
+    {
+        display:block;
+        width: 100%;
+    }
+
+    body>main>.second-row>.mixr-left
+    {
+        width: auto;
+        padding-top: 20px;
+    }
+
+    body>main>.second-row>.mixr-left>.sr-title
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    body>main>.second-row>.mixr-left>.sr-description
+    {
+        display: block;
+        margin: 10% auto;
+    }
+
+
+    body>main>.second-row>.mixr-left>.sr-cta
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    body>main>.second-row>.urbeats-right
+    {
+        width: auto;
+        padding-top: 20px;
+    }
+
+
+    body>main>.second-row>.urbeats-right>.sr-title
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    body>main>.second-row>.urbeats-right>.sr-description
+    {
+        display: block;
+        margin: 10% auto;
+    }
+
+
+    body>main>.second-row>.urbeats-right>.sr-cta
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    body>main>.studio
+    {
+        padding:20px;
+    }
+
+    body>main>.studio>h1
+    {
+        text-align: center;
+
+    }
+
+
+    body>main>.studio>p
+    {
+        text-align: center;
+        width:80%;
+        margin: 10% auto;
+    }
+
+
+    body>main>.studio>button
+    {
+        display: block;
+        margin: 10% auto;
+    }
+
+
+
+    .grid-gallery
+    {
+        text-align: center;
+    }
+
+    .grid-gallery>img
+    {
+        width:47%;
+        vertical-align: top;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

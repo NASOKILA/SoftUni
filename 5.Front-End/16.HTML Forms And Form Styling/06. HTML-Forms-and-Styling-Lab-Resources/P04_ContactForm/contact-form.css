@@ -1,0 +1,146 @@
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+form
+{
+    font-family: Georgia, "Times New Roman", serif;
+    border: 1px solid #888;
+    margin: 70px auto;
+    width: 800px;
+    background-color:#F7F7F7;
+}
+
+form header
+{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    color: #888;
+    border-bottom: 1px solid #888;
+    margin: 0 20px;
+}
+
+
+form main
+{
+    margin: 40px;
+}
+
+
+form main div input
+{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+}
+
+
+
+form main div select option, form main div select
+{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+}
+
+
+form main div label
+{
+    color: #888;
+    margin-right: 10px;
+}
+
+
+form main div
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+form main div input
+{
+    width: 500px;
+    padding:10px;
+    font-size: 15px;
+}
+
+form main div:first-of-type + div + div
+{
+    margin-left: 20px;
+}
+
+#message
+{
+    width:500px;
+    height: 150px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+}
+
+
+form main div .message
+{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+    position: relative;
+    bottom: 150px;
+}
+
+
+
+/*select*/
+form main div:last-of-type
+{
+    margin-left:27px;
+}
+
+select
+{
+    width: 527px;
+    padding:10px;
+    font-size: 15px;
+}
+
+.submit-btn
+{
+
+    background-color:#E27575;
+    color: #FFF;
+    margin-left: 95px;
+    width: 230px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    font-family:'Vollkorn', serif;
+    text-align: center;
+}
+
+main
+{
+    font: 16px Tahoma, sans-serif;
+}
+article
+{
+    width: 27%;
+    border: 1px solid #EBEFF2;
+    display: inline-block;
+    margin-right: 1%;
+    vertical-align: top;
+    height: 450px;
+    margin-bottom: 60px;
+}
+
+article + article + article
+{
+    margin-right: 0;
+}
+
+header h1
+{
+    /*title*/
+    font-size: 40px;
+    font-family:'Vollkorn', serif;
+    text-transform: uppercase;
+}
+
+section article h2 {
+    /*Subtitle*/
+    background-color: #EBEFF2;
+    padding: 10px 17px;
+    text-transform: capitalize;
+    font-family:'Vollkorn', serif;
+    font-size: 30px;
+}
+
+section article .price
+{ /*price*/
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    display: inline-block;
+    font-family:'Vollkorn', serif;
+    border: none;
+    padding: 0;
+    margin:0;
+}
+
+section article p
+{
+    border-bottom: 1px solid #EBEFF2;
+
+    text-align: left;
+    margin: 20px 20px;
+}
+
+
+section article button
+{
+    background-color: #EBEFF2;
+    border: 1px solid #EBEFF2;
+    padding: 15px 60px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+section article:first-of-type button
+{
+    top:140px;
+}
+
+
+section article:first-of-type  + article button {
+    top:100px;
+}
+
+section article:last-of-type button {
+    top:20px;
+}
+
+
+article:hover, button:hover, article h2:hover
+{
+    cursor: pointer;
+}
+
+article:hover button
+{
+    background-color: #65D3E2;
+    color:white;
+}
+
+article:hover h2
+{
+    background-color: #65D3E2;
+}
+
+article:hover .price
+{
+    color: #65D3E2;
+}
+
+
+
+
+

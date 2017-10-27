@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=240, height=320, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+    <meta name="author" content="Atanas Kambitov" />
+    <meta name="keyword" content="Mobile website example, HTML 5, CSS 3, JavaScript" />
+
+    <title>MobWebSite</title>
+
+    <link rel="icon" href="../favicon/favicon.ico" />
+    <link href="../index-files/mobStyle.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+        function initialize() {
+            var map_canvas = document.getElementById('map_canvas');
+            var map_options = {
+                center: new google.maps.LatLng(42.01839123174329, 23.077425956726074),
+                zoom: 13,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(map_canvas, map_options);
+            var marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(42.01839123174329, 23.077425956726074) });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+    <header>Mobile website</header>
+    <div id="main">
+        <h1>MAPS</h1>
+        <div id="borderText">
+            <div class="nav">
+                <ul>
+                    <li><a href="news.html">Prev</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="gallery.html">Next</a></li>
+                </ul>
+            </div>
+            <div id="map_canvas"></div>
+        </div>
+    </div>
+    <footer>
+        <a href="http://timetable.swu.bg/lecture/rkraleva/ZimenSem/MobApp/mobApp.html">Full site</a><br />
+        &copy; 2017 Atanas Kambitov&alefsym;<br />
+        ALL RIGHT RESERVED<br />
+    </footer>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comments</title>
+    <style>
+        p
+        {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Dnes shte si govorim za formichki, poleta, butoni,
+        radiobutoni i mnogo novi raboti.
+
+        select option fields,
+        data lists,
+        tange and spinbox
+
+        stilizirane sus CSS
+
+    -->
+
+    <!--
+        Forms:
+        Formata izprashta dannite ot inputite v neq chrez
+        action=" path/to/script" kum dadena
+        backend logika koqto da gi obrabotva.
+
+        Shte govorim za GET i POST zaqvki
+        Imame metod="" moje da e "post" ili "get" TOVA GO ZNAEM
+        "get" vurvi po linka !
+    -->
+
+
+    <p>Text:-------------------------------------------------------</p>
+<!--
+    Text field:
+    type="text"
+    davame name,
+    value="" tova e napisanoto po default
+-->
+    <br>
+<input type="text" name="textfield" value="nishto" />
+    <br><br>
+
+    <p>Textarea e za poveche text:-------------------------------------------------------</p>
+<textarea type="text" name="commentsTxtArea"> This is a textarea</textarea>
+    <br>
+
+
+<!-- v input pole znaem che type="password"-->
+
+
+<!-- BUTONI:
+    <input type="reset"  - resetva stranicata NE SE POLZVA MNOGO
+    <input type="submit" - izprashta dannite populneni ot nas vuv formata
+    <input type="image" - ako iskame backgrounda na nashiq buton da e kartinka
+    <input type="button" ili <button> - edni i sushti sa samoche <button> mojem da go stilizirame na mesto !
+
+-->
+
+    <p>Password: Checkbox: Radio:-------------------------------------------------------</p>
+
+
+    <br>
+    <input type="password" name="passwordProba" placeholder="******"/>
+    <br><br>
+    <input type="radio" name="radioProba" value="1"/>Sofia<br>
+    <input type="radio" name="radioProba" value="2"/>Plovdov<br>
+    <input type="radio" name="radioProba" value="3"/>Varna<br>
+    <br>
+    <p>Ako im smenim imenata stavat nezavisimi</p>
+    <input type="radio" name="radioProba1" value="2"/>Plovdov<br>
+    <input type="radio" name="radioProba2" value="3"/>Varna<br>
+    <br>
+    <input type="checkbox" name="checkboxProba" />
+    <br><br>
+
+<!--Select/Option fields:-->
+    <p>-------------------------------------------------------</p>
+    <select name="gender">
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Other</option>
+    </select>
+
+<br><br>
+<p>Ako dadem na option da e 'selected' otiva na purvo mqsto:</p>
+
+    <select name="gender">
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3" selected="selected">Other</option>
+    </select>
+
+
+
+    <br><br>
+    <p>Ako dadem na option da e 'desabled' ne moje da se natiska:</p>
+    <select name="gender">
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3" selected="selected" disabled="disabled">
+            Choose Gender:
+        </option>
+    </select>
+
+
+    <br><br>
+    <p>Ako dadem multiple na selekta shte mojem da selektirame sus CTRL poveche ot edno neshto :</p>
+    <select name="gender" multiple>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Other</option>
+    </select>
+
+
+    <br><br>
+    <p>Select / Optgroup Slagame optionite v Optgroup tag s label deistva kato zaglavie na optionite
+        -------------------------------------------------------</p>
+    <select name="gender">
+        <optgroup label="Cars">
+            <option value="2">Opel</option>
+            <option value="3">Reno</option>
+        </optgroup>
+
+        <optgroup label="Bikes">
+            <option value="2">Aprilia</option>
+            <option value="3">Kavazaki</option>
+        </optgroup>
+    </select>
+
+
+    <br><br>
+    <p>Data Listove: po dobri sa za tursene zashtoto mojem da pishem v tqh i
+        avtomatichno turi po ime-------------------------------------------------------</p>
+    <input list="browsers" name="browser" />
+    <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Google Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+    </datalist>
+
+
+    <br><br>
+    <p>Label: Toi e polzvan za da ni podseshta i poazva koe za kakvo e,
+        moje lesno da se manipulira. Chesto se polzva ZA IDta: label for="SomeId"
+        -------------------------------------------------------</p>
+    <label for="pass">Password:</label>
+<input type="password" id="pass" placeholder="******">
+
+
+    <br><br>
+    <p>Polzva se i po drug nachin:</p>
+    <label>
+        <div>Enter your <b>password</b> :</div>
+        <input type="password" placeholder="******"/>
+    </label>
+
+
+
+    <br><br>
+    <p>Field Sets: Toi e kato ramka za informaciq. Raboti s taga legend
+        za zaglavieto.
+        -------------------------------------------------------</p>
+    <fieldset>
+        <legend>Contact Details:</legend>
+        <label for="email">Email: </label><input id="email" name="email" placeholder="Email here!"><br>
+        <label for="email">City: </label><input type="text" id ="city" placeholder="City here!"><br>
+        <label for="email">Address: </label><input type="text" id="address" placeholder="Address here!"><br>
+        <label for="email">House Number: </label><input type="number" id="houseNumber" placeholder="House number here!"><br>
+    </fieldset>
+
+
+
+    <br><br>
+    <p>Range: Polzva dopulnitelni atributi kato:min, max, step i value!
+       min i max mojem da gi polzvame i ako tiput e 'number'.
+        Na razlichni brawseri moje da se vijda razlichno.
+        -------------------------------------------------------</p>
+
+    <input type="range" min="0" max="100" value="25"><br>
+    <input type="number" min="0" max="100" value="25"><br>
+
+
+
+    <br><br>
+    <p>Color Picker, Date Picker, Time Picker, Date & time picker
+        Ima si tagova za izbiraneto na posichenite otgore:-------------------------------------------------------</p>
+             Color picker:<input type="color"><br>
+             Date picker:<input type="date"><br>
+             Time picker:<input type="time"><br>
+    Date and time picker:<input type="datetime-local">
+
+
+
+
+    <br><br>
+    <p>Month + Year selection, Week of year, file upload,search box:
+        -------------------------------------------------------</p>
+
+    Month of year: <input type="month"><br>
+    Week of year: <input type="week"><br>
+    File to upload: <input type="file"><br>
+    Search Box: <input type="search"><br>
+
+
+    <br><br>
+    <p>
+        VAJNO !!! :
+
+        Autocomplete - e atribut koito durji tova koeto
+        sme pisali v minaloto i ni podseshta
+
+        ReadOnly - e atribut koito moje da mo da e chete
+        bez da se promenq !!!!!
+
+        Required - ozn che poletp trqbva zaduljitelno da se napulni
+
+    </p>
+
+
+    <br><br>
+    <p>Autofocus attribute: Pri zarejdane na stranicata otivame vednaga v poleto
+        koeto ima autofocus !!!!!</p>
+    <input type="text" autofocus>
+
+
+
+    <br><br>
+    <p>Email: Trqbva da ima kliomba i nqkuv text predi i sled neq,
+    Ne e tolkova schupeno :) !
+    MOJEM DAPISHEM NO AKO IMAME SUBMIT BUTON NQMA DA GO PRIEME !</p>
+    <input type="email">
+
+
+
+    <br><br>
+    <p>tel: Priema samo nomera i nqkoi znaci !
+        MOJEM DAPISHEM NO AKO IMAME SUBMIT BUTON NQMA DA GO PRIEME !
+    </p>
+    <input type="tel">
+
+
+    <br><br>
+    <p>
+        tabindex : TOVA NI POZVOLQVA DA SE MESTIM PO POLETATA CHREZ
+        NATISKANE NA TAB BUTONA, MOJEM DA SI GO NASTROIM I DA PREZKACHA!
+        VAJNO !!! :
+        AKO SI ISKAME !!!
+    </p>
+
+    <br><br><br><br>
+    <p>Summary:
+        Govorihme za formi, metodi za post i get (NE TRQBVA DA POLZVAME
+        get AKO PRAVIM SAIT), input poleta: email password tel date month
+        week ... ,  butoni: reset submit taga BUTTON , radio butoni i checkboxi
+        selekti i optioni, seekti i optgroup i selekt multiple selektion.
+        VAJNO E DA NE GI ZAPOMNQME VSICHKI NA IZUS SAMO TRQBVA DA ZNEM CHE SUSHTESTVUVAT !
+    </p>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+@media screen and (max-width: 740px) {
+
+    /*Opravqme malko paddinga !*/
+    #wrapper
+    {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 2.2em;
+    }
+
+    h1, h3, h2, small {
+        text-align: center;
+    }
+
+    /*info  -  tova e nad snimkata, mahame i floatinga za da e v centura*/
+    #info {
+        float: none;
+    }
+
+    /*Mahame vsichki paddingi*/
+    p
+    {
+        padding: 0;
+    }
+
+    /*opravame snimkata da e v centura zastoto imashe float:right*/
+    #photo {
+        float: none;
+        width: 95%;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 570px) {
+
+    /*Slagame litata da sa inline blokovi elementi za da minavat na
+    nov red !!!!!!!*/
+    ul li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    /*Nadpisa 'Adobe Photoshop' go pravim da e po
+    dulug zasgtoto ni minava na nov red !*/
+    #skills-right ul li:nth-of-type(2) {
+        width: 140px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    /*opravqme topchetata na li-tata*/
+    ul li {
+        padding-left: 16px;
+        background: url(images/bullet.png) -3px 5px no-repeat;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

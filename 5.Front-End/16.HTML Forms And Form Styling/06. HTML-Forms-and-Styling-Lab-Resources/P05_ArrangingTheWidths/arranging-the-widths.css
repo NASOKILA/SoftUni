@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+form
+{
+    width:300px;
+    margin: 20px auto;
+}
+
+
+
+
+form fieldset legend
+{
+    margin: 15px;
+}
+
+
+form fieldset div label, .no-sence
+{
+    display: block;
+    color:#2D2D2D;
+}
+
+form fieldset div, .no-sence
+{
+
+    margin: 0 15px;
+}
+
+
+form fieldset div input
+{
+    width: 200px;
+}
+
+
+#select
+{
+    width: 204px;
+}
+
+/*textarea:*/
+#message
+{
+    width: 204px;
+    height: 154px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

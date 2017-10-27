@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    font: 14px "Open Sans", Arial, sans-serif;  "Comfortaa", sans-serif;
+}
+
+aside
+{
+    float:left;
+    text-align: center;
+    width: 250px;
+}
+
+aside h1
+{
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+aside h2
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b1bfc6;
+    margin-top: 10px;
+}
+
+aside nav ul
+{
+
+}
+
+
+aside nav ul li
+{
+    display: table-row;
+    list-style: none;
+    letter-spacing: 1px;
+
+}
+
+aside nav ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b1bfc6;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    right: -35px;
+    margin-top: 15px;
+}
+
+aside nav ul li a:hover
+{
+    color: #333;
+    cursor: pointer;
+}
+
+aside img
+{
+    width: 100px;
+    border-radius: 100%;
+}
+
+main
+{
+    float:right;
+    background-color: #f3f5f7;
+    width: 76.3%;
+    position: absolute;
+    left: 250px;
+    padding: 35px 35px;
+}
+
+.number
+{
+    color: #b1bfc6;
+}
+
+.btn-right
+{
+
+
+    text-transform: uppercase;
+    border: 1px solid #ff7739;
+    background-color: #ff7739;
+    padding: 10px 15px;
+    float: right;
+    position: relative;
+    top: -45px;
+    color: #f3f5f7;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.btn-right:hover
+{
+    background-color: #f3f5f7;
+    color: #ff7739;
+    cursor: pointer;
+}
+
+.first-h1
+{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.second-h1
+{
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+main p
+{
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px 0;
+}
+
+
+article
+{
+    margin-top: 10px;
+    background-color: white;
+    display: inline-block;
+    height:230px;
+    margin-right: 25px;
+    Box-Shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+article img
+{
+    width: 250px;
+    position:relative;
+    bottom: -35px;
+}
+
+article h3
+{
+    text-transform: capitalize;
+    padding-top: 35px;
+    padding-left: 10px;
+    color: #91a5af;
+    font-weight: 700;
+}
+
+
+article h4 {
+    text-transform: capitalize;
+    padding-left: 10px;
+    color: #91a5af;
+}
+
+article:first-of-type h4, article:first-of-type h3
+{
+    color: #b1bfc6;
+}
+
+article:first-of-type
+{
+    background-color: #FAFBFC;
+}
+
+
+section + section article:first-of-type
+{
+    background-color: white;
+}
+
+section + section article:first-of-type h3, section + section article:first-of-type h4
+{
+    color: #91a5af;
+}
+
+
+.rented-listed
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #91a5af;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:200px;
+    left: 15px;
+    z-index: 1;
+}
+
+.rented-listed-2
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #68bc69;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:200px;
+    left: 300px;
+    z-index: 1;
+}
+
+.rented-listed-3
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #91a5af;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:200px;
+    left: 580px;
+    z-index: 1;
+}
+
+section + section
+{
+    margin-top: 20px;
+}
+
+.rented-listed-4
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #68bc69;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:520px;
+    left: 20px;
+    z-index: 1;
+}
+.rented-listed-5
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #68bc69;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:520px;
+    left: 300px;
+    z-index: 1;
+}
+
+.rented-listed-6
+{
+    position: absolute;
+    text-transform: uppercase;
+    color: #f3f5f7;
+    background-color: #91a5af;
+    padding: 3px 15px;
+    border-radius: 25px;
+    top:520px;
+    left: 580px;
+    z-index: 1;
+}
+/*•	Background Colors: #f3f5f7; #ff7739; #91a5af; #68bc69;*/
+
+
+/*#b1bfc6; #333; #384850; #ff7739; #91a5af;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

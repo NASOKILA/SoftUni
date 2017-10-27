@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Comments.css">
+    <title>Title</title>
+</head>
+<body>
+<!--
+
+----------------------------------------------------------------------------
+ZAPOMNI SLEDNIQ TAG:
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+ZADULJITELNO SE SLAGA V HTML FAILA PREDI DA ZAPOCCHNEM
+RESPONSIVE SAIT ZASHTOTO VZIMA RAZMERA NA USTROISTVOTO
+S KOETO SE OTVARQ TOZI SAIT I STAVA CONTENTA NA SAITA.
+----------------------------------------------------------------------------
+
+VAJNOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!
+GLEDAI OT SAITA www.css-tricks.com NAPISHI V GOOGLE :
+    "css tricks display flex"
+
+----------------------------------------------------------------------------
+
+
+    Bez responsive design nqma da minem,
+    Shte razgledame i kkvo e FLEX
+
+    Flex e conteiner pri koito duljinata e s procenti,
+
+    PREDI DA ZAPOCHNEM DADEN SAIT ILI APP TRQBVA DA RESHIM
+    DALI SHTE SE GLEDA DESKTOP, MOBILE ILI TABLET.
+-->
+
+
+<!--
+        MEDIA QUERY:
+            Pishat se v CSS faila
+            Te ni pomagat za responsive design
+            Te kazvat che pod opredeleno uslovie da se
+            sluchi opredeleno neshto s nashiq kod.
+
+
+            VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!
+              V NAI OBSHTIQ SLUCHAI:
+                1.TELEFONITE RABOTAT NA  screen width <= 640px
+                2.TABLETITE RABOTAT NA   screen  640px <= width < 1023
+                3.DESCTOPITE RABOTQT NA  screen width >= 1024px
+
+
+            VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!
+            MNOGO BRAWSERI (Kato Mozila) ZA 1px SE CHUPAT!!!
+
+
+            VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!
+            V MEDIA QUERITATA MOJEM DA SETVAME S <, > i =
+
+            PRIMER:
+    -->
+<div class="box">box 1</div>
+<div class="box">box 2</div>
+<div class="box">box 3</div>
+<div class="box">box 4</div>
+
+
+
+
+
+
+
+<!--
+    FLEXBOX:  Flexible Layout:
+
+        RABOTI SUS SAMIQ CENTUR NA ELEMENTITE !!!
+
+        KOGATO DADEM display:flex; ZNACHI MOJEM DA
+        POLZVAME FLEX PROPERTITA INACHE NE MOJEM.
+
+        display:flex; e kato biblioteka!
+
+        display: inline-flex; e kato flex samoche na
+        edin red, SHTE VIDISH POSLE !!!
+
+        PRIMER:
+-->
+
+<br><br><br><br>
+
+<p>display: flex; SLAGA SE NA KONTEINERI</p>
+<div class="flex-container">
+    <div class="flex-item">Flex Item 1</div>
+    <div class="flex-item">Flex Item 2</div>
+    <div class="flex-item">Flex Item 3</div>
+</div>
+
+
+<br><br>
+
+<p>display: inline-flex; SLAGA SE NA INLINE ELEMENTI</p>
+<div class="inline-flex-container">
+    <div class="inline-flex-item">Flex Item 1</div>
+    <div class="inline-flex-item">Flex Item 2</div>
+    <div class="inline-flex-item">Flex Item 3</div>
+</div>
+
+<!--
+
+    Imame i podredbi:
+        1.flex-direction: row;  -  Gi podrejda edno do drugo
+        2.flex-direction: row-reverse;  -  Gi podrejda edno do drugo
+            obache na obratno
+        3.flex-direction: column; - Gi podrejda edno pod drugo, v kolonka
+        4.flex-direction: column-reversed; - Gi podrejda edno pod drugo
+            obache oburnati
+
+            PRIMER:
+-->
+
+
+<br><br><br><br><br><br>
+<p>FLEX PROPERTIES :</p>
+
+<!--
+        flex-wrap: wrap;
+            TOVA E PROPERTI OF FLEX, I ZA DA GO POLZVAME TRQBVA DA
+            NAPISHEM   display:flex;
+
+            flex-wrap: wrap;  pravi takache ako imame ddadeni kutiiki
+            na edin red, da ne izlizat ot konteinera a da minavat na
+            nov red.
+
+        PRIMER:
+-->
+<br><br>
+<p>Primer s   flex-wrap: wrap; </p>
+<div class="flex-container2">
+    <div class="flex-item2">First</div>
+    <div class="flex-item2">Second</div>
+    <div class="flex-item2">Third</div>
+</div>
+
+
+<!--
+        justify-content:center;  :
+            TOVA KATO GO DADEM NA KONTEINER KOITO IMA display:flex;
+            KUTIIKIte V NEGO SE PODREJDAT NA CENTURA
+
+        justify-content: end; gi podrejda nakraq
+        justify-content: start; gi podrejda v nachaloto
+-->
+
+<br><br><br><br>
+<p>Primer s   justify-content:center;</p>
+<div class="flex-container3">
+    <div class="flex-item3">First</div>
+    <div class="flex-item3">Second</div>
+    <div class="flex-item3">Third</div>
+</div>
+
+<!--
+         aling-items: center;    :
+
+            AKO NAPISHEM NA ELEMENTITE KOITO SA V DADEN KONTEINER
+            align-items: center;
+            flex-direction: column;
+
+            teZI ELEMENTI SHTE SE PODREDUT V CENTURA SAMOCHE EDNO POD DRUGO
+-->
+
+<br><br><br><br>
+<p>Primer s   align-items:center; + flex-direction: column</p>
+<div class="flex-container4">
+    <div class="flex-item4">1</div>
+    <div class="flex-item4">2</div>
+    <div class="flex-item4">3</div>
+</div>
+
+
+<!--
+    S ORDER MOJEM DA PODREJDAME ELEMENTITE KOI DA E PURVI, VTORI i t.n.
+    KOITO SA VERTIKALNO EDNO POD DRUGO.
+
+        PRIMER:
+-->
+<p>Primer s Order:</p>
+<div class="container">
+    <div class="box order1">1</div>
+    <div class="box order2">2</div>
+    <div class="box order3">3</div>
+    <div class="box order4">4</div>
+</div>
+
+
+
+<!--
+    Imame flex: grow;   i  flex: shrink;
+        NE SE POLZVAT MNOGO NO E HUBAVO DA GI ZNAEM
+
+
+VAJNO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    Imame :
+        space-between:  -  slaga razstoqnie mejdu elementita
+        space-around:  -  slaga razstoqnie okolo elementite
+        space-evenly  -  slaga RAVNOMERNO razstoqnie okolo elementite
+-->
+
+
+<br><br><br><br><br>
+<p>Flexible images: </p>
+<!--
+    KARTINKATA TRQBVA DA E V DIV, I ZA DA SEDI KARTINKATA PO
+    CELIQ DIV  I DAVAME width: 100%;
+
+        PRIMER:
+-->
+
+<div class="img-container">
+    <img src="descarga.png" alt="NO IMAGE AVALIABLE !">
+</div>
+
+<br><br><br><br>
+<p>calc(...) pozvolqva ni da pravim smetki s procenti i pixeli,
+    polzva se za duljinata, mojem da polzvame i margini s
+    paddingi, edno i sushto e !!!</p>
+<div class="container5">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+
+<!--    VAJNO !!!!
+    Fexible-fonts:
+        POLZVAME ems  i  rem  za da ne se chupat fontovete pri smalqvane
+        na ekrana !!!
+-->
+
+
+<!--
+    RESPONSIVE FORMS:
+        SHTE GO IMA NA IZPITA !!!!!
+-->
+
+
+<!--
+    Responsive tables:
+        Ako trqbva da gi pravim responsive shte ni e po
+        trudno zashtoto sa gadni !!!
+-->
+
+
+
+<p>SUMMARY:</p>
+<p>
+    1.Mediaquerita - za daden razmer na ekrana izpulnqva razlichen CSS kod.
+</p>
+<p>
+    2.Flex - Izpolzva se vurhu konteineri i posle pravilata koito pishem
+    se izpulnqvat v elementite na konteinera, GLEDAI OT SAITA css-tricks/flex.
+    Ima oshte mnogo neshta za FLEX !!!!!!!!!!!!!!!
+</p>
+
+<br><br><br><br><br><br><br><br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

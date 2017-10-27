@@ -1,0 +1,398 @@
+
+
+
+/*IZBEGVAI DA SLAGASH height:; PRI RESPONSIVE SAITOVE ZASHTOTO
+  MNOGO PUTI NESHTATA IZLIZAT OT KONTEINERITE.*/
+
+@media screen and (max-width: 1200px) {
+
+    body
+    {
+        display: block;
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    body>.wrap
+    {
+        display: block;
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    body>.wrap>.hero-head {
+
+        min-height: 650px;
+        max-height:1000px;
+        width:100%;
+        height:100%;
+    }
+
+    body>.wrap>.hero-head>.main-head
+    {
+        display: block;
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    body>.wrap>.hero-head>.main-head>a
+    {
+        width:10%;
+    }
+
+    body>.wrap>.hero-head>.main-head>.main-nav>ul>li>a
+    {
+        padding:10px;
+        font-size: 10px;
+    }
+
+    body>.wrap>.hero-head>.wrapper
+    {
+        width: 100%;
+    }
+
+    body>.wrap>.hero-head>.wrapper>h1
+    {
+        margin-top:0;
+        margin-left: 12%;
+        width:88%;
+        line-height: 45px;
+        font-size: 30px;
+        padding:0;
+    }
+
+    body>.wrap>.hero-head>.wrapper>.goal
+    {
+        margin-left: 12%;
+        font-size: 11px;
+        line-height: 20px;
+        width:50%;
+    }
+
+
+
+
+
+
+    /*first sektion*/
+
+
+    body>.wrap>.content
+    {
+        display: block;
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+        height: 300px;
+    }
+
+
+
+    body>.wrap>.content>.wrapper
+    {
+        display: block;
+        min-width: 100px;
+        max-width: 76%;
+        width: 100%;
+    }
+
+
+
+    body>.wrap>.content>.wrapper>.content-wrap
+    {
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    body>.wrap>.content>.wrapper>.content-wrap>.col>a
+    {
+        width: 30%;
+        font-size: 7px;
+        text-align: center;
+    }
+
+
+    body>.wrap>.content>.wrapper>.content-wrap>.col>h3
+    {
+        font-size: 30px;
+    }
+
+
+    body>.wrap>.content>.wrapper>.content-wrap>.col>.module-text
+    {
+        font-size: 11.1px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    body>.wrap>.content>.wrapper>.content-wrap>h3
+    {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    body>.wrap>.content>.wrapper>.content-wrap-full>.module-text
+    {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    body>.wrap>.content>.wrapper>.content-wrap-full>.button-list
+    {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    body>.wrap>.content>.wrapper>.large-text-link
+    {
+        font-size: 22px;
+    }
+
+    body>.wrap>.content>.wrapper>.content-wrap-full>.button-list>li
+    {
+        margin-right:15px;
+        margin-bottom: 5px;
+    }
+
+
+    body>.wrap>.content>.wrapper>.content-wrap-full>.button-list>li>a
+    {
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+
+    /*last section*/
+
+    body>.wrap>.sponsors
+    {
+        height: 350px;
+        min-height: 10px;
+        max-height: 100%;
+    }
+
+    body>.wrap>.sponsors>.wrapper
+    {
+    }
+
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full
+    {
+
+    }
+
+
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full>h3
+    {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full>.centered
+    {
+        margin-top: 5px;
+    }
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full>.sponsors-list
+    {
+    }
+
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full>.sponsors-list>li
+    {
+    }
+
+
+    body>.wrap>.sponsors>.wrapper>.content-wrap-full>.sponsors-list>li>a
+    {
+    }
+
+    body>.wrap>.content>.wrapper>.content-wrap-full>.module-text
+    {
+        margin-bottom: 15px;
+    }
+
+
+        /*footer*/
+
+    body>.wrap>.main-foot
+    {
+        display: block;
+        width: 100%;
+    }
+
+    body>.wrap>.main-foot>.wrapper
+    {
+        width: 76%;
+        height: 200px;
+
+    }
+
+    body>.wrap>.main-foot>.wrapper>address
+    {
+        font-size: 7px;
+        line-height: 20px;
+    }
+
+    body>.wrap>.main-foot>.wrapper>address>h4
+    {
+        margin-top:20px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    body>.wrap>.main-foot>.wrapper>nav
+    {
+    }
+
+    body>.wrap>.main-foot>.wrapper>nav>h4
+    {
+        margin-top:20px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    body>.wrap>.main-foot>.wrapper>nav>ul>li>a
+    {
+        font-size: 7px;
+        padding: 0;
+        line-height: 20px;
+    }
+
+    body>.wrap>.main-foot>.wrapper>.address>p
+    {
+
+    }
+
+
+    body>.wrap>.main-foot>.bottom
+    {
+        width: 100%;
+    }
+
+
+    body>.wrap>.main-foot>.bottom>.wrapper
+    {
+        display: block;
+        width: 100%;
+        line-height: 10%;
+        margin-left: 12%;
+        font-size: 12px;
+    }
+
+    footer *
+    {
+    }
+
+    body>.wrap>.main-foot>.bottom>.wrapper
+    {
+        min-width: 100px;
+        width: 88%;
+    }
+
+    body>.wrap>.main-foot>.wrapper>.bottom>.wrapper>.bottom-wrap
+    {
+        min-width: 100px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    body>.wrap>.content>.wrapper>.content-wrap
+    {
+        min-width: 100px;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    body>.wrap>.content>.wrapper
+    {
+        min-height: 10px;
+        max-height: 100%;
+        height: 100%;
+    }
+
+    body>.wrap>.content
+    {
+        min-height: 10px;
+        max-height: 100%;
+        height: 100%;
+    }
+
+
+    body>.wrap>.main-foot>.wrapper
+    {
+
+        height:auto;
+        display: block;
+    }
+
+    body>.wrap>.main-foot>.wrapper>address
+    {
+        margin-left: 3%;
+        min-width: 12px;
+        max-width: 100%;
+        display: inline-block;
+        width: 42%;
+    }
+
+    body>.wrap>.main-foot>.wrapper>nav
+    {
+        min-width: 12px;
+        max-width: 100%;
+        display: inline-block;
+        width: 42%;
+        margin-left: 3%;
+        vertical-align: top;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
