@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.exe.config
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.exe
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.pdb
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\1. Define Bank Account Class.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\_1.Define_Bank_Account_Class.exe
+C:\Users\user\Desktop\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\_1.Define_Bank_Account_Class.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.exe.config
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\_1.Define_Bank_Account_Class.exe
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\_1.Define_Bank_Account_Class.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.exe
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\bin\Debug\_1.Define_Bank_Account_Class.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\01.Defining Classes\1. Define Bank Account Class\1. Define Bank Account Class\obj\Debug\1. Define Bank Account Class.csprojResolveAssemblyReference.cache

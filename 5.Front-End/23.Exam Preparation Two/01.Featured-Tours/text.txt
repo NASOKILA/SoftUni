@@ -1,6 +1,7 @@
 Featured Tours
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique urna ex, vel iaculis mi molestie vitae. Aenean posuere quam a nisl luctus hendrerit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique urna ex, vel iaculis mi molestie vitae.
+Aenean posuere quam a nisl luctus hendrerit.
 
 Kauai
 Hawaii

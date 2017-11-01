@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\bin\Debug\01.SortPersonsByNameAndAge.exe.config
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\bin\Debug\01.SortPersonsByNameAndAge.exe
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\bin\Debug\01.SortPersonsByNameAndAge.pdb
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\obj\Debug\01.SortPersonsByNameAndAge.exe
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\obj\Debug\01.SortPersonsByNameAndAge.pdb
+C:\Users\user\Desktop\02.Encapsulation and validation\01.SortPersonsByNameAndAge\obj\Debug\01.SortPersonsByNameAndAge.csprojResolveAssemblyReference.cache

@@ -1,0 +1,124 @@
+
+
+@media screen and (max-width: 480px){
+
+    body
+    {
+        width:100%;
+    }
+
+    body>header
+    {
+        width:100%;
+    }
+
+    header>div
+    {
+        width:100%;
+    }
+
+    body>main
+    {
+        width:100%;
+    }
+
+    .top-button
+    {
+        display: none;
+    }
+
+    .header-wrapper
+    {
+        text-align: center;
+        width: 92.2%;
+        background-color: #212121;
+    }
+
+    .header-subtitle
+    {
+        display: none;
+    }
+
+    header>.header-title-container {
+        padding: 160px 5px;
+        text-align: center;
+        width: 97%;
+
+    }
+
+
+    header>.header-title-container>.header-title
+    {
+        font-size: 35px;
+    }
+
+    body>main>.introduction-section>.introduction-title-container>.introduction-title
+    {
+        padding: 0 30px;
+        font-size: 30px;
+    }
+
+
+    body>main>.introduction-section>.introduction-title-container>.introduction-subtitle
+    {
+        padding: 0 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    body>main>.benefits-section>.wrapper
+    {
+        flex-direction: column;
+    }
+
+
+    body>main>.travel-section>.travel-title-container
+    {
+        width:100%;
+    }
+
+
+    body>main>.travel-section>.travel-title-container>h2
+    {
+        font-size: 32.5px;
+        padding:5px;
+    }
+
+    body>main>.travel-section>.travel-title-container>h3
+    {
+        padding: 5px;
+        font-size: 14.8px;
+        text-align: justify;
+    }
+
+    body>footer>.footer-wrapper>.footer-list
+    {
+        float:none;
+        display: block;
+        text-align: center;
+    }
+
+    body>footer>.footer-wrapper>.logo-image-container
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
+body>main>.travel-section>.travel-title-container
+{
+    width:100%;
+}
+
+
+
+
+
+
+
+

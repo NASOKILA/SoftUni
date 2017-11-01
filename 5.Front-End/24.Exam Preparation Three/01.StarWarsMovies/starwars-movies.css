@@ -1,0 +1,119 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+*
+{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body
+{
+    font-family: Lato;
+    background-color: #264658;
+}
+
+section
+{
+
+    width:80%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+section>article
+{
+    background-color: white;
+    width:27%;
+    display: inline-block;
+    margin-right: 5%;
+    vertical-align: top;
+    height:380px;
+}
+
+section>article:last-of-type
+{
+    margin-right: 0;
+}
+
+section>article>div
+{
+    margin:5%;
+    height:180px;
+}
+
+
+section>article>.first-div-img>img
+{
+    width:50%;
+    padding-top:25px;
+}
+
+section>article>.second-div-img>img
+{
+    padding-top:15px;
+    width:100%;
+}
+
+section>article>.third-div-img
+{
+    width:70%;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+section>article>.third-div-img>img
+{
+    width:100%;
+}
+
+
+section>article>h1
+{
+    color:#4C8ADD;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom:5px;
+}
+
+section>article>p
+{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#8F9193;
+    padding-bottom: 20%;
+}
+
+button
+{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    color: #4C8ADD;
+    border:2px solid #4C8ADD;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background: transparent;
+}
+
+
+button:hover
+{
+    background-color:#4C8ADD;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

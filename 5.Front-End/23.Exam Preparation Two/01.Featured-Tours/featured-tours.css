@@ -1,0 +1,144 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+body
+{
+    font-family: Lato;
+}
+
+section
+{
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+}
+
+header>h1
+{
+    text-align: center;
+    font-size: 45px;
+}
+
+header>p
+{
+    font-size: 14.5px;
+    width: 50%;
+    margin: 0 auto;
+    color:#A6A5A5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section article
+{
+    display: inline-block;
+    width:22.5%;
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+section article:first-of-type
+{
+    margin-left: 0;
+}
+
+.img-div
+{
+    width:100%;
+}
+
+.img-div>img
+{
+    width:100%;
+}
+
+.stars
+{
+    margin-top: 30px;
+}
+
+.stars i
+{
+    color: #FC7E03;
+}
+
+.content>h3
+{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.content>h5
+{
+    margin-top: 0;
+    color:#A6A5A5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

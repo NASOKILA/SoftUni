@@ -1,0 +1,12 @@
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\ApplicationIcon.png
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\Background.png
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\upr_Calc.dll
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\upr_Calc.pdb
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\App.g.i.cs
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\MainPage.g.i.cs
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\upr_Calc.g.resources
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\upr_Calc.dll
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\upr_Calc.pdb
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\AppManifest.xaml
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\Bin\Debug\upr_Calc.xap
+c:\users\user-stand\documents\visual studio 2010\Projects\upr_Calc\upr_Calc\obj\Debug\XapCacheFile.xml

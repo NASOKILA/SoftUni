@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="starwars-form.css">
+    <title>StarWars Form</title>
+</head>
+<body>
+<header>
+    <h2>may the force be with <span>yo</span>u</h2>
+    <h2>Thanks for pre-ordering!</h2>
+</header>
+<main>
+    <form action="#" method="get">
+        <table>
+            <tr class="first-row">
+                <td>
+                    <input type="radio" id="radio1" name="radio" />
+                    <label for="radio1">Pay Pal</label>
+                    <img src="images/PayPal.png" alt="No Image">
+                </td>
+                <td>
+                    <input type="radio" id="radio2" name="radio" />
+                    <label for="radio2">Debit/Credit Card</label>
+                    <img src="images/MasterCard.png" alt="No Image">
+                </td>
+            </tr>
+            <tr class="secont-row">
+                <td colspan="2">
+                    <label for="card-num">Card Number</label>
+                    <input type="text" id="card-num" placeholder="4111 1111 1111 1111">
+                </td>
+            </tr>
+            <tr class="third-row">
+                <td>
+                    <label for="expiry">Expiry</label>
+                    <input type="text" id="expiry" placeholder="MM/YY">
+                </td>
+                <td>
+                    <label for="csv">CSV</label>
+                    <input type="text" id="csv" placeholder="123">
+                    <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                </td>
+            </tr>
+            <tr class="forth-row">
+                <td colspan="2">
+                    <button type="submit">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <p>Finish and Pay</p>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</main>
+<footer>
+    <p>That's <span>$19.99</span></p>
+</footer>
+
+<div class="side-img">
+    <img src="images/R2D2.png" alt="No Img">
+</div>
+</body>
+</html>

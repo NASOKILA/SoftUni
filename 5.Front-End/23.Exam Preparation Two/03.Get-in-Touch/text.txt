@@ -21,6 +21,6 @@ Address
 3021 Fulton Street, San Diego, CA 11794-8010 USA
 
 Opening Hours
-Mon–Fri 8:00am–6:00pm
-Sat 10:00am–4:00pm
+Mon-Fri 8:00am-6:00pm
+Sat 10:00am-4:00pm
 Sun Closed

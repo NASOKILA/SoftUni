@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\bin\Debug\02.Encapsulation and validation.exe.config
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\bin\Debug\02.Encapsulation and validation.exe
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\bin\Debug\02.Encapsulation and validation.pdb
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\obj\Debug\Lesson.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\obj\Debug\02.Encapsulation and validation.exe
+C:\Users\user\Desktop\02.Encapsulation and validation\02.Encapsulation and validation\obj\Debug\02.Encapsulation and validation.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\02.Encapsulation And Validation\02.Encapsulation and validation\bin\Debug\02.Encapsulation and validation.exe.config
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\02.Encapsulation And Validation\02.Encapsulation and validation\obj\Debug\02.Encapsulation and validation.exe
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\02.Encapsulation And Validation\02.Encapsulation and validation\obj\Debug\02.Encapsulation and validation.pdb
