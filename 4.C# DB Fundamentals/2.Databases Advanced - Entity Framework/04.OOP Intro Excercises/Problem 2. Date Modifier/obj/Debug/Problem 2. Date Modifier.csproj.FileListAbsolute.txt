@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\bin\Debug\Problem_2.Date_Modifier.exe.config
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\bin\Debug\Problem_2.Date_Modifier.exe
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\bin\Debug\Problem_2.Date_Modifier.pdb
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\obj\Debug\Problem 2. Date Modifier.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\obj\Debug\Problem_2.Date_Modifier.exe
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 2. Date Modifier\obj\Debug\Problem_2.Date_Modifier.pdb

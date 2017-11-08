@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\bin\Debug\GenericDemo.exe.config
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\obj\Debug\GenericDemo.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\bin\Debug\GenericDemo.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\bin\Debug\GenericDemo.pdb
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\obj\Debug\GenericDemo.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\GenericDemo\obj\Debug\GenericDemo.pdb

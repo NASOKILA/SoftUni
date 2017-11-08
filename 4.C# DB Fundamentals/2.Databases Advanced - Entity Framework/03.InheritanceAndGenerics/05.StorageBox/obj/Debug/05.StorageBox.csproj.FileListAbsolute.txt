@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\bin\Debug\05.StorageBox.exe.config
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\bin\Debug\05.StorageBox.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\bin\Debug\05.StorageBox.pdb
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\obj\Debug\05.StorageBox.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\obj\Debug\05.StorageBox.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\05.StorageBox\obj\Debug\05.StorageBox.pdb

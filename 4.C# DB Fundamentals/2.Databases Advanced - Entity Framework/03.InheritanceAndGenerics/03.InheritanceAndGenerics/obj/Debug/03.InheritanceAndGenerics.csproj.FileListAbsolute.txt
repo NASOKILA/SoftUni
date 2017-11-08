@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\bin\Debug\03.InheritanceAndGenerics.exe.config
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\obj\Debug\03.InheritanceAndGenerics.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\bin\Debug\03.InheritanceAndGenerics.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\bin\Debug\03.InheritanceAndGenerics.pdb
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\obj\Debug\03.InheritanceAndGenerics.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\03.InheritanceAndGenerics\obj\Debug\03.InheritanceAndGenerics.pdb
