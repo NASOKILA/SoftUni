@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\03.InheritanceAndGenerics\04.RandomList\bin\Debug\04.RandomList.exe.config
-C:\Users\user\Desktop\03.InheritanceAndGenerics\04.RandomList\bin\Debug\04.RandomList.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\04.RandomList\bin\Debug\04.RandomList.pdb
-C:\Users\user\Desktop\03.InheritanceAndGenerics\04.RandomList\obj\Debug\04.RandomList.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\04.RandomList\obj\Debug\04.RandomList.pdb

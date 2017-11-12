@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\bin\Debug\Problem 1 Person.exe.config
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\bin\Debug\Problem 1 Person.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\bin\Debug\Problem 1 Person.pdb
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\obj\Debug\Problem 1 Person.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\obj\Debug\Problem 1 Person.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 1 Person\obj\Debug\Problem 1 Person.pdb

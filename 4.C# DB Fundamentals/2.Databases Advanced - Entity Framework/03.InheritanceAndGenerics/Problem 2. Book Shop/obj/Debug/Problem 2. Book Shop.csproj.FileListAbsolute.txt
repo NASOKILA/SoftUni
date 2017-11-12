@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\bin\Debug\Problem_2.Book_Shop.exe.config
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\bin\Debug\Problem_2.Book_Shop.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\bin\Debug\Problem_2.Book_Shop.pdb
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\obj\Debug\Problem 2. Book Shop.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\obj\Debug\Problem_2.Book_Shop.exe
-C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 2. Book Shop\obj\Debug\Problem_2.Book_Shop.pdb

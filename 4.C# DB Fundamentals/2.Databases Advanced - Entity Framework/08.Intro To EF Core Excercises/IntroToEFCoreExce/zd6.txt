@@ -1,0 +1,45 @@
+using IntroductionToEntityFrameworkExcercises.Data;
+using IntroductionToEntityFrameworkExcercises.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+
+namespace IntroductionToEntityFrameworkExcercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var db = new SoftUniContext())
+            {
+
+                var newAddress = new Address()
+                {
+                    AddressText = "Vitoshka 15",
+                    TownId = 4
+                };
+
+                var employeeNakov = db.Employees
+                    .SingleOrDefault(e => e.LastName == "Nakov");
+
+                employeeNakov.Address = newAddress;
+
+                db.SaveChanges();
+
+                var employees = db.Employees
+                    .Include(e => e.Address)
+                    .OrderByDescending(e => e.AddressId)
+                    .Take(10)
+                    .ToList();
+
+                foreach (var e in employees)
+                {
+                    Console.WriteLine($"{e.Address.AddressText}");
+                }
+                
+
+            }
+
+        }
+    }
+}

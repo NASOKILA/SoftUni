@@ -1,0 +1,47 @@
+using IntroductionToEntityFrameworkExcercises.Data;
+using IntroductionToEntityFrameworkExcercises.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+namespace IntroductionToEntityFrameworkExcercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var db = new SoftUniContext())
+            {
+
+                Project project = db.Projects.Find(2);  // Taka vzimame proekta po Id
+
+                List<EmployeeProject> employeeProject = db.EmployeesProjects
+                    .Where(e => e.Project.ProjectId == 2)
+                    .ToList();
+                
+                //First we remove from EmployeesProjects where Project Id = 2
+                 db.RemoveRange(employeeProject);
+                 db.SaveChanges();
+                
+                //Then we remov from table Projects where project id = 2
+                 db.Remove(project);
+                 db.SaveChanges();
+                                 
+                List<Project> projects = db.Projects
+                        .Take(10)
+                        .ToList();
+
+                foreach (var p in projects)
+                {
+                    Console.WriteLine($"{p.Name}");
+                }
+
+
+            }
+
+           
+        }
+    }
+}
