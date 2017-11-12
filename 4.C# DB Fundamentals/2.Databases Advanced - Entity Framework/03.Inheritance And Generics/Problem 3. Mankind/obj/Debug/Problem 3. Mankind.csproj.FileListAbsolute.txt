@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\bin\Debug\Problem_3.Mankind.exe.config
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\bin\Debug\Problem_3.Mankind.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\bin\Debug\Problem_3.Mankind.pdb
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\obj\Debug\Problem 3. Mankind.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\obj\Debug\Problem_3.Mankind.exe
+C:\Users\user\Desktop\03.InheritanceAndGenerics\Problem 3. Mankind\obj\Debug\Problem_3.Mankind.pdb

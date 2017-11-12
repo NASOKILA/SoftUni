@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+
+namespace IntroToDbAppExcercises
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //ZADACHA 2
+
+            var connection = new SqlConnection(
+                "Server=HAL\\MSSQLSERVER2;" +
+                "Database=MinionsDB;" +
+                "Integrated Security=True"
+                );
+            //MOJEM DA POLZVAME SqlConnectionStringBuilder()
+
+
+            connection.Open();  //Otvarqme vruzkata
+            using (connection)
+            {//Polzvame usinga za da ni se zatvarq avtomatichno.
+
+               
+                
+                var names = new SqlCommand(
+                    "select v.Name, COUNT(mv.MinionId) AS MinionsCount " +
+                    "from Villains AS v " +
+                    "JOIN MinionsVillains AS mv " +
+                    "ON v.Id = mv.VillainId " +
+                    "GROUP BY v.Name " +
+                    "HAVING COUNT(mv.MinionId) > 3 " +
+                    "ORDER BY COUNT(mv.MinionId) DESC "
+                    , connection);
+
+                var villainNames = names.ExecuteReader();
+
+                while (villainNames.Read())
+                {
+                    var vName = (string)villainNames["Name"];
+                    var minionsCount = (int)villainNames["MinionsCount"];
+
+                    Console.WriteLine($"{vName} - {minionsCount}");
+                    //Ne mi vadi reziltat zashtoto nqmam Villans s nad 3 Miniona
+                }
+                
+
+
+            }
+            
+
+        }
+    }
+}
