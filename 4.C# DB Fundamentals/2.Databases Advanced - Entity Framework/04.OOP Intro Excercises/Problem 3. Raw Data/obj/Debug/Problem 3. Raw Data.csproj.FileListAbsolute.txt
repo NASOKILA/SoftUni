@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\bin\Debug\Problem_3.Raw_Data.exe.config
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\bin\Debug\Problem_3.Raw_Data.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\bin\Debug\Problem_3.Raw_Data.pdb
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\obj\Debug\Problem 3. Raw Data.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\obj\Debug\Problem_3.Raw_Data.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 3. Raw Data\obj\Debug\Problem_3.Raw_Data.pdb

@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\bin\Debug\Problem_7.Animals.exe.config
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\bin\Debug\Problem_7.Animals.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\bin\Debug\Problem_7.Animals.pdb
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\obj\Debug\Problem 7. Animals.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\obj\Debug\Problem_7.Animals.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 7. Animals\obj\Debug\Problem_7.Animals.pdb

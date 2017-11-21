@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\bin\Debug\Problem_5.Football_Team_Generator.exe.config
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\bin\Debug\Problem_5.Football_Team_Generator.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\bin\Debug\Problem_5.Football_Team_Generator.pdb
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\obj\Debug\Problem 5. Football Team Generator.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\obj\Debug\Problem_5.Football_Team_Generator.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 5. Football Team Generator\obj\Debug\Problem_5.Football_Team_Generator.pdb

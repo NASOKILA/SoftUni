@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\02.Excercises\02.ClassBoxDataValidation\bin\Debug\02.ClassBoxDataValidation.exe.config
-C:\Users\user\Desktop\02.Excercises\02.ClassBoxDataValidation\bin\Debug\02.ClassBoxDataValidation.exe
-C:\Users\user\Desktop\02.Excercises\02.ClassBoxDataValidation\bin\Debug\02.ClassBoxDataValidation.pdb
-C:\Users\user\Desktop\02.Excercises\02.ClassBoxDataValidation\obj\Debug\02.ClassBoxDataValidation.exe
-C:\Users\user\Desktop\02.Excercises\02.ClassBoxDataValidation\obj\Debug\02.ClassBoxDataValidation.pdb

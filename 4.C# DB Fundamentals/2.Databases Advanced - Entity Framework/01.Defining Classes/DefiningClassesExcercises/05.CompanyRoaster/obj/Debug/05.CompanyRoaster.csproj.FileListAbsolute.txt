@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\bin\Debug\05.CompanyRoaster.exe.config
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\bin\Debug\05.CompanyRoaster.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\bin\Debug\05.CompanyRoaster.pdb
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\obj\Debug\05.CompanyRoaster.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\obj\Debug\05.CompanyRoaster.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\05.CompanyRoaster\obj\Debug\05.CompanyRoaster.pdb

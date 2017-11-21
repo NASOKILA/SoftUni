@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\DefiningClassesExcercises\01.Define a class Person\bin\Debug\01.Define a class Person.exe.config
-C:\Users\user\Desktop\DefiningClassesExcercises\01.Define a class Person\bin\Debug\01.Define a class Person.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\01.Define a class Person\bin\Debug\01.Define a class Person.pdb
-C:\Users\user\Desktop\DefiningClassesExcercises\01.Define a class Person\obj\Debug\01.Define a class Person.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\01.Define a class Person\obj\Debug\01.Define a class Person.pdb

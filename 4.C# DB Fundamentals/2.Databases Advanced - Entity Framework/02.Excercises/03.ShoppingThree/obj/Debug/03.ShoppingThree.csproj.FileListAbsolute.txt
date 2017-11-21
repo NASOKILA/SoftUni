@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\bin\Debug\03.ShoppingThree.exe.config
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\bin\Debug\03.ShoppingThree.exe
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\bin\Debug\03.ShoppingThree.pdb
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\obj\Debug\03.ShoppingThree.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\obj\Debug\03.ShoppingThree.exe
-C:\Users\user\Desktop\02.Excercises\03.ShoppingThree\obj\Debug\03.ShoppingThree.pdb

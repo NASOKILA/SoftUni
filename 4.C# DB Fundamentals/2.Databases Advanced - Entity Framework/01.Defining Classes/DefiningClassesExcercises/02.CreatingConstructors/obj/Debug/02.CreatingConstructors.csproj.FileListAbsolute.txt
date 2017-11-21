@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\DefiningClassesExcercises\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.exe.config
-C:\Users\user\Desktop\DefiningClassesExcercises\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\02.CreatingConstructors\bin\Debug\02.CreatingConstructors.pdb
-C:\Users\user\Desktop\DefiningClassesExcercises\02.CreatingConstructors\obj\Debug\02.CreatingConstructors.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\02.CreatingConstructors\obj\Debug\02.CreatingConstructors.pdb
