@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\bin\Debug\DefiningClassesExcercises.exe.config
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\bin\Debug\DefiningClassesExcercises.exe
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\bin\Debug\DefiningClassesExcercises.pdb
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\obj\Debug\DefiningClassesExcercises.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\obj\Debug\DefiningClassesExcercises.exe
+C:\Users\user\Desktop\DefiningClassesExcercises\DefiningClassesExcercises\obj\Debug\DefiningClassesExcercises.pdb

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.deps.json
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.runtimeconfig.json
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.runtimeconfig.dev.json
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.dll
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.pdb
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.AssemblyInfo.cs
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.dll
+C:\Users\user\Desktop\HospitalDatabase\HospitalDatabase\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.pdb

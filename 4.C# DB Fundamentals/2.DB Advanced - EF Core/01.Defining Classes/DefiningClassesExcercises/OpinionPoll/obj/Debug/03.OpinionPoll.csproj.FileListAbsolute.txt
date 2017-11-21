@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\DefiningClassesExcercises\OpinionPoll\bin\Debug\OpinionPoll.exe.config
+C:\Users\user\Desktop\DefiningClassesExcercises\OpinionPoll\bin\Debug\OpinionPoll.exe
+C:\Users\user\Desktop\DefiningClassesExcercises\OpinionPoll\bin\Debug\OpinionPoll.pdb
+C:\Users\user\Desktop\DefiningClassesExcercises\OpinionPoll\obj\Debug\OpinionPoll.exe
+C:\Users\user\Desktop\DefiningClassesExcercises\OpinionPoll\obj\Debug\OpinionPoll.pdb

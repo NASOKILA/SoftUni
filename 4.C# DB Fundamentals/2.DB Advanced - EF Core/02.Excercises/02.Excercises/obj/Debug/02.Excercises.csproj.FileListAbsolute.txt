@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\02.Excercises\02.Excercises\bin\Debug\02.Excercises.exe.config
+C:\Users\user\Desktop\02.Excercises\02.Excercises\bin\Debug\02.Excercises.exe
+C:\Users\user\Desktop\02.Excercises\02.Excercises\bin\Debug\02.Excercises.pdb
+C:\Users\user\Desktop\02.Excercises\02.Excercises\obj\Debug\02.Excercises.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\02.Excercises\02.Excercises\obj\Debug\02.Excercises.exe
+C:\Users\user\Desktop\02.Excercises\02.Excercises\obj\Debug\02.Excercises.pdb

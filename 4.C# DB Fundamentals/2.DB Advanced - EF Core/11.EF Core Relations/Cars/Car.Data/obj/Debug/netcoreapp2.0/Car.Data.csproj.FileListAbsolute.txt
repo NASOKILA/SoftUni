@@ -1,0 +1,18 @@
+C:\Users\user\Desktop\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.deps.json
+C:\Users\user\Desktop\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.dll
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.pdb
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.dll
+C:\Users\user\Desktop\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.deps.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\bin\Debug\netcoreapp2.0\Car.Data.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\11.EF Core Relations\Cars\Car.Data\obj\Debug\netcoreapp2.0\Car.Data.pdb

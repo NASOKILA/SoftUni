@@ -1,0 +1,40 @@
+using IntroductionToEntityFrameworkExcercises.Data;
+using IntroductionToEntityFrameworkExcercises.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace IntroductionToEntityFrameworkExcercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var db = new SoftUniContext())
+            {
+
+                List<Department> departments = db.Departments
+                    .Include(d => d.Employees)
+                    .Where(e => e.Employees.Count > 5)
+                    .OrderBy(e => e.Employees.Count)
+                    .ThenBy(e => e.Name)
+                    .ToList();
+
+
+                foreach (var dept in departments)
+                {
+                    Console.WriteLine($"{ dept.Name } - {dept.Manager.FirstName} {dept.Manager.LastName}");
+                    foreach (var empl in dept.Employees.OrderBy(e => e.FirstName).ThenBy(e => e.LastName))
+                    {
+                        Console.WriteLine($"{empl.FirstName} {empl.LastName} - {empl.JobTitle}");
+                    }
+                    Console.WriteLine($"----------");
+                }
+
+            }
+
+           
+        }
+    }
+}

@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\bin\Debug\Problem_6.Online_Radio_Database.exe.config
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\bin\Debug\Problem_6.Online_Radio_Database.exe
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\bin\Debug\Problem_6.Online_Radio_Database.pdb
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\obj\Debug\Problem 6. Online Radio Database.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\obj\Debug\Problem_6.Online_Radio_Database.exe
+C:\Users\user\Desktop\04.OOP Intro Excercises\Problem 6. Online Radio Database\obj\Debug\Problem_6.Online_Radio_Database.pdb

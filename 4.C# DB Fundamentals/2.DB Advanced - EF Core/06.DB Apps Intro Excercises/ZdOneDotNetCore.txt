@@ -1,0 +1,210 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+
+namespace IntroToDbAppExcercises
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+
+            //svurzvame se s bazata :
+            //Dobavqme si paketa SQL CLIENT !!!
+            var connection = new SqlConnection(
+                "Server=HAL\\MSSQLSERVER2;" +
+                "Database=Master;" +
+                "Integrated Security=True"
+                );
+            //MOJEM DA POLZVAME SqlConnectionStringBuilder()
+
+
+            connection.Open();  //Otvarqme vruzkata
+            using (connection)
+            {//Polzvame usinga za da ni se zatvarq avtomatichno.
+
+                
+                //Zadacha 1:
+                var createDatabaseMinionsDB = new SqlCommand(
+                    "CREATE DATABASE MinionsDB;",
+                    connection);
+
+                createDatabaseMinionsDB.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var useMinions = new SqlCommand(
+                    "USE MinionsDB;",
+                    connection);
+
+                useMinions.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                //Pochvame da suzdavame tablicite.
+
+                var tableCountries = new SqlCommand(
+                    "CREATE TABLE Countries(" +
+                    "Id INT NOT NULL PRIMARY KEY IDENTITY(1,1)," +
+                    "Name VARCHAR(100) NOT NULL" +
+                    ")",
+                    connection);
+
+                tableCountries.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var tableTowns = new SqlCommand(
+                    "CREATE TABLE Towns(" +
+                     "Id INT NOT NULL PRIMARY KEY IDENTITY(1,1)," +
+                     "Name VARCHAR(100) NOT NULL," +
+                     "CountryId INT NOT NULL FOREIGN KEY REFERENCES Countries(Id)" +
+                    ")",
+                    connection);
+
+                tableTowns.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var tableMinions = new SqlCommand(
+                   "CREATE TABLE Minions(" +
+                    "Id INT NOT NULL PRIMARY KEY IDENTITY(1,1)," +
+                    "Name VARCHAR(100) NOT NULL," +
+                    "Age INT NOT NULL," +
+                    "TownId INT NOT NULL FOREIGN KEY REFERENCES Towns(Id)" +
+                   ")",
+                   connection);
+
+                tableMinions.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var tableEvilnessFactors = new SqlCommand(
+                  "CREATE TABLE EvilnessFactors(" +
+                  "Id INT NOT NULL PRIMARY KEY IDENTITY(1,1)," +
+                  "Name VARCHAR(100) NOT NULL," +
+                  "CHECK(Name IN ('super good','good','bad','evil','super evil'))" +
+                  ")",
+                  connection);
+
+                tableEvilnessFactors.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var tableVillains = new SqlCommand(
+                    "CREATE TABLE Villains(" +
+                    "Id INT NOT NULL PRIMARY KEY IDENTITY(1,1)," +
+                    "Name VARCHAR(100) NOT NULL," +
+                    "EvilnessFactorId INT NOT NULL FOREIGN KEY REFERENCES EvilnessFactors(Id)" +
+                    ")",
+                    connection);
+
+                tableVillains.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                var tableMinionsVillains = new SqlCommand(
+                    "CREATE TABLE MinionsVillains(" +
+                    "MinionId INT NOT NULL FOREIGN KEY REFERENCES Minions(Id)," +
+                    "VillainId INT NOT NULL FOREIGN KEY REFERENCES Villains(Id)," +
+                    "CONSTRAINT PK_Minions_Villains PRIMARY KEY(MinionId, VillainId)" +
+                    ")",
+                  connection);
+
+                tableMinionsVillains.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+
+                //Zapochvame insert Statementite:
+
+                var insertCountries = new SqlCommand(
+                    "INSERT INTO Countries(Name)" +
+                    "VALUES" +
+                    "('Bulgaria')," +
+                    "('Italy')," +
+                    "('Spain')," +
+                    "('England')," +
+                    "('America')"
+                    , connection);
+
+                insertCountries.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                var insertTowns = new SqlCommand(
+                    "INSERT INTO Towns(Name, CountryId)" +
+                    "VALUES" +
+                    "('Blagoevgrad',2)," +
+                    "('Rome', 1)," +
+                    "('Madrid', 4)," +
+                    "('London', 3)," +
+                    "('New York', 5)"
+                    , connection);
+
+                insertTowns.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                var insertMinions = new SqlCommand(
+                    "INSERT INTO Minions(Name, Age, TownId)" +
+                    "VALUES" +
+                    "('Nasko', 25, 2)," +
+                    "('Asi', 30, 2)," +
+                    "('Toni',33, 1)," +
+                    "('Marti', 44, 5)," +
+                    "('Niki',27, 5)"
+                    , connection);
+
+                insertMinions.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                var insertEvilnessFactors = new SqlCommand(
+                    "INSERT INTO EvilnessFactors(Name)" +
+                    "VALUES" +
+                    "('good')," +
+                    "('super good')," +
+                    "('bad')," +
+                    "('super evil')," +
+                    "('evil')"
+                    , connection);
+
+                insertEvilnessFactors.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                var insertVillains = new SqlCommand(
+                    "INSERT INTO Villains(Name, EvilnessFactorId)" +
+                    "VALUES" +
+                    "('Ivan',1)," +
+                    "('Vasil',3)," +
+                    "('Nikolai',5)," +
+                    "('Janet',2)," +
+                    "('Petur',4)"
+                    , connection);
+
+                insertVillains.ExecuteNonQuery(); // izpulnqvame zaqvkata
+
+
+                var insertMinionsVillains = new SqlCommand(
+                    "INSERT INTO MinionsVillains(MinionId, VillainId)" +
+                    "VALUES" +
+                    "(1,1)," +
+                    "(2,3)," +
+                    "(3,5)," +
+                    "(4,2)," +
+                    "(5,4)"
+                    , connection);
+
+                insertMinionsVillains.ExecuteNonQuery();
+
+
+
+
+            }
+
+
+/*DOBAVIH OSHTE MINIONI I I DANNI V MinionsVillians*/
+
+
+
+        }
+    }
+}

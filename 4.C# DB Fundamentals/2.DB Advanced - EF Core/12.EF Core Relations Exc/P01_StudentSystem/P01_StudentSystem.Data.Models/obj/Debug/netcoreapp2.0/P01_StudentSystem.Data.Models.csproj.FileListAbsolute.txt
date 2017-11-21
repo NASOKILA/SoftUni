@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.deps.json
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.dll
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.pdb
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.dll
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.pdb

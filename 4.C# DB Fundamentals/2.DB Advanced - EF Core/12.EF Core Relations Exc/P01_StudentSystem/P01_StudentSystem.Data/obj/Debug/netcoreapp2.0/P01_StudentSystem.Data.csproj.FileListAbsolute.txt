@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.Databases Advanced - Entity Framework\12.EF Core Relations Excercises\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.deps.json
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.dll
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.pdb
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.dll
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\bin\Debug\netcoreapp2.0\P01_StudentSystem.Data.Models.pdb
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.dll
+C:\Users\user\Desktop\P01_StudentSystem\P01_StudentSystem.Data\obj\Debug\netcoreapp2.0\P01_StudentSystem.Data.pdb

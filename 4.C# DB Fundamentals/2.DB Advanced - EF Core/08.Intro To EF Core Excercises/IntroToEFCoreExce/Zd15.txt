@@ -1,0 +1,86 @@
+using IntroductionToEntityFrameworkExcercises.Data;
+using IntroductionToEntityFrameworkExcercises.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+namespace IntroductionToEntityFrameworkExcercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var db = new SoftUniContext())
+            {
+                //vzimame si imeto
+                string townToDelete = Console.ReadLine();
+
+                //vzimame si grada po imeto 
+                Town town = db.Towns.Where(t => t.Name == townToDelete)
+                    .Include(t => t.Addresses)          
+                    .ThenInclude( t => t.Employees)
+                    .SingleOrDefault();
+
+
+                //Tozi go polzvam za nakraq za da moga da si printiram broq na iztrite adresi!
+                List<string> removedAddresses = new List<string>();
+
+                //Shte polzvame tozi spisuk za da triem ot bazata zashtoto nemojem direktno
+                //ot purviq foreach, TRQBVA DA POLZVAME VTORI SPISUK !!!
+                List<Address> addressesToRemove = new List<Address>();
+
+                foreach (var address in town.Addresses)
+                {
+
+                    List<Employee> employeesToSetToNull = new List<Employee>();
+                    foreach (var emp in address.Employees)
+                    {
+                        //Pulnim si noviq sisuk s emploitata na tozi adres, 
+                        //za da mojem posle da polzvame tozi spisuk za da gi iztriem !
+                        employeesToSetToNull.Add(emp);
+                    }
+
+                    foreach (var e in employeesToSetToNull)
+                    {
+                        e.AddressId = null;
+                        db.SaveChanges();
+                    }
+
+                    addressesToRemove.Add(address);
+                    
+                }
+
+                
+
+                foreach (var a in addressesToRemove)
+                {
+                    removedAddresses.Add(a.AddressText);
+                    db.Remove(a);
+                    db.SaveChanges();
+                }
+
+                //Addressess are remove from the database 
+
+                string addressString = "addresses";
+                string wasWere = "were";
+                if (removedAddresses.Count == 1)
+                {
+                    addressString = "address";
+                    wasWere = "was";
+
+                }
+
+                Console.WriteLine($"{removedAddresses.Count} {addressString} in {town.Name} {wasWere} deleted");
+
+                //I nakraq si triem samiq grad !!!
+                db.Remove(town);
+                db.SaveChanges();
+
+            }
+
+           
+        }
+    }
+}
