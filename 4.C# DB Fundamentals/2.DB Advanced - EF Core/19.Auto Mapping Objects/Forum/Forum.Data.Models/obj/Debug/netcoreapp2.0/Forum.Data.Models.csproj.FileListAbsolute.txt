@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Forum\Forum.Data.Models\bin\Debug\netcoreapp2.0\Forum.Data.Models.deps.json
+C:\Users\user\Desktop\Forum\Forum.Data.Models\bin\Debug\netcoreapp2.0\Forum.Data.Models.dll
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\Forum\Forum.Data.Models\bin\Debug\netcoreapp2.0\Forum.Data.Models.pdb
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.dll
+C:\Users\user\Desktop\Forum\Forum.Data.Models\obj\Debug\netcoreapp2.0\Forum.Data.Models.pdb

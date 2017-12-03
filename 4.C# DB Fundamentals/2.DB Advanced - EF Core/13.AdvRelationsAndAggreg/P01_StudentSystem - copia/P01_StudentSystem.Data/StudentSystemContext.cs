@@ -65,7 +65,5 @@
             //SEGA PROGRAMATA SHTE VURVI PO LEKO ZASHTOTO NQMAME POLKOVA MNOGO KOD !
 
         }
-
-
     }
 }

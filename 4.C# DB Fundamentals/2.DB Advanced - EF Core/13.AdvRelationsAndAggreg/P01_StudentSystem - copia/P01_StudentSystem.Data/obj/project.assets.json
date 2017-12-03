@@ -3361,11 +3361,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj",
       "projectName": "P01_StudentSystem.Data",
-      "projectPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3384,8 +3384,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj"
             }
           }
         }
@@ -3406,7 +3406,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

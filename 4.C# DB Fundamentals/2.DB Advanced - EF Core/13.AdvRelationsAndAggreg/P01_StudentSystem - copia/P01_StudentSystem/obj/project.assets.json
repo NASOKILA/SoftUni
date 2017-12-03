@@ -3381,11 +3381,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem\\P01_StudentSystem.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem\\P01_StudentSystem.csproj",
       "projectName": "P01_StudentSystem",
-      "projectPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem\\P01_StudentSystem.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem\\P01_StudentSystem.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3404,8 +3404,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data\\P01_StudentSystem.Data.csproj"
             }
           }
         }
@@ -3425,7 +3425,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

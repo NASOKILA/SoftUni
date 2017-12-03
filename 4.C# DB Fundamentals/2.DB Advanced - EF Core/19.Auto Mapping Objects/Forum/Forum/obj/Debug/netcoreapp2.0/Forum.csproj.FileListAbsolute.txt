@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Forum\Forum\bin\Debug\netcoreapp2.0\Forum.deps.json
+C:\Users\user\Desktop\Forum\Forum\bin\Debug\netcoreapp2.0\Forum.runtimeconfig.json
+C:\Users\user\Desktop\Forum\Forum\bin\Debug\netcoreapp2.0\Forum.runtimeconfig.dev.json
+C:\Users\user\Desktop\Forum\Forum\bin\Debug\netcoreapp2.0\Forum.dll
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.AssemblyInfo.cs
+C:\Users\user\Desktop\Forum\Forum\bin\Debug\netcoreapp2.0\Forum.pdb
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.dll
+C:\Users\user\Desktop\Forum\Forum\obj\Debug\netcoreapp2.0\Forum.pdb

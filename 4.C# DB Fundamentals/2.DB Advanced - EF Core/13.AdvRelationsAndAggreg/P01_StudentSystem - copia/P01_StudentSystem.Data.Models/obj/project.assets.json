@@ -3341,11 +3341,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
       "projectName": "P01_StudentSystem.Data.Models",
-      "projectPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data.Models\\P01_StudentSystem.Data.Models.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\P01_StudentSystem\\P01_StudentSystem.Data.Models\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\13.AdvRelationsAndAggreg\\P01_StudentSystem - copia\\P01_StudentSystem.Data.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3382,7 +3382,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
