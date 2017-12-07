@@ -1,0 +1,83 @@
+Kak suzdavame proet ?
+
+	Imame proekt Employees.App koeto e ot tip App.
+	vsichki ostanali proekti Employees.Data, Employees.models,
+	Employees.Servces, Employees.DtoModels sa ot tip Library.
+
+VAJNO !!!
+1.Nikoga ne rineimvai proektite(Nqma da promenish imeto na samite papki), po
+dobre trii proektite i pak gi suzdavai.
+
+2.Gledai Configuration daila koit osudurja connectionStringa da e s razlichno ime ot papkata Configuration v Employee.Data.
+
+VAJNO !!!
+3.Sled Zavurshvaneto na DBContexta v Employees.Data si dobavqme vsichki nujni
+paketi, .SqlServer i .Tool . 
+Pravim si referenciq ot .App kum .Data  i  pishem v konzolata  
+Add-Migration Initial    i    polse Update-Database za da ni vdigne bazata.
+Posle mojem da otvorim MSSQL SERVER i da vidim dali ni e suzdadena bazata.
+
+4.Otivame v startUp v Employee.App i si dobavqme Dependency Injection:
+Install-Package Microsoft.Extensions.DependencyInjection    i si napravim
+konfiguraciite na Servisite v metod izvun main() i trqbva da e samo statichen
+i da vrushta serviceProvider.
+
+5.Sled kato bazata ni e vdignata si pravim Dto-tata i posle servicite, dneska 
+nqma da polzvame interfeis. V .Services si dobavqme referencii kum vsichko bez
+.App zashtoto shte ni trqbvat.
+
+6.Dobavqme si referenciq ot .App do .Employees.Services za da mojem v 
+ConfigureServises da si dobavim Service s .AddTransient<ImeNaService>();
+
+
+7.Pochvame da si pravim EmployeeServic-a samoche predi tova ni trqbva AUTOMAPPER
+instalirame si go v .App proekta : 
+Install-Package Automapper     i  
+Install-Package Automapper.Extensions.Microsoft.DependencyInjection      za da 
+	mojem da polzvame automappera po lesno !!!
+I v .Services si dobavqme samo  Install-Package Automapper   za da mojem da go
+	vikame
+
+8.V .App si dobavqme nov klas koito s ime AutomapperProfile i da nasledqva  Profile, v nego polzvame utomapper using Automapper i si slagame vsichki konfiguracii koito ni trqbvat. Klasa e internal i ima funkciq AutomapperProfile()
+v koqto si pravim vsichki konfiguracii za automappera koito ni trqbvat.
+//Tuk si soagame vsichki konfiguracii koe kum koe da se mapva
+            
+9.Sled tova v StartUp trqbva da si vdignem automappera, pishem using Automapper;
+i v Configure service metoda si pishem :
+serviceCollection.AddAutoMapper(conf => conf.AddProfile<AutomapperProfile>());
+            
+10.Pravim si INTERNAL klas Engine s metod INTERNAL Run() vutre, veche znaem kak 
+Dobavqme si i dosadniq INTERNAL klas CommandParser pulen s reflectioni.
+shte ni trqbv using System.Reflection;
+
+10.1 Ednovremenno si pravim i papka Commands za komanite i SHTE POLZVAME ICommand
+INTERFEIS za da sme sigurni che vsqka komanda shte ima Excecute() metoda.
+
+11. V StartUp si suzdavame serviceProvidera i go podavame na Engine
+
+12.Pochvame da si pravim komandite edna po edna kato zapochvame ot Exit();
+Testvame i produljavame s drugite komandi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

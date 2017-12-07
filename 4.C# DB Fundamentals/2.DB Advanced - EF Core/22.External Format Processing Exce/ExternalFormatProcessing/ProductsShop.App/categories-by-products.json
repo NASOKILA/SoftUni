@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Adult",
+    "productsCount": 60,
+    "avetagePrice": 759.613666,
+    "totalRevenue": 45576.82
+  },
+  {
+    "category": "Autoparts",
+    "productsCount": 49,
+    "avetagePrice": 846.675918,
+    "totalRevenue": 41487.12
+  },
+  {
+    "category": "Business",
+    "productsCount": 53,
+    "avetagePrice": 810.190754,
+    "totalRevenue": 42940.11
+  },
+  {
+    "category": "Drugs",
+    "productsCount": 45,
+    "avetagePrice": 811.670000,
+    "totalRevenue": 36525.15
+  },
+  {
+    "category": "Electronics",
+    "productsCount": 60,
+    "avetagePrice": 718.990833,
+    "totalRevenue": 43139.45
+  },
+  {
+    "category": "Fashion",
+    "productsCount": 52,
+    "avetagePrice": 743.917115,
+    "totalRevenue": 38683.69
+  },
+  {
+    "category": "For Children",
+    "productsCount": 54,
+    "avetagePrice": 730.607222,
+    "totalRevenue": 39452.79
+  },
+  {
+    "category": "Garden",
+    "productsCount": 50,
+    "avetagePrice": 756.351200,
+    "totalRevenue": 37817.56
+  },
+  {
+    "category": "Other",
+    "productsCount": 57,
+    "avetagePrice": 721.812807,
+    "totalRevenue": 41143.33
+  },
+  {
+    "category": "Sports",
+    "productsCount": 64,
+    "avetagePrice": 838.575937,
+    "totalRevenue": 53668.86
+  },
+  {
+    "category": "Weapons",
+    "productsCount": 56,
+    "avetagePrice": 745.082678,
+    "totalRevenue": 41724.63
+  }
+]

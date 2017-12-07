@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\bin\Debug\netcoreapp2.0\ProductsShop.Services.deps.json
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\bin\Debug\netcoreapp2.0\ProductsShop.Services.dll
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\bin\Debug\netcoreapp2.0\ProductsShop.Services.pdb
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.AssemblyInfo.cs
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.dll
+C:\Users\user\Desktop\ExternalFormatProcessing\ProductsShop.Services\obj\Debug\netcoreapp2.0\ProductsShop.Services.pdb
