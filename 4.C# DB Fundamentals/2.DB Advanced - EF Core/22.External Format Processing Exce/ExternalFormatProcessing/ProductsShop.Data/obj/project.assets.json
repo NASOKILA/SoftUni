@@ -3623,11 +3623,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj",
       "projectName": "ProductsShop.Data",
-      "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Data\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3646,8 +3646,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Models\\ProductsShop.Models.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Models\\ProductsShop.Models.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Models\\ProductsShop.Models.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Models\\ProductsShop.Models.csproj"
             }
           }
         }

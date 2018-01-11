@@ -69,3 +69,5 @@ C:\Users\user\Desktop\Trenirovka\Second\One\C# Skeleton\TodoList\bin\Microsoft.A
 C:\Users\user\Desktop\Trenirovka\Second\One\C# Skeleton\TodoList\obj\Debug\TodoList.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\Trenirovka\Second\One\C# Skeleton\TodoList\obj\Debug\TodoList.dll
 C:\Users\user\Desktop\Trenirovka\Second\One\C# Skeleton\TodoList\obj\Debug\TodoList.pdb
+C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\Trenirovka\Second\One\C# Skeleton\TodoList\obj\Debug\TodoList.dll
+C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\Trenirovka\Second\One\C# Skeleton\TodoList\obj\Debug\TodoList.pdb

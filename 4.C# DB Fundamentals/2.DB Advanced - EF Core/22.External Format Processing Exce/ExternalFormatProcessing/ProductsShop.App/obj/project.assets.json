@@ -4808,11 +4808,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.App\\ProductsShop.App.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.App\\ProductsShop.App.csproj",
       "projectName": "ProductsShop.App",
-      "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.App\\ProductsShop.App.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.App\\ProductsShop.App.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.App\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4831,11 +4831,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Data\\ProductsShop.Data.csproj"
             },
-            "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj"
             }
           }
         }

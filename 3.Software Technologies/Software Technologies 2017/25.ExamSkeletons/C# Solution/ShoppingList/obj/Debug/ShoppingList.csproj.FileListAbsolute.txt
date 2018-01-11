@@ -69,3 +69,4 @@ C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017
 C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\25.ExamSkeletons\C# Solution\ShoppingList\obj\Debug\ShoppingList.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\25.ExamSkeletons\C# Solution\ShoppingList\obj\Debug\ShoppingList.dll
 C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\25.ExamSkeletons\C# Solution\ShoppingList\obj\Debug\ShoppingList.pdb
+C:\Users\user\Desktop\SoftUni\3.Software Technologies\Software Technologies 2017\25.ExamSkeletons\C# Solution\ShoppingList\obj\Debug\ShoppingList.csproj.CoreCompileInputs.cache

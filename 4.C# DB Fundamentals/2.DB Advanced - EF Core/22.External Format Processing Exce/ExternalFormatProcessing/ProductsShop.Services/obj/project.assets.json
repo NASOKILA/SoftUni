@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj",
       "projectName": "ProductsShop.Services",
-      "projectPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Services\\ProductsShop.Services.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ExternalFormatProcessing\\ProductsShop.Services\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\22.External Format Processing Exce\\ExternalFormatProcessing\\ProductsShop.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
