@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collect List Items</title>
+</head>
+<body>
+<ul id="items">
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ul>
+<textarea id="result"></textarea>
+<br>
+<button onclick="extractText()">Extract Text</button>
+<script>
+    function extractText() {
+
+        let ul = document.querySelectorAll('ul li');
+        console.log(ul);
+
+        let textarea = document.getElementById('result');
+        textarea.value = '';
+
+        for(let i = 0; i <= ul.length-1;i++)
+            textarea.value += ul[i].textContent + '\n';
+    }
+</script>
+
+</body>
+</html>

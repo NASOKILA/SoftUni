@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.App.deps.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.App.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.App.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.App.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.App.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.Data.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.DataProcessor.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.Models.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.DataProcessor.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.Data.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\bin\Debug\netcoreapp2.0\Stations.Models.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\25.ExamPrepTwo\Skeleton\Stations.App\obj\Debug\netcoreapp2.0\Stations.App.pdb

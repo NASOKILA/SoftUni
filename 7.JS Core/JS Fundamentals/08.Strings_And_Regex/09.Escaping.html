@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escaping</title>
+</head>
+<body>
+<div><label for="userInput">Paste test input here:</label></div>
+<div>
+    <textarea rows="12" cols="40" id="userInput"></textarea>
+    <input type="button" value="Escape"
+           onclick="document.getElementById('result').innerHTML = htmlEscape(JSON.parse(document.getElementById('userInput').value.replace(/'/g, String.fromCharCode(34))));"/>
+</div>
+<div><label for="result">Results will show up here:</label></div>
+<div id="result"></div>
+<script>
+    function htmlEscape(input) {
+        console.log(input);
+
+        let ul = '<ul>';
+        for(let elem of input)
+        {
+            while(true)
+            {
+                elem.replace('<', '&lt;');
+                if(!elem.includes('<'))
+                    break;
+            }
+            while(true)
+            {
+                elem.replace('>', '&gt;');
+                if(!elem.includes('>'))
+                    break;
+            }
+            while(true)
+            {
+                elem.replace('&', '&amp;');
+                if(!elem.includes('&'))
+                    break;
+            }
+            while(true)
+            {
+                elem.replace('"', '&quot;');
+                if(!elem.includes('"'))
+                    break;
+            }
+
+            ul.push(`<li>${elem}</li>`)
+        }
+        ul.push(`</ul>`);
+        return ul;
+    }
+
+</script>
+</body>
+</html>
+>

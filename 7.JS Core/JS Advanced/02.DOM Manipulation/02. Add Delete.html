@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Delete</title>
+</head>
+<body>
+<h1>List of Items</h1>
+<ul id="items"></ul>
+<input type="text" id="newText" />
+<input type="button" value="Add"
+       onclick="addItem()">
+<script>
+    function addItem() {
+
+        let input = document.getElementById("newText");
+        let text = input.value;
+        if(text !== '') {
+            let ul = document.getElementById("items");
+            let li = document.createElement('li');
+            li.textContent = text.toString() + ' ';
+            let deleteLink = document.createElement('a');
+            deleteLink.textContent = '[Delete]';
+            deleteLink.href = '#';
+
+            //zkachame event listener kato funkciqte se pishe bez skobi.
+            deleteLink.addEventListener('click', deleteItem);
+
+            li.appendChild(deleteLink);
+            ul.appendChild(li);
+            input.value = '';
+        }
+
+
+        function deleteItem() {
+            //vzimame si linka + negoviq parent koito e li-to
+            let element = this.parentElement;
+
+            //i go iztrivame, t.e. go otkachame
+            element.parentNode.removeChild(element);
+        }
+    }
+</script>
+
+</body>
+</html>

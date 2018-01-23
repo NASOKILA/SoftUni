@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.deps.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.Data.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.Data.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\24.ExamPrepOne\Skeleton\Instagraph.DataProcessor\obj\Debug\netcoreapp2.0\Instagraph.DataProcessor.pdb

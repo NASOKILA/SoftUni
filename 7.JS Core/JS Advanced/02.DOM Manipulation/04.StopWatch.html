@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stop Watch</title>
+</head>
+<body>
+
+<div id="time" style="border:3px solid blue; text-align:center; font-size:2em; margin-bottom:10px">00:00</div>
+<button id="startBtn">Start</button>
+<button id="stopBtn" disabled="true">Stop</button>
+<script>
+    window.onload = function() { stopwatch(); }
+</script>
+
+<script>
+    function stopwatch() {
+
+        let btnStart = document.getElementById('startBtn');
+        let btnStop = document.getElementById('stopBtn');
+        btnStart.addEventListener('click', startWatch);
+        btnStop.addEventListener('click', stopWatch);
+
+        let seconds = 0;
+        let minutes = 0;
+        let hours = 0;
+
+        let timer;
+        let time = document.getElementById('time');
+        function startWatch() {
+            btnStop.disabled = false;
+            btnStart.disabled = true;
+
+            //shte izpulnqva funkciqta na vsqka sekunda
+            timer = setInterval(tick, 1000);
+            function tick() {
+
+                seconds++;
+                if(seconds >= 60) {
+                    seconds = 0;
+                    minutes++;
+                }
+                if(minutes >= 60){
+                    minutes = 0;
+                    hours++;
+                }
+
+
+                time.textContent = ('0' + Math.floor(minutes)).substr(-2) + ':' + ('0' + Math.floor(seconds-1)).substr(-2);
+            }
+            tick();
+        }
+
+        function stopWatch() {
+            btnStop.disabled = true;
+            btnStart.disabled = false;
+
+            clearInterval(timer);
+            seconds = 0;
+            minutes = 0;
+            hours = 0;
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,118 @@
+
+TOZI KURS E SAMO ZA OSNOVNO ZAPOZNAVANE NA WORDPRESS, NQMA DA STANEM PROFESIONALISTI PO WORDPRESS.	
+
+Trqbva da naprava na ivo sait.
+Primerni saitove na wordpress:
+
+VAJNO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! :MOJEM DA KUPUVAME SPECIALNI THEMOVE ZA MALKO PARI OT themeforest.net/category/ .
+AKO NQKOI MI PREDLAGA PRIMERNO 2000lv ZA DADEN SAIT AZ MOGA DA KUPA OT THEME KOITO E OKOLO 90% OT CQLATA RABOTA ZA PO MALKO OT 60$ .
+
+VAJNOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Hosting i Domain sa 2 razlichni neshta:
+Domaina e prosto ime v internet TO SLUJI KATO MARKA I AKO NQKOI SI NAPRAVI SUSHTOTO MOJESH DA GO SUDISH.
+EDIN HOSTING MOJE DA IMA MNOGO DOMAIN-A A V EDIN DOMAIN MOJE DA IMA MNOGO SAITOVE.
+
+
+PRIMERNI SAITOVE:
+techfest.softubi.bg
+www.nakov.com	
+www.introprogramming.info
+zaednovchas.bg
+dev.bg
+www.ase.bg
+courselab.net	
+
+Dopulnitelna saitove za nauchavane na wordpress bezplatno:
+blog.udemy.com/wordpress-tutorial/
+www.tutorialspoint.com/wordpress
+
+shte polzvame xampp
+za hosting i domain trqbva da si lupim ot SUPERHOSTING.BG
+TE PREDLAGAT DOBRA PODDRUJKA 24/7 !!!
+
+Ako polzvame bezplaten hosting e po dobre da ne e za seriozni saitove a za uchenicheska cel.
+freesubdomain.org
+www.000webhost.com
+
+Wordpress e 30 % ot celiq internet.
+RABOTI NA PHP I MySQL IMA SI VARIANTI I ZA BAZA 
+
+VAJNOOOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! :
+1.Teglim go ot wordpress.org, svalq se kato zip fail i go unzipvame i poluchavame papka wordpress, kopirame vsichki failove i papki koito sudurja i gi pastvame v nashiq proekt.
+V PAPKA htdoct SHTE SA NI VSICHKI PROEKTI, POD FORMATA NA PAPKI.
+
+2.Otvarqme xampp i puskame apache i MySQL(raboti na phpAdmin i e za dostup do bazata)
+KATO OTIDEM NA Admin SRESHTU MySQL NI SE OTVARQ PHPADMIN SAITA V KOITO SA NI VSICHKI BAZI DANNI.
+
+3.VLIZAME V localhost/ImetoNaPapkataKoqtoSudurjaWordPress I NI IZLIZA STRANICATA ZA INSTALACIQ NA WORDPRESS
+
+4.POPULVAME DANNITE: ZAPOMNI GI
+Database Name : imeto na bazata koqto suzdadohme v phpMyAdmin
+Username : root
+Password : ostavqme go prazno zashtoto po default v xampp e taka,
+Database Host : localhost
+Table Prefix : wp_
+
+5.Posle ni dava da pishem informaciq za saita koqto posle mojem da promenim, davame ok i ni instalira WP.
+SLED TOVA KATO SI POGLEDNEM BAZATA OT phpMySQL VIJDAME CHE SA SUZDADENI AVTOMATICHNO MNOGO TABLICI !!!!!!!!!!!!!!!!!!!
+
+5.1 MOJEM DA OTIDEM NA SUPERHOSTING.BG I DA SI KUPIM HOSTING, STAVA MNOGO LESNO !!!
+ZA DA SI KUPIM DOMAIN TRQBVA DA OTIDEM NA freenom.com, proverqvame dali e svobodno dadeno ime i go vzimame, MOJE I BEZPLATNO ZAVISI ZA KOLKO VREME. 
+No ako e bezplaten domaina ni shte ima maluk avtoritet za google i shte se namira po trudno. POPULVAME INFORMACIQTA I SME GOTOVI. POSLE OBACHE TRQBVA DA CHAKAME DO 8 CHASA.
+TAKA RABOTI DOMAIN SISTEMATA.
+
+5.2VAJNOOOOO !!!!!!!!!!!!!!!!!!!!!!
+Dobavime si suzdadeniq domain ot Addon Domains ot Cpanel-a !!!!!!
+Imeto na domaina behe stefanivo.tk
+
+
+6.Razgledahme wordpress.com koito ti dava da napravish edin sait, posle razgledahme kak se polzva lokalen wordpress SEGA SHTE RAZGLEDAME WORDPRESS ONLINE:
+Registrirame se na http://freesubdomain.org/ tova e bezplaten domain i chakame email za potvurjdenie. Vlizame v cpanel.website.tk i pishem dannite koito sme poluchili.
+I ni se otvarq panela za kontrol na websaitove
+
+cpanel.website.tk:
+username: wetk_20649495
+password: bg9212060000
+
+we can og in to prestashow wordpress and more, we can create new projects.
+
+7. Vlizame v panela i v online file manager i v htdoct papkata kudeto sa ni saitovete
+tam nie imame otdelen harddisk kakto na nashiq kompiuter
+
+8. Davame na new file i mojem da si napravim nov sait i da si go otvorim v brawsera.
+
+9.V Tozi panel trqbva da instalirame WP, OTIVAME na softaculous Apps Installer i ot tam instalirame WordPress !!!
+Pishem na koi domain iskame da e, v nachiq sluchai na 'httpcpanel.website.tk', i InDirectory go ostavqme prazno. i nadolo si populvame dannite za saita
+Vajno e da si promenim imeto na bazata, promenqme q na Bmusaka.
+CUKVAME INSTALL I GOTOVO.
+
+10.Veche mojem da vlezem v saita i v admin panela.
+Za da se svurjem s bazata otivame na PHPMyAdmin i natiskame commect now na suotvetnata baza koqto imenuvahme predi.
+
+VANOOOO !!!!!!!!!!!!!!!!!!!!!!!!
+Ako rabotim lokalno toest na nashiq kompiuter nakraq trqbva da si kachim failovete v cpanela v htdoct papkata kakto i bazata.
+
+V htdoct papkata sa dokumentite i programite koito vurvat
+V apache papkata e webservera i nastroikite mu 
+V php e interpretatora
+V mysql e bazata danni
+
+VAJNOOOO !!!!!!!!!!!!!!!! : 
+AKO ISKAME DA VLEZNEM V ADMINSKATA CHAST TRQBVA DA NAPISHEM 'wp-admin' NA KRAQ NA URLa 
+KATO SME V GLAVNATA STRANICA NA SAITA. SLED TOVA SHTE NI POTURSI USERNAME I PAROLA.
+
+CMS e Content Managmnt Studio koeto e software sistema za pravene i poddurjane i runvane na websaitove.
+Dobavq premahva, editva , mojem da kachvame i svalqme snimki, dokumenti, klipove, formi, i mnogo drugi.
+SAMIQ WORDPRESS E CMS SOFTWARE !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
