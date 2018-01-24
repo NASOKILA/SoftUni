@@ -11,6 +11,16 @@ Tuk vsichko e obekt.
 
 */
 
+
+//VAJNO !!!!:
+//Ako imame mnogo golqm masiv mojem dakeshirame duljinata mu
+//za da ne q vzimame vseki put pri iterirane na masiva
+
+let bigArr = [1,2,3,4,5]; // Primerno ima 1 milion elementa
+const length = bigArr.length; // slagame duljinata v constanta
+for(let i = 0; i < length; i++){}
+
+
 //Masivi, mojem da pravim kakvoto si iskame s tqh
 
 
@@ -122,8 +132,31 @@ console.log(arr4);
 // i e za vzimane na mnogo stoinosti i ot tqh da vzemem edna.
 //POLZVA SE S KOMBINACIQ S .concat();
 
+console.log();
+console.log('Matrici:')
+/*Kak se deklarira matrica:*/
+let matrix =
+    [[1,2,3,4,5],
+    [6,7,8,9,10],
+    [11,12,13,14,15],
+    [16,17,18,19,20],
+    [21,22,23,24,25]];
+
+//kak se dostupvat elementi
+
+console.log(matrix[2][2]);  // 13
+console.log(matrix[3][4]);  // 20
+console.log(matrix[4][2]);  // 23
+
+console.log();
+
+console.log('Printing a matrix :');
+console.log(matrix.map(row => row.join(' ')).join('\n'));
 
 
-
-
+/*Summery:
+* 01.Arrays: push(), pop(), unshift(), shift(), rabota s tqh
+* 02.Matricite sa masivi ot masivi,
+*   kak da gi printirame, dostupvame i manipulirame.
+* */
 

@@ -1,42 +1,29 @@
 
+function solve(input){
 
-function solve(args) {
+    let number = input[0];
 
-    let n = parseFloat(args[0]);
+    let operations = {
+        dice:(num) => Math.sqrt(num),
+        spice:(num) => ++num,
+        chop:(num) => num / 2,
+        bake:(num) => num * 3,
+        fillet:(num) => num -= num * 0.2
+    };
 
-    for(let i = 1; i <= args.length -1; i++)
-    {
-        if(args[i] === 'chop')
-        {
-            n = n / 2;
-            console.log(n);
-        }
-        else if(args[i] === 'dice')
-        {
-            n = Math.sqrt(n);
-            console.log(n);
-        }
-        else if(args[i] === 'spice')
-        {
-            n++;
-            console.log(n);
-        }
-        else if(args[i] === 'bake')
-        {
-            n *= 3;
-            console.log(n);
-        }
-        else if(args[i] === 'fillet')
-        {
-            let twentyPercent = n / 5.00;
-            n = n - twentyPercent;
-            console.log(n);
+    for(let i = 1; i < input.length; i++){
+        const currentOperation = input[i];
+        try{
+            number = operations[currentOperation](number);
+            console.log(number);
+        }catch(error){
+            console.log('Invalid operation');
         }
 
 
     }
-}
 
+}
 
 //solve(['32', 'chop', 'chop', 'chop', 'chop', 'chop']);
 solve(['9', 'dice', 'spice', 'chop', 'bake', 'fillet']);
