@@ -37,12 +37,35 @@ solve(['| Sofia           | 300',
 
 
 
+console.log();
 
 
 
+function s(arr) {
+
+    let sum = 0;
+    let towns = [];
+
+    for(let row in arr)
+    {
+        let tokens = arr[row]
+            .split("| ")
+            .filter( el => el !== '')
+            .map(e => e.trim());
+
+        towns.push(tokens[0]);
+        sum += Number(tokens[1]);
+    }
+
+    console.log(towns.join(", "));
+    console.log(sum);
+}
 
 
 
+s(['| Sofia           | 300',
+    '| Veliko Tarnovo  | 500',
+    '| Yambol          | 275']);
 
 
 

@@ -1,4 +1,3 @@
-
 function solve(args) {
     for(let i = 0; i <= args.length-1; i++)
     {
@@ -7,6 +6,33 @@ function solve(args) {
 }
 
 solve('SoftUni');
+
+
+
+
+function s(str) {
+   for(let ch = 0; ch < str.length; ch++)
+   {
+       console.log(`str[${ch}] -> ${str[ch]}`);
+   }
+}
+s('SoftUni');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

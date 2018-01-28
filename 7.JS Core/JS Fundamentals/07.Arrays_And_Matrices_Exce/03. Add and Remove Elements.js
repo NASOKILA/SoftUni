@@ -26,13 +26,32 @@ function solve(args) {
 
 //solve(['add','add','add','add',]);
 //solve(['add','add','remove','add','add',]);
-solve(['remove','remove','remove']);
+//solve(['remove','remove','remove']);
 
 
 
 
 
 
+function AddAndRemoveElements(commands) {
 
+    let nums = [];
 
+    for(let com = 0; com < commands.length; com++){
+
+        if(commands[com] === 'add'){
+            nums.push(com+1);
+        }else if(commands[com] === 'remove'){
+            nums.pop();
+        }
+    }
+
+    if(nums.length === 0)
+        console.log('Empty');
+    else
+        nums.forEach(n => console.log(n));
+}
+
+  AddAndRemoveElements(['remove','remove','remove']);
+  AddAndRemoveElements(['add','add','remove','add','add',]);
 

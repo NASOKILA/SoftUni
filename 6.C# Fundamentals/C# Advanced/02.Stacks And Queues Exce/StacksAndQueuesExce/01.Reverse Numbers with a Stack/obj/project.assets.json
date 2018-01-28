@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\01.Reverse Numbers with a Stack.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\01.Reverse Numbers with a Stack.csproj",
       "projectName": "01.Reverse Numbers with a Stack",
-      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\01.Reverse Numbers with a Stack.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\01.Reverse Numbers with a Stack.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\01.Reverse Numbers with a Stack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\StacksAndQueuesExce.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\StacksAndQueuesExce.csproj",
       "projectName": "StacksAndQueuesExce",
-      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\StacksAndQueuesExce.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\StacksAndQueuesExce.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\Csharp Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\C# Advanced\\02.Stacks And Queues Exce\\StacksAndQueuesExce\\StacksAndQueuesExce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -34,8 +34,36 @@ function solve(emails) {
     console.log(result.join(', '));
 }
 
-solve(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']);
+//solve(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']);
 
 
 
+function s(emails) {
 
+    let result = [];
+
+    for(let email of emails){
+
+        let validEmail = '';
+
+        let tokens = email.split("@");
+        let username = tokens[0];
+        let rest = tokens[1];
+
+        validEmail = username;
+        validEmail += '.' + rest[0];
+
+        for(let ch in rest){
+            if( rest[ch] === '.')
+            {
+                let element = rest[Number(ch)+1];
+                validEmail += element;
+            }
+        }
+
+        result.push(validEmail);
+    }
+
+    console.log(result.join(", "));
+}
+s(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']);

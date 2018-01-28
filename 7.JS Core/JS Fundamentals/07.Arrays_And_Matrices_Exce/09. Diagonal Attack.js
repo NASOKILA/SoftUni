@@ -41,19 +41,80 @@ function solve(arr) {
     }
 
 }
-
+/*
 solve(['5 3 12 3 1',
     '11 4 23 2 5',
     '101 12 3 21 10',
     '1 4 5 2 2',
     '5 22 33 11 1']);
+*/
 
 
 
 
+function diagonalAttack(arr) {
 
+    //fill tje matrix
+    let matrix = [];
+    for (let row = 0; row < arr.length; row++) {
+        let currentRow = arr[row]
+            .split(' ')
+            .map(e => Number(e));
 
+        matrix.push(currentRow);
 
+    }
 
+    let leftDiagonalSum = 0;
+    let rightDiagonalSum = 0;
 
+    for (let row = 0; row < arr.length; row++) {
+        for (let col = 0; col < arr[row].length; col++) {
+
+            if (row === col)
+                leftDiagonalSum += matrix[row][col];
+
+            if(col === matrix[row].length - row - 1)
+                rightDiagonalSum += matrix[row][col];
+        }
+    }
+
+    let newMatrix = matrix;
+
+    if (leftDiagonalSum !== rightDiagonalSum) {
+        //print the matrix
+        matrix.forEach(e => console.log(e.join(" ")));
+    }
+    else
+    {
+        //change the new matrix
+        for (let row = 0; row < matrix.length; row++) {
+            for (let col = 0; col < matrix[row].length; col++) {
+
+                if (row === col){}
+                else if(col === matrix[row].length - row - 1){}
+                else
+                    newMatrix[row][col] = rightDiagonalSum;
+
+            }
+        }
+
+        newMatrix.forEach(e => console.log(e.join(" ")));
+    }
+}
+
+/*
+diagonalAttack(
+    ['1 1 1',
+    '1 1 1',
+    '1 1 0']
+);
+*/
+diagonalAttack(
+    ['5 3 12 3 1',
+    '11 4 23 2 5',
+    '101 12 3 21 10',
+    '1 4 5 2 2',
+    '5 22 33 11 1']
+);
 
