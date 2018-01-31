@@ -10,5 +10,18 @@ function solve(str, times) {
     console.log(result);
 }
 
+//solve('repeat', 5);
 
-solve('repeat', 5);
+
+
+function s(str, n) {
+    console.log(str.repeat(n));
+}
+
+s('repeat', 5);
+
+
+
+
+
+
