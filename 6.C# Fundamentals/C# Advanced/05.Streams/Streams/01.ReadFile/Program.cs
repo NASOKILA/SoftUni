@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.IO;
 
 namespace _01.ReadFile
@@ -24,8 +24,6 @@ namespace _01.ReadFile
                 {
 
                     Console.WriteLine($"Line {lineNumber++}: {line}");
-
-
                     
                 }
 

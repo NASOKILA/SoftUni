@@ -55,4 +55,39 @@ function solve(str) {
 //solve('[{"name":"Pesho","score":479},{"name":"Gosho","score":205}]');
 //solve('[{"name":"Pesho & Kiro","score":479},{"name":"Gosho, Maria & Viki","score":205}]');
 //solve('[{"name":"Pencho Penchev","score":0},{"name":"<script>alert(\"Wrong!\")</script>","score":1}]');
-solve('[{"name":"<div>a && \'b\'</div>","score":111},{"name":"Jichka Jochkova","score":-50}]');
+//solve('[{"name":"<div>a && \'b\'</div>","score":111},{"name":"Jichka Jochkova","score":-50}]');
+
+
+
+
+function s(input) {
+
+    let objects = JSON.parse(input);
+
+    let table = '<table>\n';
+    let keys = Object.keys(objects[0]);
+
+    table += `  <tr><th>${escapeSimbols(keys[0])}</th><th>${escapeSimbols(keys[1])}</th></tr>\n`;
+
+    for (let obj of objects)
+        table += `  <tr><td>${escapeSimbols(obj[keys[0]].toString())}</td><td>${escapeSimbols(obj[keys[1]] + '')}</td></tr>\n`;
+
+    table += '</table>';
+
+    function escapeSimbols(arr) {
+        return arr.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+    }
+
+    console.log(table);
+}
+
+s('[{"name":"Pesho","score":479},{"name":"Gosho","score":205}]');
+s('[{"name":"Pesho & Kiro","score":479},{"name":"Gosho, Maria & Viki","score":205}]');
+//s('[{"name":"Pencho Penchev","score":0},{"name":"<script>alert(\"Wrong!\")</script>","score":1}]');
+
+
+

@@ -27,11 +27,45 @@ solve(['Sofia <-> 1200000',
     'New York <-> 1000000',
     'Washington <-> 2345000',
     'Las Vegas <-> 1000000']);
-*/
+
  solve(['Istanbul <-> 100000',
  'Honk Kong <-> 2100004',
  'Jerusalem <-> 2352344',
  'Mexico City <-> 23401925',
  'Istanbul <-> 1000']);
+
+*/
+
+
+function s(input) {
+
+    let map = new Map();
+    for (let row of input) {
+
+        let [town, population] = row.split(" <-> ");
+
+        population = Number(population);
+        if(map.has(town))
+            population += Number(map.get(town));
+
+        map.set(town, population);
+    }
+
+    map.forEach((v,k) => console.log(`${k} : ${v}`))
+}
+
+s(['Sofia <-> 1200000',
+    'Montana <-> 20000',
+    'New York <-> 1000000',
+    'Washington <-> 2345000',
+    'Las Vegas <-> 1000000']);
+
+s(['Istanbul <-> 100000',
+    'Honk Kong <-> 2100004',
+    'Jerusalem <-> 2352344',
+    'Mexico City <-> 23401925',
+    'Istanbul <-> 1000']);
+
+
 
 

@@ -10,7 +10,7 @@ namespace _04.CopyingFile
             //Po princip ima i po lesen nachin, mojem da polzvame File.Copy()
             //vmesto FileStream
 
-            //Otvarqme faila, moje da e i snimka kakto v sluchaq 
+            //Otvarqme faila, moje da e i snimka kakto v sluchaq sus FileStream
             using (var sourceFile = new FileStream("streamImg.jpg", FileMode.Open))
             {
                 // i sega go zapisvame v drug fail

@@ -57,7 +57,51 @@
     }
 
 //solve('[{"Name":"Tomatoes & Chips","Price":2.35},{"Name":"J&B Chocolate","Price":0.96}]');
-solve('[{"Name":"Pesho <div>-a","Age":20,"City":"Sofia"},{"Name":"Gosho","Age":18,"City":"Plovdiv"},{"Name":"Angel","Age":18,"City":"Veliko Tarnovo"}]');
+//solve('[{"Name":"Pesho <div>-a","Age":20,"City":"Sofia"},{"Name":"Gosho","Age":18,"City":"Plovdiv"},{"Name":"Angel","Age":18,"City":"Veliko Tarnovo"}]');
+
+
+
+
+function s(input) {
+
+    let objects = JSON.parse(input);
+
+    let table = '<table>\n';
+    let keys = Object.keys(objects[0]);
+
+    table += `  <tr>`;
+    for (let key of keys) {
+        table += `<th>${escapeSimbols(key)}</th>`;
+    }
+    table += '</tr>\n';
+
+
+    for (let obj of objects)
+    {
+        table += `  <tr>`;
+        for (let key of keys) {
+
+            table += `<td>${escapeSimbols(obj[escapeSimbols(key.toString())].toString())}</td>`;
+        }
+        table += `</tr>\n`;
+    }
+    table += '</table>';
+
+    function escapeSimbols(arr) {
+        return arr.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+    }
+
+    console.log(table);
+}
+
+s('[{"Name":"Tomatoes & Chips","Price":2.35},{"Name":"J&B Chocolate","Price":0.96}]');
+//s('[{"Name":"Pesho <div>-a","Age":20,"City":"Sofia"},{"Name":"Gosho","Age":18,"City":"Plovdiv"},{"Name":"Angel","Age":18,"City":"Veliko Tarnovo"}]');
+
+
 
 
 
