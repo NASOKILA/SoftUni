@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson</title>
+</head>
+
+<body>
+    <canvas width="512" height="480" id="can"></canvas>
+    <br/><br/>
+    <button id="btn">Click me!</button>
+    <br/><br/>
+    <a href="www.google.com" id="link">Hover me!</a>
+
+    <style>
+        #can {
+            background-color: red;
+            border: 5px solid black;
+        }
+    </style>
+
+    <script>
+        //vzimame si canvasa
+        let canvas = document.getElementById('can');
+        
+        //za da pishem na nego vzimame kontexta:
+        let cxt = canvas.getContext('2d');
+
+        //ctx ima mnogo komandi s koito mojem da manipulirame neshtata v kanvasa
+        cxt.fillRect(50,50,50, 50);
+
+        //mojem da napravim shahmatna daska kato polzvame dva vlojeni cikula
+         
+        //Drawing Shapes:   
+
+        cxt.beginPath(); //zapochvame daden kursor (tochka)  
+        cxt.moveTo(150, 50); //mestim q kudeto si iskame po canvasa
+        cxt.lineTo(200, 50); //chertaem liniq
+        cxt.lineTo(200, 100);
+        cxt.closePath();  //samo ni dovurshva formichkata
+        cxt.fill(); //ocvetqvame nashata formichka
+        cxt.stroke();  // ZA DA VIDIM NARISUVANOTO VIKAME .stroke();
+
+        /*
+        cxt.closePath(); 
+            Ako iskame primerno triugulnik i sme nachertali samo 
+            2 linii kato mu dadem .closePath(); to ni dovurshva triugulnika avtomatichno. 
+        
+        cxt.fill();
+            Tova ni zapulva nachertanata formichka 
+        
+        */
+
+        //ctx.arc() e za krugcheta
+            //purvite dva parametura sa za centura na krugcheto
+            //tretiqi chetvurtiq  e radiusa, 
+            //poslednite dve sa za ugula na kruga, tova true ili false e dali risuvame
+            //po chasovnikovata strelka
+
+        cxt.beginPath();
+        cxt.lineWidth = 10; // PRAVIM LINIQTA NA STROKA DA E PO DEBELA
+        cxt.arc(75, 175, 40, 0, Math.PI*2, true);
+        
+        cxt.fillStyle = 'green'; //Taka mojem da smenqvame cveta
+        cxt.fill();
+
+        cxt.strokeStyle = 'black'; //smenqme cveta na stroka
+        cxt.stroke();
+
+
+        /*
+            Line Styles:
+                lineWidth - Promenq debelinata na dadena liniq
+                lineCap - Promenq styla na KRAQ na liniqta, moje da se napravi primerno da e krugla
+                lineJoin - Pravi promeni na uglite na dve linii, tova e po slojno
+                setLineDash(segment) - pravi ni liniqta da ni e prekusnata. 
+
+        */  
+
+        /*
+            Images: We can draw images on the canvas
+        */
+        
+        //suzdavame si snimkata i si q vzimame ot dadena papka v proekta
+        let image = new Image();
+        image.src = './images/hero.png';
+        
+        //Sega za da q vidim na canvasa trabva da q narisuvame:"
+        //imame i dopulnitelni koordinati za poziciqta i razmera na snimkata, mojem i da q rejem
+        cxt.drawImage(image, 170, 160);
+
+        /*
+            VAJNO !!! Ponqkoga snimkite ne moje da se pokajat zashtito oshte ne sa se zaredili
+            Za da se pokajat trqbva da im slojim even listener za 'load' 
+            t.e. da gi narisuvame kogato sa se zaredili
+        */
+
+
+        /*
+            Text in canvas:
+            Mojem da pishem textove na kanvasa.
+            Mojem i da ZAPULVAME TEXT KAKTO VSQKA EDNA DRUGA FORMA !!!
+        
+            Ima i nastroiki za texta:
+            mojem da smenqme font-a 
+            Mojem da mu slagame i text align
+        */
+
+        cxt.font = '20px verdana'; // Mojem predi da pishem neshto da smenqme fonta
+        cxt.fillText('Hello World !', 250, 75); //taka go pishem
+        
+        //cxt.strokeText('Hello', 350, 75);
+
+
+        //DRAW A BUTTON WITH A LABEL:
+        cxt.fillStyle = 'orange';
+        cxt.fillRect(230, 150, 150, 40);  //slagame duljina 150 i shirochina 40
+        
+        cxt.fillStyle = 'red';
+        cxt.font = '24px monospace';
+        cxt.textAlign = 'center';
+        cxt.fillText('Submit!', 305, 177); // pishem vurhu oranjeniq pravougulnik
+
+
+
+
+        /*
+            Animaciqta se postiga kato smenqme postoqnno
+            poziciqta na daden obekt vurhu canvasa.
+            Toest suzdavame sushtiq obekt na blizka poziciq do 
+            predishniq koioeot trqbva da iztriem !!!
+            
+            Animation Timing:
+                V aniamciite vremeto e mnogo vajno tova se 
+                manipulira lesno sus funkciqta :
+                    setInterval(func, timeInMiliseconds); 
+                    // na vseki edikolkosi milisekundi se izvikva podadenata funkciq
+                    setInterval() se polzva i za drugi celi, ne sa mo za animacii
+               
+                SUS :
+                context.clearRect() - Triem starata narisuvana figurka za da mojem da narisuvame nova !
+            
+            
+                    Specialna funkciq za animacii e :
+                    requestAnimationFrame(func);  //podava se samo funciq i se izpulnqva postoqnno v cikul
+        */
+
+
+        let counter = 0;
+        setInterval(function () {
+            console.log("Hello")
+        }, 2000);
+        //TOVA RABOTI VIJ SI KONZOLATA !!!
+
+
+
+        /*
+            Events:
+                Mojem da gi zakachame kum HTML elementi sus:
+                    .addEventListener(type, func);
+                Pri dadeno uslivie se izpulnqva podadenata funkciq.
+
+
+            Imame mnogo vidive eventi:
+                click EVENTS, 
+                key EVENTS : keydown, keyup, keypress,  
+                mouse EVENT : mousemove  // TOVA E PRI HOVER NA DADEN OBEKT 
+                if(event.code == 'ArrowLeft'){ . . .} // sravnqvame dali kopcheto e natisnato 
+        */
+
+        //vzimame si butona i mu zakachame event listener
+        let button = document.getElementById('btn');
+        //Click
+        button.addEventListener('click', function() {
+            alert("This is a click event!");
+        });
+
+        //mousemove = onhHover();
+        let hoverLink = document.getElementById('link');
+        hoverLink.addEventListener('mousemove', function(){
+            alert("You hovered the link !");
+        })
+
+
+
+        /*
+            Game loops:
+                Vsqka igra si ima MAIN GAME LOOP koito proverqva dali 
+                igrata e vse oshte aktivna, ako ne e znachi izlizame ot igrata.
+
+        */
+
+
+    </script>
+
+</body>
+<!--<script src="canvasJs.js"></script>-->
+
+</html>

@@ -17,17 +17,58 @@ function solve(args) {
 
         hero['name'] = name;
         hero['level'] = level;
-        hero['items'] = items;
+        
+        let items = [];
+        if(elements.length > 2){
+            items =  elements[2].split(', ');
+        }
 
-        heroes.push(hero);
+        obj['items'] = items;
+
+        heroes.push(hero);  
     }
 
     console.log(JSON.stringify(heroes));
 }
 
-
+/*
 solve(['Isacc / 25 / Apple, GravityGun',
     'Derek / 12 / BarrelVest, DestructionSword',
     'Hes / 1 / Desolator, Sentinel, Antara']);
 
 solve(['Jake / 1000 / Gauss, HolidayGrenade']);
+*/
+
+
+function s(args){
+
+    let result = [];
+
+    for(let row of args){
+        
+        let arguments = row
+            .split(' / ')
+            .filter(e => e =! '');
+        
+        let obj = {};
+
+        let name = arguments[0];
+        let level = Number(arguments[1]);
+        
+        obj['name'] = name;
+        obj['level'] = level;
+        
+        let items = [];
+        if(arguments.length > 2){
+            items =  arguments[2].split(', ');
+        }
+        obj['items'] = items;
+    
+        result.push(obj);
+    }  
+        console.log(JSON.stringify(result));       
+}
+
+s(['Isacc / 25 / Apple, GravityGun',
+    'Derek / 12 / BarrelVest, DestructionSword',
+    'Hes / 1 / Desolator, Sentinel, Antara']);

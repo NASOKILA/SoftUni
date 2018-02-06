@@ -5,19 +5,37 @@ function solve(args) {
 
     let names = new Set();
 
-    args = args.sort((a,b) => a.length - b.length);
-
-    for(let name of args.sort())
-    {
+    
+    for(let name of args)
         names.add(name);
-    }
+    
 
-    [...names].sort((a,b) => a.length - b.length)
-        .forEach(e => {
-            console.log(e);
-        });
+    [...names].sort((a,b) => {
+        
+        if(a.length == b.length)
+            return a.localeCompare(b);
+        else
+        return a.length - b.length
+    })
+    .forEach(e => console.log(e));
 }
 
+
+function s(args){
+
+    let names = new Set();
+    args.forEach(n => names.add(n));
+
+
+    [...names].sort((a, b) => {
+        if(a.length != b.length) //ako duljinata NE e ednakva
+            return (a.length - b.length);  // purvo sortirame po duljina
+        else
+            return a.localeCompare(b); //AKO DULJINATA E EDNAKVA SORTIRAME ALPHABETICHNO
+
+    })
+    .forEach(e => console.log(e));
+}
 
 solve(['Denise',
     'Ignatius',

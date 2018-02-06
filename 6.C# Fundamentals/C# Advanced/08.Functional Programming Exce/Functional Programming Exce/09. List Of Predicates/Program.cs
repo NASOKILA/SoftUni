@@ -40,9 +40,9 @@ namespace _09._List_Of_Predicates
                 }
             }
 
+            //if the element is divisible by all the numbers we print it on the console
             if (isDivisible)
                 Console.Write(i + " ");
         };
-        
     }
 }   

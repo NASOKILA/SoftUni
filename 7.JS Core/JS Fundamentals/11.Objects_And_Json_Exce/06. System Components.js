@@ -7,6 +7,7 @@ function solve(args) {
     let systems = new Map();
 
     for (let row of args) {
+        
         let elements = row.split(' | ');
 
         let [system, component, subcomponent] = elements;
@@ -64,7 +65,14 @@ function solve(args) {
     }
 }
 
-solve(['SULS | Main Site | Home Page',
+
+
+function s(args){
+
+
+}
+
+s(['SULS | Main Site | Home Page',
     'SULS | Main Site | Login Page',
     'SULS | Main Site | Register Page',
     'SULS | Judge Site | Login Page',

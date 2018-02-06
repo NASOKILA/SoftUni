@@ -5,8 +5,12 @@ function solve(args) {
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
     for(let letter of alphabet) {
+
+        //proverqvame dali v inputa ima takiva koito zapochvat stazli bukva
         if (args.some(e => e.startsWith(letter.toUpperCase()))) {
             console.log(letter.toUpperCase());
+            
+            //vzimame samo tezi koito zapochvat s tazi bukva
             let result = args.filter(e => e.startsWith(letter.toUpperCase()));
 
             for(let w of result.sort())
@@ -31,7 +35,30 @@ solve(['Appricot : 20.4',
     'T-Shirt : 10']);
 */
 
-solve(['Banana : 2',
+
+
+function s(args){
+
+     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+    for(let letter of alphabet){
+        if(args.some(e => e.startsWith(letter.toUpperCase()))){
+
+            console.log(letter.toUpperCase());
+            let names = args.filter(e => e.startsWith(letter.toUpperCase()));
+            
+            //sortirame gi alfabetichno
+            names.sort();
+            names.forEach(element => {
+                let [name, price] = element.split(' : ');
+                console.log('  ' + name + ': ' + price);
+            });
+
+        } 
+    }
+}
+
+s(['Banana : 2',
     'Rubic\'s Cube : 5',
     'Raspberry P : 4999',
     'Rolex : 100000',

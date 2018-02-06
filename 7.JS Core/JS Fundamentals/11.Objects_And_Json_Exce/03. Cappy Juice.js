@@ -39,7 +39,36 @@ solve(['Orange => 2000',
 */
 
 
-solve(['Kiwi => 234',
+function s(args){
+
+    let juices = new Map(); 
+
+    let bottles = new Map();
+    
+    for(let row of args){
+
+        let tokens = row.split(' => ');
+        let currentJuice = tokens[0];
+        let quantity = Number(tokens[1]);
+        
+        if(juices.has(currentJuice)){
+            quantity += juices.get(currentJuice);
+        }
+
+        juices.set(currentJuice, quantity);
+        
+        let currentBottles = Math.floor(juices.get(currentJuice) / 1000);
+        if(currentBottles > 0)
+            bottles.set(currentJuice, currentBottles);
+    }
+
+    for(let [juice, bottlesCount] of bottles){
+        console.log(juice + ' => ' + bottlesCount);
+    }
+    
+}
+
+s(['Kiwi => 234',
     'Pear => 2345',
     'Watermelon => 3456',
     'Kiwi => 4567',
