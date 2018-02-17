@@ -17,12 +17,9 @@
     function colorize() {
         let table = document.querySelectorAll('table tr');
 
-        for(let i = 0; i <= [...table].length -1; i++)
-        {
-            let row = [...table][i];
-            if(i % 2 === 1)
-            row.style.backgroundColor = 'Teal';
-        }
+        for(let i = 1; i <= [...table].length -1; i+=2)
+            table[i].style.backgroundColor = 'Teal';
+        
     }
 </script>
 

@@ -12,17 +12,17 @@
 
 <script>
     function addItem() {
-
+        
         let input = document.getElementById("newItemText");
-        let text = input.value;
         let ul = document.getElementById("items");
         let li = document.createElement('li');
-        li.textContent = text.toString();
-        ul.appendChild(li);
-
-        input.value = '';
+            li.textContent = input.value;
+            ul.appendChild(li);
+            input.value = ' ';
     }
 </script>
 
 </body>
 </html>
+
+

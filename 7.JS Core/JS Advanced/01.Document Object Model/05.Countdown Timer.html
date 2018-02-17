@@ -10,17 +10,28 @@
 
 <script>
     function countdown(startTime) {
-        let time = startTime;
-        let output = document.getElementById('time');
-        let timer = setInterval(tick, 1000); //1 sekunda e 1000
-        function tick() {
-            time--;
-            if(time <= 0)
-                clearInterval(timer);
+        
+        
+        let seconds = Number(startTime % 60);
+        let minutes = Number(startTime / 60);
+        let times = document.getElementById("time");
+        seconds--
+        let timer = setInterval(function(){
+            
+            if(seconds <= 0)
+            {
+                minutes--;
+                seconds = 60
+            }
+            
+            seconds--; 
 
-            output.value = `${Math.floor(time /60)}:${('0' + time % 60).slice(-2)}`;
-                //sus slice(-2) vzimame poslednite 2 cifri kaka shte ima 0 otpred
-        }
+            let time = minutes 
+            + ":" + (seconds < 10 ? '0' + seconds : seconds);
+            
+            times.value = time;       
+        }, 1000)
+
     }
 
 </script>

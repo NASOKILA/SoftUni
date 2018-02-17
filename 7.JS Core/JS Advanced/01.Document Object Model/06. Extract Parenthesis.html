@@ -17,17 +17,20 @@
 
     function extract(id) {
 
-        let paragraph = document.getElementById(id);
-        let paragrapgText = paragraph.textContent;
+        let paragrapgText = document.getElementById(id).textContent;
+        
         let patt = /[(]+(.*?)[)]+/g;
 
         let match = patt.exec(paragrapgText);
+        
         let result = [];
+        
         while(match)
         {
             result.push(match[1]);
             match = patt.exec(paragrapgText);
         }
+        
         return result.join('; ');
     }
 

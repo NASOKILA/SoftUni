@@ -58,21 +58,24 @@
 <script>
     function toggle() {
 
-        let div = document.getElementById('extra');
-        let button = document.getElementsByClassName('button')[0];
+        //vrushta kolekciq zatova vzimame purviq
+        let button = document.getElementsByClassName("button")[0];
+        
+        
+        if(button.textContent === "More"){
 
-        if(div.style.display === 'none')
-        {
-            div.style.display = 'block';
-            button.textContent = 'Less';
+            button.textContent = "Less";
+            let divExtra = document.getElementById("extra");
+            divExtra.style.display = "block";
         }
         else
         {
-            div.style.display = 'none';
-            button.textContent = 'More';
+            button.textContent = "More";
+            let divExtra = document.getElementById("extra");
+            divExtra.style.display = "none";
         }
 
-    }
+}
 </script>
 </body>
 </html>

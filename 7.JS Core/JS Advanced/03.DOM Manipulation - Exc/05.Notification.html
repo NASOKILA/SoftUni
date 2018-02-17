@@ -49,14 +49,17 @@
 </div>
 <script>
     function notify(message) {
-        let div = document.getElementById('notification');
+        
+        let div = document.getElementById("notification");
         div.textContent = message;
         div.style.display = 'block';
 
-        //sled 2 sekundi go skrivame
-        //polzvame setTimeOut i mu kazvame kakvo da pravi sled 2 sekundi.
-        setTimeout(function(){ div.style.display = 'none' }, 2000);
-
+        //setTimeout go izpulnqva sled vremeto koeto sme mu podali
+        setTimeout(function(){
+            
+            div.style.display = 'none';
+        }, 2000)
+        
     }
 </script>
 </body>

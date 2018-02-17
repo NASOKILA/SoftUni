@@ -16,14 +16,12 @@
 <script>
     function extractText() {
 
-        let ul = document.querySelectorAll('ul li');
-        console.log(ul);
-
+        let ul = document.querySelectorAll('#items li');
+    
         let textarea = document.getElementById('result');
-        textarea.value = '';
-
+        
         for(let i = 0; i <= ul.length-1;i++)
-            textarea.value += ul[i].textContent + '\n';
+            textarea.textContent += ul[i].textContent + '\n';
     }
 </script>
 

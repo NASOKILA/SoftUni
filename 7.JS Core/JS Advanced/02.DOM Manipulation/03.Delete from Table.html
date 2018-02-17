@@ -20,7 +20,9 @@ Email: <input type="text" name="email" />
     function deleteByEmail() {
 
         let inputText = document.getElementsByName('email')[0].value;
+
         let table = document.getElementById('customers');
+
         let trs = table.children[0].children;
 
         let deleted = false;
@@ -29,9 +31,13 @@ Email: <input type="text" name="email" />
             let td = trs[i].children[1];
 
             if (td.textContent === inputText) {
-                td.parentNode.parentNode.removeChild(td.parentNode);
+
+                let tr = td.parentNode.parentNode;
+                tr.removeChild(td.parentNode);
                 deleted = true;
+
             }
+            
         }
 
         let input = document.getElementsByName('email')[0];

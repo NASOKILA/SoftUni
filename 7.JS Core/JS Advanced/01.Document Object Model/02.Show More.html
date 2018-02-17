@@ -10,12 +10,8 @@ Welcome to the "Show More Text Example".
 <span id="text" style= "display:none">Welcome to JavaScript and DOM.</span>
 <script>
     function showText() {
-        let text  = document.getElementById('text');
-        text.style.display = "inline";
-        //Inline e kato block samoche na sushtiq red
-
-        let link = document.links[0];
-        link.style.display = "none";
+        document.getElementById("text").style.display = "inline";
+        document.getElementById("more").style.display = "none";
     }
 </script>
 

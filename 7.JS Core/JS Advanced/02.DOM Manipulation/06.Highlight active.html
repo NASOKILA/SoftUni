@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
 <body>
-<!DOCTYPE html><html lang="en">
-<head>
-    <meta charset="UTF-8"><title>Focus</title>
-    <style>
-        div { width: 470px; }
-        div div {
-            text-align: center;
-            display: inline-block;
-            width: 200px;
-            height: 200px;
-            margin: 15px;
-            border: 1px solid #999;
-        }
-        .focused { background: #999999; }
-    </style>
-</head>
-<body onload="focus()">
-<div>
-    <div><h1>Section 1</h1><input type="text"/></div>
-    <div><h1>Section 2</h1><input type="text"/></div>
-    <div><h1>Section 3</h1><input type="text"/></div>
-    <div><h1>Section 4</h1><input type="text"/></div>
-</div>
-<script>
-    function focus() {
-        //vzimame si vsichki inputi
-        let inputs = document.getElementsByTagName('input');
+    <!DOCTYPE html>
+    <html lang="en">
 
-        for(let i of [...inputs]) {
-            //za vseki edin input dobavqme subitieto focus
-            i.addEventListener('focus', function (event){
+    <head>
+        <meta charset="UTF-8">
+        <title>Focus</title>
+        <style>
+            div {
+                width: 470px;
+            }
 
-                //purvo na vseki edin mu slagame klas blurred
-                for(let i of [...inputs])
-                    i.parentNode.className = 'blurred';
+            div div {
+                text-align: center;
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+                margin: 15px;
+                border: 1px solid #999;
+            }
 
-                //setvame klasa na parenta na dadeniq element da e focused
-                //event.target e tekushtiq element t.e. formata
-                event.target.parentNode.className = 'focused';
-            });
-        }
+            .focused {
+                background: #999999;
+            }
+        </style>
+    </head>
 
-    }
-</script>
+    <body onload="focus()">
+        <div>
+            <div>
+                <h1>Section 1</h1>
+                <input type="text" />
+            </div>
+            <div>
+                <h1>Section 2</h1>
+                <input type="text" />
+            </div>
+            <div>
+                <h1>Section 3</h1>
+                <input type="text" />
+            </div>
+            <div>
+                <h1>Section 4</h1>
+                <input type="text" />
+            </div>
+        </div>
+        <script>
+
+            function focus() {
+                //vzimame si vsichki inputi
+                let inputs = document.getElementsByTagName('input');
+
+                for (let input of [...inputs]) {
+                    //za vseki edin input dobavqme subitieto focus
+                    input.addEventListener('focus', function (event) {
+                        //setvame klasa na parenta na dadeniq element da e focused
+                        //event.target e tekushtiq element t.e. formata
+                        input.parentNode.className = 'focused';
+                    });
+
+                    input.addEventListener('blur', function (event) {
+                        //setvame klasa na parenta na dadeniq element da e focused
+                        //event.target e tekushtiq element t.e. formata
+                        input.parentNode.className = '';
+                    });
+                }
+            }
+
+        </script>
+    </body>
+
+    </html>
+
 </body>
-</html>
 
-</body>
 </html>

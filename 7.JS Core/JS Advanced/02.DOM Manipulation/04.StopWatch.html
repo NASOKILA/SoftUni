@@ -18,6 +18,7 @@
 
         let btnStart = document.getElementById('startBtn');
         let btnStop = document.getElementById('stopBtn');
+        
         btnStart.addEventListener('click', startWatch);
         btnStop.addEventListener('click', stopWatch);
 
@@ -27,6 +28,7 @@
 
         let timer;
         let time = document.getElementById('time');
+
         function startWatch() {
             btnStop.disabled = false;
             btnStart.disabled = true;
@@ -45,21 +47,23 @@
                     hours++;
                 }
 
-
                 time.textContent = ('0' + Math.floor(minutes)).substr(-2) + ':' + ('0' + Math.floor(seconds-1)).substr(-2);
             }
             tick();
         }
 
         function stopWatch() {
+
             btnStop.disabled = true;
             btnStart.disabled = false;
 
             clearInterval(timer);
+            
             seconds = 0;
             minutes = 0;
             hours = 0;
         }
+
     }
 </script>
 

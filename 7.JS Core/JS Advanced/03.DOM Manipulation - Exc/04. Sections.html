@@ -29,27 +29,22 @@
 <script>
     function create(sentences) {
 
+        for (const sentence of sentences) {
+            
+            let div = document.createElement("div");
+            let p = document.createElement("p");
+            p.textContent = sentence;
+            p.style.display = 'none';
 
-        for(let row of sentences)
-        {
-            let pOne = document.createElement('p');
-            pOne.textContent = row;
-            pOne.style.display = 'none';
+            div.appendChild(p);
+            div.addEventListener('click', display)
 
-
-            let divOne = document.createElement('div');
-            divOne.appendChild(pOne);
-            divOne.addEventListener('click', display);
-
-            document.getElementById('content')
-                .appendChild(divOne);
-
+            document.getElementById("content").appendChild(div);
         }
 
-        function display()
-        {
-            let p = this.children[0];
-            p.style.display = 'block';
+        function display(e){
+            let currentP = e.target.childNodes[0];
+            currentP.style.display = "block";
         }
 
     }

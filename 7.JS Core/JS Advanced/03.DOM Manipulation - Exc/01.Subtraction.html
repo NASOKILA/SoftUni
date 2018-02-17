@@ -16,15 +16,12 @@
     window.onload = function () {subtract();};
 
     function subtract() {
+        let num1 = Number(document.getElementById("firstNumber").value);
+        let num2 = Number(document.getElementById("secondNumber").value);
+    
+        let sum = num1 - num2;
+        document.getElementById("result").textContent = sum;
 
-        let numOne = document.getElementById('firstNumber').value;
-
-        let numTwo = document.getElementById('secondNumber').value;
-
-        let resultDiv = document.getElementById('result');
-        let sum = Number(numOne) - Number(numTwo);
-
-        resultDiv.textContent = sum;
     }
 
 </script>

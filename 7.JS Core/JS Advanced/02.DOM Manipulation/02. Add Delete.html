@@ -15,30 +15,37 @@
 
         let input = document.getElementById("newText");
         let text = input.value;
-        if(text !== '') {
+        
+            
             let ul = document.getElementById("items");
+            
             let li = document.createElement('li');
+            
             li.textContent = text.toString() + ' ';
+            
             let deleteLink = document.createElement('a');
+            
             deleteLink.textContent = '[Delete]';
+            
             deleteLink.href = '#';
 
             //zkachame event listener kato funkciqte se pishe bez skobi.
-            deleteLink.addEventListener('click', deleteItem);
+            deleteLink.addEventListener('click', function() {
+
+            //vzimame si linka + negoviq parent koito e li-to
+            let li = this.parentNode.parentNode;
+
+            let ul = li.parentNode;
+            //i go iztrivame, t.e. go otkachame
+            ul.removeChild(li);
+            
+        });
 
             li.appendChild(deleteLink);
+            
             ul.appendChild(li);
-            input.value = '';
-        }
-
-
-        function deleteItem() {
-            //vzimame si linka + negoviq parent koito e li-to
-            let element = this.parentElement;
-
-            //i go iztrivame, t.e. go otkachame
-            element.parentNode.removeChild(element);
-        }
+            
+            input.textContent = '';
     }
 </script>
 

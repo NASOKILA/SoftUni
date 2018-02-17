@@ -26,10 +26,6 @@ function attachEventsListeners() {
         //vzimame i optiona na vtoriq selekt
         let outputUnits = document.getElementById('outputUnits').value;
 
-        console.log(number);
-        console.log(inputUnits);
-        console.log(outputUnits);
-
         let result = number * rates[inputUnits] / rates[outputUnits];
 
         document.getElementById('outputDistance').value = result;
