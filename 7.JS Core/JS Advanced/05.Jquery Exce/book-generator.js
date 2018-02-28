@@ -1,31 +1,51 @@
 
+
+
+
+
 function createBook(selector, title, author, ISBN) {
 
-    let id = document.querySelectorAll('div').length;
+    let bookIdCount = document.getElementsByTagName('div').length;
+        
+    (function bookGenerator() {
 
-    (function bookgenerator() {
+        let book = $('<div>');
+        let currentId = ('book' + bookIdCount.toString());
+        
+        book.attr('id', currentId);
+        book.attr('style', 'border: medium none;');
 
-        let div = $('<div></div>');
-        div.attr('id', id);
+        //create and attch <p> to the book
+        let titleParagraph = $('<p class="title"></p>');
+        titleParagraph.text(title);
+        book.append(titleParagraph);
 
-        div.append(`<p class="title">${title}</p>`);
-        div.append(`<p class="author">${author}</p>`);
-        div.append(`<p class="isbn">${ISBN}</p>`);
-        div.append(`<button id="select">Select</button>`);
-        div.append(`<button id="deselect">Deselect</button>`);
+        let authorParagraph = $(`<p class="author"></p>`);
+        $(authorParagraph).text(author);
+        book.append(authorParagraph);
 
-        $(selector).append(div);
+        let isbnParagraph = $('<p class="isbn"></p>');
+        isbnParagraph.text(ISBN);
+        book.append(isbnParagraph);
+
+
+        //create and attach events to book
+        let selectBtn = $(`<button>Select</button>`);
+        let deselectBtn = $(`<button>Deselect</button>`);
+
+        selectBtn.click(function(){
+            book.css('border','2px solid blue');
+        });
+
+        deselectBtn.click(function(){
+            book.css('border', '');
+        });
+
+        book.append(selectBtn);
+        book.append(deselectBtn);
+
+        $(selector).append(book);
 
     })();
-
-    $('button').click(function () {
-
-        let value = $(this).text();
-        if(value.indexOf('select') !== -1)
-            $(this).parent().css('border', 'none');
-        else
-            $(this).parent().css('border', '2px solid blue');
-
-    });
 
 }

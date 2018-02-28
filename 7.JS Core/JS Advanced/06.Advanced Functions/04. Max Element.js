@@ -1,30 +1,18 @@
 
 
-let findMaxNum = (function (){
-
-    let maxElement = 0;
-    return function findMaxNum(args) {
-
-        maxElement = Math.max.apply(null, args);
-        return(maxElement);
-    }
-
-})();
 
 
-console.log(findMaxNum([1, 44, 123, 33]));
+function solve(args){
 
+    //I TAKA STAVA !!!
+    //return  Math.max(...args);
 
-/*
-function solve(args) {
+    //Shte smenim na Math.max() 'this';
+    //return Math.max.call(...args);  // SUS ...args razbivame masiva na chasti
 
-    let maxElement = 0;
-
-    maxElement = Math.max.apply(null, args);
-    return(maxElement);
+    //MOJE I S Math.max.apply('', args)   //TRQBVA DA PODADEM NESHTO NA PURVATA POZICIQ, MOJE I DA E PRAZEN STRING
+    return Math.max.apply('', args);
 }
 
-console.log(solve([1, 44, 123, 33]));
-*/
-
+console.log(solve([10, 20, 5]));
 

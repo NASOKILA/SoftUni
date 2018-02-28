@@ -1,33 +1,46 @@
 
 function result() {
 
-    let result = [];
-    let typesCounts = {};
-    for(let index = 0; index < arguments.length; index++)
-    {
-        let resultInput = '';
-        let argument = arguments[index];
-        let type = typeof(argument);
-        let typeCount = 1;
+    let summary = {};
+    let sortedTypes = [];
 
-        if(typesCounts.hasOwnProperty(type)) {
-            typesCounts[type] += typeCount;
-        } else{
-            typesCounts[type] = typeCount;
-        }
+    for (let i in arguments) {
 
-        resultInput = `${type}: ${argument}`;
-        result.push(resultInput);
+        let arg = arguments[i];
+        let type = typeof arg;
+
+        if (!summary[type])
+            summary[type] = 1;
+        else
+            summary[type]++;
+
+        console.log(type + ': ' + arg);
     }
 
-    console.log(result.join("\n"));
-    Print(typesCounts);
-    function Print(object){
-        for(let kvp in object)
-            console.log(`${kvp} = ${object[kvp]}`);
+    for (let currentType in summary) {
+        sortedTypes.push([currentType, summary[currentType]]);
     }
+
+    for (let type in sortedTypes.sort((a,b) => b[1] - a[1])) {
+        
+        let currentType = sortedTypes[type][0];
+        let count = sortedTypes[type][1];
+
+        console.log(currentType + ' = ' + count);
+    }
+
 }
-
 
 result('cat', 42, function () { console.log('Hello world!'); });
 
+result({ name: 'bob'}, 3.333, 9.999);
+
+/*
+var expectedOutput = [
+    'object:',
+    'number: 3.333',
+    'number: 9.999',
+    'number = 2',
+    'string = 1'
+];
+*/

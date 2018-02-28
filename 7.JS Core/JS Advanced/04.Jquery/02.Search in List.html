@@ -19,11 +19,16 @@
 <script>
 
     function search() {
+        
+        let inputValue = $('#searchText').val();
 
-        let input = $('#searchText').val();
-        let items = $(`#towns>li:contains(${input})`).css('font-weight', 'bold');
+        let ul = $('#towns li')
+            .toArray()
+            .filter(t => t.textContent.indexOf(inputValue) !== -1)
+            .map(e => $(e).css("fontWeight","bold"));
+            
+        $('#result').text((ul.length + " matches found."));
 
-        $('#result').text(`${items.length} matches found.`);
     }
 
 </script>

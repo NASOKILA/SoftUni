@@ -1,29 +1,35 @@
 
 function attachEvents() {
     //samo na li-tata zakachame eventa
-    $('#items').on('click', 'li', function () {
+    $('#items > li').on('click', function(){
 
-        console.log('wdaww');
         if($(this).attr('data-selected'))
         {
-            $(this).css('background-color','');
             $(this).removeAttr('data-selected');
-        } else
+            $(this).css('background-color','');
+        }    
+        else
         {
-            $(this).css('background-color','#DDD');
             $(this).attr('data-selected', 'true');
-            //slagame mu i true za da go setne na true.
+            $(this).css('background-color','#DDD');
         }
+    });
 
-        $('#showTownsButton').click(function () {
-            //selektirame samo tezi koito imat attribute sus stoinost 'true'
-            let towns = $(`li[data-selected = 'true']`)
-                .toArray().map(t => t.textContent);
+
+    $('#showTownsButton').on('click', function(){
+        $('#selectedTowns').text("");
+
+        let selectedTowns = $('#items > li').toArray()
+            .filter(l => l.hasAttribute('data-selected'));
 
             $('#selectedTowns')
-                .text(`Selected towns: ${towns.join(', ')}`);
-        })
-    })
+                .text("Selected towns: " + selectedTowns
+                .map(e => $(e).text())
+                .join(','));
+        
+    });
+
+
 }
 
 

@@ -1,49 +1,40 @@
 
-function solve(commands) {
+function solve(args) {
+    
+    let closure = (function () {
 
-    //processor e IIFE koeto vrushta dadena funkciq koeto vrushta daden rezultat
-    let processor = (function () {
+        //tova e dostupno samo za tazi funkciq s.l promenite se otrazqvat na nego 
+        //vseki put kogato se izvika iife-to !!!!!!!!!!!
+        let str = '';
 
-        let result = '';
-        //taq funkciq vijda promenlivata 'result'
-        return function processor(tokens) {
+        return function (arr) {
 
-                let command = tokens.split(' ')[0];
-                let input = tokens.split(' ')[1];
+            let command = arr.split(' ')[0];
+            let n = arr.split(' ')[1];
 
-                if(command === 'append') {
-                    result += input;
-                }else if(command === 'removeStart') {
-                    result = result.substr(Number(input));
-
-                }else if(command === 'removeEnd') {
-
-                    result = result.split("").reverse().toString()
-                        .replace(/\,/g, '')
-                        .substr(Number(input))
-                        .split("")
-                        .reverse().toString()
-                        .replace(/\,/g, '');
-
-                }else if(command === 'print') {
-
-                    console.log(result);
-                }
+            if (command === 'append') {
+                str = str + n;
+            } else if (command === 'removeStart') {
+                str = str.substring(Number(n));
+            } else if (command === 'removeEnd') {
+                str = str.substring(0, str.length - Number(n))
+            } else if (command === 'print') {
+                console.log(str);
             }
+
+        }
 
     })();
 
-
-    //podavame edin po edin parametrite na processor() funkciqta
-    for(let com of commands)
-        processor(com);
-
+    //podvame vseki parametur na iffie-to
+    for (let comm of args) {
+        closure(comm);
+    }
 
 }
 
-    solve(['append 123',
-        'append 45',
-        'removeStart 2',
-        'removeEnd 1',
-        'print']);
-
+solve(['append hello',
+    'append again',
+    'removeStart 3',
+    'removeEnd 4',
+    'print']);

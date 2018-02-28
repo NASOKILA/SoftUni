@@ -1,30 +1,48 @@
 
 function increment(selector) {
 
-    let wrapper = $(selector);
+    
+    let textarea = document.createElement('textarea');
+    $(textarea).addClass('counter');
 
-    let textarea = $('<textarea class="counter" disabled></textarea>');
-    textarea.val(0);
-    let buttonIncrement = $('<button class="btn" id="incrementBtn">Increment</button>');
-    let buttonAdd = $('<button class="btn" id="addBtn">Add</button>');
-    let ul = $('<ul class="results"></ul>');
+    let textAreaValue = 0;
+    $(textarea).text(textAreaValue);
 
 
-    $(buttonIncrement).on('click', function () {
-        let num = Number($('.counter').val());
-        num++;
-        $('.counter').val(num);
-    });
+    $(textarea).text();
+    $(textarea).attr('disabled', 'disabled');
 
-    $(buttonAdd).on('click', function () {
-        let num = Number($('.counter').val());
-        ul.append($(`<li>${num}</li>`));
-    });
+    let incrementBtn = $('<button class="btn" id="incrementBtn">Increment</button>')
+    
+    let addBtn = $('<button>');
+    addBtn.addClass('btn');
+    addBtn.attr('id','addBtn');
+    addBtn.text('Add');
 
-    wrapper.append(textarea);
-    wrapper.append(buttonIncrement);
-    wrapper.append(buttonAdd);
-    wrapper.append(ul);
+    let ul = $(`<ul class="results"></ul>`)
+    
+    $(selector)
+        .append(textarea)
+        .append(incrementBtn)
+        .append(addBtn)
+        .append(ul);
+
+
+    //Events:
+
+    incrementBtn.click(function(){
+        textAreaValue++;
+        textarea.textContent = textAreaValue;
+    })
+
+    addBtn.on('click', function(){
+        
+        let li = $('<li>');
+        
+        li.text(textAreaValue.toString());
+
+        li.appendTo($('.results'));
+    })
 
 }
 

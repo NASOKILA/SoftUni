@@ -10,53 +10,51 @@
 <input type="text" id="num2" />
 <input type="text" id="result" readonly />
 <br>
-<button id="sumButton">
+<button id="sumButton" onclick="sum()">
     Sum</button>
-<button id="subtractButton">
+<button id="subtractButton" onclick="sub()">
     Subtract</button>
 <script>
 
-    $(function () {
-        let model = getModel();
+ function solution(){
 
-        model.init('#num1', '#num2', '#result');
+     let element1, element2, result;
 
-        document.getElementById('sumButton')
-            .addEventListener('click', model.add);
+    return {
+        init: function(selector1, selector2, resultSelector){
+            
+            element1 = $(selector1); 
+            element2 = $(selector2); 
 
-        document.getElementById('subtractButton')
-            .addEventListener('click', model.subtract);
+            result = $(resultSelector); 
 
-    });
-
-    function getModel() {
-
-        let num1;
-        let num2;
-        let resultElem;
-
-        function Init(num1Sel, num2Sel, resultSel) {
-
-            resultElem = $(resultSel);
-            num1 = $(num1Sel);
-            num2 = $(num2Sel);
+        },
+        add: function(){
+           
+            let num1 = Number(element1.val());
+            let num2 = Number(element2.val());
+            let res = num1 + num2;
+            result.val(res);
+        },
+        subtract: function(){ 
+            let res = Number(element1.val()) - Number(element2.val()); 
+            result.val(res);
         }
-
-        function Add() {
-            resultElem.val(Number(num1.val()) + Number(num2.val()));
-        }
-
-        function Subtract(){
-            resultElem.val(Number(num1.val()) - Number(num2.val()));
-        }
-        
-        return {
-            add: Add,
-            subtract: Subtract,
-            init: Init
-        };
-
     }
+ }
+ 
+ let obj = solution(); 
+ 
+
+function sum(){
+    obj.init('#num1','#num2','#result');
+    obj.add();
+}
+
+function sub(){
+    obj.init('#num1','#num2','#result');
+    obj.subtract();
+}
 
 </script>
 </body>

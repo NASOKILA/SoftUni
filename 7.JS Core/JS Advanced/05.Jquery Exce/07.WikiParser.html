@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Parser</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+    <p id="wiki">
+        =Heading 1=
+        This is normal text with a [[hyperlink1|piped hyperlink]]. This '''word''' should be '''bold'''.
+        ==Heading 2==
+        ''This is italics''. [[hyperlink]]
+    </p>
+</div>
+<script src="wiki-parser.js"></script>
+<script>
+    window.onload = function(){
+        wikiParser('#wiki');
+    }
+</script>
+</body>
+</html>

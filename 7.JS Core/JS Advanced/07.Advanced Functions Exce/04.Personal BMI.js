@@ -1,37 +1,43 @@
 
 function solve(name, age, weight, height) {
 
+    //get BMI
+    let heightInMeters = height / 100;
+    let BMI = Math.round(weight / (heightInMeters * heightInMeters));
+
+    //get status
+    let status = '';
+    if(BMI < 18.5)
+        status = 'underweight';
+    else if(BMI >= 18.5 && BMI < 25)
+        status = 'normal';
+    else if(BMI >= 25 && BMI < 30)
+        status = 'overweight';
+    else
+        status = 'obese';
+
+    //make persona Info obj
     let personalInfo = {
         age: age,
         weight: weight,
-        height, height
-    };
-    heightInMeters = height / 100;
-    let bmi = Math.round(weight / Math.pow(heightInMeters,2));
-
-    let status = '';
-
-    if(bmi < 18.5)
-        status = 'underweight';
-    else if(bmi >= 18.5 && bmi < 25)
-        status = 'normal';
-    else if(bmi >= 25 && bmi < 30)
-        status = 'overweight';
-    else if(bmi >= 30)
-        status = 'obese';
-
-    let patient = {
-            name: name,
-            personalInfo: personalInfo,
-            BMI: bmi,
-            status: status
+        height: height
     };
 
+    //make person object
+    let person = {
+        name: name,
+        personalInfo: personalInfo,
+        BMI: BMI,
+        status: status
+    };
+
+    //add reccommendation to the object
     if(status === 'obese')
-        patient['recommendation'] = 'admission required';
+        person['recommendation'] = 'admission required';
 
-    return(patient);
+    
+    return (person);
 }
 
 solve('Peter', 29, 75, 182);
-solve('Honey Boo Boo', 9, 57, 137);
+//solve('Honey Boo Boo', 9, 57, 137);

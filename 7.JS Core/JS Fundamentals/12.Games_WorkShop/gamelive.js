@@ -83,7 +83,7 @@
         if(distance < 40) {
             //alert("You got the mouse !");
             score ++;
-            mouseSpeed++;
+            //mouseSpeed++;
 
             if(score === 5)
                 level++;

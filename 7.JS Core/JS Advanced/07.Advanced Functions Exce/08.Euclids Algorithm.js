@@ -1,11 +1,12 @@
 
-function solve(a, b) {
+function solve(a, b){
 
-
-    if(b === 0)
-        return a;
-    else
+    if (b) {
         return solve(b, a % b);
+    } else {
+        return Math.abs(a);
+    }
+
 }
 
 console.log(solve(252, 105));

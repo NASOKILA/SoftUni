@@ -1,4 +1,20 @@
 
+/*
+function restartGame(){
+    console.log('clocked');
+
+    monsterReady = true;
+    heroReady = true;
+
+
+    ctx.fillStyle = "pink";
+    ctx.font = "50px Helvetica";
+    ctx.fillText("", 110, 200);
+    ctx.fillText("", 120, 250);
+
+    main();
+}
+*/
 
 
 //01.Get the canvas and its context:
@@ -183,12 +199,13 @@ let render = function () {
  
  
     //KOGATO HERO PECHELI IGRATA
- if(monstersCaught == 1){
+ if(monstersCaught == 5){
 
     ctx.fillStyle = "red";
     ctx.font = "50px Helvetica";
     ctx.fillText("Game Over!", 110, 200);
     ctx.fillText("Hero Won!", 120, 250);
+
     monsterReady = false;
     heroReady = false;
 
@@ -216,13 +233,6 @@ requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame
 reset()
 main()
 
-function restartGame(){
-    console.log('clocked');
-
-    monsterReady = true;
-    heroReady = true;
-    main();
-}
 
 
 

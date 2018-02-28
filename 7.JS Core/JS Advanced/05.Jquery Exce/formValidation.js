@@ -2,7 +2,7 @@
 
 function validate() {
 
-
+    //Vzimme si vsichki poleta ot formata
     let username = $('#username');
     let email = $('#email');
     let password = $('#password');
@@ -12,30 +12,29 @@ function validate() {
     let submitBtn = $('#submit');
     let allIsValid = true;
 
+    //Kato kliknem Submit validirame formata
     submitBtn.on('click', function (e) {
+      
         e.preventDefault();
-
         //validirame formata
         validateForm();
 
     });
 
+    //pokaji Company Information ili go skrii
     checkbox.change(function() {
-        if(this.checked)
-        {
-            $('#companyInfo').css('display', 'block');
-        }
-        else
-            $('#companyInfo').css('display', 'none');
-
+        this.checked
+            ? $('#companyInfo').css('display', 'block')
+            : $('#companyInfo').css('display', 'none');
     });
 
     function validateForm() {
 
         allIsValid = true;
 
-        let usernamePattern = /^[a-zA-Z0-9]{3,12}$/gm;
-        let emailPattern = /^.*?[\@].*?[\.].*?$/gm;
+        //pravim si regexite
+        let usernamePattern = /^[a-zA-Z0-9]{3,20}$/gm;
+        let emailPattern = /^.*@.*\..*$/g;
         let passwordPattern = /^\w{5,15}$/gm;
         let confirmPasswordPattern = /^\w{5,15}$/gm;
 
@@ -54,17 +53,18 @@ function validate() {
 
         if(checkbox.is(":checked"))
         {
-            if(Number(companyNumber.val()) < 1000 || Number(companyNumber.val()) > 9999) {
-                companyNumber.css("border", "solid red");
+            let companyNumber = $("#companyNumber").val();
+            if (!companyNumber.match(/^[1-9][0-9]{3}$/)){
+                $("#companyNumber").css('border-color', 'red');
                 allIsValid = false;
-            } else {
-                companyNumber.css("border", "none");
+            }
+            else{
+                $("#companyNumber").css('border', 'none');
             }
         }
         else
             allIsValid = false;
 
-        console.log(allIsValid);
         if(allIsValid === true) {
             $('#valid').css('display', 'block');
         }else{
@@ -81,9 +81,7 @@ function validate() {
                 allIsValid = false;
             }
         }
-
     }
-
 }
 
 

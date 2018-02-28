@@ -1,55 +1,54 @@
 
 
 function timer() {
-    let sec = 0;
+
+    let startBtn = $('#start-timer');
+    let stopBtn = $('#stop-timer');
+
+    let seconds = 0;
     let minutes = 0;
     let hours = 0;
-
+    
+    let  timer;
     let stopped = true;
-    let t;
-    $('#start-timer').click(function () {
+
+    startBtn.click(function(){
+
         if(stopped)
         {
-            t = setInterval(tick,1000);
+            timer = setInterval(Step, 1000);
             stopped = false;
         }
+        
+        function Step(){
 
-        function tick()
-        {
-            sec++;
-            if(sec >= 60)
+            seconds++;
+    
+            if(seconds === 60)
             {
-                sec = 0;
+                seconds = 0;
                 minutes++;
             }
-            if(minutes >= 60)
+    
+            if(minutes === 60)
             {
                 minutes = 0;
                 hours++;
             }
-
-
-            $('#seconds').text(('0' + sec).slice(-2));
-            $('#minutes').text(('0' + minutes).slice(-2));
+    
             $('#hours').text(('0' + hours).slice(-2));
-
+            $('#minutes').text(('0' + minutes).slice(-2));
+            $('#seconds').text(('0' + seconds).slice(-2));
+    
         }
-        //clearInterval(t)
+    
+
     });
 
-    $('#stop-timer').click(function () {
-        clearInterval(t);
+    stopBtn.click(function(){
+        clearInterval(timer);
         stopped = true;
     });
 
+
 }
-
-
-
-
-
-
-
-
-
-

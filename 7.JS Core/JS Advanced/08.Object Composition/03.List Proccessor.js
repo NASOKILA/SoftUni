@@ -1,47 +1,47 @@
 
 
 
-let solve = (function () {
+function solve(input) {
 
-    let list = [];
 
-    function add(string) {
-        list.push(string)
+    let array = [];
+
+    let commands = {
+        Add: function (name) {
+            array.push(name);
+        },
+        Remove: function (name) {
+            array = array.filter(e => e !== name);
+        },
+        Print: () => { console.log(array.join(',')) }
     }
 
-    function remove(string) {
+    for (let pair of input) {
 
-        let index = list.indexOf(string);
+        let tokens = pair.split(' ');
 
-        while(index !== -1)
-        {
-            list.splice(index, 1);
-            index = list.indexOf(string);
-        }
+        if (tokens.length === 1)
+            commands.Print();
+        else {
 
-    }
-
-    function print(list) {
-        console.log(list.join(','));
-    }
-
-    return function(args){
-
-        for(let input of args) {
-
-            let arg = input.split(' ');
-
-            if(arg[0] === 'add')
-                add(arg[1]);
-            else if(arg[0] === 'remove')
-                remove(arg[1]);
-            else if(arg[0] === 'print')
-                print(list);
+            let [command, name] = tokens;
+            
+            command === "add"
+                ? commands.Add(name)
+                : commands.Remove(name);
         }
     }
-})()
+}
+
 //solve(['add hello', 'add again', 'remove hello', 'add again', 'print']);
 
-solve(['add pesho', 'add gosho', 'add pesho', 'remove pesho','print']);
+//solve(['add pesho', 'add gosho', 'add pesho', 'remove pesho', 'print']);
 
+solve([
+    'add JSFundamentals',
+    'print',
+    'add JSAdvanced',
+    'print',
+    'add JSApplications',
+    'print']);
 

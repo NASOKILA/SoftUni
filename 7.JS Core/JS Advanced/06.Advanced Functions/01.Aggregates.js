@@ -1,26 +1,23 @@
 
 function solve(arr) {
 
-    function reduce(arr, func) {
-        let result = arr[0];
-        for(let nexElement of arr.slice(1))
-            result = func(result, nexElement);
-        return result;
-    }
-
-    console.log('Sum = ' + reduce(arr, (a,b) => a + b));
-    console.log('Min = ' + reduce(arr, (a,b) => a <= b ? a : b));
-    //ako a e <= ot b vrushtame a inche b
-    console.log('Max = ' + reduce(arr, (a,b) => a >= b ? a : b));
-    //ako a e >= ot b vrushtame a inche b
-    console.log('Product = ' + reduce(arr, (a,b) => a * b));
-    console.log('Join = ' + reduce(arr, (a,b) => '' + a + b));
-
+  
+    let sum = arr.reduce((a,b) => Number(a) + Number(b));
+    let join = arr.join('');
+    let min = arr.sort((a,b) => Number(a) > Number(b))[0];
+    let max = arr.sort((a,b) => Number(a) < Number(b))[0];
+    let product = arr.reduce((a,b) => Number(a) * Number(b))
+    
+    console.log('Sum = ' + sum);   
+    console.log('Min = ' + min);
+    console.log('Max = ' + max);
+    console.log('Product = ' + product);
+    console.log('Join = ' +join);
 }
 
 solve([2,3,10,5]);
 
-
+solve([5, -3, 20, 7, 0.5]);
 
 
 

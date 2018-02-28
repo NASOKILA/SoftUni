@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Countries Table</title>
     <style>
-        td, th { background: #DDD; padding: 5px 10px }
-        input[type='text'] { width: 60px }
-    </style>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-    <script src="initialize-table.js"></script>
-</head>
-<body>
-<table id="countriesTable">
-    <tr>
-        <th>Country</th>
-        <th>Capital</th>
-        <th>Action</th>
-    </tr>
-    <tr>
-        <td><input type="text" id="newCountryText" /></td>
-        <td><input type="text" id="newCapitalText" /></td>
-        <td><a href="#" id="createLink">[Create]</a></td>
-    </tr>
-</table>
-<script>$(() => initializeTable())</script>
-<script>
-
-    function initializeTable() {
-        $('#createLink').click(addCountry);
-
-
-        //Add default values :
-        createCountry('Bulgaria', 'Sofia');
-        createCountry('Germany', 'Berlin');
-        createCountry('Russia', 'Moscow');
-
-
-        fixLinks();
-
-        function addCountry() {
-
-            let name = $('#newCountryText').val();
-            let capital = $('#newCapitalText').val();
-            createCountry(name, capital);
-
-            fixLinks();
+        td,
+        th {
+            background: #DDD;
+            padding: 5px 10px
         }
 
+        input[type='text'] {
+            width: 60px
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="initialize-table.js"></script>
+</head>
 
-        function createCountry(name, capital) {
+<body>
+    <table id="countriesTable">
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="newCountryText" />
+            </td>
+            <td>
+                <input type="text" id="newCapitalText" />
+            </td>
+            <td>
+                <a href="#" id="createLink">[Create]</a>
+            </td>
+        </tr>
+    </table>
+    <script>$(() => initializeTable())</script>
+    <script>
 
-            $('#countriesTable').append(`
+        function initializeTable() {
+
+            $('#createLink').click(addCountry);
+
+            //Add default values :
+            createCountry('Bulgaria', 'Sofia');
+            createCountry('Germany', 'Berlin');
+            createCountry('Russia', 'Moscow');
+
+
+            fixLinks();
+
+            function addCountry() {
+
+                let name = $('#newCountryText').val();
+                let capital = $('#newCapitalText').val();
+                createCountry(name, capital);
+
+                fixLinks();
+            }
+
+
+            function createCountry(name, capital) {
+
+                $('#countriesTable').append(`
         <tr>
             <td>${name}</td>
             <td>${capital}</td>
@@ -61,59 +77,62 @@
              </td>
         </tr>`);
 
-            $('#newCountryText').val('');
-            $('#newCapitalText').val('');
+                $('#newCountryText').val('');
+                $('#newCapitalText').val('');
 
 
-            let up = document.querySelectorAll('#up');
-            for(let u of up)
-                u.addEventListener('click',MoveUp);
+                let up = document.querySelectorAll('#up');
+                for (let u of up)
+                    u.addEventListener('click', MoveUp);
+
+                let down = document.querySelectorAll('#down');
+                for (let d of down)
+                    d.addEventListener('click', MoveDown);
+
+                let del = document.querySelectorAll('#delete');
+                for (let dd of del)
+                    dd.addEventListener('click', Delete);
+            }
 
 
-            let down = document.querySelectorAll('#down');
-            for(let d of down)
-                d.addEventListener('click',MoveDown);
+            function MoveUp(event) {
 
+                let td = $(event.target).parent();
+                let tr = $(event.target).parent().parent();
+                let prevTr = $(event.target).parent().parent().prev();
 
-            let del = document.querySelectorAll('#delete');
-            for(let dd of del)
-                dd.addEventListener('click',Delete);
+                if (prevTr[0].tagName !== 'TBODY')
+                    tr.insertBefore(prevTr);
+
+                fixLinks();
+            }
+
+            function MoveDown() {
+
+                let tr = $(this).parent().parent();
+                let nextTr = $(this).parent().parent().next();
+                tr.insertAfter(nextTr);
+                fixLinks();
+            }
+
+            function Delete(event) {
+
+                let tr = $(event.target).parent().parent();
+                tr.remove();
+                fixLinks();
+            }
+
+            //skrivame up linka nai otgore i down linka nai ot dolo
+            function fixLinks() {
+
+                $('tr a').show();
+                $('tr:last-child a:contains(Down)').hide();
+                $('tr:eq(2) a:contains(Up)').hide();
+            }
 
         }
-
-
-        function MoveUp() {
-
-            if($(this).parent().parent().prev()[0].tagName !== 'TBODY')
-                $(this).parent().parent().insertBefore($(this).parent().parent().prev());
-
-            fixLinks();
-        }
-
-        function MoveDown() {
-
-            $(this).parent().parent()
-                .insertAfter($(this).parent().parent().next());
-            fixLinks();
-        }
-
-        function Delete() {
-            $(this).parent().parent().remove();
-            fixLinks();
-        }
-
-        function fixLinks() {
-            $('tr a').show();
-            $('tr:last-child a:contains(Down)').hide();
-            $('tr:eq(2) a:contains(Up)').hide();
-        }
-
-    }
-</script>
+    </script>
 
 </body>
+
 </html>
-
-
-
-

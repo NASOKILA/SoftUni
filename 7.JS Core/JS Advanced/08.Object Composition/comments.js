@@ -132,18 +132,20 @@ Closures:
     primerno imame kutiq sus zatvoreni v neq stoinosti.
     Stoinostite sa skriti ot vunchniq svqt
 
+    Tova e kato inkapsilaciq na danni.
+
     Trqbva da returnem neshto inache nqma kak da dostpim stoinostite.
     TOVA VECHE GO VIDQHME !!!!!!!!!
     Primer:*/
 
 function counterClosure() {
 
-    let counter = 0; // vurnatata funkciqta vijda countera zashtoto sa v sushtiq scoup
+    // vurnatata funkciqta vijda countera zashtoto sa v sushtiq scoup
+    let counter = 0; 
 
     return function getNextCount() {
         console.log(++counter);
     }
-
 }
 
 //Sega kolkoto i puti da vikame countera toi NQMA DA ZAPOCHVE OT 0 A SHTE PRODULJI DA BROI.
@@ -248,7 +250,6 @@ Object inheritance: NASLEDQVANE NA OBEKTI
     imat oshte edna dopulnitelna funkcionalnost.
 
     GLAVNAta IDEQ E DA SE SPESti KOD.
-
 */
 
 console.log();

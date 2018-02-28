@@ -5,6 +5,7 @@ function fibonacci() {
     let nextNum = 1;
     let fibNum = 0;
     let firstTime = true;
+
     return function () {
 
         if(firstTime){
@@ -16,6 +17,7 @@ function fibonacci() {
         prevNum = nextNum;
         nextNum = fibNum;
         return (fibNum);
+         
     }
 }
 let fib = fibonacci();
