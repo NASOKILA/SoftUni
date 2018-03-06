@@ -1,14 +1,14 @@
 
-function modifyWorker(worker){
+function solve(worker){
 
-       if(worker['handsShaking'] === true) {
+     if(worker.handsShaking === true)
+     {
+        let requiredAlcoholAmount = 0.1 * worker.experience * worker.weight;
 
-           console.log('to be modified');
-           worker['bloodAlcoholLevel'] += 0.1 * worker['weight'] * worker['experience'];
-           worker['handsShaking'] = false;
-       }
-
-       return(worker);
+        worker.bloodAlcoholLevel += requiredAlcoholAmount;
+        worker.handsShaking = false;
+     }
+     return worker;
 }
 
 solve({ weight: 80,
@@ -22,7 +22,11 @@ solve({ weight: 120,
     bloodAlcoholLevel: 200,
     handsShaking: true }
 );
-
+solve({ weight: 95,
+    experience: 3,
+    bloodAlcoholLevel: 0,
+    handsShaking: false }
+);
 
 
 

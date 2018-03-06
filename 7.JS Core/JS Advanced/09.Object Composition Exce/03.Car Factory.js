@@ -1,4 +1,3 @@
-
 function solve(input) {
 
     let storage = {
@@ -49,6 +48,7 @@ function solve(input) {
 
     return input;
 }
+
 
 solve({ model: 'VW Golf II',
     power: 90,

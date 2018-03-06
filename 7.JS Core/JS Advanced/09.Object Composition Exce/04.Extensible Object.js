@@ -1,4 +1,5 @@
 
+
 function getExtensibleObject() {
 
     let obj = {
@@ -43,4 +44,6 @@ console.log(myobj);
 
 //vijdame i prototipa mu
 console.log(Object.getPrototypeOf(myobj));
+
+
 
