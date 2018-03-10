@@ -39,7 +39,7 @@ namespace InterfaceAndAbstraction
 
                 KATO DADEM . + space VIJDAME VSICHKI OPCII OT VISUAL STUDIO ZA TOZI 
                 NAMESPACE V KOITO SE NAMIRAME. 
-                AKO NQMASHE NAMESPACE-ove VIUAL STUDIO SHTESHE DA NI ZABIQ V OPIT DA 
+                AKO NQMASHE NAMESPACE-ove VIUAL STUDIO SHTESHE DA NI ZABIE V OPIT DA 
                 NI POKAJE VSICHKI VUZMOJNI BIBLIOTEKI.
 
 
@@ -82,7 +82,7 @@ namespace InterfaceAndAbstraction
             //ostaaloto NE mojem da go dostpim.
             Animal someAnimal = new Cat();
 
-            //someAnimal.              metoda Sleep() koito e v Cat() klasa ne mojem da go vidim.
+            //someAnimal.              metoda Sleep() koito e v Cat() klasa NE mojem da go vidim ZASHTOTO SI E SAMO ZA Cat KLAS.
 
             someAnimal.Sound(); 
             //No mojem da izvikame Sound() metoda koito se prezpisva ot  Animal()

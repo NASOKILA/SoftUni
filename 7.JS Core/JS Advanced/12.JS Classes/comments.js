@@ -35,16 +35,17 @@ class Rectangle {
     //vsichko tuka e funkciq ne e nujno da pishem function.
 
     //Konstruktura se izvikva s dumata constructor()
-    //MOJEM DA VZIMAME PARAMETRITE I CHREZ argumnts[...] VAJNO!!!!!
-    constructor(width, height, color = 'white'){
-        //slagame color da e po default 'white'
+    //MOJEM DA VZIMAME PARAMETRITE I CHREZ arguments[...] VAJNO!!!!!
+
+    constructor(width, height, color = 'white')    //slagame color da e po default 'white'
+    {
         //ako ne podadem cvqt shte go napravi da e white
         this.width = width;
-        this.height = height || 0; //Moje i taka da slagame default, ili podadenoto ili 0
+        this.height = height || 0; //Moje i taka da slagame default stoinost na neshto, t.e. ili podadenoto ili 0
         this.color = color;
     }
 
-    //Mojem da dobvqme funkcii
+    //Mojem da suzdavame funkcii v nashiq klas
     calcArea(){
         return this.width * this.height;
     }
@@ -79,7 +80,7 @@ console.log(rect4);
 
 
 //VAJNO !!!!! :
-//Ako vmesto let napishem const ne mojem da promenqme neshtata v klasa
+//Ako vmesto let napishem const PAK mojem da promenqme neshtata v klasa
 const rect5 = new Rectangle(11,88,'blue');
 rect5.width = 99;
 rect5.name = 'rect 5';
@@ -145,18 +146,22 @@ class Circle {
     }
 
     //Tova si e funkciq
-    diameter2(){
+    ShowDiameter(){
         return this._radius  * 2;
     }
 
-    //get ozn che stawa na properti i veche ne e funkciq
+
+    //SUS 'get' I 'set' SUZDAVAME POLETA I PROPERTITA  JS 
+
+    //get ozn che stawa na property i veche ne e funkciq
     //ne mojem da go setnem zashtoto ne e 'set'.
     //dostupva se s .diameter vmesto sus .diameter()
+    //DIAMETUR GET PROPERTI KOETO VRIUSHTA RADIUSA * 2 :
     get diameter(){
-        return this._radius  * 2;
+        return this._radius * 2; // KAZVAME CHE DIAMETURA E PODADENIQ RADIUS * 2
     }
 
-    //podavame get propertito i go setvame
+    //VZIMAME RADIUSA I GO SETVME NA PODADENIQ NOV DIAMETUR RAZDELEN NA 2
     set diameter(diameter){
         this._radius  = diameter / 2;
     }
@@ -169,12 +174,18 @@ class Circle {
     }
 
 
+    //PRAVIM GETER I SETER NA RADIUSA ZA DA MOJEM DA GO PROMENQME :
     get radius(){
         return this._radius;
     }
 
     set radius(radius){
         this._radius = radius;
+    }
+
+    get name()
+    {
+        return "I AM A CIRCLE";
     }
 
     //GETTERITE I SETTERITE MOGAT DA SA FUNKCII VMESTO PROPERTITA.
@@ -184,16 +195,29 @@ class Circle {
 
 let circle1 = new Circle(5);
 console.log(circle1);
-console.log(circle1.diameter2());
+console.log(circle1.ShowDiameter());
 console.log(circle1.diameter); //vikame go kato property
 
 console.log('Area: ' + circle1.area);
 
-//BEZ set propertito ne mojem da go setvame pak si e 5 !!!!!
+//TEZI KOITO IMAT SETTER MOGAT DA SE PROMENQT
 circle1.diameter = 12;
+
 console.log(circle1.diameter);
 
+//VAJNO !!!!
+//V SETERA NA DIAMETURA SME KAZALI CHE VZIMAME RADIUSA I GO SETVME NA PODADENIQ NOV 
+//DIAMETUR RAZDELEN NA 2, T.E. V SLUCHAQ SME PODALI 12 ZA NOV DIAMETUR ZNACHI RADIUSA 
+//SHTE E RAVEN NA 6.
 console.log(circle1.radius);
+
+//NO TEZI KOIT NQMAT SETTER NE MOJEM DA GI PROMENQME:
+
+circle1.name = "Name is changed !";
+console.log(circle1.name);
+//BEZ set propertito ne mojem da go setvame pak si e sushtoto !!!!!
+
+
 
 
 /*
@@ -210,7 +234,7 @@ console.log();
 
 /*
     Statichni metodi:   LESNO E  !!!!!!!!!!!!!
-        Te sa danni ili povedeniq koito sa spodeleni sus vsichki
+        Te sa danni koito sa spodeleni sus vsichki
         chlenove na toq klas.
 
 */
@@ -222,18 +246,21 @@ class Point {
         this.y = y;
     }
 
-    //sega tazi funkciq e zakachena za SAMIQ KLAS
-    static distance(a, b) {
-        //const ne mojem da go promenqme
-        const dx = a.x - b.x;
-        const dy = a.y - b.y;
-        return Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2));
+//sega tazi funkciq e zakachena za SAMIQ KLAS 'Point', NE MOJEM DA Q POLZVAME OT INSTANCIQ
+ static distance(a, b) {
+    //const ne mojem da go promenqme
+    const dx = a.x - b.x;
+    const dy = a.y - b.y;
+    return Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2));
     }
+
 }
 
-//STATICHNATA FUNKCIQ E VUTRE V KLASA NO NIE MOJEM PROSTO DA SI Q NAPRAVIM
-//OTVUN KLASA I PAK DA Q POLZVAME.
+  
 
+//STATICHNIQ METOD E ZAKACHEN 'DIRECTNO' ZA KLASA.
+//SLEDOVATELNO Q IZVIKVAME DIREKTNO OT IMETO NA SAMIQ KLAS : Point.distance(...) //Point E S GLAVNA BUKVA
+//I NE MOJEM DA GO POLZVAME OT INSTANCII A SAMO OT SAMIQ KLAS, V SLUCHAQ E: Point.distance(..., ...);
 
 let pointOne = new Point(-2, 5);
 let pointTwo = new Point(22, 15);
@@ -243,8 +270,6 @@ console.log(Point.distance(pointOne, pointTwo));
 
 //NE MOJEM DA GO IZPOLZVAME OT INSTANCII:
 console.log(pointOne.distance); // dava undefined
-
-
 
 
 
@@ -276,16 +301,20 @@ let oldRectOne = new OldRectangles(3, 5);
 console.log(oldRectOne);
 
 
-//Ne vijdame funkciqta area() zashtoto e zakachena za prototipa, za da q izvikame.
+//Vijdame funkciqta area() zashtoto e zakachena za prototipa, za da q izvikame.
 console.log(oldRectOne.area());
 
 
+
+//OldRectangles.area();     //.area() NE E STATICHEN METOD ZATOVA NE MOJEM DA GO IZVIKVAME DIREKTNO OT KLASA!!!
 
 
 
 /*
     Protecting Class Data:
+        Tuk nqmame 'private' no ima drugi nachini za inkapsulirane na danni v edin JS klas.
         Trqbva da pazim sustoqnieto da e korektno.
+
 */
 
 
@@ -293,9 +322,19 @@ console.log(oldRectOne.area());
 /*
     SUMMARY:
     Klasa e strukturata na obekta.
-    S new suzdavame abstrakciq na toq klas
+    S new suzdavame instanciq na toq klas
     construktor(){...} e vajna funkciq
     Accessor Propertita sa funkcii za validaciq, getteri i setteri
     
 
 */
+
+
+
+
+
+
+
+
+
+
