@@ -7,6 +7,7 @@
     using Forum.App.Controllers.Contracts;
     using Forum.App.UserInterface;
     using Forum.App.UserInterface.Contracts;
+    using Forum.App.Services;
 
     internal class MenuController
     {
@@ -31,8 +32,12 @@
         private IView CurrentView { get; set; }
 
         private MenuState State => (MenuState)controllerHistory.Peek();
+
         private int CurrentControllerIndex => this.controllerHistory.Peek();
+
+        //vhurlq exception
         private IController CurrentController => this.controllers[this.controllerHistory.Peek()];
+
         internal ILabel CurrentLabel => this.CurrentView.Buttons[currentOptionIndex];
 
         private void InitializeControllerHistory()
@@ -155,12 +160,23 @@
 
         private void AddReply()
         {
-            throw new NotImplementedException();
+            Back();
         }
 
         private void RedirectToAddReply()
         {
-            throw new NotImplementedException();
+            //vzimame nastoqshtiq kontroller
+            var postDetaisController = (PostDetailsController)this.CurrentController;
+
+            //vzemame reply kontrollera
+            var addReplyController = (AddReplyController)this.controllers[(int)MenuState.AddReply];
+
+            //setvame idto na posta
+            addReplyController.SetPostId(postDetaisController.PostId);
+
+            //redirektvame
+            RedirectToMenu(MenuState.AddReplyToPost);
+
         }
 
         private void LogOut()
@@ -180,17 +196,63 @@
 
         private void ViewPost()
         {
-            throw new NotImplementedException();
+            //Vzimame si kategoriqta
+            var categoryController = (CategoryController)this.CurrentController;
+            var categoryId = categoryController.CategoryId;
+
+            //zarejdame postovete i gi offsetvame
+            var posts = PostService.GetPostsByCategory(categoryId).ToArray();
+
+            //izchislqvame indexa
+            var postIndex = categoryController.CurrentPage * CategoryController.PAGE_OFFSET + this.currentOptionIndex;
+
+            //namirame si posta polzvaiki indexa
+            var post = posts[postIndex - 1];
+
+            //podavame go na Post Controllera
+            var postDetailsController = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
+            postDetailsController.SetPostId(post.Id);
+
+            //redirektvame kum ViewPost
+            RedirectToMenu(MenuState.ViewPost);
         }
 
         private void OpenCategory()
         {
-            throw new NotImplementedException();
+            var categoriesContoller = (CategoriesController)this.CurrentController;
+
+            //smqtame indexa na koq stranica da se otvorqt kategoriite
+            int categoryIndex = categoriesContoller.CurrentPage * CategoriesController.PAGE_OFFSET +
+                this.currentOptionIndex;
+
+            //setvame mu kategoriqta
+            var categoryCtrlr = (CategoryController)this.controllers[(int)MenuState.OpenCategory];
+            categoryCtrlr.SetCategory(categoryIndex);
+
+            //i redirektvame kum meniuto na Open Category
+            this.RedirectToMenu(MenuState.OpenCategory);
         }
 
         private void AddPost()
         {
-            throw new NotImplementedException();
+            //vzimame si Add post controller
+            var addPostController = (AddPostController)this.CurrentController;
+
+            //vzimame id-to na posta
+            var postId = addPostController.Post.PostId;
+
+            //vzimame postViewera
+            var postViewer = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
+
+            //setvame id-to na posta
+            postViewer.SetPostId(postId);
+
+            //resetvame posta
+            addPostController.ResetPost();
+
+            this.controllerHistory.Pop();
+
+            this.RedirectToMenu(MenuState.ViewPost);
         }
 
         private void RenderCurrentView()
@@ -198,8 +260,7 @@
             this.CurrentView = this.CurrentController.GetView(this.Username);
             this.currentOptionIndex = DEFAULT_INDEX;
             this.forumViewer.RenderView(this.CurrentView);
-        }
-        
+        }        
 
         //promenqme LoginUsera na sus slednoto, celta e da se lognem
         private void LogInUser()

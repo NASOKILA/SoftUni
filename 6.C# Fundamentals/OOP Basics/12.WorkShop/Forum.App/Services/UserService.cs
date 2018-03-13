@@ -74,6 +74,22 @@ namespace Forum.App.Services
             //ako sushtestvuva vrushtame true ako ne false 
             return userExists;
         }
+        
+        //metod kioto da vzima usera po Id
+        public static User GetUser(int id) {
+
+            var forumData = new ForumData();
+            User user = forumData.Users.SingleOrDefault(u => u.Id == id);
+            return user;
+        }
+
+        //metod koito vzima user po username
+        public static User GetUser(string username, ForumData forumData) {
+
+            User user = forumData.Users.SingleOrDefault(u => u.Username == username);
+            return user;
+            
+        }
 
     }
 }

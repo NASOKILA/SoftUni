@@ -108,12 +108,14 @@ namespace Forum.Data
                 var id = int.Parse(args[0]);
 
                 var name = args[1];
-
-                var postIds = args[2]
+                var postIds = new List<int>();
+                if (args.Length >= 3)
+                {
+                    postIds = args[2]
                     .Split(',', StringSplitOptions.RemoveEmptyEntries)
                     .Select(int.Parse)
-                    .ToArray();
-
+                    .ToList();
+                }
                 //suzdavame si vsqka kategoriq
                 Category category = new Category(id, name, postIds);
 
@@ -229,10 +231,14 @@ namespace Forum.Data
 
                 var authorId = int.Parse(args[4]);
 
-                var replyIds = args[5]
+                var replyIds = new List<int>();
+                if (args.Length >= 6)
+                {
+                    replyIds = args[5]
                     .Split(',', StringSplitOptions.RemoveEmptyEntries)
                     .Select(int.Parse)
-                    .ToArray();
+                    .ToList();
+                }
 
                 Post post = new Post(id, title, content, categoryId, authorId, replyIds);
                 posts.Add(post);

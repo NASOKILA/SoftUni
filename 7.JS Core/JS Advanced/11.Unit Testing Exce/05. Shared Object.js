@@ -20,7 +20,7 @@
         newIncome.val(this.income);
     },
     updateName: function () {
-        let newName = $('#name').val();
+        let newName = $('#name').val(); 
         if (newName.length === 0) {
             return;
         }
