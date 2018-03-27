@@ -18,7 +18,7 @@ namespace DungeonsAndCodeWizards
 
         private int Capacity { get; set; }
 
-        private List<Item> Items { get; }
+        public ICollection<Item> Items { get; }
 
         private double Load { get; set; }
 

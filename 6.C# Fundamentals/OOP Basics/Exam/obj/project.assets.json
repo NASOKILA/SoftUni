@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Exam\\DungeonsAndCodeWizards.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\OOP Basics\\Exam\\DungeonsAndCodeWizards.csproj",
       "projectName": "DungeonsAndCodeWizards",
-      "projectPath": "C:\\Users\\user\\Desktop\\Exam\\DungeonsAndCodeWizards.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\OOP Basics\\Exam\\DungeonsAndCodeWizards.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Exam\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\6.C# Fundamentals\\OOP Basics\\Exam\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -14,7 +14,7 @@ namespace DungeonsAndCodeWizards
         }
         
 
-        protected int Weight { get; private set; }
+        public int Weight { get; private set; }
         
         public virtual void AffectCharacter(Character character) {
 

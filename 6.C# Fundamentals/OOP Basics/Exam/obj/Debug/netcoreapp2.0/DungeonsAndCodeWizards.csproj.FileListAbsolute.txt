@@ -9,3 +9,9 @@ C:\Users\user\Desktop\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.Assemb
 C:\Users\user\Desktop\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.AssemblyInfo.cs
 C:\Users\user\Desktop\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.dll
 C:\Users\user\Desktop\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\Exam\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.pdb
