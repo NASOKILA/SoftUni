@@ -1,0 +1,19 @@
+<tr>
+
+    <td>{{title}}</td>
+    <td>{{publisher}}</td>
+    <td>{{description}}</td>
+    <td>{{price}}</td>
+    <td>{{date}}</td>
+
+    {{#if isAuthor}}
+    <td>
+        <a href="#ad/details/{{_id}}">[Read More]</a>
+        <a href="#ad/delete/{{_id}}">[Delete]</a>
+        <a href="#ad/edit/{{_id}}">[Edit]</a>
+    </td>
+    {{else}}
+    <td></td> 
+    {{/if}}
+
+</tr>
