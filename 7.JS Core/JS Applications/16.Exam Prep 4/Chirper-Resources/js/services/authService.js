@@ -10,23 +10,22 @@ let auth = (() => {
         sessionStorage.setItem('authtoken', userData._kmd.authtoken);
         sessionStorage.setItem('username', userData.username);
         sessionStorage.setItem('userId', userData._id);
+        //sessionStorage.setItem('subscriptions', JSON.stringify(userdata.subscriptions))
     }
 
     //registrira nov user pravi post zaqvka
-    function register (username, password) {
-        let obj = { username, password };
+    function register(username, password) {
+        let obj = { username, password, subscriptions : '[]' };
 
         return remote.post('user', '', 'basic', obj);
     }
 
-    //logva ni pravi post zaqvka
     function login(username, password) {
         let obj = { username, password };
 
         return remote.post('user', 'login', 'basic', obj)
     }
-    
-    //logoutva ni pak sus post zaqvka
+
     function logout() {
         return remote.post('user', '_logout', 'kinvey');
     }
@@ -42,17 +41,20 @@ let auth = (() => {
     }
 
     function getUserById(userId) {
+
         return remote.get('user', userId, 'kinvey');
     }
 
+
+
     return {
         isAuth,
-        login,
         getCurrentUser,
-        getAllUsers,
-        getUserById,
+        login,
         logout,
         register,
-        saveSession
+        saveSession,
+        getAllUsers,
+        getUserById,
     }
 })();

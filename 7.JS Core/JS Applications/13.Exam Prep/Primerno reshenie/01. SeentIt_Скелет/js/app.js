@@ -2,6 +2,21 @@ $(() => {
     const app = Sammy('#container', function () {
         this.use('Handlebars', 'hbs');
 
+
+    /*
+     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+     <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+     <script src="node_modules/sammy/lib/sammy.js"></script>
+     <script src="node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+     <script src="js/notify.js"></script>
+     <script src="js/remote.js"></script>
+     <script src="js/services/authService.js"></script>
+     <script src="js/services/postsService.js"></script>
+     <script src="js/services/commentService.js"></script>
+     <script src="js/app.js"></script>
+    */
+
+        /*
         this.get('#/home', getWelcomePage);
         this.get('index.html', getWelcomePage);
 
@@ -83,7 +98,7 @@ $(() => {
                 })
                 .catch(notify.handleError);
         });
-/*
+
         this.get('#/create/post', (ctx) => {
             if (!auth.isAuth()) {
                 ctx.redirect('#/home');
@@ -280,7 +295,7 @@ $(() => {
                 })
                 .catch(notify.handleError);
         });
-*/
+
         function getWelcomePage(ctx) {
             if (!auth.isAuth()) {
                 ctx.loadPartials({
@@ -296,7 +311,7 @@ $(() => {
             }
 
         }
-/*
+
         function postIsValid(title, url) {
             if (title === '') {
                 notify.showError('Title is required!');
@@ -310,7 +325,7 @@ $(() => {
 
             return false;
         }
-*/
+
         function calcTime(dateIsoFormat) {
             let diff = new Date - (new Date(dateIsoFormat));
             diff = Math.floor(diff / 60000);
@@ -329,6 +344,10 @@ $(() => {
                 else return '';
             }
         }
+
+
+
+        */
     });
 
     app.run();

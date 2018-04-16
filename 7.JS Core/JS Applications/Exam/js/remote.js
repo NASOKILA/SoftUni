@@ -3,8 +3,8 @@
 let remote = (() => {
 
     const BASE_URL = 'https://baas.kinvey.com/';
-    const APP_KEY = 'tofix'; // APP KEY HERE
-    const APP_SECRET = 'tofix'; // APP SECRET HERE
+    const APP_KEY = 'kid_r1kVg0ehG'; // APP KEY HERE
+    const APP_SECRET = '43c5bc0349d74db69d9e4dc9080a41cf'; // APP SECRET HERE
 
     //suzdava authentikaciq v zavisimost kakvo mu podadem 'Basic' ili 'Kinvey'
     //Basic se podava kogato ne sme lognati
@@ -31,8 +31,6 @@ let remote = (() => {
             }
         }
     }
-
-
 
     
     //zglobqva zaqvka za vzimane GET v zavisimost ot kakvi parametri mu podadem

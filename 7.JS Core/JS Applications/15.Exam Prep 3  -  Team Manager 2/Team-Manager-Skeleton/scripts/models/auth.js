@@ -9,6 +9,12 @@ let auth = (() => {
         sessionStorage.setItem('teamId', userInfo.teamId);
     }
 
+
+    function isAuth()
+    {
+        return sessionStorage.getItem('authtoken') != null;
+    }
+
     // user/login
     function login(username, password) {
         let userData = {
@@ -63,6 +69,7 @@ let auth = (() => {
         saveSession,
         showInfo,
         showError,
-        handleError
+        handleError,
+        isAuth
     }
 })()
