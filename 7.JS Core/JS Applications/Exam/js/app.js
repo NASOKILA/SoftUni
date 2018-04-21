@@ -35,22 +35,6 @@ $(() => {
                         .then((userData) => {
                             auth.saveSession(userData);
                             notify.showInfo('Login successful.');
-
-                            if(localStorage.receiptId === undefined)
-                            {
-                                
-                                receiptService.createReceipt(sessionStorage.getItem('userId'), 'true', 0, 0)
-                                .then((receipt) =>  {
-        
-                                    localStorage.receiptId = receipt._id;
-                                    setTimeout(function(){
-                                        ctx.redirect('#/');
-                                    },1000)
-                                    
-                                });
-                            }
-
-
                             ctx.redirect('#/home');
                         })
                         .catch(notify.handleError);
@@ -76,9 +60,15 @@ $(() => {
                             auth.saveSession(userData);
                             
                             notify.showInfo('User registration successful!');
-
                             
-                            ctx.redirect('#/home');
+                                //create active receipt to new registered user            
+                                receiptService.createReceipt(sessionStorage.getItem('userId'), 'true', 0, 0)
+                                .then((receipt) =>  {
+                                    localStorage.setItem('receiptId', receipt._id)
+                                    ctx.redirect('#/home');
+                                });
+                            
+                            
                             
                         })
                         .catch(notify.handleError);
@@ -117,12 +107,24 @@ $(() => {
             receiptService.getMyActiveReceipt()
                 .then((activeReceipt) => {
 
+
                     let receipt = activeReceipt[0];
+
+                    //ako sme lognati tokushto, si setvame v local storage idto na tekushtiq receipt
+                    if(localStorage.getItem('receiptId') === undefined || localStorage.getItem('receiptId') === null)
+                    {
+                        localStorage.setItem('receiptId', receipt._id);
+                    }
+
+                    
+
+
                     let totalSum = 0;
 
-                    if(receipt === undefined)
+                    if(receipt === undefined || receipt === null) 
                     {
                         
+                        //Suzdvame nov aktiven receipt za tozi user v sluchai che nqma
                         receiptService.createReceipt(sessionStorage.getItem('userId'), 'true', 0, 0)
                         .then((receipt) =>  {
 
@@ -135,10 +137,16 @@ $(() => {
                     }
                     
                     let receiptId = receipt._id;
-                    
+                    if(receiptId !== localStorage.getItem('receiptId'))
+                    {
+                        receiptId = localStorage.getItem('receiptId');
+                    }
+                   
 
                     entryService.getEntriesReceiptById(receiptId)
                         .then((entries) => {
+
+
                             ctx.entries = entries;
 
                             if(entries.length === 0)
@@ -229,6 +237,8 @@ $(() => {
                 price = Number(ctx.params.price)
 
                 let receiptId = localStorage.getItem('receiptId');
+                
+                
                 entryService.addEntry(receiptId, type, qty, price)
                     .then((entry) => {
                         notify.showInfo('Entry added !');
@@ -250,10 +260,11 @@ $(() => {
                 let receipt_id = localStorage.getItem('receiptId')
                 let userId = sessionStorage.getItem('userId');
               
-
-                receiptService.commitReceipt(receipt_id, userId,  'false', productCount, total)
+                
+                receiptService.commitReceipt(receipt_id, userId, 'false', productCount, total)
                     .then(function(){
                         notify.showInfo('Receipt checked out')
+
                         ctx.redirect('#/home');
                     })
 
