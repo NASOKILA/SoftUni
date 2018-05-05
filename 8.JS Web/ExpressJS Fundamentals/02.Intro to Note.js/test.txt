@@ -1,0 +1,6 @@
+
+//Mojem da si suzdavame .txt failove i da gi runvame s node.js
+let a = 5;
+let b = 10;
+let result = a + b;
+console.log(result);

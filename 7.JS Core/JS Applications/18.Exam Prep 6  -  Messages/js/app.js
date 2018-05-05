@@ -48,7 +48,6 @@ $(() => {
             let username = ctx.params.username;
             let password = ctx.params.password;
             let name = ctx.params.name;
-
             auth.register(username, password, name)
                 .then((userData) => {
                     auth.saveSession(userData);

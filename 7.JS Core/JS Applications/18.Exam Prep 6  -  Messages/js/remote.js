@@ -40,6 +40,36 @@ let remote = (() => {
         return $.ajax(makeRequest('GET', module, endpoint, auth));
     }
 
+
+    //zglobqva zaqvka za postvane POST
+    function post (module, endpoint, auth, data) {
+        let obj = makeRequest('POST', module, endpoint, auth);
+        
+        if (data) {
+            //obj.data = data;
+            //dobaveno
+            obj.data = JSON.stringify(data);
+            obj.contentType = 'application/json';
+            //TRY obj.headers['Content-Type'] = 'application/json';
+        }
+        
+        return $.ajax(obj);
+    }
+
+    //zglobqva PUT zaqvka
+    function update(module, endpoint, auth, data) {
+        let obj = makeRequest('PUT', module, endpoint, auth);
+        //obj.data = data;
+        
+        //dobveno 
+        obj.data = JSON.stringify(data);
+        obj.contentType = 'application/json';
+        
+        return $.ajax(obj);
+    }
+
+
+    /*
     //zglobqva zaqvka za postvane POST
     function post (module, endpoint, auth, data) {
         let obj = makeRequest('POST', module, endpoint, auth);
@@ -55,6 +85,7 @@ let remote = (() => {
         obj.data = data;
         return $.ajax(obj);
     }
+*/
 
     //zglobqva DELETE zaqvka
     function remove(module, endpoint, auth) {

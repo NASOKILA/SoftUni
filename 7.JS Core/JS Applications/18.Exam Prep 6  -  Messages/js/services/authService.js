@@ -15,7 +15,7 @@ let auth = (() => {
 
     //registrira nov user pravi post zaqvka
     function register (username, password, name) {
-        let obj = { username, password, name };
+        let obj = { username, password, name};
 
         return remote.post('user', '', 'basic', obj);
     }
