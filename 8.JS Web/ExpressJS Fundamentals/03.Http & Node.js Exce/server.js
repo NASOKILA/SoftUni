@@ -2,7 +2,15 @@
 const http = require('http');
 
 let server = http.createServer((req, res) => {
-    res.write('Hello, I am a new server.\n');
+    
+    if(req.url === '/'){
+        res.write('Hello, I am a new server.\n');
+        res.write('index page.\n');
+    }
+    else
+    {
+        res.write('404 Page Not Found.\n');
+    }
     res.end('End of server.\n');
 });
 

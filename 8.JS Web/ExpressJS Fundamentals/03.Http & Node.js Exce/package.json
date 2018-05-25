@@ -4,8 +4,11 @@
   "description": "Demo",
   "main": "index.js",
   "scripts": {
-      "test": ""  
+    "test": ""
   },
   "author": "HH",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }

@@ -55,10 +55,15 @@
         NIE SHTE RABOTIM NA NODE.JS !!!
 
         Node.js predstavqva edna konzolka v koqto mojem da pishem JS kod.
-
+        I predostavq asinhromno izpulnenie na zaqvkite.
+        Toest mojem da puskame nqkolko zaqvki navednuj (na rzlichni nishki).
+        Predi da izlezne Node.js prez 2009 kato diplomna rabota, zaqvkite na 
+        vsichki surveri sa rabotili sinhromno, t.e. zaqvkite sa se izchakvali 
+        edna sled druga.
+        Node.js e burz i asinhromen
 
         URL i URI ? 
-            URL e linka a URI e poslednata chast ot tozi link !!!!!!!!
+            URL e linka a URI e poslednata chast ot putq na tozi link !!!!!!!!
 
         
         V edin host mojem da imame mnogo domaini i na tezi domeini da imame subdomeini.
