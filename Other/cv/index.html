@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <title>Document</title>
+    <link rel="icon" href="/images/icons8-businessman-filled-50.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Profile</title>
 </head>
 
 <body>
@@ -32,12 +35,21 @@
                 <li>
                     <a href="#activities">Activities</a>
                 </li>
+                <li>
+                    <a href="#gallery-header">Gallery</a>
+                </li>
             </ul>
         </nav>
+
         <aside>
             <h1 class="name">Atanas Kambitov</h1>
             <h4 class="profession">Web Developer</h4>
-            <img src="/images/profilePictute.jpg" alt="No image" width="100%" />
+            <img id="profile-Pic" src="/images/profilePictute.jpg" onclick="window.open('https://www.facebook.com/profile.php?id=100004882428094')" alt="No image" width="100%" />
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
 
             <h1 class="personal-info">Personal Info</h1>
 
@@ -56,8 +68,8 @@
             <br/>
 
             <p class="personal-info-heder">E-mail</p>
-            <p class="info-content">atanasskambitovv@gmail.com</p>
-            <p class="info-content">atanas_kambitov@mail.bg</p>
+            <p class="info-content email">atanasskambitovv@gmail.com</p>
+            <p class="info-content email">atanas_kambitov@mail.bg</p>
 
             <br/>
 
@@ -133,6 +145,7 @@
             <p class="info-content">Trustworty</p>
             <hr class="level" />
 
+
             <br/>
             <br/>
             <h1 class="personal-info">Languages</h1>
@@ -163,6 +176,7 @@
             <p>
                 My Name is Atanas Kambitov, I am currently studying informatics at the "SWU Neofit Rilski" university in Blagoevgrad and
                 at the Software University "SoftUni" in Sofia.
+                In September 2018 hopefully I will get my graduation diploma.
             </p>
             <p>
                 Programming is my passion and I am looking to develop and grow a career in web development, specifically as a .NET or Front-End
@@ -225,10 +239,29 @@
             <p>
                 <span class="date">2018-01</span> 09.JS Fundamentals - January 2018 with 5.44/6.00</p>
             <p>
-                <span class="date">2018-02</span> 10.C# OOP Basics - February 2018</p>
+                <span class="date">2018-02</span> 10.C# OOP Basics - February 2018 with 5.33/6.00</p>
             <p>
-                <span class="date">2018-02</span> 11.JS Advanced - February 2018</p>
+                <span class="date">2018-02</span> 11.JS Advanced - February 2018 with 6.00/6.00</p>
+            <p>
+                <span class="date">2018-03</span> 12.JS Applications - March 2018 with 6.00/6.00</p>
+            <p>
+                <span class="date">2018-03</span> 13.C# OOP Advanced - March 2018 with 5.71/6.00</p>
+            
 
+
+<!--with 0.00/6.00-->
+            <p>
+                <span class="date">2018-05</span> 14.JS Web Node.js &amp; Express.js Fundamentals - May 2018 CURRENT</p>
+            <p>
+                <span class="date">2018-06</span> 15.JS Web ReactJS Fundamentals - June 2018 CURRENT</p>
+            <p>
+                <span class="date">2018-07</span> 16.JS Web Angular 2 Fundamentals - July 2018 CURRENT</p>
+            
+            <p>
+                <span class="date">2018-05</span> 17.C# Web Development Basics - May 2018 CURRENT</p>
+            <p>
+                <span class="date">2018-06</span> 18.C# MVC Frameworks - ASP.NET - June 2018 CURRENT</p>
+           
 
 
             <br/>
@@ -237,39 +270,96 @@
             <h3 id="certificates">Certificates</h3>
             <hr/>
             <p>01.Programming Basics -
-                <span class="url"><a href="https://softuni.bg/certificates/details/17773/3b649c85">https://softuni.bg/certificates/details/17773/3b649c85</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/17773/3b649c85">https://softuni.bg/certificates/details/17773/3b649c85</a>
+                </span>
             </p>
             <p>02.Programming Fundamentals -
-                <span class="url"><a href="https://softuni.bg/certificates/details/21229/5c478899">https://softuni.bg/certificates/details/21229/5c478899</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/21229/5c478899">https://softuni.bg/certificates/details/21229/5c478899</a>
+                </span>
             </p>
             <p>03.Software Technologies -
-                <span class="url"><a href="https://softuni.bg/certificates/details/22790/a1a31b74">https://softuni.bg/certificates/details/22790/a1a31b74</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/22790/a1a31b74">https://softuni.bg/certificates/details/22790/a1a31b74</a>
+                </span>
             </p>
             <p>04.Databases Basics -
-                <span class="url"><a href="https://softuni.bg/certificates/details/23874/9aad2178">https://softuni.bg/certificates/details/23874/9aad2178</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/23874/9aad2178">https://softuni.bg/certificates/details/23874/9aad2178</a>
+                </span>
             </p>
             <p>05.Databases Advanced Entity Framework -
-                <span class="url"><a href="https://softuni.bg/certificates/details/50892/d900f77a">https://softuni.bg/certificates/details/50892/d900f77a</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/50892/d900f77a">https://softuni.bg/certificates/details/50892/d900f77a</a>
+                </span>
             </p>
             <p>06.Web Fundamentals (HTML/CSS) -
-                <span class="url"><a href="https://softuni.bg/certificates/details/24650/5d5de5ee">https://softuni.bg/certificates/details/24650/5d5de5ee</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/24650/5d5de5ee">https://softuni.bg/certificates/details/24650/5d5de5ee</a>
+                </span>
             </p>
             <p>07.JavaScript for Front-End -
-                <span class="url"><a href="https://softuni.bg/certificates/details/50409/fbde8231">https://softuni.bg/certificates/details/50409/fbde8231</a></span>
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/50409/fbde8231">https://softuni.bg/certificates/details/50409/fbde8231</a>
+                </span>
             </p>
-            <p>08.C# Advanced -
-                <span class="url"><a href="https://softuni.bg/certificates/details/51479/900fe6cc">https://softuni.bg/certificates/details/51479/900fe6cc</a></span>
+            <p>08.JS Fundamentals -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/51623/47bc090f">https://softuni.bg/certificates/details/51623/47bc090f</a>
+                </span>
             </p>
-            <p>09.JS Fundamentals -
-                <span class="url"><a href="https://softuni.bg/certificates/details/51623/47bc090f">https://softuni.bg/certificates/details/51623/47bc090f</a></span>
+            <p>09.JS Advanced -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/52983/ca7db4f3">https://softuni.bg/certificates/details/52983/ca7db4f3</a>
+                </span>
             </p>
-            <p>10.C# OOP Basics -
-                <span class="url"><a href="Not made yet">Not made yet</a></span>
+            <p>10.JS Applications -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/54724/a860fbdf">https://softuni.bg/certificates/details/54724/a860fbdf</a>
+                </span>
             </p>
-            <p>11.JS Advanced -
-                <span class="url"><a href="Not made yet">Not made yet</a></span>
+            <p>11.JS Web Node.js &amp; Express.js Fundamentals -
+                <span class="url">
+                    <a href="Not made yet">Not made yet</a>
+                </span>
+            </p>
+            <p>12.JS Web React.js Fundamentals -
+                <span class="url">
+                    <a href="Not made yet">Not made yet</a>
+                </span>
+            </p>
+            <p>13.JS Web Angular.js 2 Fundamentals -
+                <span class="url">
+                    <a href="Not made yet">Not made yet</a>
+                </span>
+            </p>
+            <p>14.C# Advanced -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/51479/900fe6cc">https://softuni.bg/certificates/details/51479/900fe6cc</a>
+                </span>
+            </p>
+            <p>15.C# OOP Basics -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/52573/5b3eb1de">https://softuni.bg/certificates/details/52573/5b3eb1de</a>
+                </span>
+            </p>
+            <p>16.C# OOP Advanced -
+                <span class="url">
+                    <a href="https://softuni.bg/certificates/details/53385/a5becce5">https://softuni.bg/certificates/details/53385/a5becce5</a>
+                </span>
+            </p>
+            <p>17.C# Web Development Basics -
+                <span class="url">
+                    <a href="Not made yet">Not made yet</a>
+                </span>
             </p>
 
+            <p>18.C# MVC Frameworks ASP.NET -
+                <span class="url">
+                    <a href="Not made yet">Not made yet</a>
+                </span>
+            </p>
 
             <br/>
             <br/>
@@ -327,6 +417,51 @@
             <br/>
             <span class="activities">Relax</span>
             <p>During free time I like to relax by being around my friends and family.</p>
+
+
+
+            <br/>
+            <br/>
+            <hr/>
+            <h3 id="gallery-header">Gallery</h3>
+            <hr/>
+
+            <section id="gallery">
+                <div>
+                    <p class="headings">
+                        Here are some of my recent projects, you can see many more in my SoftUni Github repository. Basically every exam is a small
+                        project build in 5 hours.
+                    </p>
+                    <p class="headings">Click on image to download.</p>
+                </div>
+                <br>
+                <article>
+                    <h1 class="project-header">POINT OF SALE</h1>
+                    <div class="article-container">
+                        
+                    <div class="img-container">
+
+                        <img onclick="window.open('https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20Prep%207%20%20-%20%20Point%20of%20sale%202')" src="images/PointOfSale.jpg"  alt="No image avaliable">
+                    </div>
+                    <div class="project-comments">This small project was an exam on my JavaScript Applications Course. The app's pourpuse is to create
+                        and store receipts for each individual user, it has multiple validations, notification messages and
+                        more. It performs simple CRUD operations, it uses the session storage to store data and as a backend
+                        server and database I was asked to use the website www.Kinvey.com. I build it mainly with the frameworks
+                        Handlebars.js and Sammy.js in about 5 hours. You can run it simply with VS Code.
+                    </div>
+                </div>
+                </article>
+                <br/>
+                <hr/>
+
+
+
+                <p>I HAVE MANY OTHER SMALL PROJECTS WRITTEN WITH MVC .NET, ANGULAR.JS, REACT.JS AND MORE.</p>
+                <p>YOU CAN CHECK THEM OUT IN MY SOFTUNI GITHUB REPOSITORY.</p>
+    
+            </section>
+            <br/>
+
         </main>
     </div>
 

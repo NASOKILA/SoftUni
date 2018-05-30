@@ -92,14 +92,16 @@ module.exports = (req, res) => {
                 data = data.toString().replace('<div id="replaceMe">{{replaceMe}}</div>', replacement)
 
                 res.writeHead(200, {
-                    'content-type': 'text/html'
+                    'Content-Type': 'text/html'
                 })
 
-                res.write(data)
-                res.end()
+                res.write(data)        
+                res.end()                
+
             });
 
-
+            
+          
 
     }
     else {

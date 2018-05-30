@@ -1,4 +1,5 @@
 
+var fs = require('fs');
 
 let memory = {};
 
@@ -6,13 +7,13 @@ let storage = {
 
     put: (key, value) => {
         if (typeof key !== 'string') {
-            throw Error('Key should be a String !');
-            //return 'Key should be a String';
+            return 'Key should be a String';
+            //throw Error('Key should be a String !');
         }
 
         if (key in memory) {
-            throw Error('Key already exists in storage !');
-            //return 'Key already exists in storage';
+            return 'Key already exists in storage';
+            //throw Error('Key already exists in storage !');
         }
 
         memory[`${key}`] = value;
@@ -24,9 +25,9 @@ let storage = {
     },
 
     getAll: () => {
-        if (Object.keys(memory).length === 0) {
-            throw Error('Storage is Empty !');
-            //return 'There are no items in the storage';
+        if (Object.keys(memory).length === 0) {    
+            return 'There are no items in the storage';
+            //throw Error('Storage is Empty !');
         }
 
         return memory;
@@ -35,7 +36,7 @@ let storage = {
     update: (key, newValue) => {
         checkKey(key);
         memory[`${key}`] = newValue;
-    },
+    },  
 
     delete: (key) => {
         checkKey(key);
@@ -47,22 +48,18 @@ let storage = {
     },
 
     save: () => {
-        var fs = require('fs');
-        fs.writeFileSync("storage.json", JSON.stringify(memory), 'utf8');
+        //Tova e sinhromniq variqnt
+        fs.writeFileSync("./storage.json", JSON.stringify(memory), 'utf8');
     },
 
-    //podavame funkciq
-    load: (callback) => {
-        var fs = require('fs');
-
-        fs.readFileSync("storage.json", 'utf8', ((err, data) => {
-            if (err)
+    load: () => {
+        //Moje da polzvame Promise da raboti asinhromno
+        let data = fs.readFileSync("./storage.json", 'utf8', (err, data) => {
+            if(err)
                 return;
-
-            memory = JSON.parse(data);
-            callback();
-
-        }));
+        });
+        
+        memory = JSON.parse(data);
     }
 
     
@@ -71,12 +68,12 @@ let storage = {
 
 function checkKey(key) {
     if (typeof key !== 'string') {
-        throw Error('Key should be a String !');
-        //return 'Key should be a String';
+        return 'Key should be a String';
+        //throw Error('Key should be a String !');
     }
     if (!(key in memory)) {
-        throw Error('Key does not exist in storage !');
-        //return 'Key does not exist in storage';
+        return 'Key does not exist in storage';
+        //throw Error('Key does not exist in storage !');
     }
 }
 

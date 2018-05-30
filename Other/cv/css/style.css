@@ -1,30 +1,28 @@
+
+
 body {
     background-color: #E6E6E6;
-    padding: 75px 15%;
+    padding: 5% 15%;
     font-family: sans-serif;
-    height: 3000px;
+    margin: 0 auto;
 }
 
 #container {
-    background-color: white;
+    background-color: #E6E6E6;
     width: 100%;
     height: 100%;
-    vertical-align: top;
-    margin-bottom: 150px;
 }
 
 aside {
     width: 30%;
     background-color: #0075A7;
-    height: 100%;
     float: left;
     padding: 0px 20px;
     margin-right: 20px;
 }
 
 main {
-    width: 99%;
-    height: 100%;;
+    display: block;
     background-color: white;
     padding: 0px 25px;
     margin: 0px;
@@ -46,7 +44,7 @@ h3 {
 }
 
 .name {
-    color:white;
+    color: white;
     font-size: 50px;
     width: 100%;
 }
@@ -81,7 +79,7 @@ hr {
 
 .url a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .activities {
@@ -107,35 +105,246 @@ hr {
     color: white;
 }
 
-.info-content-link  a{
+nav {
+    margin-bottom: 30px;
+}
+
+.info-content-link a {
     color: white;
     display: inline-block;
     text-decoration: none;
 }
 
 .level {
-    height:10px;
-    color:white;
+    height: 10px;
+    color: white;
     background-color: white;
 }
 
 ul {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #005C85;
+    padding: 0px;
     margin: 0px auto;
     width:100%;
     background-color: #005C85;
 }
 
-ul li {
+ul > li { 
     display: inline-block;
     margin-left: 4%;
     list-style: none;
     color: white;
-    padding: 15px;
-    background-color: #005C85;     
+    padding: 10px;
+    background-color: #005C85; 
+    cursor: pointer;  
+}
+
+ul li:first-of-type { 
+    margin: 0%;
 }
 
 ul li a {
     color: white;
-    text-decoration: none;    
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li:hover {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.projects>article>.div-img>img {
+    width: 50%;
+    height: auto;
+    box-shadow: 2px 2px 15px #C0BEBE;
+}
+
+.projects-header h3 {
+    color: black;
+}
+
+
+article {
+    width: 100%;
+}
+
+.project-header {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+img {
+    cursor: pointer;
+}
+
+article img {
+    float: left;
+    cursor: pointer;
+    width:100%;
+    height: 145px;
+}
+
+
+.project-comments {
+    bottom:5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: italic;
+}
+
+.article-container {
+    height: 100%;
+}
+
+.img-container {
+    width: 22%;
+    margin-right:2%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .profession {
+        font-size: 20px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+
+    aside {
+        float: none;
+        width: 100%;
+        margin:0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .personal-info {
+        margin:0px;
+    }
+
+    .level {
+        width: 50%;
+    }
+
+   
+
+    .name {
+        padding-top: 25px;
+    }
+
+    main {
+        margin-top: 30px;
+    }
+
+    main h3 {
+        text-align: center;
+    }
+
+    main>.activities {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+
+    ul, nav {
+        width: 100%;
+    }
+
+    ul li {
+        border-top: 1px solid powderblue;
+        border-bottom: 1px solid powderblue;
+        text-align: center;
+        width: 100%;
+        vertical-align: top;
+        padding: 0px;
+        margin: 0px;        
+    }
+
+    ul li a {
+        display: block;
+        cursor: pointer;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    article img {
+        float: none;
+        width: 50%;
+        margin: 0px;
+    }
+
+
+    article {
+        margin-left: 0;
+    }
+
+
+    #gallery {
+        width:100%;
+        text-align: center;
+    }
+
+    .img-container {
+        padding: 0px;
+        width: 100%;        
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .img-container > img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 660px) {
+
+    .url {
+        font-size: 70%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .url {
+        font-size: 60%;
+    }
+
+    .img-container {
+        margin-bottom: 15px;
+    }
 }
 

@@ -135,7 +135,21 @@
             NO MOJEM I DA SI POLZVAME 'npm' NAI SPOKOINO 
 
 
+        
             
+    HESHIRANE NA PAROLI: 
+        VIJ encryptingPasswords.js FAILA
+
+
+
+    Forking:
+        imame modul 'cluster' s koito mojem da si klonirame prilojenieto.
+        Vzima se broq na procesorite i se klonirat.
+
+
+        Events:
+            MOJEM DA SE ZAKACHAME ZA EVENTI
+            I DA SI GI PRAVIM KAKVTO I ISKAME NIE.
 
     */  
 

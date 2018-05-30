@@ -12,33 +12,24 @@ const pngFilePath = './public/images/nodeLogo.png';
         '.ico' : 'image/x-icon'
     }
 
-
-
-let favHandler = (req, res) => {
-
-    
-    fs.readFile(favIvonFilePath, (err, data) => {
-
-        if(err){
-            console.log(err);
-            return;
-        }
-
-        res.writeHead(200, {
-            'content-type' : 'image/x-icon'
-        })
-
-        res.write(data);
-        res.end();
-    });
-
-}
-
 module.exports = (req, res) => {
    
     if(req.path.endsWith('favicon.ico') && req.method === 'GET'){
-       
-        favHandler(req, res);
+        
+        fs.readFile(favIvonFilePath, (err, data) => {
+
+            if(err){
+                console.log(err);
+                return;
+            }
+    
+            res.writeHead(200, {
+                'content-type' : 'image/x-icon'
+            })
+    
+            res.write(data);
+            res.end();
+        });
     }
     else if(req.path.endsWith('main.css') && req.method === 'GET'){
 
