@@ -87,7 +87,7 @@ namespace FastFood.DataProcessor
 
                 var vategoryMostItem = new XElement("Name", c.MostPopularItem);
 
-                var totalMade = new XElement("TotalMade", c.MostPopularItem.);
+                var totalMade = new XElement("TotalMade", c.MostPopularItem);
 
                 var category = new XElement("Category");
                 

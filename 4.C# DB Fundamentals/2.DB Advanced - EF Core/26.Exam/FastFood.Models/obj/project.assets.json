@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Exam\\FastFood.Models\\FastFood.Models.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.Models\\FastFood.Models.csproj",
       "projectName": "FastFood.Models",
-      "projectPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.Models\\FastFood.Models.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.Models\\FastFood.Models.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.Models\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4892,11 +4892,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Exam\\FastFood.App\\FastFood.App.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.App\\FastFood.App.csproj",
       "projectName": "FastFood.App",
-      "projectPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.App\\FastFood.App.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.App\\FastFood.App.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.App\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4915,11 +4915,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Exam\\FastFood.DataProcessor\\FastFood.DataProcessor.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.DataProcessor\\FastFood.DataProcessor.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.DataProcessor\\FastFood.DataProcessor.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.DataProcessor\\FastFood.DataProcessor.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Exam\\FastFood.Data\\FastFood.Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Exam\\FastFood.Data\\FastFood.Data.csproj"
+            "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.Data\\FastFood.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\SoftUni\\4.C# DB Fundamentals\\2.DB Advanced - EF Core\\26.Exam\\FastFood.Data\\FastFood.Data.csproj"
             }
           }
         }

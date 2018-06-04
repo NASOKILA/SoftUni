@@ -11,3 +11,16 @@ C:\Users\user\Desktop\Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFo
 C:\Users\user\Desktop\Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.AssemblyInfo.cs
 C:\Users\user\Desktop\Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.dll
 C:\Users\user\Desktop\Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\obj\Debug\netcoreapp2.0\FastFood.DataProcessor.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.DataProcessor.deps.json
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.DataProcessor.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.DataProcessor.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.Data.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.Models.dll
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.Data.pdb
+C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\26.Exam\FastFood.DataProcessor\bin\Debug\netcoreapp2.0\FastFood.Models.pdb
