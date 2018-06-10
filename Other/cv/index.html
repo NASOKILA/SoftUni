@@ -7,13 +7,364 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="icon" href="./images/icons8-businessman-filled-50.png" type="image/x-icon" />
-    
+
     <title>Profile</title>
 </head>
+<style>
+    body {
+        background-color: #E6E6E6;
+        padding: 5% 15%;
+        font-family: sans-serif;
+        margin: 0 auto;
+    }
+
+    #container {
+        background-color: #E6E6E6;
+        width: 100%;
+        height: 100%;
+    }
+
+    aside {
+        width: 30%;
+        background-color: #0075A7;
+        float: left;
+        padding: 0px 20px;
+        margin-right: 20px;
+    }
+
+    main {
+        display: block;
+        background-color: white;
+        padding: 0px 25px;
+        margin: 0px;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: white;
+    }
+
+
+    h3 {
+        color: #0075A7;
+        margin: 0px;
+    }
+
+    .name {
+        color: white;
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .profession {
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 20px;
+    }
+
+
+    hr {
+        color: black;
+        background-color: black;
+    }
+
+    .date {
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-right: 40px;
+    }
+
+    .url {
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .url a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .activities {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .personal-info {
+        background-color: #005C85;
+        padding: 10px;
+        margin: 10px -20px;
+    }
+
+    .personal-info-heder {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .info-content {
+        color: white;
+    }
+
+    nav {
+        margin-bottom: 30px;
+    }
+
+    .info-content-link a {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .level {
+        height: 5px;
+        color: #005C85;
+        background-color: #005C85;
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        text-align: center;
+        margin: 0px auto;
+        background-color: #005C85;
+        padding: 0px;
+        margin: 0px auto;
+        width: 100%;
+        background-color: #005C85;
+    }
+
+    ul>li {
+        display: inline-block;
+        margin-left: 4%;
+        list-style: none;
+        color: white;
+        padding: 10px;
+        background-color: #005C85;
+        cursor: pointer;
+    }
+
+    ul li:first-of-type {
+        margin: 0%;
+    }
+
+    ul li a {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    ul li:hover {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .projects>article>.div-img>img {
+        width: 50%;
+        height: auto;
+        box-shadow: 2px 2px 15px #C0BEBE;
+    }
+
+    .projects-header h3 {
+        color: black;
+    }
+
+
+    article {
+        width: 100%;
+    }
+
+    .project-header {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    img {
+        cursor: pointer;
+    }
+
+    article img {
+        float: left;
+        cursor: pointer;
+        width: 100%;
+        height: 145px;
+    }
+
+
+    .project-comments {
+        bottom: 5px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: italic;
+    }
+
+    .article-container {
+        height: 100%;
+    }
+
+    .img-container {
+        width: 22%;
+        margin-right: 2%;
+        float: left;
+    }
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 1050px) {
+        .name {
+            font-size: 35px;
+        }
+
+        .profession {
+            font-size: 20px;
+
+        }
+    }
+
+
+
+    @media screen and (max-width: 990px) {
+
+
+        aside {
+            float: none;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+
+        .personal-info {
+            margin: 0px;
+        }
+
+        .level {
+            width: 50%;
+        }
+
+
+
+        .name {
+            padding-top: 25px;
+        }
+
+        main {
+            margin-top: 30px;
+        }
+
+        main h3 {
+            text-align: center;
+        }
+
+        main>.activities {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+
+
+        ul,
+        nav {
+            width: 100%;
+        }
+
+        ul li {
+            border-top: 1px solid powderblue;
+            border-bottom: 1px solid powderblue;
+            text-align: center;
+            width: 100%;
+            vertical-align: top;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        ul li a {
+            display: block;
+            cursor: pointer;
+            height: auto;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        article img {
+            float: none;
+            width: 50%;
+            margin: 0px;
+        }
+
+
+        article {
+            margin-left: 0;
+        }
+
+
+        #gallery {
+            width: 100%;
+            text-align: center;
+        }
+
+        .img-container {
+            padding: 0px;
+            width: 100%;
+            margin: 0px;
+            margin-bottom: 50px;
+        }
+
+        .img-container>img {
+            width: 100%;
+            height: auto;
+            padding: 0px;
+            margin: 0px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 660px) {
+
+        .url {
+            font-size: 70%;
+        }
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+        .url {
+            font-size: 60%;
+        }
+
+        .img-container {
+            margin-bottom: 15px;
+        }
+    }
+</style>
 
 <body>
     <div id="container">
-
+        <!--
         <nav>
             <ul>
                 <li>
@@ -39,15 +390,18 @@
                 </li>
             </ul>
         </nav>
-
+    -->
         <aside>
             <h1 class="name">Atanas Kambitov</h1>
             <h4 class="profession">Web Developer</h4>
-            <img id="profile-Pic" src="./images/profilePictute.jpg" onclick="window.open('https://www.facebook.com/profile.php?id=100004882428094')" alt="No image" width="100%" />
 
-            <br/>
-            <br/>
-            <br/>
+            <!--
+
+            <img id="profile-Pic" src="https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/27332091_829720760533997_4277766434786198021_n.jpg?_nc_cat=0&oh=ff9174b5048e738f0bfe209a0c309c02&oe=5B77A632"
+                onclick="window.open('https://www.facebook.com/profile.php?id=100004882428094')" alt="" width="100%"
+            />
+
+        -->
             <br/>
 
             <h1 class="personal-info">Personal Info</h1>
@@ -55,9 +409,7 @@
             <br/>
 
             <p class="personal-info-heder">Address</p>
-            <p class="info-content">01.Hristo Chernopeev 37, Blagoevgrad, Bulgaria</p>
-            <p class="info-content">02.Ulica Krushevo 5, Blagoevgrad, Bulgaria</p>
-            <p class="info-content">03.Zapad 8. Blagoevgrad Bulgara</p>
+            <p class="info-content">Bulgaria, Blagoevgrad, Hristo Chernopeev 37</p>
 
             <br/>
 
@@ -73,7 +425,7 @@
             <br/>
 
             <p class="personal-info-heder">Date of birth</p>
-            <p class="info-content">1992-12-06</p>
+            <p class="info-content">06/12/1992</p>
 
             <br/>
 
@@ -96,28 +448,28 @@
 
             <p class="personal-info-heder">GitHub</p>
             <p class="info-content-link">
-                <a href="https://github.com/NASOKILA/SoftUni">NASOKILA - Go To Link</a>
+                <a href="https://github.com/NASOKILA/SoftUni" target="_blank">https://github.com/NASOKILA/SoftUni</a>
             </p>
 
             <br/>
 
             <p class="personal-info-heder">Facebook</p>
             <p class="info-content-link">
-                <a href="https://www.facebook.com/profile.php?id=100004882428094">Atanas Kambitov - Go To Link</a>
+                <a href="https://www.facebook.com/profile.php?id=100004882428094" target="_blank">https://www.facebook.com/profile.php?id=100004882428094</a>
             </p>
 
             <br/>
 
             <p class="personal-info-heder">Instagram</p>
             <p class="info-content-link">
-                <a href="https://www.instagram.com/atanaskambitov/?hl=en">atanaskambitov - Go To Link</a>
+                <a href="https://www.instagram.com/atanaskambitov/?hl=en" target="_blank">https://www.instagram.com/atanaskambitov/?hl=en</a>
             </p>
 
             <br/>
 
             <p class="personal-info-heder">LinkedIn</p>
             <p class="info-content-link">
-                <a href="https://www.linkedin.com/search/results/index/?keywords=Atanas%20Kambitov&origin=GLOBAL_SEARCH_HEADER">Atanas Kambitov - Go To Link</a>
+                <a href="https://www.linkedin.com/in/atanas-kambitov-a69528162" target="_blank">https://www.linkedin.com/in/atanas-kambitov-a69528162</a>
             </p>
 
 
@@ -146,7 +498,6 @@
 
 
             <br/>
-            <br/>
             <h1 class="personal-info">Languages</h1>
             <br/>
             <p class="info-content">Italian</p>
@@ -172,50 +523,54 @@
             <hr/>
             <h3 id="description">Description</h3>
             <hr/>
+
+            <br/>
+
             <p>
                 My Name is Atanas Kambitov, I am currently studying informatics at the "SWU Neofit Rilski" university in Blagoevgrad and
-                at the Software University "SoftUni" in Sofia.
-                In September 2018 hopefully I will get my graduation diploma.
+                at the Software University "SoftUni" in Sofia. In September 2018 hopefully I will get my graduation diploma.
             </p>
             <p>
                 Programming is my passion and I am looking to develop and grow a career in web development, specifically as a .NET or Front-End
                 developer.
             </p>
             <p>
-                My favorite languages to write my code are mainly JavaScript and C#. I am highly motivated, focused, with a lot of will to
-                keep learning new things.
+                My favourite programming languages are JavaScript and C#. I am highly motivated, focused, with a lot of will to keep learning
+                new things.
             </p>
             <p>
-                Many times I work better under pressure and I don't mind working with difficult people.
+                Many times I can work as good under pressure.
             </p>
 
-            <br/>
             <br/>
 
             <hr/>
             <h3 id="experience">Experience</h3>
             <hr/>
+
+            <br/>
+            <br/>
+
             <span class="date">
                 2017-06
             </span>
-            <p>
-                Paolo Pavia - Prestashop & WordPress Developer My responsibility was to create and build a well working online shops. Many
-                times I had to implement changes to already build websites and do code refactoring.
-            </p>
+            <p>Paolo Pavia - Prestashop & WordPress Developer :</p>
+            <p>My responsibility was to create and build a well working online shops. Many times I had to implement changes
+                to already build websites and do code refactoring.</p>
             <br/>
             <span class="date">
                 2017-01
             </span>
-            <p>
-                SoftWare University - Student Most of the coding experience I gained is from the SoftUni University in Sofia. They gave me
-                the opportunity to work on several projects and applications by using different technologies, languages,
-                and frameworks. I took a total of 9 courses so far and I am currently taking 2 more and studying to this
-                day. Feel free to check them out in the sections below together with all the certificates.
-            </p>
 
-            <br/>
-            <br/>
+            <p>SoftWare University - Student :</p>
+            <p>Most of the coding experience I gained is from the SoftUni University in Sofia. They gave me the opportunity
+                to work on several projects servers and applications by using different technologies, languages, and frameworks.
+                I have being taking courses for about 2 years now. Feel free to check them out in the sections below together
+                with all the certificates.</p>
 
+
+
+            <!--
             <hr/>
             <h3 id="courses">Courses</h3>
             <hr/>
@@ -245,118 +600,118 @@
                 <span class="date">2018-03</span> 12.JS Applications - March 2018 with 6.00/6.00</p>
             <p>
                 <span class="date">2018-03</span> 13.C# OOP Advanced - March 2018 with 5.71/6.00</p>
-            
 
 
-<!--with 0.00/6.00-->
+
             <p>
                 <span class="date">2018-05</span> 14.JS Web Node.js &amp; Express.js Fundamentals - May 2018 CURRENT</p>
             <p>
                 <span class="date">2018-06</span> 15.JS Web ReactJS Fundamentals - June 2018 CURRENT</p>
             <p>
                 <span class="date">2018-07</span> 16.JS Web Angular 2 Fundamentals - July 2018 CURRENT</p>
-            
+
             <p>
                 <span class="date">2018-05</span> 17.C# Web Development Basics - May 2018 CURRENT</p>
             <p>
                 <span class="date">2018-06</span> 18.C# MVC Frameworks - ASP.NET - June 2018 CURRENT</p>
-           
 
 
-            <br/>
+        -->
             <br/>
             <hr/>
-            <h3 id="certificates">Certificates</h3>
+            <h3 id="certificates">Courses &amp; Certificates</h3>
             <hr/>
-            <p>01.Programming Basics -
+            <br/>
+
+            <p>01.Programming Basics - January 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/17773/3b649c85">https://softuni.bg/certificates/details/17773/3b649c85</a>
+                    <a href="https://softuni.bg/certificates/details/17773/3b649c85" target="_blank">https://softuni.bg/certificates/details/17773/3b649c85</a>
                 </span>
             </p>
-            <p>02.Programming Fundamentals -
+            <p>02.Programming Fundamentals - May 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/21229/5c478899">https://softuni.bg/certificates/details/21229/5c478899</a>
+                    <a href="https://softuni.bg/certificates/details/21229/5c478899" target="_blank">https://softuni.bg/certificates/details/21229/5c478899</a>
                 </span>
             </p>
-            <p>03.Software Technologies -
+            <p>03.Software Technologies - July 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/22790/a1a31b74">https://softuni.bg/certificates/details/22790/a1a31b74</a>
+                    <a href="https://softuni.bg/certificates/details/22790/a1a31b74" target="_blank">https://softuni.bg/certificates/details/22790/a1a31b74</a>
                 </span>
             </p>
-            <p>04.Databases Basics -
+            <p>04.Databases Basics - September 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/23874/9aad2178">https://softuni.bg/certificates/details/23874/9aad2178</a>
+                    <a href="https://softuni.bg/certificates/details/23874/9aad2178" target="_blank">https://softuni.bg/certificates/details/23874/9aad2178</a>
                 </span>
             </p>
-            <p>05.Databases Advanced Entity Framework -
+            <p>05.Databases Advanced Entity Framework - october 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/50892/d900f77a">https://softuni.bg/certificates/details/50892/d900f77a</a>
+                    <a href="https://softuni.bg/certificates/details/50892/d900f77a" target="_blank">https://softuni.bg/certificates/details/50892/d900f77a</a>
                 </span>
             </p>
-            <p>06.Web Fundamentals (HTML/CSS) -
+            <p>06.Web Fundamentals (HTML/CSS) - September 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/24650/5d5de5ee">https://softuni.bg/certificates/details/24650/5d5de5ee</a>
+                    <a href="https://softuni.bg/certificates/details/24650/5d5de5ee" target="_blank">https://softuni.bg/certificates/details/24650/5d5de5ee</a>
                 </span>
             </p>
-            <p>07.JavaScript for Front-End -
+            <p>07.JavaScript for Front-End - October 2017
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/50409/fbde8231">https://softuni.bg/certificates/details/50409/fbde8231</a>
+                    <a href="https://softuni.bg/certificates/details/50409/fbde8231" target="_blank">https://softuni.bg/certificates/details/50409/fbde8231</a>
                 </span>
             </p>
-            <p>08.JS Fundamentals -
+            <p>08.JS Fundamentals - January 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/51623/47bc090f">https://softuni.bg/certificates/details/51623/47bc090f</a>
+                    <a href="https://softuni.bg/certificates/details/51623/47bc090f" target="_blank">https://softuni.bg/certificates/details/51623/47bc090f</a>
                 </span>
             </p>
-            <p>09.JS Advanced -
+            <p>09.JS Advanced - February 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/52983/ca7db4f3">https://softuni.bg/certificates/details/52983/ca7db4f3</a>
+                    <a href="https://softuni.bg/certificates/details/52983/ca7db4f3" target="_blank">https://softuni.bg/certificates/details/52983/ca7db4f3</a>
                 </span>
             </p>
-            <p>10.JS Applications -
+            <p>10.JS Applications - March 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/54724/a860fbdf">https://softuni.bg/certificates/details/54724/a860fbdf</a>
+                    <a href="https://softuni.bg/certificates/details/54724/a860fbdf" target="_blank">https://softuni.bg/certificates/details/54724/a860fbdf</a>
                 </span>
             </p>
-            <p>11.JS Web Node.js &amp; Express.js Fundamentals -
+            <p>11.JS Web Node.js &amp; Express.js Fundamentals - May 2018
                 <span class="url">
-                    <a href="Not made yet">Not made yet</a>
+                    <a href="Not made yet" target="_blank">Not made yet</a>
                 </span>
             </p>
-            <p>12.JS Web React.js Fundamentals -
+            <p>12.JS Web React.js Fundamentals - June 2018
                 <span class="url">
-                    <a href="Not made yet">Not made yet</a>
+                    <a href="Not made yet" target="_blank">Not made yet</a>
                 </span>
             </p>
-            <p>13.JS Web Angular.js 2 Fundamentals -
+            <p>13.JS Web Angular.js 2 Fundamentals - July 2018
                 <span class="url">
-                    <a href="Not made yet">Not made yet</a>
+                    <a href="Not made yet" target="_blank">Not made yet</a>
                 </span>
             </p>
-            <p>14.C# Advanced -
+            <p>14.C# Advanced - January 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/51479/900fe6cc">https://softuni.bg/certificates/details/51479/900fe6cc</a>
+                    <a href="https://softuni.bg/certificates/details/51479/900fe6cc" target="_blank">https://softuni.bg/certificates/details/51479/900fe6cc</a>
                 </span>
             </p>
-            <p>15.C# OOP Basics -
+            <p>15.C# OOP Basics - February 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/52573/5b3eb1de">https://softuni.bg/certificates/details/52573/5b3eb1de</a>
+                    <a href="https://softuni.bg/certificates/details/52573/5b3eb1de" target="_blank">https://softuni.bg/certificates/details/52573/5b3eb1de</a>
                 </span>
             </p>
-            <p>16.C# OOP Advanced -
+            <p>16.C# OOP Advanced - March 2018
                 <span class="url">
-                    <a href="https://softuni.bg/certificates/details/53385/a5becce5">https://softuni.bg/certificates/details/53385/a5becce5</a>
+                    <a href="https://softuni.bg/certificates/details/53385/a5becce5" target="_blank">https://softuni.bg/certificates/details/53385/a5becce5</a>
                 </span>
             </p>
-            <p>17.C# Web Development Basics -
+            <p>17.C# Web Development Basics - May 2018
                 <span class="url">
-                    <a href="Not made yet">Not made yet</a>
+                    <a href="Not made yet" target="_blank">Not made yet</a>
                 </span>
             </p>
 
-            <p>18.C# MVC Frameworks ASP.NET -
+            <p>18.C# MVC Frameworks ASP.NET - June 2018
                 <span class="url">
-                    <a href="Not made yet">Not made yet</a>
+                    <a href="Not made yet" target="_blank">Not made yet</a>
                 </span>
             </p>
 
@@ -365,6 +720,7 @@
             <hr/>
             <h3 id="education">Education</h3>
             <hr/>
+            <br/>
             <br/>
             <span class="date">2000-09 2005 </span>
             <p>
@@ -409,6 +765,7 @@
             <h3 id="activities">Additional Activities</h3>
             <hr/>
             <br/>
+            <br/>
             <span class="activities">Sports</span>
             <p> My favorite sport activities are boxing, running and chess, but I also engoy not only watchng but also playing
                 football.
@@ -426,6 +783,9 @@
             <hr/>
 
             <section id="gallery">
+                <br/>
+                <br/>
+
                 <div>
                     <p class="headings">
                         Here are some of my recent projects, you can see many more in my SoftUni Github repository. Basically every exam is a small
@@ -437,28 +797,41 @@
                 <article>
                     <h1 class="project-header">POINT OF SALE</h1>
                     <div class="article-container">
-                        
-                    <div class="img-container">
 
-                        <img onclick="window.open('https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20Prep%207%20%20-%20%20Point%20of%20sale%202')" src="images/PointOfSale.jpg"  alt="No image avaliable">
+                        <div class="img-container">
+                            <a href="https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20Prep%207%20%20-%20%20Point%20of%20sale%202" target="_blank">
+                            <img onclick="window.open('https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20Prep%207%20%20-%20%20Point%20of%20sale%202')"
+                                src="https://image.ibb.co/ec5RA8/Point_Of_Sale.jpg" alt="">
+                            </a>
+
+                        </div>
+                        <div class="project-comments">This small project was an exam of a JavaScript Applications Course. The app's pourpuse is to create
+                            and store receipts for each individual user, it has multiple validations, notification messages
+                            and more. It performs simple CRUD operations, it uses the session storage to store data and as
+                            a backend server and database I was asked to use the website www.Kinvey.com. I build it mainly
+                            with the frameworks Handlebars.js and Sammy.js in about 5 hours. You can run it simply with VS
+                            Code.
+                        </div>
+
+                        <p>Link to project:</p>
+                        <span class="url">
+                                <a href="https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20Prep%207%20%20-%20%20Point%20of%20sale%202">
+                                    https://github.com/NASOKILA/SoftUni/tree/master/7.JS%20Core/JS%20Applications/19.Exam%20
+                                    Prep%207%20%20-%20%20Point%20of%20sale%202
+                                </a>
+
+                        </span>
                     </div>
-                    <div class="project-comments">This small project was an exam on my JavaScript Applications Course. The app's pourpuse is to create
-                        and store receipts for each individual user, it has multiple validations, notification messages and
-                        more. It performs simple CRUD operations, it uses the session storage to store data and as a backend
-                        server and database I was asked to use the website www.Kinvey.com. I build it mainly with the frameworks
-                        Handlebars.js and Sammy.js in about 5 hours. You can run it simply with VS Code.
-                    </div>
-                </div>
                 </article>
+                <br/>
                 <br/>
                 <hr/>
 
-
-
-                <p>I HAVE MANY OTHER SMALL PROJECTS WRITTEN WITH MVC .NET, ANGULAR.JS, REACT.JS AND MORE.</p>
-                <p>YOU CAN CHECK THEM OUT IN MY SOFTUNI GITHUB REPOSITORY.</p>
-    
+                <p>I have other projects written in Asp.Net MVC With Entity Framework, Asp.Net MVC, Angular.js, React.js, Sammy.js
+                    + Hanlebars as a view engine, node.js and more.</p>
+                <p>You can check them out in my SoftUni Github repository.</p>
             </section>
+
             <br/>
 
         </main>
