@@ -8,6 +8,11 @@ let port = 8888;
 let app = express();
 
 
+const fs = require('fs');
+const url = require('url');
+const qs = require('querystring');
+const formidable = require('formidable');
+
 
 //PRAVIM SI BAZATA I SI Q REQUIRVAME
 let mongoose = require('mongoose');
@@ -95,7 +100,8 @@ app.post('/addBook', (req, res) => {
 
     let success = '<div id="succssesBox"><h2 id="succssesMsg">Book Added</h2></div>';
     let error = '<div id="errBox"><h2 id="errMsg">Please fill all fields</h2></div>';
-
+    
+   
     let bookTitle = req.body.bookTitle;
     let bookYear = req.body.bookYear;
     let bookPoster = req.body.bookPoster;
