@@ -10,7 +10,6 @@ namespace Circle_Area__12_Digits_Precision_
     {
         static void Main(string[] args)
         {
-            //Zadacha ot domashnoto  Circle Area(12 digit precision)
             
             double radius = double.Parse(Console.ReadLine());
             radius = Math.PI * radius * radius; // Formulata e Math.PI * radius * radius

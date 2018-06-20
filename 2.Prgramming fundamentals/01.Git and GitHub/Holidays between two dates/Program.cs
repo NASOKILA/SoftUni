@@ -25,4 +25,4 @@ class HolidaysBetweenTwoDates
 
     //There are 4 mistakes in the code. You’ve got to use the debugger to find them and fix them. 
 
-    // V JUDJA DAVA 100 OT 100 A TUKA NE TRUGVA !!!
+  

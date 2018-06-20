@@ -12,16 +12,13 @@ namespace Boolean_Variable
         {
             string stringOne = Console.ReadLine().ToLower();
 
-            bool isConverted = Convert.ToBoolean(stringOne);  // stringa stava na boolean i go printrame
-            // DOBRE E BULEVITE PROMENLIVI DA ZAPOCHVAT S   is  ILI has !!!  VAJNO !!!
+            bool isConverted = Convert.ToBoolean(stringOne); 
+           
             if(isConverted)
                 Console.WriteLine("Yes");
             else
                 Console.WriteLine("No");
 
-            /*Kogato ifa e mnogo maluk moje da go otpechatame taka :
-             Console.WriteLie(isConverted ? "Yes" : "No");   
-             TOVA SE NARICHA TRENALEN OPERATOR!!!*/
         }
     }
 }
