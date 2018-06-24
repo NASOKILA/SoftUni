@@ -27,8 +27,8 @@
         protected internal IHttpRequest Request { get; internal set; }
 
         protected internal Authentication User { get; private set; }
-
-        protected IViewable View([CallerMemberName]string caller = "")
+        
+        protected virtual IViewable View([CallerMemberName]string caller = "")
         {
             this.InitializeViewModelData();
 
@@ -76,6 +76,7 @@
         protected void SignIn(string name)
         {
             this.Request.Session.Add(SessionStore.CurrentUserKey, name);
+            this.User = new Authentication(name);
         }
 
         protected void SignOut()
@@ -96,10 +97,13 @@
         }
 
         private void InitializeViewModelData() {
-            this.ViewModel["displayType"] = this.User.IsAuthenticated ? "block" : "none";
-        } 
+            
 
+            this.ViewModel["displayLogoutType"] = this.User.IsAuthenticated ? "block" : "none";
+            this.ViewModel["displayRegister"] = this.User.IsAuthenticated ? "none" : "block";
+        }
 
+        
 
     }
 }

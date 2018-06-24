@@ -10,9 +10,23 @@
     using Framework.Attributes.Methods;
     using Framework.Contracts;
     using Framework.Security;
+    using System.Runtime.CompilerServices;
 
     public class UsersController : Controller
     {
+
+
+        protected override IViewable View([CallerMemberName] string caller = "")
+        {
+            this.ViewModel["displayLogoutType"] = 
+                this.User.IsAuthenticated ? "block" : "none";
+
+            this.ViewModel["displayRegister"] = 
+                this.User.IsAuthenticated ? "none" : "block";
+
+            return base.View(caller);
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -62,7 +76,9 @@
                 context.Users.Add(user);
                 context.SaveChanges();
             }
+
             this.SignIn(user.Username);
+            
             return Redirect("/users/login");
         }
 
@@ -214,13 +230,7 @@
         [HttpGet]
         public IActionResult All()
         {
-
-            //the authentiction is not working correctly
-            /*if (!this.User.IsAuthenticated)
-            {
-                return RedirectToAction("/users/login");
-            }*/
-
+            
             Dictionary<int, string> users = new Dictionary<int, string>();
 
             using (var context = new NotesDbContext()) {

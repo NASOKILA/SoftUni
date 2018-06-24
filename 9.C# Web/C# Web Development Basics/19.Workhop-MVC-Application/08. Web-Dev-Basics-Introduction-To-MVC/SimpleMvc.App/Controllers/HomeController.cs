@@ -3,25 +3,25 @@
     using Framework.Attributes.Methods;
     using Framework.Contracts;
     using Framework.Controllers;
+    using System.Runtime.CompilerServices;
 
     public class HomeController : Controller
     {
 
+        protected override IViewable View([CallerMemberName] string caller = "")
+        {
+            this.ViewModel["displayLogoutType"] =
+                this.User.IsAuthenticated ? "block" : "none";
+
+            this.ViewModel["displayRegister"] =
+                this.User.IsAuthenticated ? "none" : "block";
+
+            return base.View(caller);
+        }
+
         [HttpGet]
         public IActionResult Index()
-        {
-            
-            if (this.User.IsAuthenticated)
-            {
-                this.ViewModel["displayRegister"] = "none";
-                this.ViewModel["displayLogoutType"] = "block";
-            }
-            else
-            { 
-                this.ViewModel["displayRegister"] = "block";
-                this.ViewModel["displayLogoutType"] = "none";
-            }
-
+        { 
             return this.View();
         }
 

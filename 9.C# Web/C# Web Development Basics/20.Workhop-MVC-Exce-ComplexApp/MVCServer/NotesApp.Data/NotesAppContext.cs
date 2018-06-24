@@ -20,6 +20,10 @@
                     typeof(NotesAppContext).Assembly);
                 string connectionString = dbManager.GetString("ConnectionString");
 
+
+                //replace by me
+                connectionString = connectionString.Replace("Data Source=.", "Data Source=HAL\\MSSQLSERVER2");
+
                 optionsBuilder
                     .UseSqlServer(connectionString);
 

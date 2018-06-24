@@ -17,6 +17,7 @@
         public DbSet<Game> Games { get; set; }
         
 
+
         //Connect to Db
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -46,6 +47,8 @@
                 .WithOne(g => g.Creator)
                 .HasForeignKey(g => g.CreatorId);
             
+
+
 
             
             //Orders

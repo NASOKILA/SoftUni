@@ -23,6 +23,8 @@
 
             string[] invocationParameters =
                 request.Path.Split('/', StringSplitOptions.RemoveEmptyEntries);
+
+
             if (invocationParameters.Length != 2)
             {
                 throw new InvalidOperationException("Invalid URL");
