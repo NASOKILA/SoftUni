@@ -50,7 +50,9 @@
                         && context.Request.Path != registerPath 
                         && context.Request.Path != homePath;
 
-                bool nonExistentSession = !context.Request.Session.Contains(SessionStore.CurrentUserKey);
+                bool nonExistentSession = context.Request.Session == null || !context.Request.Session.Contains(SessionStore.CurrentUserKey);
+
+               
 
                 if (deferentPath && nonExistentSession)
                 {

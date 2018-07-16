@@ -2,12 +2,12 @@
 {
     using Data;
     using Contracts;
-    using System.Linq;
     using Models;
     using Server.Http.Contracts;
     using Server.Http;
     using Server.Http.Response;
     using Server.Utilities;
+    using System.Linq;
     using System.Collections.Generic;
 
     public class UserService : IUserService
@@ -65,6 +65,14 @@
             User currentUser = this.GetUserById(currentUserId);
             return currentUser;
         }
+
+
+        public bool UserGameNotAvaliable(int creatorId, int gameId)
+        {
+            return this.context.UsersGames.Any(ug => ug.CreatorId == creatorId && ug.GameId == gameId);
+        }
+
+        
 
         public bool CheckIfLogedIn(IHttpRequest req)
         {

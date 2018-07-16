@@ -1,7 +1,7 @@
 ﻿namespace HTTPServer.GameStoreApplication.Services.Contracts
 {
-    using Server.Http.Contracts;
     using Models;
+    using Server.Http.Contracts;
     using System.Collections.Generic;
 
     public interface IUserService
@@ -17,6 +17,8 @@
         User GetUserById(int id);
 
         List<User> GetAllUsers();
+
+        bool UserGameNotAvaliable(int creatorId, int gameId);
 
         bool CheckIfLogedIn(IHttpRequest req);
 

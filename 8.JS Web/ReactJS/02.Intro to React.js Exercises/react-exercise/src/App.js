@@ -47,7 +47,6 @@ const showResult = () => {
     return finalList;
 }
    
-
 function CreateContact(contact, i) {
   let fullname = contact.firstName + " " + contact.lastName;
 

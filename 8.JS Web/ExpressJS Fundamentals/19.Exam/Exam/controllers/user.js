@@ -13,7 +13,8 @@ module.exports = {
 
         let registerArgs = req.body;
 
-        User.findOne({ email: registerArgs.email }).then(user => {
+        User.findOne({ email: registerArgs.email })
+        .then(user => {
 
             let errorMsg = '';
 

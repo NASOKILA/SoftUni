@@ -1,13 +1,13 @@
 ﻿namespace HTTPServer.GameStoreApplication.Controllers
 {
-    using Data;
-    using Services;
     using Infrastructure;
     using Models;
+    using Services;
     using Server.Http;
     using Server.Http.Contracts;
     using System;
     using System.Linq;
+    using System.Collections.Generic;
 
     public class HomeController : Controller
     {
@@ -23,14 +23,11 @@
         
         public IHttpResponse Index(IHttpRequest req)
         {
-
-
             var allGames = gameService.GetAllGames();
 
             string page = "guest";
             int currentUserId = 0;
-
-            //IF WE ARE NOT LOGGED IN
+            
             try
             {
                 currentUserId = req.Session.Get<int>(SessionStore.CurrentUserKey);
@@ -42,22 +39,29 @@
 
             currentUserId = req.Session.Get<int>(SessionStore.CurrentUserKey);
             User currentUser = userService.GetUserById(currentUserId);
-
-            //get filter
+            
             string filter = "";
-            if (req.UrlParameters.Keys.Contains("fiter"))
+            if (req.UrlParameters.Keys.Contains("filter"))
             {
                 filter = req.UrlParameters["filter"];
             }
-
-
-            //AKO FILTERA E OWNED VZIMAME SAMO TEZI IGRI KOITO NIE SME SUZDALI
+            
             if (filter == "Owned")
+            {
+                List<int> myGamesIds = gameService.GetMyGameIds(currentUserId).ToList();
+                allGames = new List<Game>();
+                foreach (int id in myGamesIds)
+                {
+                    Game game = gameService.FindGameById(id);
+                    allGames.Add(game);
+                }
+            }
+            
+            if (filter == "Created")
             {
                 allGames = gameService.GetAllGames().Where(g => g.CreatorId == currentUserId).ToList();
             }
-
-            //AKO SME LOGNATI I SME ADMINI
+            
             if (currentUser.IsAdmin)
             {
 
@@ -91,8 +95,8 @@
 
                                     <div class=""card-body"">
                                         <h4 class=""card-title"">{currentGame.Title}</h4>
-                                        <p class=""card-text""><strong>{currentGame.Price}</strong> - 60&euro;</p>
-                                        <p class=""card-text""><strong>{currentGame.Size}</strong> - 62.5 GB</p>
+                                        <p class=""card-text""><strong>Price</strong> - {currentGame.Price}&euro;</p>
+                                        <p class=""card-text""><strong>Size</strong> - {currentGame.Size} GB</p>
                                         <p class=""card-text"">{descriptionToShow}</p>
                                     </div>
 
@@ -122,12 +126,11 @@
            
 
             page = "user";
-            //AKO SME LOGNATI NO NE SME ADMINI
             return RenderUserHtml(allGames, page);
    
         }
         
-        private IHttpResponse RenderUserHtml(System.Collections.Generic.List<Game> allGames, string page)
+        private IHttpResponse RenderUserHtml(List<Game> allGames, string page)
         {
             int count = 0;
 
@@ -159,8 +162,8 @@
 
                                     <div class=""card-body"">
                                         <h4 class=""card-title"">{currentGame.Title}</h4>
-                                        <p class=""card-text""><strong>{currentGame.Price}</strong> - 60&euro;</p>
-                                        <p class=""card-text""><strong>{currentGame.Size}</strong> - 62.5 GB</p>
+                                        <p class=""card-text""><strong>Price</strong> - {currentGame.Price}&euro;</p>
+                                        <p class=""card-text""><strong>Size</strong> - {currentGame.Size} GB</p>
                                         <p class=""card-text"">{descriptionToShow}</p>
                                     </div>
 
@@ -184,6 +187,5 @@
 
             return this.FileViewResponse(@"Home\"+ page +"-home");
         }
-        
     }
 }

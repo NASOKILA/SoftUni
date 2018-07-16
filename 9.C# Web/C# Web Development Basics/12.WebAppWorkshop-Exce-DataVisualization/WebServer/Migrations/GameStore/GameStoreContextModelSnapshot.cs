@@ -77,11 +77,37 @@ namespace HTTPServer.Migrations.GameStore
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("HTTPServer.GameStoreApplication.Models.UserGame", b =>
+                {
+                    b.Property<int>("CreatorId");
+
+                    b.Property<int>("GameId");
+
+                    b.HasKey("CreatorId", "GameId");
+
+                    b.HasIndex("GameId");
+
+                    b.ToTable("UsersGames");
+                });
+
             modelBuilder.Entity("HTTPServer.GameStoreApplication.Models.Game", b =>
+                {
+                    b.HasOne("HTTPServer.GameStoreApplication.Models.User", "Creator")
+                        .WithMany()
+                        .HasForeignKey("CreatorId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("HTTPServer.GameStoreApplication.Models.UserGame", b =>
                 {
                     b.HasOne("HTTPServer.GameStoreApplication.Models.User", "Creator")
                         .WithMany("Games")
                         .HasForeignKey("CreatorId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("HTTPServer.GameStoreApplication.Models.Game", "Game")
+                        .WithMany("Owners")
+                        .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

@@ -1,11 +1,9 @@
 ﻿namespace HTTPServer.GameStoreApplication.Controllers
 {
-    using Data;
     using Models;
     using Infrastructure;
     using Server.Http.Contracts;
     using System.Collections.Generic;
-    using System.Linq;
     using System;
     using Server.Http;
     using Server.Http.Response;
@@ -14,7 +12,6 @@
 
     public class GamesController : Controller
     {
-
         private readonly IGameService gameService;
         private readonly IUserService userService;
 
@@ -23,8 +20,7 @@
             this.gameService = new GameService();
             this.userService = new UserService();
         }
-
-
+        
         public IHttpResponse AllGames()
         {
 
@@ -65,7 +61,6 @@
 
         public IHttpResponse AddGame(IHttpRequest req)
         {
-
             const string formTitleKey = "title";
             const string formDescriptionKey = "description";
             const string formImageKey = "imageThumbnail";
@@ -73,7 +68,6 @@
             const string formPriceKey = "price";
             const string formVideoUrlKey = "videoUrl";
             const string formReleaseDateKey = "releaseDate";
-
 
             if (!req.FormData.ContainsKey(formTitleKey)
                 || !req.FormData.ContainsKey(formDescriptionKey)
@@ -105,18 +99,12 @@
                 return this.FileViewResponse(@"Game\add-game");
             }
             
-
-            //GAME VALIDATION
-
-
-
             if (Char.IsUpper(title[0]) && title.Length > 3 && title.Length > 100)
             {
 
                 return this.FileViewResponse(@"Game\add-game");
             }
-
-            //To finish validation
+            
             if (price < 0)
             {
                 return this.FileViewResponse(@"Game\add-game");
@@ -141,13 +129,11 @@
             {
                 return this.FileViewResponse(@"Game\add-game");
             }
-
-
             
             int currentUserId = req.Session.Get<int>(SessionStore.CurrentUserKey);
+
             User currentUser = userService.GetUserById(currentUserId);
-
-
+            
             Game game = new Game()
             {
                 Description = description,
@@ -157,9 +143,8 @@
                 Size = size,
                 Title = title,
                 Trailer = videoUrl,
-                CreatorId = currentUserId
+                CreatorId = currentUserId,
             };
-
 
             gameService.AddGameToDb(game);
             
@@ -168,11 +153,9 @@
 
         public IHttpResponse RemoveGame(IHttpRequest req) {
 
-
             int id = int.Parse(req.UrlParameters["id"]);
 
             Game game = gameService.FindGameById(id);
-
 
             this.ViewData["title"] = game.Title;
             this.ViewData["description"] = game.Description;
@@ -186,8 +169,7 @@
         }
         
         public IHttpResponse RemoveGamePost(IHttpRequest req)
-        {
-            
+        {   
             int id = int.Parse(req.UrlParameters["id"]);
 
             Game game = gameService.FindGameById(id);
@@ -199,7 +181,6 @@
 
         public IHttpResponse UpdateGame(IHttpRequest req)
         {
-            
             int id = int.Parse(req.UrlParameters["id"]);
 
             Game game = gameService.FindGameById(id);
@@ -211,14 +192,12 @@
             this.ViewData["size"] = game.Size.ToString("F1");
             this.ViewData["videoUrl"] = game.Trailer;
             this.ViewData["date"] = game.ReleaseDate.ToString("yyyy-MM-dd");
-
-
+            
             return this.FileViewResponse(@"Game\edit-game");
         }
         
         public IHttpResponse UpdateGamePost(IHttpRequest req)
         {
-
             const string formTitleKey = "title";
             const string formDescriptionKey = "description";
             const string formImageKey = "imageThumbnail";
@@ -226,8 +205,7 @@
             const string formPriceKey = "price";
             const string formVideoUrlKey = "trailer";
             const string formReleaseDateKey = "releaseDate";
-
-
+            
             if (!req.FormData.ContainsKey(formTitleKey)
                 || !req.FormData.ContainsKey(formDescriptionKey)
                 || !req.FormData.ContainsKey(formImageKey)
@@ -257,9 +235,7 @@
             {
                 return this.FileViewResponse(@"Game\edit-game");
             }
-
-     
-
+            
             if (Char.IsUpper(title[0]) && title.Length > 3 && title.Length > 100)
             {
 
@@ -290,18 +266,13 @@
             {
                 return this.FileViewResponse(@"Game\edit-game");
             }
-
-
-
-
+            
             int id = int.Parse(req.UrlParameters["id"]);
             Game oldGame = gameService.FindGameById(id);
-
-
+            
             int currentUserId = req.Session.Get<int>(SessionStore.CurrentUserKey);
             User currentUser = userService.GetUserById(currentUserId);
-
-
+            
             oldGame.Description = description;
             oldGame.ImageThumbnail = imageUrl;
             oldGame.Price = price;
@@ -309,8 +280,7 @@
             oldGame.Size = size;
             oldGame.Title = title;
             oldGame.Trailer = videoUrl;
-
-        
+            
             gameService.UpdateGame(oldGame);
 
             return new RedirectResponse("/");
@@ -318,11 +288,11 @@
 
         public IHttpResponse GameDetails(IHttpRequest req)
         {
-
             int id = int.Parse(req.UrlParameters["id"]);
 
             Game game = gameService.FindGameById(id);
 
+            User gameCreator = userService.GetUserById(game.CreatorId);
 
             this.ViewData["id"] = game.Id.ToString();
             this.ViewData["title"] = game.Title;
@@ -332,15 +302,10 @@
             this.ViewData["size"] = game.Size.ToString("F1");
             this.ViewData["videoUrl"] = game.Trailer;
             this.ViewData["date"] = game.ReleaseDate.ToString("yyyy / MM / dd");
-
-
-
-
-            /*check if user is logged in*/
-
+            this.ViewData["creator"] = gameCreator.FullName;
+            
             int currentUserId = 0;
 
-            //IF WE ARE NOT LOGGED IN
             try
             {
                 currentUserId = req.Session.Get<int>(SessionStore.CurrentUserKey);
@@ -351,19 +316,13 @@
                 {
                     return this.FileViewResponse(@"Game\game-details-admin");
                 }
-
-
             }
             catch (Exception)
             {
                 return this.FileViewResponse(@"Game\game-details-anonimous");
             }
-
-
-            return this.FileViewResponse(@"Game\game-details");
-
-        }
-
             
+            return this.FileViewResponse(@"Game\game-details");
+        }    
     }
 }

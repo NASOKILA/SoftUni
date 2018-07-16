@@ -22,23 +22,16 @@
             this.userService = new UserService();
             this.gameService = new GameService();
         }
-
-
+        
         public void Configure(IAppRouteConfig appRouteConfig)
         {
-            
             ConfigureDatabase();
-
             ConfigureRoutes(appRouteConfig);
         }
 
         private void ConfigureDatabase()
-        {
-
-            //INICIALIZIRAME SI BAZATA TUK ZA DA Q POLZVAME 
+        { 
             var context = new GameStoreContext();
-
-            //Taka Pravim migraciqta
             context.Database.Migrate();
         }
         
@@ -69,7 +62,7 @@
                 .Get(
                     "/logout",
                     req => new AccountController(this.userService, this.cart).Logout(req));
-
+            
 
 
 
@@ -152,6 +145,5 @@
             
 
         }
-
     }
 }

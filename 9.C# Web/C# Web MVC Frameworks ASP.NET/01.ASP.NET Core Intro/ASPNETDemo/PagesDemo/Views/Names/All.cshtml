@@ -1,0 +1,19 @@
+﻿@model string[]
+
+@{ 
+    //We set the layout for this page
+    Layout = "_LayoutNasko"; 
+    ViewData["Title"] = "My awasone projct.";
+}
+
+    <h1>@ViewData["Title"]</h1>
+
+@foreach (string name in Model) { 
+    <div>@(name)</div>
+}
+
+
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+

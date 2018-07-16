@@ -1,10 +1,11 @@
 ﻿namespace HTTPServer.GameStoreApplication.Controllers
 {
-    using HTTPServer.GameStoreApplication.Infrastructure;
-    using HTTPServer.GameStoreApplication.Models;
-    using HTTPServer.GameStoreApplication.Services;
-    using HTTPServer.Server.Http.Contracts;
-    using HTTPServer.Server.Http.Response;
+    using Infrastructure;
+    using Models;
+    using Services;
+    using Server.Http.Contracts;
+    using Server.Http.Response;
+    using System;
     using System.Collections.Generic;
     
     public class CartController : Controller
@@ -20,8 +21,7 @@
             this.userService = userService;
             this.gameService = gameService;
         }
-
-
+        
         public IHttpResponse ShowCart(IHttpRequest req)
         {
 
@@ -41,7 +41,7 @@
                                     <a href = ""/details/{game.Id}"">
                                         <h4 class=""mb-1 list-group-item-heading"">{game.Title}</h4>
                                     </a>
-                                    <p>{game.Description.Substring(0, 100) + ". . ."}</p>
+                                    <p>{game.Description.Substring(0, Math.Min(100, game.Description.Length)) + ". . ."}</p>
                                 </div>
                                 <div class=""col-md-2 text-center align-self-center mr-auto"">
                                     <h2>{game.Price}&euro; </h2>
@@ -71,25 +71,46 @@
 
         public IHttpResponse FinishOrder(IHttpRequest req)
         {
-            
-
             bool loggedIn = userService.CheckIfLogedIn(req);
 
             if (!loggedIn)
             {
                 return new RedirectResponse(@"\login");
             }
-
-
+            
             if (this.cart.Count < 1)
             {
                 return new RedirectResponse(@"\cart");
             }
-
-
+            
             User currentUser = userService.GetCurrentUser(req);
+            
+            this.ViewData["displayBougthGamesMessage"] = "none";
 
-            this.ViewData["gamesCount"] = this.cart.Count.ToString();
+            List<string> bougthGamesCount = new List<string>();
+            
+            foreach (Game game in this.cart)
+            {
+
+                UserGame userGame = new UserGame()
+                {
+                    CreatorId = currentUser.Id,
+                    GameId = game.Id
+                };
+                
+                if(userService.UserGameNotAvaliable(currentUser.Id, game.Id)) {
+                    
+                    this.ViewData["displayBougthGamesMessage"] = "block";
+                }
+                else {
+                    bougthGamesCount.Add(game.Title);
+                    gameService.AddUserGameToDb(userGame);
+                }
+                
+            }
+            
+
+            this.ViewData["gamesCount"] = string.Join(", ", bougthGamesCount);
             
             this.cart.Clear();
             

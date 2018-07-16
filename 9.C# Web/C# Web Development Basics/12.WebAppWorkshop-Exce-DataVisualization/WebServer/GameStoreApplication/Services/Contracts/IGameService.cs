@@ -16,6 +16,7 @@
         void RemoveGameFromDb(Game game);
 
         void UpdateGame(Game game);
-        
+
+        void AddUserGameToDb(UserGame usergame);
     }
 }

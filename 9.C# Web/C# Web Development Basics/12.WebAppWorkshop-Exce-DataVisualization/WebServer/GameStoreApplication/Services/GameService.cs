@@ -1,12 +1,11 @@
 ﻿namespace HTTPServer.GameStoreApplication.Services
 {
     using Data;
+    using Models;
     using Services.Contracts;
     using System.Linq;
-    using Models;
     using System.Collections.Generic;
-    using Microsoft.EntityFrameworkCore;
-
+    
     public class GameService : IGameService
     {
 
@@ -28,6 +27,14 @@
             return this.context.Games.ToList();
         }
 
+        public List<int> GetMyGameIds(int id)
+        {
+            return this.context
+                .UsersGames.Where(ug => ug.CreatorId == id)
+                .Select(ug => ug.GameId)
+                .ToList();
+        }
+
         public bool ExistsByTitle(string title)
         {
             return this.context.Games.Any(g => g.Title == title);
@@ -38,6 +45,13 @@
             this.context.Games.Add(game);
             this.context.SaveChanges();   
         }
+
+        public void AddUserGameToDb(UserGame usergame)
+        {
+            this.context.UsersGames.Add(usergame);
+            this.context.SaveChanges();
+        }
+
 
         public void RemoveGameFromDb(Game game)
         { 

@@ -1,0 +1,40 @@
+
+body {
+    background-color: #333;
+}
+
+.box {
+    background: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto; /*Hoest to the center*/
+    top: 200px;
+    
+    /*we say that we will work on the background of this div, WE CN SET IT TO ALL AND IT WILL AFFECT EVERITHING*/
+    transition-property: background, border-radius, transform; 
+    transition-duration: 1s, 3s, 5s; /*Now for the background it will be 1s, for border-radius 3s and for transform 5s*/
+    transition-delay: 1s; /*it will wait 1 seconds before it begins*/
+    transition-timing-function: linear; 
+     
+}
+
+
+/*
+    Transitions are used usually with a click (active) or a hover event.
+    They need to be triggered.
+*/
+
+
+.box:hover {
+    background-color: blue;
+    transform: rotateY(360deg); /*we rotete it to the right 180 degrees*/
+    border:1px solid #333;
+    border-radius: 50% 50% 50% 50%;
+}
+
+/*This is when we click on it*/
+.box:active {
+
+    background-color:black;
+}

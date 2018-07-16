@@ -1,12 +1,10 @@
 ﻿namespace HTTPServer.GameStoreApplication.Controllers
 {
-    using Data;
     using Models;
-    using Server.Utilities;
     using Infrastructure;
+    using Server.Utilities;
     using Server.Http.Contracts;
     using Server.Http.Response;
-    using System.Linq;
     using Services;
     using Services.Contracts;
     using System.Collections.Generic;
@@ -64,7 +62,6 @@
                 return this.FileViewResponse(@"account\register-errors");
             }
 
-            //To finish validation
             if (password.Length < 6)
             {
                 return this.FileViewResponse(@"account\register-errors");
@@ -76,9 +73,7 @@
                 return this.FileViewResponse(@"account\register-errors");
             }
 
-
-
-            //CHeck if email already exists
+            
             if (userService.ExistsByEmail(email))
             {
                 return this.FileViewResponse(@"account\register-errors");
@@ -92,10 +87,8 @@
             };
 
             userService.RegisterUser(user);
-
-
+            
             return new RedirectResponse("/login");
-
         }
 
         public IHttpResponse Login()
@@ -139,7 +132,6 @@
         {
             req.Session.Clear();
             cart.Clear();
-            //req.Cookies.();
 
             return new RedirectResponse("/login");
         }
