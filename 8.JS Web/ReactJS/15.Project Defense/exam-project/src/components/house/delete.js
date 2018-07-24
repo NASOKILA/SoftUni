@@ -54,7 +54,6 @@ export default class Delete extends Component {
             
             requester.remove('appdata', 'Houses/' + id, 'Basic')
             .then(res => {
-                console.log(res)
                 
                 this.setState({
                     message: "House Deleted Successfully !"

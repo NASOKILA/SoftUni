@@ -1,0 +1,21 @@
+﻿@page
+@model RazorPagesArchitecture.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+<br />
+<form method="post">
+    <input type="text" name="username" placeholder="Username..." /><br /><br />
+    <input type="password" name="password" placeholder="Password..." /><br /><br />
+    <input type="submit" value="Login" />
+</form>
+<br />
+<br />
+
+<h2>@ViewData["Username"]</h2>
+
+<h2>@ViewData["Password"]</h2>
+
+<h2>@ViewData["Error"]</h2>

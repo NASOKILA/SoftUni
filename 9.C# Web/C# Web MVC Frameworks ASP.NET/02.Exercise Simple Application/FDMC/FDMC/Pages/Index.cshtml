@@ -1,0 +1,39 @@
+﻿@page
+
+@model IndexModel
+
+@using FDMC.Data;
+@using FDMC.Models;
+@using FDMC.BindingModels;
+
+
+@{
+    var db = new FdmcContext();
+
+    //we use the CatConciseViewModel to select only the Id and Name because we only need them.
+    List<CatConciseViewModel> cats = db.Cats.Select(cat => new CatConciseViewModel()
+    {
+        Id = cat.Id,
+        Name = cat.Name
+    }).ToList();
+
+    ViewData["Title"] = "Fluffy Duffy Munchkin Cats";
+}
+
+<div class="container-fluid">
+
+    <h1>@ViewData["Title"]</h1>
+
+    <ul>
+        @foreach (CatConciseViewModel cat in cats)
+        {
+            <li><a asp-route-controller="Cats" asp-action="Details" asp-route-id="@cat.Id">@cat.Name</a></li>
+        }
+    </ul>
+
+    <br />
+
+    <a asp-controller="Cats" asp-action="Add">Add Cat</a>
+
+</div>
+

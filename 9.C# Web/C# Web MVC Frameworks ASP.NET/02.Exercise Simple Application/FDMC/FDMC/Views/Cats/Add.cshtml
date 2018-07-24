@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+<br />
+<br />
+<div class="container-fluid">
+
+<h1 class="text-center">Add Cat</h1>
+<br />
+<form method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="Name" aria-describedby="emailHelp" placeholder="Enter Name...">
+    </div>
+
+    <div class="form-group">
+        <label for="breed">Breed</label>
+        <input type="text" class="form-control"name="breed" id="Breed" placeholder="Enter Breed...">
+    </div>
+        
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" name="Age" placeholder="Enter Age...">
+    </div>
+
+    <div class="form-group">
+        <label for="imageUrl">ImageUrl</label>
+        <input type="text" class="form-control" id="imageUrl" name="ImageUrl" placeholder="Enter ImageUrl...">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+    <h2 class="danger">@ViewData["message"]</h2>
+</div>

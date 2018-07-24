@@ -1,0 +1,28 @@
+﻿@using FDMC.Models;
+@using FDMC.Data;
+
+@model List<Cat>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Fluffy Duffy Munchkin Cats";
+}
+
+<div class="container-fluid">
+
+    <h1>@ViewData["Title"]</h1>
+
+    <ul>
+        @foreach (Cat cat in Model)
+        {
+            <li><a href="/Cats/Details/@cat.Id">@cat.Name</a></li>
+        }
+    </ul>
+
+    <br />
+
+    <button>
+        <a href="/Cats/Add">Add Cat</a>
+    </button>
+</div>
+

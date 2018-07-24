@@ -35,7 +35,7 @@ export default class Register extends Component {
     handleSubmit = (ev) => {
         ev.preventDefault();
         
-        if(this.state.username === null || this.state.username.trim() == ""){
+        if(this.state.username === null || this.state.username.trim() === ""){
             this.setState({
                 message : "Username must not be null or empty!"
             })
@@ -46,7 +46,7 @@ export default class Register extends Component {
                 message: "Username length must not be less than 3 symbols!"
             })
         }
-        else if(this.state.email === null || this.state.email.trim() == ""){
+        else if(this.state.email === null || this.state.email.trim() === ""){
             this.setState({
                 message : "Email must not be null or empty!"
             })
@@ -62,12 +62,12 @@ export default class Register extends Component {
                 message : "Passwords must match!"
             })
         }
-        else if(this.state.password === null || this.state.password.trim() == ""){
+        else if(this.state.password === null || this.state.password.trim() === ""){
             this.setState({
                 message : "Password must not be null or empty!"
             })
         }
-        else if(this.state.repeatPassword === null || this.state.repeatPassword.trim() == ""){
+        else if(this.state.repeatPassword === null || this.state.repeatPassword.trim() === ""){
             this.setState({
                 message : "Repeat Password must not be null or empty!"
             })
@@ -94,7 +94,6 @@ export default class Register extends Component {
 
                 requester.post('user', 'login', 'basic', this.state)
                 .then(res => {
-                    console.log(res)
                     sessionStorage.setItem('authtoken', res._kmd.authtoken);
                     localStorage.setItem('username', res.username);
                     observer.trigger(observer.events.loginUser, res.username);    

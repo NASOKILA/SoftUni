@@ -32,7 +32,6 @@ export default class OrderCompleted extends Component {
                     'Sold': 'true'
                 })
                 .then(updatedHouse => {
-                    console.log(updatedHouse)
 
 
                     requester.post('appdata', 'Orders', 'Basic', {
@@ -41,8 +40,6 @@ export default class OrderCompleted extends Component {
                         'Product': updatedHouse,
                         })
                         .then(order => {
-    
-                        console.log(order);
                         
                         this.setState({
                             message: "Congratulations Order Created Successfully !",
@@ -51,24 +48,13 @@ export default class OrderCompleted extends Component {
         
                         }).catch(err => console.log(err));
 
-
-                
-
-
-            
-
                 }).catch(err => console.log(err));
 
-
             })
-            .catch(err => console.log(err));
-
-                    
+            .catch(err => console.log(err));                    
     }
 
     render() {
-
-        console.log(this.state.order);
         
         if(this.state.error){
             return (

@@ -31,12 +31,9 @@ export default class ConfirmOrder extends Component {
         
         render() {
 
-                console.log(this.state.house)
         
                 if (this.state.house !== null) {
         
-
-                    console.log("HERE")
                     return (
                         <div>
                             <main className="mt-3 mb-5">

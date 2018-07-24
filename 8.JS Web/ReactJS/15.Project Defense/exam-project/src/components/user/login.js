@@ -35,7 +35,6 @@ export default class Login extends Component {
     
             requester.post('user', 'login', 'basic', this.state)
                 .then(res => {
-                    console.log(res)
                     sessionStorage.setItem('authtoken', res._kmd.authtoken);
                     
                     localStorage.setItem('username', res.username);

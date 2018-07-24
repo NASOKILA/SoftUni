@@ -1,0 +1,11 @@
+﻿@page
+@model BookLibrary.Web.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Search results: "@Model.Search"</h1>
+
+<ul>
+    @Model.Result
+</ul>

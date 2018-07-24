@@ -1,0 +1,19 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+<br />
+<div class="container" style="height:400px">
+    <div style="float:left; padding:0px 25px">
+        <img width="300" src="@this.Model.Book.CoverImage" alt="Image @this.Model.Book.Title" />
+    </div>
+    <div>
+        <h1>@this.Model.Book.Title</h1>
+        <h2>by @this.Model.Book.Author.Name</h2>
+        <p>@this.Model.Book.Description</p>
+        <p><strong>status:</strong>@this.Model.Book.Status</p>
+    </div>
+</div>

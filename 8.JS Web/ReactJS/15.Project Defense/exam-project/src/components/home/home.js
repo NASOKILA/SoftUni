@@ -36,9 +36,9 @@ export default class Home extends Component {
 
         if (localStorage.getItem('username')) {
             this.setHouses();
-            let role = localStorage.getItem('Admin') === 'true'
-                ? "User"
-                : "Admin";
+            let role = localStorage.getItem('admin') === 'true'
+                ? "Admin"
+                : "User";
 
             return (
 
