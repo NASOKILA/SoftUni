@@ -4,6 +4,7 @@
     using BookLibrary.Models;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
+    using System.ComponentModel.DataAnnotations;
     using System.Linq;
 
     public class AddModel : PageModel
@@ -15,27 +16,29 @@
         public string Author { get; set; }
 
         [BindProperty]
+        [Url]
         public string ImageUrl { get; set; }
 
         [BindProperty]
         public string Description { get; set; }
 
         public void OnGet()
-        {
-            
-        }
+        {}
 
         public IActionResult OnPost()
-        {
-            
+        {   
             using(var context = new BookLibraryContext())
             {
                 var authors = context.Authors.ToList();
 
                 Book book = new Book();
 
-                Models.Author author = null;
-                
+                BookLibrary.Models.Author author = null;
+
+                //We check if the form is valid by using the attributes
+                if (!ModelState.IsValid)
+                    return Page();
+
                 //id author exists
                 if (authors.Select(a => a.Name).Any(a => a == this.Author))
                 {
@@ -46,7 +49,7 @@
                 }
                 else
                 {
-                    author = new Models.Author()
+                    author = new BookLibrary.Models.Author()
                     {
                         Name = this.Author
                     };
@@ -75,10 +78,8 @@
                     a.CoverImage == this.ImageUrl);
 
                 ///Books/Details/{addedBook.Id}
-                return RedirectToRoute($"/Index");
+                return RedirectToPage("/Books/Details", new { id = addedBook.Id });
             }
-
         }
-
     }
 }

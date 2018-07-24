@@ -8,24 +8,29 @@
 
 <div class="container-fluid">
 
+    <br />
     <form method="post">
         <div class="form-group">
-            <strong>Title</strong>
-            <input name="title" type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Title">
+            <label for="descriprion">Title</label>
+            <input name="title" type="text" class="form-control custom-input" id="title" aria-describedby="emailHelp" placeholder="Title">
         </div>
         <div class="form-group">
-            <strong>Author</strong>
-            <input name="author" type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Author">
+            <label for="descriprion">Author</label>
+            <input name="author" type="text" class="form-control custom-input" id="title" aria-describedby="emailHelp" placeholder="Author">
         </div>
         <div class="form-group">
-            <strong>Image Url</strong>
-            <input name="imageUrl" type="text" class="form-control" id="imageUrl" placeholder="ImageUrl">
+            <label for="descriprion">Image Url</label>
+            <input name="imageUrl" type="text" class="form-control custom-input" id="imageUrl" placeholder="ImageUrl">
         </div>
         <div class="form-group">
-            <strong>Description</strong>
-            <textarea name="description" class="form-control" id="description" placeholder="Description"></textarea>
+            <label for="descriprion">Description</label>
+            <textarea name="description" class="form-control custom-input" id="description" placeholder="Description"></textarea>
         </div>
-        <button type="submit" class="btn btn-success">Add book</button>
-        <a class="btn btn-outline-success" asp-page="/Index">Cancel</a>
+        <br />
+        <div class="btns">
+            <button type="submit" class="btn btn-success">Add book</button>
+            <a class="btn btn-outline-success" asp-page="/Index">Cancel</a>
+        </div>
+        
     </form>
 </div>

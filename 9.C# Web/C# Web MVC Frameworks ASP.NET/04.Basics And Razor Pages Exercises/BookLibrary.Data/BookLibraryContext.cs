@@ -22,7 +22,7 @@ namespace BookLibrary.Data
         {
             
             if (!optionsBuilder.IsConfigured) {
-                optionsBuilder.UseSqlServer("Data Source=HAL\\MSSQLSERVER2;Database=RazorBookLibrary;Integrated Security=True");
+                optionsBuilder.UseSqlServer(Connection.ConnectionString);
             }
             
             base.OnConfiguring(optionsBuilder);
