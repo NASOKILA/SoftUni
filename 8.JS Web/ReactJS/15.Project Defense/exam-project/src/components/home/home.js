@@ -70,7 +70,7 @@ export default class Home extends Component {
                                         <h5 className="text-center mt-3">{h.Location}</h5>
                                         <hr className="hr-1 bg-white" />
                                         <p className="text-white text-center">
-                                            <img src={h.Image.toString()} alt="No House Img" />
+                                            <img class="animated bounce infinite" src={h.Image.toString()} alt="No House Img" />
                                             <br />
                                             {h.Description.toString().slice(0, Math.min(h.Description.toString().length, 50)) + " . . ."}
                                         </p>
