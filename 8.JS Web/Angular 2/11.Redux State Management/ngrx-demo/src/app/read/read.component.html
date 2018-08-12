@@ -1,0 +1,13 @@
+<div class="right">
+
+  <h3>Courses</h3>
+  <!--We can use | async if the data is stored in an observable.-->
+  <!--let i = index i very usefull to keep track of the indexes of each element.-->
+  <ul>
+    <li *ngFor="let course of courses | async; let i = index">
+      <a [href]="course.url" target="_blank">{{ course.name }}</a> | 
+      <button (click)="delCourse(i)">Delete Course</button>
+    </li>
+  </ul>
+
+</div>

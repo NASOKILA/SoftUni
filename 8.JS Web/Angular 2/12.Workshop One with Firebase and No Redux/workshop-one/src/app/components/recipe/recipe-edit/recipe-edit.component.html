@@ -1,0 +1,63 @@
+
+<div *ngIf="recipe" class="row">
+  <div class="col-xs-12">
+
+    <form #editForm="ngForm" (ngSubmit)="editFormFunc()">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              required
+              type="text"
+              id="name"
+              name="name"
+              value="{{ recipe.name }}"
+              [(ngModel)]="recipe.name"
+              #name
+              class="form-control" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group">
+            <label for="imagePath">Image URL</label>
+            <input
+              required
+              type="text"
+              id="imagePath"
+              name="imagePath"
+              [(ngModel)]="recipe.imagePath"
+              #imagePath
+              value="{{ recipe.imagePath }}"
+              class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <img width="250px" src="{{ recipe.imagePath }}" alt="{{ recipe.imagePath }}" class="img-responsive">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group">
+            <textarea
+              required
+              type="text"
+              id="description"
+              class="form-control"
+              [(ngModel)]="recipe.description"
+              #description
+              value="{{ recipe.description }}"
+              name="description"
+              rows="6"></textarea>
+          </div>
+        </div>
+      </div>
+     <button [disabled]="editForm.invalid" class="btn btn-primary" type="submit">Edit</button>
+    </form>
+
+  </div>
+</div>

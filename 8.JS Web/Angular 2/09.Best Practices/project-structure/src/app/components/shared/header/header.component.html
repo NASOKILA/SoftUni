@@ -1,0 +1,11 @@
+<header>
+  <div class="container-fluid">
+    <nav>
+        <a [routerLink]="['/']">Home</a>
+        <a routerLink="/login">Login</a>    
+        <a routerLink="/register">Register</a>    
+        <a (click)="logout()">Logout</a>
+        <a [routerLink]="['/books']">Books</a>      
+    </nav>
+  </div>
+</header>

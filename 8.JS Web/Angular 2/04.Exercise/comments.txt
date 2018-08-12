@@ -1,0 +1,24 @@
+Ako importvame stylove lokalno trqbva da gi opishem v styles:[]
+masiva v angular.json faila.
+I TRQBVA DA RESTARTIRAME APLIKACIQTA OT KONZOLATA. 
+
+
+HttpClientModule :
+    Tova e po novo i ima poveche raboti.
+
+
+HttpModule :
+    Tova e po staro idva ot angular 2
+    sega sme na ngular 6
+
+Po tozi nachin ni go dava direktno v JSON format
+  {{ popular | json }}
+
+Mojem da produljavame da dobavqme pipove:
+  {{ popular | json |uppercase}}
+
+
+Polzvame generics za da parsvame pri zaqvki:
+    .get<String>()
+
+Mojem da se unubscribnem ot daden observer

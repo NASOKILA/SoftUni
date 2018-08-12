@@ -1,0 +1,13 @@
+<form #form="ngForm" (ngSubmit)="login(form)">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" #emailField="ngModel" ngModel required name="email" [(ngModel)]="model.email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <div *ngIf="emailField.touched && emailField.value.length < 1" class="alert alert-danger">Input field is required!</div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" #passwordField="ngModel" ngModel required [(ngModel)]="model.password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+    <div *ngIf="passwordField.touched && passwordField.value.length < 1" class="alert alert-danger">Password field is required!</div>  
+  </div>
+  <button type="submit" [disabled]="!form.valid" class="btn btn-primary">Submit</button>
+</form>

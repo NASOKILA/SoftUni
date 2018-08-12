@@ -1,0 +1,34 @@
+<form [formGroup]="form" (ngSubmit)="log()">
+    <div class="form-group">
+      <label for="exampleInputPassword1">Current Password</label>
+      <input formControlName="currentPassword" type="password" class="form-control" id="exampleInputPassword1" placeholder="Current Password">
+     <!--Validations-->
+      <div *ngIf="form.get('currentPassword').touched && form.get('currentPassword').invalid">
+          <div *ngIf="form.get('currentPassword').errors.required" class="alert alert-danger">Current Password field is required!</div>
+          <div *ngIf="form.get('currentPassword').errors.minlength" class="alert alert-danger">Current Password field min length is 3 symbols!</div>
+          <div *ngIf="form.get('currentPassword').errors.maxlength" class="alert alert-danger">Current Password field max length is 6 symbols!</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword2">New Password</label>
+      <input formControlName="newPassword" type="password" class="form-control" id="exampleInputPassword2" placeholder="New Password">
+      <!--Validations-->
+      <div *ngIf="form.get('newPassword').touched && form.get('newPassword').invalid">
+        <div *ngIf="form.get('newPassword').errors.required" class="alert alert-danger">New Password field is required!</div>
+        <div *ngIf="form.get('newPassword').errors.minlength" class="alert alert-danger">New Password field min length is 3 symbols!</div>
+        <div *ngIf="form.get('newPassword').errors.maxlength" class="alert alert-danger">New Password field max length is 6 symbols!</div>
+      </div>    
+    </div>     
+    <div class="form-group">
+      <label for="exampleInputPassword3">Confirm Password</label>
+      <input formControlName="confirmPassword" type="password" class="form-control" id="exampleInputPassword3" placeholder="Confirm Password">
+      <!--Validations-->
+      <div *ngIf="form.get('confirmPassword').touched && form.get('confirmPassword').invalid">
+          <div *ngIf="form.get('confirmPassword').errors.required" class="alert alert-danger">Confirm Password field is required!</div>
+          <div *ngIf="form.get('confirmPassword').errors.minlength" class="alert alert-danger">Confirm Password field min length is 3 symbols!</div>
+          <div *ngIf="form.get('confirmPassword').errors.maxlength" class="alert alert-danger">Confirm Password field max length is 6 symbols!</div>
+      </div>  
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  

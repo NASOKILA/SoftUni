@@ -1,0 +1,29 @@
+{
+  "recipes" : {
+    "-LJ9ACVgy3ZCneZuQoF6" : {
+      "description" : "Very tasty burger",
+      "imagePath" : "http://bk-ca-prd.s3.amazonaws.com/sites/burgerking.ca/files/02280-9-BaconandCheeseWhopper_300x270_CR.jpg",
+      "name" : "Burger"
+    },
+    "-LJ9AHS5XbVD00BxjxUH" : {
+      "description" : "Vide Steak",
+      "imagePath" : "https://www.seriouseats.com/recipes/images/2015/05/Anova-Steak-Guide-Sous-Vide-Photos15-beauty-1500x1125.jpg",
+      "name" : "Steak"
+    },
+    "-LJ9AXs0smO2wNwFJl2U" : {
+      "description" : "Italian pizza",
+      "imagePath" : "https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2Frecipes%2Fsl%2F03142008%2Fpepperoni-pizza-sl-1599569-x.jpg%3Fitok%3D3rGd4n8r&w=700&q=85",
+      "name" : "Pepperoni Pizza"
+    },
+    "-LJ9Alio-9vTR-duxmDy" : {
+      "description" : "Italian recipe",
+      "imagePath" : "https://natashaskitchen.com/wp-content/uploads/2015/01/Spaghetti-and-Meatballs-Recipe-11.jpg",
+      "name" : "Spaghetti and Meatballs"
+    },
+    "-LJ9B48QVhqpmTmodohM" : {
+      "description" : "The ultimate guide to making hot dogs",
+      "imagePath" : "https://cdn.vox-cdn.com/thumbor/WyKlyZWJgsAYBjByp5nB5v8AphU=/330x0:5663x4000/1200x900/filters:focal(330x0:5663x4000)/cdn.vox-cdn.com/uploads/chorus_image/image/46595738/shutterstock_258072485.0.0.jpg",
+      "name" : "Hot Dog"
+    }
+  }
+}

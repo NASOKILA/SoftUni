@@ -1,0 +1,35 @@
+<div *ngIf="games">
+  <ul>
+    <li *ngFor="let game of games">
+        <h1 [class.myStyle]="isShown">{{game.title | uppercase}}</h1>
+        <h2>Id : {{game.id}}</h2>
+        <img [src]="game.image" width="300px" alt="No img avalible"/>
+        <br/><br/>
+        
+        <!--We have to pass a function which accepts an event from the 
+            subscribe component to the game component !!!-->
+        <app-subscribe (notification)="notifyMe($event)"  [subGame]="game.id" ></app-subscribe>
+    </li>
+  </ul> 
+
+  <br/><br/>
+
+  <div *ngIf="isShown">
+    <h1 [class.myStyle]="isShown">Our Contacts ...</h1>
+  </div>
+
+  <button (click)="showContacts()">Show Contacts</button>
+  
+  <br/><br/>
+  <div *ngIf="myName">
+    <h2>Your name is: {{myName}}</h2>
+  </div>
+
+  <input #name [(ngModel)]="myName" placeholder="Name"/>
+  <button (click)="showName(name.value)">Send</button>
+  
+
+
+</div>
+
+

@@ -1,0 +1,51 @@
+
+<div class="container">
+    <div class="row space-top">
+        <div class="col-md-12">
+            <h1>Welcome to Furniture System</h1>
+            <p>Select furniture from the catalog to view details.</p>
+        </div>
+    </div>
+        <div  *ngIf="furnitures" class="row space-top">
+            <div *ngFor="let furniture of furnitures | paginate : {
+                id: 'allFurniture',
+                itemsPerPage: pageSize,
+                currentPage: currentPage
+                }" class="col-md-4">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <blockquote class="card-blockquote">
+                            <img width="100%" src="{{ furniture.image }}" />
+                            <br/><br/>
+                            <p>{{ furniture.make }} {{ furniture.model }}</p>
+                            <footer>
+                                <cite title="Source Title">{{ furniture.description }}</cite>
+                            </footer>
+                            <br/>
+                            <div class="pull-right">
+                                <a href="furniture/details/{{ furniture.id }}" class="btn btn-info">Details</a>
+                                <a *ngIf="isAdmin" (click)="delete(furniture.id)" class="btn btn-danger">Delete Item</a>
+                                <a *ngIf="isAdmin" href="furniture/edit/{{ furniture.id }}" class="btn btn-warning">Edit Item</a>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+    </div>
+
+    <pagination-controls
+    id="allFurniture"
+    (pageChange)="pageChanged($event)"
+    maxSize="9"
+    directionLinks="true"
+    autoHide="true"
+    previousLabel="Previous"
+    nextLabel="Next"
+    screenReaderPaginationLabel="Pagination"
+    screenReaderPageLabel="page"
+    screenReaderCurrentLabel="You are on page">
+
+    </pagination-controls>
+</div>
+
