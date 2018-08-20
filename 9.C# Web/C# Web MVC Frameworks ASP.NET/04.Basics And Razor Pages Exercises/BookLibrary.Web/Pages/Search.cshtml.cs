@@ -39,7 +39,7 @@
                     authorsString.AppendLine(
                         $@"<li><a href=""/author/details/{author.Id}"">
                             {author.Name.ToString()
-                                .Replace(this.Search, $"<span class=\"paint\">{this.Search}</span>")
+                                .Replace(this.Search.ToLower(), $"<span class=\"paint\">{this.Search.ToLower()}</span>")
                                 .Replace(this.Search.ToUpper(), $"<span class=\"paint\">{this.Search.ToUpper()}</span>")}
                         </a>(author)</li>");
                 }
@@ -57,7 +57,7 @@
                     booksString.AppendLine(
                         $@"<li><a href=""/books/details/{book.Id}"">
                             {book.Title.ToString()
-                                .Replace(this.Search, $"<span class=\"paint\">{this.Search}</span>")
+                                .Replace(this.Search.ToLower(), $"<span class=\"paint\">{this.Search.ToLower()}</span>")
                                 .Replace(this.Search.ToUpper(), $"<span class=\"paint\">{this.Search.ToUpper()}</span>")}
                         </a>(book)</li>");
                 }

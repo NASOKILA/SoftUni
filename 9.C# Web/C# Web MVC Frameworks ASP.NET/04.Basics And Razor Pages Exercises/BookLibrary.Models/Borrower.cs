@@ -7,6 +7,7 @@ namespace BookLibrary.Models
         public Borrower()
         {
             this.BorrowedBooks = new List<BorrowersBooks>();
+            this.BorrowersMovies = new List<BorrowersMovies>();
         }
 
         public int Id { get; set; }
@@ -16,5 +17,7 @@ namespace BookLibrary.Models
         public string Address { get; set; }
 
         public ICollection<BorrowersBooks> BorrowedBooks { get; set; }
+
+        public ICollection<BorrowersMovies> BorrowersMovies { get; set; }
     }
 }

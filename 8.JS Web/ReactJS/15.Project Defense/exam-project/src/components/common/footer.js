@@ -7,10 +7,13 @@ export default class Footer extends Component {
 
         return (
             <footer>
-                <div className="footerDiv container-fluid chushka-bg-color">
+                <div className="container-fluid bg-dark">
                     <div className="text-white p-2 text-center">
+                    <br/>
                         &copy; CopyRight Sanity Web Design Studios 2018. All rights reserved.
-                </div>
+                    <br/>
+                    <br/>
+                    </div>
                 </div>
             </footer>
         )

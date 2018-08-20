@@ -52,7 +52,12 @@ namespace BookLibrary.Web
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
+            //app.UseMvc(); This adds MVC and Pages which are the central middlewares
+            //app.UseMvc(); This adds MVC and Pages which are the central middlewares
+
+
+            //whis is the same but adds default routes
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

@@ -16,4 +16,11 @@
         <p>@this.Model.Book.Description</p>
         <p><strong>status:</strong>@this.Model.Book.Status</p>
     </div>
+
+    @{ 
+        if (this.Model.Book.Status != "Borrowed") { 
+
+           <a asp-page="Borrow" asp-route-id="@this.Model.Book.Id" class="btn btn-outline-success">Borrow this book</a>
+        }
+    }
 </div>

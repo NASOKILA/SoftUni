@@ -2,6 +2,6 @@
 {
     public static class Connection
     {
-        public const string ConnectionString = @"Data Source=HAL\MSSQLSERVER2;Database=GameStoreDb;Integrated Security=True";
+        public const string ConnectionString = @"Data Source=.;Database=GameStoreDb;Integrated Security=True";
     }
 }

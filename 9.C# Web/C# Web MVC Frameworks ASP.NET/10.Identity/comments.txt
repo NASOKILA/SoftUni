@@ -1,0 +1,153 @@
+
+
+IDENTITY COMMENTS:
+	Shte zapochnem s nov proekt kopie na SoftUni s kursove i lekcii.
+	Shte slagame i PayPal za zaplashtane na daden kurs.
+
+V ASP vsichko e asinhromno.
+
+Ot HttpContext mojem da vzemem vseki service registriran v aplikaciqta.
+
+HttpContext.RequestServices.GetService(typeof(NAMEOFSERVICE));
+
+V services sus AddSingleton() se dobavq edin tip klas za cqloto prilojenie, sled koeto moje da se polzva navsqkude.
+
+servicesAddSingleton<DbContext>();
+
+Mojem da zarejdame skriptove sus $(document).ready(); kogato zaredi dokumenta.
+
+
+VAJNOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!
+Kato front end mojem da vkluchim React ili Angular
+
+
+
+anty-foreign token :	
+	Tova e token koito se generira ot frameworka i se proverqva pri vqka zaqvka,
+	celta e da se prdotvratqvat atakiPrimerno nqkoi drug framework moje da izprati post zaqvka i v tozi sluchai 
+	shte izprati razlichen token i nqma da mu mine nomera. 
+
+
+
+
+Identity:
+	Tova e biblioteka koqto moje da opravlqva potrebiteli i tehnite prava.
+	Tazi biblioteka e chast ot celiq framework ASP.NET CORE !!!!
+
+	Polzva authorizaciq kato rolite na daden i pravata mu, dali ima pravo na dostup do dadeno neshto,
+	i authenticaciq kato login logout i register.
+	
+	Durji userite v otdelna lokana baza ili vuv vinshen storage.
+	Tazi baza se generira avtomatichno i imame totalen kontrol nad neq.
+
+	VAJNOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		OAuth :
+			Tova e login chrez FaceBook, Twitter, Goolge, LikedIn i dr.
+		
+		OWIN (Open Web Interface for .Net) : 
+			Tova e obsht protokol koito pozvolqva da usnem .NET prilojenie koeto da NQMA nikakv avruzka 
+			sus windows server.
+
+
+	Identity bibliotekata moje da se instalira chrez NuGet packages.
+
+	Mojem da polzvame i druga authentikaciq na Frameworka ne mu puka.
+
+
+
+Get Started with ASP.NET CORE IDENTITY:
+	
+	01.Create a new MVC App and chage the authentication to Individual User and store it locally
+		Poluchavame Areas papka v prilojenieto, "Area" oznachava otdelna chast za dadena chast na prilojenieto.
+		V Areas imame Identity Papka i v neq si imame Viewta.
+		Imame i Data papka v koqto ima IdentityDbContext
+	02.Promenqme Connection string v appsetting.json ostavqme samo integrated security=true imeto na bazata i server=.
+
+	03.Trqbva da registrirame Identity kato middleware i posle kato service
+
+
+
+
+
+
+VAJNOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	Mojem da Instalirame ot NuGet packages :
+		Microsoft.AspNetCore.Identity    // main package
+		Microsoft.AspNetCore.Identity.EntityFrameworkCore    // if we need it for EF Core
+		Microsoft.AspNetCore.Owin   // if we want to run it everiwhere
+
+
+	Mojem da prezapishem vsqko edno neshto koeto ni generira frameworka.
+	
+	Imame mnogo skriti stranici ot frameworka, za da gi vidim trqbva da gi prezapishem.
+	Tova stawa kato napravim scaffold element za identity i da prezapishem vsichki stranici.
+	
+	KAK STAWA ?
+		Dqsno kopche na proekta, 
+		add scaffolding element, 
+		selektirame vsichki kvadratcheta, 
+		posochvame DBContexta i cukame ok !!!!
+
+		SLED TOVA V Areas, Identity, Pages MOJEM DA VIDIM VSICHKI STRANICI I OSHTE NESHTA.
+
+
+
+
+	[AllowAnonymous] e attribut koito pozvolqva da imame anonimni potrebiteli
+	[Authorized] e za autorizirani useri 
+	[Authenticated] e za authentikirani useri 
+
+	NO [AllowAnonymous] IMA VINAGI PREDIMSTVO PRED DRUGITE
+
+
+	Kato se registrirame mojem da vidim che v bazata samiq user ima mnogo neshta, mojem da verificirame imeila mu, mojem da go blokirame, mojem da vidim kolko puti e opital da 
+	se logne i ne e uspql i oshte mnogo takiva neshta.
+
+
+	VAJNOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!
+	Vsqko edno neshto si ima nastroiki po podrazbirane koito nie mojem da promenim ot StartUp.cs Faila !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	NIKOGA NE KESHIRAITE VIE, VINAGI SE OSTAVQ TOVA NA FRAMEWORKA.
+
+	PRI GRESHNA PAROLA ILI USERNAME NIKOGA NE PODSKAZVAI NA USERA KOE OT DVETE E ZBURKANO. !!!!!!!!!!!!!!!!!!!!!!!!!
+
+	[Allownonymous] VINAGI PREZAPISVA [Authorized] !!!!!!!!!!!!!!!!
+
+	Povecheto metodi za rabota sa asinhromni, zavurshvat na Async  a  pred tqh slagame await za da gi polzvame pravilno !!!!!!!
+
+
+
+
+
+
+
+
+Claim-Based Authentication (Vunshna authentikaciq) :
+	Tova e neshto koeto sme.
+
+	Claims :
+		Parche informaciq koqto authentikira usera, tova e key value pair, sudurja authentication token
+
+	Pri vunshna authentikaciq NQMAME parola.
+
+	
+	OAuth2 (Open Authentication 2):
+		Ideqta e che mojem da se authentikirame chrez Facebook, Twitter, GitHub, MicrosoftAccount, LinkedIn, Google, Gmail ili drugo.
+		Authentikaciqta se izvurshva tam a ne pri nas.
+		Nqmame parola i e po lesno za usera i za saita.
+
+		Mojem da se REGISTRIRAME chrez Facebook primerno i posle ako iskame da se lognem mojem da go napravim samo chez Facebook.
+
+	
+
+
+VAJNOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	AddSingleton() : kato go dobavim chrez services mojem da podavame neshto prez konstruktura i vaji za vsqka zaqvka napravena.
+	AddTransient() : sushtoto e kato AddSingleton obache pravi nova instanciq za vseki request.
+	AddScoped() : Tova e edno ne shto koeto vaji za celiq request.
+
+
+
+
+

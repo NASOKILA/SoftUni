@@ -1,0 +1,70 @@
+﻿@using BookLibrary.Web.BindingModels
+@model MovieBindingModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add";
+}
+
+
+  <environment include="Development">
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"
+                asp-fallback-src="~/lib/jquery-validation/dist/jquery.validate.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.validator"
+                crossorigin="anonymous"
+                integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js"
+                asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive"
+                crossorigin="anonymous"
+                integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+        </script>
+    </environment>
+
+<h2>Add Movie</h2>
+
+<br />
+<form method="post" asp-controller="Movies" asp-action="Add">
+
+    <div class="form-group row">
+        <label asp-for="Title">Title</label>
+        <div class="col-sm-10">
+            <input asp-for="Title" name="title" class="form-control custom-input" placeholder="Title">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Director">Director</label>
+        <div class="col-sm-10">
+            <input asp-for="Author" name="director" type="text" class="form-control custom-input" placeholder="Direcror">
+            <span asp-validation-for="Director" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="ImageUrl">Image Url</label>
+        <div class="col-sm-10">
+            <input asp-for="ImageUrl" name="imageUrl" type="url" class="form-control custom-input" placeholder="ImageUrl">
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Description">Description</label>
+        <div class="col-sm-10">
+            <textarea asp-for="Description" name="description" class="form-control custom-input" placeholder="Description"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+    </div>
+    <br />
+    <div class="btns">
+        <button type="submit" class="btn btn-success">Add movie</button>
+        <a class="btn btn-outline-success" href="/Movies/All">Cancel</a>
+    </div>
+
+</form>
+
+
+

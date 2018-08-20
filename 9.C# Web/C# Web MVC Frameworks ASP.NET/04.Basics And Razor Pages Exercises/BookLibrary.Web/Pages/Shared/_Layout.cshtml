@@ -36,6 +36,13 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-page="/Books/Add">Add Book</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Movies" asp-action="Add">Add Movie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Movies" asp-action="All">All Movies</a>
+                </li>
+
             </ul>
                 <form class="input-group col-sm-4 mb-3" asp-action="searchTerm" method="post">
                     <input type="text" name="search" class="form-control" placeholder="Search books and authors" aria-label="Search books and authors" aria-describedby="basic-addon2">

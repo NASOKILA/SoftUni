@@ -1,0 +1,33 @@
+
+
+
+Shte razshirqvame SoftUniClone proekta.
+
+Trqbva da napravim FB app za da vzemem AppId i AppSecret
+
+Sushtoto e i za Google trqbva da vlezem v https://console.developers.google.com/apis/  i da suzdadem aplikaciq.
+
+Za Github otivme v akaunta ni / settings / developer settings i suzdavame  OAuth applikaciq  zashtoot iskame samo da se logvame !!!!!!!!!!!!!!!!!!!!!!!!
+GitHub App e aplikaciq koqto polzva gitHub API
+
+
+
+Ako iskame da izpratim istinski email tova stawa sus IEmailSender interface
+registrirame go kato singlton zaedno sus samiq interface IEmailSender
+Trabva na bibliotekata Sendgrid
+I ni trqbva registraciq v saita https://app.sendgrid.com
+kato se registrirame ni trqbva da si suzdadem API Key za da prahtame emeili ot tehniq API
+Otivame na Setting  API Keys i si pravim nov API KEY i vednaga trqbva da go kopirame.
+
+
+
+Dobre e  da kriem ap kluchovete v otdelen fail ili moje da e json fail
+i posle da izdurpame dannite tam kudeto ni trqbva
+I imenata na samite klasove mogat da budat izvedeni v otdelen json fail.
+Po sigurno e za prilojenieto.
+
+Dobre e tam kudeto ni trqbvat API Key da podavdaem daden service prez konstruktura
+koito da sudurja tozi app key i da si go assinnem na private readonly property.
+Taka e po sigurno.
+
+

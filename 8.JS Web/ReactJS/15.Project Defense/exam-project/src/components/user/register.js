@@ -89,7 +89,7 @@ export default class Register extends Component {
                 observer.trigger(observer.events.notification, {success: true, message: "Register Successfully Please Login!", type: 'success'})    
             
                 this.setState({
-                    message: "Register Successfully Please Login!"
+                    message: "Registration Successfully!"
                 })
 
                 requester.post('user', 'login', 'basic', this.state)
@@ -132,7 +132,9 @@ export default class Register extends Component {
 
         return (
 
-            <main className="mt-3">
+            <main className="mt-3 forms">
+            <br/>
+            <br/>
             <h1 className="text-center">Register</h1>
             <hr className="bg-secondary half-width"/>
 
@@ -141,20 +143,24 @@ export default class Register extends Component {
                     <label htmlFor="username">Username</label>
                     <input type="text" onChange={this.handleChange} className="form-control" id="username" placeholder="Username..." name="username"/>
                 </div>
+                <br/>
                 <div className="form-group">
                     <label htmlFor="email">Email</label>
                     <input type="email" onChange={this.handleChange} className="form-control" id="email" placeholder="Email..." name="email"/>
                 </div>
+                <br/>
                 <div className="form-group">
                     <label htmlFor="password">Password</label>
                     <input type="password" onChange={this.handleChange} className="form-control" id="password" placeholder="Password..." name="password"/>
                 </div>
+                <br/>
                 <div className="form-group">
                     <label htmlFor="confirmPassword">Confirm Password</label>
                     <input type="password" onChange={this.handleChange} className="form-control" id="confirmPassword" placeholder="Confirm Password..." name="repeatPassword"/>
                 </div>
+                <br/>
                 <div className="button-holder d-flex justify-content-center">
-                    <input type="submit" className="btn chushka-bg-color" value="Register"/>
+                    <input type="submit" className="btn btn-success" value="Register"/>
                 </div>
             </form>
             <br/>

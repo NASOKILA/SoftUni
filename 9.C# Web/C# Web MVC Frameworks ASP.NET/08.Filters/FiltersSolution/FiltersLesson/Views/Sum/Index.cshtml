@@ -1,0 +1,27 @@
+﻿@model FiltersLesson.Services.SumProvider
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Sum numbers</h2>
+
+<form method="post" asp-controller="Sum" asp-action="Index" >
+    <input type="number" name="FirstNumber" class="form-control" placeholder="First" /><br />
+    <input type="number" name="SecondNumber" class="form-control" placeholder="Second" /><br />
+    <input type="submit" class="form-control btn btn-success" value="Submit" /><br />
+</form>
+<br/>
+<div>
+    @if (ViewData.ContainsKey("result"))
+    {
+        <b>Sum : </b>@ViewData["result"];
+    }
+</div>
+
+<br />
+
+<a class="btn btn-outline-success" asp-controller="Sum" asp-action="Increment">Increment Sum</a>
+<br/>
+<a class="btn btn-outline-danger" asp-controller="Sum" asp-action="Decrement">Decrement Sum</a>
+

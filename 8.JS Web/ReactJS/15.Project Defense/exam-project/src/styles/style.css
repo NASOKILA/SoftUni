@@ -16,7 +16,7 @@ textarea {
 }
 
 .chushka-bg-color {
-    background-color: grey;
+    background-color: lightgray;
     color: #F8F8FF;
 }
 
@@ -41,7 +41,13 @@ footer {
     position: fixed;
     bottom: 0;
     border: 0;
-    width: 98%;
+    width: 100%;
+    position: relative;
+}
+
+
+.footerDiv {
+    font-size:20px !important;
 }
 
 img {
@@ -54,6 +60,9 @@ a {
     margin: 15px 0px;    
 }
 
+.homeLink {
+    text-decoration: underline !important;  
+}
 
 .product-holder {
     padding: 0px 125px;
@@ -77,6 +86,14 @@ a {
 
 .TableOrderId {
     color: black;
+
+}
+
+.TableOrderId:hover {
+    background-color: darkcyan;
+    position: relative;
+    padding: 10px 0px;
+    border-radius: 25px;
 }
 
 .product {
@@ -84,7 +101,7 @@ a {
 }
 
 .classSold {
-    background-color: maroon;    
+    background-color: lightcoral;    
 }
 
 

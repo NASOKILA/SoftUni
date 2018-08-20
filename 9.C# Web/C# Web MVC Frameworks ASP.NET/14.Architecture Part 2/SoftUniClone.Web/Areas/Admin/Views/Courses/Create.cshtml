@@ -1,0 +1,30 @@
+﻿@model CourseCreationBindingModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create course</h2>
+<form asp-area="Admin" asp-controller="Courses" asp-action="Create" method="post" class="form-horizontal">
+    @Html.FormGroupFor(model => model.Name)
+    @Html.FormGroupFor(model => model.Slug)
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-push-2">
+            <input type="submit" value="Create" class="btn btn-success" />
+            <a asp-area="Admin" asp-controller="Courses" asp-action="Index" class="btn btn-default">Cancel</a>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // TODO: Do this for instances as well
+        $(function () {
+            $("#Name")
+                .change(function (e) {
+                    let value = $(this).val();
+                    let slug = value.toLowerCase().replace(" ", "-");
+                    $("#Slug").val(slug);
+                });
+        });
+    </script>
+}

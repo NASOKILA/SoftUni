@@ -10,13 +10,18 @@
     public class AddModel : PageModel
     {
         [BindProperty]
+        [Required(ErrorMessage = "Title is required.")]
+        [MinLength(3, ErrorMessage = "Title must be atleast 3 symbols.")]
         public string Title { get; set; }
-
+        
         [BindProperty]
+        [Required(ErrorMessage = "Author is required.")]
+        [MinLength(3, ErrorMessage = "Author must be atleast 3 symbols.")]
         public string Author { get; set; }
 
         [BindProperty]
-        [Url]
+        [Url(ErrorMessage = "The image has to be a URL.")]
+        [Required(ErrorMessage = "ImageUrl is required.")]
         public string ImageUrl { get; set; }
 
         [BindProperty]
