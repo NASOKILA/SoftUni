@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SoftUniClone.Data;
 using SoftUniClone.Models;
 using SoftUniClone.Web.Areas.Admin.Models.BindingModels;
+using SoftUniClone.Web.Areas.Admin.Models.ViewModels;
 using System;
+using System.Linq;
 
 namespace SoftUniClone.Web.Areas.Admin.Controllers
 {
@@ -51,8 +54,21 @@ namespace SoftUniClone.Web.Areas.Admin.Controllers
             var instance = this.mapper.Map<CourseInstance>(model);
             this.context.CourseInstances.Add(instance);
             this.context.SaveChanges();
+
             // TODO: redirect to details
-            return View();
+            return RedirectToAction("Details", new { id = instance.Id});
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            // TODO: Add lecturer
+            var course = this.context.CourseInstances
+                .Include(c => c.Course)
+                .FirstOrDefault(c => c.Id == id);
+
+            var model = this.mapper.Map<CourseInstanceDetailsViewModel>(course);
+            return View(model);
         }
     }
 }

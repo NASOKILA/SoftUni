@@ -3,6 +3,8 @@ using System.Text;
 
 namespace SoftUniClone.Web.Helpers.Messages
 {
+
+    //we use bootstrap alerts to append a message that we pass.
     public class MessageTagHelper : TagHelper
     {
         public MessageType Type { get; set; }

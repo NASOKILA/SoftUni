@@ -56,14 +56,14 @@ namespace SoftUniClone.Web.Areas.Admin.Controllers
             context.SaveChanges();
 
             //we save a message 
-            this.TempData["__Message"] = new MessageModel()
+           this.TempData["__Message"] = new MessageModel()
             {
                 Type = MessageType.Success,
                 Message = "Course created successfully."
             };
 
             //redirect to Details page
-            return RedirectToAction("Details");
+            return RedirectToAction("Details", new { id = course.Id });
         }
 
         [HttpGet]
