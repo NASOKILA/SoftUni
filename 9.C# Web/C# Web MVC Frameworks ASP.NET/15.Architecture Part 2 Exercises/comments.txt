@@ -1,0 +1,19 @@
+
+
+VAJNOOOOOOOOOOOOOOOOo!!!!!!!!!!!!!!
+	Mojem da iznesem samite servisi v otdelen proekt, v nqkoi firmi tova e zaduljitelno.
+	Cqlata buisness logika i rabota s bazata koqto izurshvat tezi servisi se iznasq v tozi otdelen proekt.
+	Kontrollerite polzvat tazi logika v tqh.
+
+UI Logic (User interface logic) 
+	Vrushtaneto na dadeni viewta i renderirane na html stranici se naricha UI Logic.
+	V Web proekta e dobre da ima samo UI logika.
+
+async Task<>
+	Ako dadena operaciq vurvi bavno e po dobre da q napravim asinhromna kato q slohjim v async Task i vutre za awaitnem.
+	Obache asinhromnite operacii sa po trudni za debugvane.
+	Rabotata s bazata trqbva da bude asinhromna dokato mapvaneto na obekti trqbva da si e sinhromnp.
+
+
+
+

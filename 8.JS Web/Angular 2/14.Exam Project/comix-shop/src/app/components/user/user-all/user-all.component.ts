@@ -6,7 +6,10 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-user-all',
   templateUrl: './user-all.component.html',
-  styleUrls: ['./user-all.component.css']
+  styleUrls: ['./user-all.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class UserAllComponent implements OnInit {
 

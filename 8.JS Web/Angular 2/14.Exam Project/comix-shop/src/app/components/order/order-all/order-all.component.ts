@@ -6,7 +6,10 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-order-all',
   templateUrl: './order-all.component.html',
-  styleUrls: ['./order-all.component.css']
+  styleUrls: ['./order-all.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class OrderAllComponent implements OnInit {
 

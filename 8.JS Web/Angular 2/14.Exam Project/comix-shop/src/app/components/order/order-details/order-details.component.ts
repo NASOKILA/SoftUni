@@ -8,7 +8,10 @@ import { AuthService } from '../../auth/auth.service';
 @Component({
   selector: 'app-order-details',
   templateUrl: './order-details.component.html',
-  styleUrls: ['./order-details.component.css']
+  styleUrls: ['./order-details.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class OrderDetailsComponent implements OnInit {
 

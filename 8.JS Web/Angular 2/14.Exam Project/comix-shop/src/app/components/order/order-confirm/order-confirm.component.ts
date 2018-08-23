@@ -11,7 +11,10 @@ import { OrderService } from '../order.service';
 @Component({
   selector: 'app-order-confirm',
   templateUrl: './order-confirm.component.html',
-  styleUrls: ['./order-confirm.component.css']
+  styleUrls: ['./order-confirm.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class OrderConfirmComponent implements OnInit {
 

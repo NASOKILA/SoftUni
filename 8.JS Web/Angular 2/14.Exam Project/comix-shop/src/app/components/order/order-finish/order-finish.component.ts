@@ -3,15 +3,15 @@ import { ToastrService } from 'ngx-toastr';
 import { OrderService } from '../order.service';
 import { ComixService } from '../../comix/comix.service';
 import { ActivatedRoute } from '@angular/router';
-import { ComixEditModel } from '../../../models/comix-edit.model';
 import { AuthService } from '../../auth/auth.service';
-import { OrderModel } from '../../../models/order.model';
-import { OrderCreateModel } from '../../../models/order-create.model';
 
 @Component({
   selector: 'app-order-finish',
   templateUrl: './order-finish.component.html',
-  styleUrls: ['./order-finish.component.css']
+  styleUrls: ['./order-finish.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class OrderFinishComponent implements OnInit {
 

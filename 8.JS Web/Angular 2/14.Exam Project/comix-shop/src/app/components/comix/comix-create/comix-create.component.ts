@@ -7,7 +7,10 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-comix-create',
   templateUrl: './comix-create.component.html',
-  styleUrls: ['./comix-create.component.css']
+  styleUrls: ['./comix-create.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ComixCreateComponent implements OnInit {
 

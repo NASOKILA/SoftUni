@@ -8,7 +8,10 @@ import { UserService } from '../../user/user.service';
 @Component({
   selector: 'app-order-my',
   templateUrl: './order-my.component.html',
-  styleUrls: ['./order-my.component.css']
+  styleUrls: ['./order-my.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class OrderMyComponent implements OnInit {
 

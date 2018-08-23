@@ -4,11 +4,15 @@ import { AuthService } from '../../auth/auth.service';
 import { UserService } from '../../user/user.service';
 import { OrderService } from '../../order/order.service';
 import { UserModel } from '../../../models/user.model';
+import { Router } from '../../../../../node_modules/@angular/router';
 
 @Component({
   selector: 'app-comix-all',
   templateUrl: './comix-all.component.html',
-  styleUrls: ['./comix-all.component.css']
+  styleUrls: ['./comix-all.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ComixAllComponent implements OnInit {
 
@@ -22,6 +26,7 @@ export class ComixAllComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private userService: UserService,
+    private router : Router,
     private orderService: OrderService,
     private comixService: ComixService) { }
 

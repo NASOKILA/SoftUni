@@ -7,7 +7,10 @@ import { ComixEditModel } from '../../../models/comix-edit.model';
 @Component({
   selector: 'app-comix-delete',
   templateUrl: './comix-delete.component.html',
-  styleUrls: ['./comix-delete.component.css']
+  styleUrls: ['./comix-delete.component.css', 
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ComixDeleteComponent implements OnInit {
 

@@ -4,11 +4,13 @@
 
       <br/>
       <br/>
-      <h1 class="display-3">My Orders</h1>
+      <div class="top">
+        <h1 class="display-3">My Orders</h1>
+      </div>
       <br/>
       <br/>
 
-      <table class="table">
+      <table class="table bottom">
         <thead class="thead-light">
           <tr>
             <th scope="col">#</th>
@@ -27,8 +29,8 @@
             <td>{{ order.buyer }}</td>
             <td>{{ order.price }}</td>
             <td>
-              <a class="btn btn-primary" routerLink="/order/details/{{ order._id }}">Details</a> |
-              <a class="btn btn-danger" (click)="deleteOrder(order._id)">Delete</a>
+              <a class="btn btn-outline-primary tableDataRotateTop" routerLink="/order/details/{{ order._id }}">Details</a> |
+              <a class="btn btn-outline-danger tableDataRotateTop" (click)="deleteOrder(order._id)">Delete</a>
             </td>
           </tr>
         </tbody>

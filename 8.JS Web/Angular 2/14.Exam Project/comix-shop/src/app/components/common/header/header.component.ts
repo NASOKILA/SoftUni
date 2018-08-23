@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   isAuthenticated: boolean;
 
   constructor(
-    private authService: AuthService,
+    public authService: AuthService,
     private router: Router,
     private toast: ToastrService) { }
 

@@ -8,14 +8,17 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ProfileComponent implements OnInit {
 
 
   myOrders: OrderModel[]
   constructor(
-    private authService: AuthService,
+    public authService: AuthService,
     private userService: UserService,
     private orderService: OrderService,
     private toastr: ToastrService,

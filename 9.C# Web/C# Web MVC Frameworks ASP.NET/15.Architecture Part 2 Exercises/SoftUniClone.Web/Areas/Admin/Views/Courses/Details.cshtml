@@ -1,0 +1,24 @@
+﻿@model CourseDetailsViewModel
+
+<h2>@Model.Name</h2>
+<a asp-area="Admin" asp-controller="CourseInstances" asp-action="Create" asp-route-id="@Model.Id"
+   class="btn btn-success">
+    <i class="fa fa-plus"></i>
+    Create instance
+</a>
+
+@if (!Model.Instances.Any())
+{
+    <div>
+        No instances yet.
+        <a asp-area="Admin"
+           asp-controller="CourseInstances"
+           asp-action="Create"
+           asp-route-id="@Model.Id">
+            Create the first one
+        </a>
+    </div>
+}
+<ul>
+    @Html.DisplayFor(m => m.Instances)
+</ul>

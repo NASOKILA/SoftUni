@@ -7,7 +7,10 @@ import { ComixEditModel } from '../../../models/comix-edit.model';
 @Component({
   selector: 'app-comix-edit',
   templateUrl: './comix-edit.component.html',
-  styleUrls: ['./comix-edit.component.css']
+  styleUrls: ['./comix-edit.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ComixEditComponent implements OnInit {
 

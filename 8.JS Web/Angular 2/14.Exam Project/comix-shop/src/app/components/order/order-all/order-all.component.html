@@ -4,11 +4,13 @@
 
       <br/>
       <br/>
-      <h1 class="display-3">All Orders</h1>
+      <div class="titleDiv">
+        <h1 class="display-3 classTitle">All Orders</h1>
+      </div>
       <br/>
       <br/>
 
-      <table class="table">
+      <table class="table right">
         <thead class="thead-light">
           <tr>
             <th scope="col">#</th>
@@ -19,16 +21,16 @@
             <th scope="col">Actions</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody >
           <tr *ngFor="let order of orders; index as i">
             <th scope="row">{{ i }}</th>
             <td>{{ order.comix }}</td>
             <td>{{ order.date }}</td>
             <td>{{ order.buyer }}</td>
             <td>{{ order.price }}</td>
-            <td>
-              <a class="btn btn-primary" routerLink="/order/details/{{ order._id }}">Details</a> |
-              <a class="btn btn-danger" (click)="deleteOrder(order._id)">Delete</a>
+            <td class="tableDataRotate">
+              <a class="btn btn-outline-primary" routerLink="/order/details/{{ order._id }}">Details</a> |
+              <a class="btn btn-outline-danger" (click)="deleteOrder(order._id)">Delete</a>
             </td>
           </tr>
         </tbody>

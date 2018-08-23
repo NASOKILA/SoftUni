@@ -1,0 +1,306 @@
+
+
+.left {
+    left: -1500px;
+    position: relative;
+    animation-name: leftAnim;
+    animation-duration:1.5s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  .left2 {
+    left: -1500px;
+    position: relative;
+    animation-name: leftAnim;
+    animation-duration:1.75s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  .left3 {
+    left: -1500px;
+    position: relative;
+    animation-name: leftAnim;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  .left4 {
+    left: -1500px;
+    position: relative;
+    animation-name: leftAnim;
+    animation-duration:2.25s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+  
+
+  .right {
+    position: relative !important;
+    right: -1500px;
+    animation-name: rightAnim;
+    animation-duration:1.5s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  
+  .right2 {
+    position: relative !important;
+    right: -1500px;
+    animation-name: rightAnim;
+    animation-duration:1.75s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  
+  .right3 {
+    position: relative !important;
+    right: -1500px;
+    animation-name: rightAnim;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+  
+  .right4 {
+    position: relative !important;
+    right: -1500px;
+    animation-name: rightAnim;
+    animation-duration:2.25s;
+    animation-delay:1s;
+    animation-fill-mode: forwards; 
+  }
+
+
+  
+.bottom { 
+  position: relative !important;
+  bottom: -1500px;
+  animation-name: bottomAnim;
+  animation-duration:1.5s;
+  animation-delay:1s;
+  animation-fill-mode: forwards;  
+}
+
+.bottom2 { 
+  position: relative !important;
+  bottom: -1500px;
+  animation-name: bottomAnim;
+  animation-duration:1.5s;
+  animation-delay:1.25s;
+  animation-fill-mode: forwards;  
+}
+
+.bottom3 { 
+  position: relative !important;
+  bottom: -1500px;
+  animation-name: bottomAnim;
+  animation-duration:1.5s;
+  animation-delay:1.5s;
+  animation-fill-mode: forwards;  
+}
+
+.bottom4 { 
+  position: relative !important;
+  bottom: -1500px;
+  animation-name: bottomAnim;
+  animation-duration:1.5s;
+  animation-delay:1.75s;
+  animation-fill-mode: forwards;  
+}
+
+.top {
+  position: relative !important;
+  top: -1500px;
+  animation-name: topAnim;
+  animation-duration:1.5s;
+  animation-delay:1s;
+  animation-fill-mode: forwards;  
+}
+
+.top2 {
+  position: relative !important;
+  top: -1500px;
+  animation-name: topAnim;
+  animation-duration:1.5s;
+  animation-delay:1.25s;
+  animation-fill-mode: forwards;  
+}
+
+.top3 {
+  position: relative !important;
+  top: -1500px;
+  animation-name: topAnim;
+  animation-duration:1.5s;
+  animation-delay:1.5s;
+  animation-fill-mode: forwards;  
+}
+
+.top4 {
+  position: relative !important;
+  top: -1500px;
+  animation-name: topAnim;
+  animation-duration:1.5s;
+  animation-delay:1.75s;
+  animation-fill-mode: forwards;  
+}
+
+
+
+  .forms{
+    transition: 0;    
+    opacity:0;
+    position: relative;
+    animation-name: tableData;  
+    animation-duration:1.5s;
+    animation-delay:0.5s;
+    animation-fill-mode: forwards; 
+  }
+
+
+  
+  .imgAnim {
+    position: relative;
+    animation-name: imgAnim;
+    animation-duration:1.5s;
+    animation-delay:2s;
+    animation-fill-mode: forwards; 
+  }
+  
+  
+  .tableData {
+    transition: 0;    
+    opacity:0;
+    position: relative;
+    animation-name: tableData;  
+    animation-duration:1.5s;
+    animation-delay:2s;
+    animation-fill-mode: forwards; 
+  }
+
+  .tableDataRotate {  
+    opacity: 0;
+    position: relative;
+    animation-name: tableDataRotate;  
+    animation-duration:2s;
+    animation-delay:2.5s;
+    animation-fill-mode: forwards; 
+  }
+  
+  .tableDataRotateTop {
+    opacity: 0;
+    position: relative;
+    animation-name: tableDataRotateTop;  
+    animation-duration:2.5s;
+    animation-delay:2.5s;
+    animation-fill-mode: forwards; 
+  }
+  
+  .detailsActions{
+    left: -2500px;
+    position: relative;
+    animation-name: details;
+    animation-duration:1.5s;
+    animation-delay:1.5s;
+    animation-fill-mode: forwards; 
+  }
+  
+  
+
+
+  .detailsData {
+    right: -2500px;
+    position: relative;
+    animation-name: title;
+    animation-duration:1.5s;
+    animation-delay:0.5s;
+    animation-fill-mode: forwards; 
+  }
+
+
+  .detailsDataFromLeft{
+    left: -2500px;
+    position: relative;
+    animation-name: details;
+    animation-duration:1.5s;
+    animation-delay:0.5s;
+    animation-fill-mode: forwards; 
+  }
+
+  
+  .houseData {
+    transition: 0;    
+    opacity:0;
+    position: relative;
+    animation-name: dataAnim;  
+    animation-duration:1.5s;
+    animation-delay:2s;
+    animation-fill-mode: forwards; 
+  }
+  
+  
+  .housebuttons {
+    transition: 0;    
+    opacity:0;
+    position: relative;
+    animation-name: dataAnim;  
+    animation-duration:1.5s;
+    animation-delay:3s;
+    animation-fill-mode: forwards; 
+  }
+
+  .classComix {
+    float: left;
+    margin : 25px 10px;
+    max-width: 350px;
+    position: relative;
+    left: -1500px;
+    
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    animation-delay: 0s; 
+    animation-timing-function: ease-in-out; 
+    animation-fill-mode: forwards;
+
+    transition-property: all; 
+    transition-duration: 1s; 
+    transition-timing-function: linear; 
+}
+
+.card-image-top {
+    height: 350px;
+}
+
+
+.classTitle {
+    position: relative;
+    animation-name: title;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    font-size: 0px;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; /*the speed is equal*/
+    animation-fill-mode:forwards; /*does not return to default state*/    
+}
+
+
+
+.classButtons {
+
+    opacity:0;
+    animation-name: buttons;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+
+  
+  

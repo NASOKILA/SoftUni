@@ -3,24 +3,23 @@
     <div class="col-12">
 
       <br/>
-      <div class="text-center">
+      <div class="text-center titleDiv">
         <h1 class="display-3 classTitle">Comics Store</h1>
-
-        <hr/>
       </div>
+      <hr/>
 
       <div *ngFor="let comix of comixes | paginate: {
         id : 'allComixes',
         itemsPerPage : 3,
         currentPage : currentPage
-      }" class="card col-4 thumbnail classComix" routerLink="/">
+      }" class="card col-4 thumbnail classComix" routerLink="/comix/details/{{ comix._id }}">
         <img class="card-image-top img-fluid img-thumbnail" src="{{ comix.image }}" />
         <div class="card-body">
           <h4 class="card-title">{{ comix.name }}</h4>
           <p class="card-text">
-            <strong>Price</strong> - {{ comix.price }}&euro;</p>
+            <strong>Price</strong> : {{ comix.price }}&euro;</p>
           <p class="card-text">
-            <strong>In Stock</strong> - {{ comix.stock }}</p>
+            <strong>In Stock</strong> : {{ comix.stock }}</p>
           <p class="card-text">{{ comix.description }}</p>
         </div>
 

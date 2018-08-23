@@ -5,64 +5,68 @@
   <div *ngIf="userOrders" class="row">
     <div class="col-12 text-center">
       <div class="text-center">
-        <h1 class="display-3">User Details Page</h1>
+        <h1 class="display-3 top">User Details Page</h1>
       </div>
       <br/>
       <br/>
 
-      <h3>Username:</h3>
-      <h1 class="display-4">{{ user.username }}</h1>
+      <h3 class="right">Username:</h3>
+      <h1 class="display-4 left">{{ user.username }}</h1>
       <br/>
 
       <hr class="display 4" />
 
       <br/>
-      <h3>Email:</h3>
-      <h1 class="display-4">{{ user.email }}</h1>
+      <h3 class="right2">Email:</h3>
+      <h1 class="display-4 left2">{{ user.email }}</h1>
       <br/>
 
       <hr class="display 4" />
 
       <br/>
-      <h3>Role:</h3>
-      <h1 class="display-4">{{ user.role }}</h1>
+      <h3 class="right3">Role:</h3>
+      <h1 class="display-4 left3">{{ user.role }}</h1>
       <br/>
 
       <hr class="display 4" />
 
       <br/>
-      <h3>Orders:</h3>
+      
+      <div class="bottom">
 
-      <table *ngIf="userOrders" class="table">
-        <thead class="thead-light">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Comix</th>
-            <th scope="col">Date</th>
-            <th scope="col">Buyer</th>
-            <th scope="col">Price</th>
-            <th scope="col">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let order of userOrders; index as i">
-            <th scope="row">{{ i }}</th>
-            <td>{{ order.comix }}</td>
-            <td>{{ order.date }}</td>
-            <td>{{ order.buyer }}</td>
-            <td>{{ order.price }}</td>
-            <td>
-              <a routerLink="/order/details/{{ order._id }}">Details</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div *ngIf="userOrders.length < 1">No orders for this user in database.</div>
+        <h3>Orders:</h3>
+        
+        <table *ngIf="userOrders" class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Comix</th>
+              <th scope="col">Date</th>
+              <th scope="col">Buyer</th>
+              <th scope="col">Price</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let order of userOrders; index as i">
+              <th scope="row">{{ i }}</th>
+              <td>{{ order.comix }}</td>
+              <td>{{ order.date }}</td>
+              <td>{{ order.buyer }}</td>
+              <td>{{ order.price }}</td>
+              <td>
+                <a class="btn btn-outline-primary tableDataRotateTop" routerLink="/order/details/{{ order._id }}">Details</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        <div *ngIf="userOrders.length < 1">No orders for this user in database.</div>
       <br/>
       <hr class="display 4" />
       <br/>
 
-      <a class="btn btn-primary" routerLink="/user/all">Back To All Profiles</a>
+      <a class="btn btn-primary tableDataRotate" routerLink="/user/all">Back To All Profiles</a>
       <br/>
       <br/>
       <br/>

@@ -4,10 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ComixService } from '../comix.service';
 import { ComixEditModel } from '../../../models/comix-edit.model';
 
-import { NgForm } from '@angular/forms';
-import { Router } from '@angular/router';
 import { CommentModel } from '../../../models/comment.model';
-import { $ } from 'protractor';
 import { CommentsService } from '../comments.service';
 import { CommentCreateModel } from '../../../models/comment-create.model';
 import { ToastrService } from '../../../../../node_modules/ngx-toastr';
@@ -16,7 +13,10 @@ import { ToastrService } from '../../../../../node_modules/ngx-toastr';
 @Component({
   selector: 'app-comix-details',
   templateUrl: './comix-details.component.html',
-  styleUrls: ['./comix-details.component.css']
+  styleUrls: ['./comix-details.component.css',
+  '../../../app.animations.css', 
+  '../../../app.transitions.css', 
+  '../../../app.keyframes.css']
 })
 export class ComixDetailsComponent implements OnInit {
 

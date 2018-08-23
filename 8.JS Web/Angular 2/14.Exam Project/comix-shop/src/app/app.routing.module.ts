@@ -56,7 +56,7 @@ const routes = [
             { path: 'details/:id', component: UserDetailsComponent, canActivate: [AdminGuard] },
         ], canActivate: [AuthGuard]
     },
-    { path: '**', redirectTo: '/' }
+    { path: '**', redirectTo: '' }
 ]
 
 @NgModule({
