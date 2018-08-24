@@ -14,6 +14,13 @@ async Task<>
 	Obache asinhromnite operacii sa po trudni za debugvane.
 	Rabotata s bazata trqbva da bude asinhromna dokato mapvaneto na obekti trqbva da si e sinhromnp.
 
+S this.User vzimame tekushtiq user
+S userManager.IsInRole(user, "RoleName");    Vijdame da li dadeniq user e s dadena rolq.
+
+
+
+CDN  -  Code Driven Network
+
 
 
 

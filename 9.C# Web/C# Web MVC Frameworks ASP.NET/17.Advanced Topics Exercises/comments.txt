@@ -1,0 +1,124 @@
+
+
+
+
+Shte govorim za:
+	Prevejdane na sait, da moje edin sait da polzva mnogo ezika.
+	V .NET Go nqma tova no v .NET Core go imame napraveno
+
+
+
+
+	//we have to make the controller understand deferen languages
+        //There is a htmlLocalizer  which does not escape strings but StringLocalizer escapes strings.
+
+        private readonly IStringLocalizer<HomeController> localizer;
+
+        public HomeController(IStringLocalizer<HomeController> localizer)
+        {
+            this.localizer = localizer;
+        }
+
+		
+    //trqbva da vkluchim lokalizatora zashtoto e service.
+    Orivame sv startup.cs i pishem 
+		app.UseRequestLocalization();      v Config metoda
+
+	i v configureServices() dobavqme 
+		services.AddLocalization();       // kato mojme da mu podadem papka s resursi
+
+
+		Lokalizatora raboti lesno, s nego mojem da poiskame daden string.
+		I ako go nqma tozi string ni vrushta klucha.
+
+		Mojem da zapisvme stringove v nego koito da sa na ralichni ezici i chrez routinga da ni vrushta stringovete na razlichnite ezici.
+
+		Trqbva da imame viuta na razlichni ezici koito da registrirame i da se renderirat.
+
+
+		MOJEM DA POLZVAME TAGA <cache></cache> koito keshira dannnite za chaast ot responsa.
+
+		IMemoryCache  e interfeis koito mojem da podadem prez konstruktura i da g polzvame za keshirane
+		no trqbva purvo da go registrirame v startup.cs kato mojemd amu zadaddem nastroiki za vreme i drugi.
+		V IMemoryCache zapisvame kluchove i stoinosti.
+
+
+
+		KESHIRANETO NI POZVOLQVA DA NE IZPULNQVAME EDNI I SUSHTI ZAQVKI, TAKA SERVERA NE SE NATOVARVA MNOGO.
+		MOJEM DA POLZVAME TEZI DANNI KOITO SA KSHIRANI VMESTO DA PRAVIM NOVA ZQVKA KUM TQH.
+
+
+
+
+
+		DEstributed cache:
+			Tova e ako polzvame nqkolko web servera i ikame da imame obsht storage za danni koito te da mogat da dostupvat.
+			Tova e ditributed cache i raboti malko po razlichno.
+			Moje da predstavlqva otdelna baza danni ili otdelna aplikaciq.
+			Tova vaji i za sesiite.
+
+
+
+			VAJNOOOOOOOOO!!!!!!!!!!!!!!!!!
+		[ValidateAntiForgeryToken]  -  Tozi atribut ni zashtitava ot vunshni zaqvki. Slaga se nad POST Action-a v Controller-a !!!!
+		Valiira samite zaqvki.
+		Inache nqloi s proto Postman ht moje da updeitva i deleitva danni ot saita ni.
+		A obache ako ikame da napravim zaqvkata si slagame v dannite ili v headerite na zaqvkata requestVerificationToken 
+
+
+
+		ResponseCompression() kompresira vsei fail na responsa predi izprashtane, taka samiq response e po maluk.
+
+
+
+
+		Ako kopirame linka dannite si ostawat sushtite !!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+Circular deendency e kogato dva proekta se izvikvat vzaimno, tova VisualStudio ne ni go pozvolqva.
+
+
+
+
+
+KESHRANE NA DANNI:
+	Responce catche ne ni pozvolqva da vidim edna stranica dva puti.
+
+
+	
+            //dobavqme kashing na danni v ConfigureServices.
+            services.AddResponseCaching();
+            services.AddResponseCompression();
+
+
+			//V Configure
+			//pozvilqva ni da NE izvikvame edin action ili view mnogo na broi puti. Raboti za stranici i za actioni.
+            app.UseResponseCaching();  // pozvolqvame keshirane
+            app.UseResponseCompression(); //Kompresira vseki edin response
+
+
+			Attriburta [ResponseCache(Duration = 60)]  Shte durji keshiranite danni za 60 sekundi
+
+
+
+
+
+	Uploadvane na failove:
+		Pravi se forma s multypart/form-data i inputa e ot tip file.
+		sled koeto se vzima putq na kachenata snimka, kopira se snimkata v dadena papka v proekta chrez koqto mojem 
+		posle da si q izdurpvame i da q polzvame.
+
+
+
+
+
+
+
+
+
+
+
