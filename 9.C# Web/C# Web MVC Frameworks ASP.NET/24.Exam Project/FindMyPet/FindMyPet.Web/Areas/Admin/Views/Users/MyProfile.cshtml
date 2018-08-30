@@ -1,0 +1,176 @@
+﻿@model FindMyPet.Models.User
+@{
+    ViewData["Title"] = "MyProfile";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <br />
+            <div class="titleDiv">
+                <h1 class="display-3 classTitle"><strong>My Profile Page</strong></h1>
+            </div>
+            <br />
+            <hr class="display-3" />
+
+            <div class="forms">
+
+
+                <br />
+                <h1 class="display-4"><strong>Email</strong> : @Model.Email</h1>
+                <br />
+
+                <h2 class="display-5"><strong>FullName</strong> : @Model.FullName</h2>
+                <br />
+
+                <h2 class="display-5"><strong>FeedBack</strong> : @Model.FeedBack</h2>
+                <br />
+
+
+                <img width="250" class="card-image-top img-fluid img-thumbnail" src="@Model.AvatarUrl" />
+                <br />
+                <br />
+                <br />
+
+
+                @if (Model.DateOfBirth != null)
+                {
+
+                    <h2>
+                        <strong>Date of Birth</strong> : @Model.DateOfBirth
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Date of Birth</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.PhoneNumber != null)
+                {
+
+                    <h2>
+                        <strong>Phone Number</strong> : @Model.PhoneNumber
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Phone</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                <!--
+                    Pets Owned
+                    Pets Found
+
+                    Messages
+                -->
+
+
+            </div>
+
+            <div class="left">
+
+                
+                    <h1 class="display-3"><strong>Messages</strong></h1>
+                
+                <div class="card col-12 thumbnail">
+                    <br />
+
+                    @if (ViewBag.Messages.Count < 1)
+                    {
+                        <div>
+                            <h3>No comments posted for this pet.</h3>
+                        </div>
+                    }
+                    else
+                    {
+
+                        @foreach (var message in ViewBag.Messages)
+                        {
+                            <div class="card col-12 commentsContainer">
+
+                                <h2>@message.Content</h2>
+                                <span>
+                                    Created by
+                                    <strong style="color: grey"><a style="font-size:20px" asp-controller="Users" asp-action="Profile" asp-route-id="@message.Sender.Id">@message.Sender.Email</a></strong>
+                                    on
+                                    <i>@message.CreationDate</i>
+                                    <br />
+                                    <br />
+
+                                    @if (message.LikeDisabled == false)
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-success likeButton" href="/Messages/AddLike/@ViewData["CurrentId"].ToString()*@message.Id.ToString()">Like</a>
+                                            :
+                                        </strong>
+
+                                    }
+                                    else
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-danger removelikeButton" href="/Messages/RemoveLike/@ViewData["CurrentId"].ToString()*@message.Id.ToString()">Dislike</a>
+                                            :
+                                        </strong>
+                                    }
+
+
+
+                                    <i>@message.Likes.Count</i>
+
+                                    <br />
+
+                                </span>
+                                <br />
+                                @if (ViewData["isAdmin"].ToString() == "True" || this.User.Identity.Name == Model.Email)
+                                {
+
+                                    <a style="margin: 0 auto" class="btn btn-danger col-3" asp-controller="Users" asp-action="RemoveMessage" asp-route-userId="@Model.Id" asp-route-messageId="@message.Id">
+                                        Delete Message
+                                    </a>
+                                }
+                                <br />
+                                <br />
+                            </div>
+                        }
+
+                    }
+                    <br />
+                </div>
+            </div>
+
+            <br />
+            <form method="post" asp-controller="Users" asp-action="AddMessage" asp-route-id="@Model.Id">
+
+                    <h2 class=""><strong>Add Message</strong></h2>
+                <div class="form-group row">
+                    <textarea class="form-control commentDescription" name="Description" placeholder="Enter Comment"
+                              minlength="10" required></textarea>
+                </div>
+
+                <input type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Add Comment" />
+            </form>
+
+            <br />
+            <br />
+
+
+            <div class="bottom">
+
+                <div class="card-footer text-center">
+                    <h1 class="display-3" style="background: lightgreen">Actions</h1>
+                    <a class="btn btn-primary col-3" asp-controller="Pets" asp-action="All">Home</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+

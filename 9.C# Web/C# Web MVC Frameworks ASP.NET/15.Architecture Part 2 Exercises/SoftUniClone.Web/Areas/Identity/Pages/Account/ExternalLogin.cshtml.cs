@@ -16,18 +16,18 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
     [AllowAnonymous]
     public class ExternalLoginModel : PageModel
     {
-        private readonly SignInManager<User> signInManager;
-        private readonly UserManager<User> userManager;
-        private readonly ILogger<ExternalLoginModel> logger;
+        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<User> _userManager;
+        private readonly ILogger<ExternalLoginModel> _logger;
 
         public ExternalLoginModel(
             SignInManager<User> signInManager,
             UserManager<User> userManager,
             ILogger<ExternalLoginModel> logger)
         {
-            this.signInManager = signInManager;
-            this.userManager = userManager;
-            this.logger = logger;
+            _signInManager = signInManager;
+            _userManager = userManager;
+            _logger = logger;
         }
 
         [BindProperty]
@@ -43,13 +43,6 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            public string Username { get; set; }
-
-            [Required]
-            [Display(Name = "Full name")]
-            public string FullName { get; set; }
-
-            [Required]
             [EmailAddress]
             public string Email { get; set; }
         }
@@ -63,7 +56,7 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
         {
             // Request a redirect to the external login provider.
             var redirectUrl = Url.Page("./ExternalLogin", pageHandler: "Callback", values: new { returnUrl });
-            var properties = signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
             return new ChallengeResult(provider, properties);
         }
 
@@ -73,9 +66,9 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
             if (remoteError != null)
             {
                 ErrorMessage = $"Error from external provider: {remoteError}";
-                return RedirectToPage("./Login", new { ReturnUrl = returnUrl });
+                return RedirectToPage("./Login", new {ReturnUrl = returnUrl });
             }
-            var info = await signInManager.GetExternalLoginInfoAsync();
+            var info = await _signInManager.GetExternalLoginInfoAsync();
             if (info == null)
             {
                 ErrorMessage = "Error loading external login information.";
@@ -83,10 +76,10 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
             }
 
             // Sign in the user with this external login provider if the user already has a login.
-            var result = await signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor : true);
             if (result.Succeeded)
             {
-                logger.LogInformation("{Name} logged in with {LoginProvider} provider.", info.Principal.Identity.Name, info.LoginProvider);
+                _logger.LogInformation("{Name} logged in with {LoginProvider} provider.", info.Principal.Identity.Name, info.LoginProvider);
                 return LocalRedirect(returnUrl);
             }
             if (result.IsLockedOut)
@@ -102,11 +95,9 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
                 {
                     Input = new InputModel
                     {
-                        Email = info.Principal.FindFirstValue(ClaimTypes.Email),
-                        FullName = info.Principal.FindFirstValue(ClaimTypes.Name)
+                        Email = info.Principal.FindFirstValue(ClaimTypes.Email)
                     };
                 }
-
                 return Page();
             }
         }
@@ -115,7 +106,7 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
         {
             returnUrl = returnUrl ?? Url.Content("~/");
             // Get the information about the user from the external login provider
-            var info = await signInManager.GetExternalLoginInfoAsync();
+            var info = await _signInManager.GetExternalLoginInfoAsync();
             if (info == null)
             {
                 ErrorMessage = "Error loading external login information during confirmation.";
@@ -124,21 +115,15 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                var user = new User
-                {
-                    UserName = Input.Username,
-                    FullName = Input.FullName,
-                    Email = Input.Email
-                };
-
-                var result = await userManager.CreateAsync(user);
+                var user = new User { UserName = Input.Email, Email = Input.Email };
+                var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                    result = await userManager.AddLoginAsync(user, info);
+                    result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {
-                        await signInManager.SignInAsync(user, isPersistent: false);
-                        logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
+                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
                         return LocalRedirect(returnUrl);
                     }
                 }

@@ -1,0 +1,300 @@
+﻿@model FindMyPet.Models.Pet
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <br />
+            <div class="titleDiv">
+                <h1 class="display-3 classTitle"><strong>Pet Details Page</strong></h1>
+            </div>
+            <br />
+            <hr class="display-3" />
+
+            <div class="forms">
+
+
+                <br />
+                <h2 class="display-4"><strong>Type</strong> : @Model.Type</h2>
+                <br />
+
+                <br />
+                <h2 class="display-5"><strong>Name</strong> : @Model.Name</h2>
+                <br />
+
+                <br />
+                <h2 class="display-5"><strong>Status</strong> : @Model.Status</h2>
+                <br />
+
+
+                <img width="500" class="card-image-top img-fluid img-thumbnail" src="@Model.ImageUrl" />
+                <br />
+                <br />
+
+
+                @if (Model.Age != null)
+                {
+
+                    <h2>
+                        <strong>Age</strong> : @Model.Age
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Age</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.Breed != null)
+                {
+
+                    <h2>
+                        <strong>Breed</strong> : @Model.Breed
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Breed</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.Color != null)
+                {
+
+                    <h2>
+                        <strong>Color</strong> : @Model.Color
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Color</strong> : Not specified
+                    </h2>
+                }
+                <br />
+                @if (Model.Gender != null)
+                {
+                    <h2>
+                        <strong>Gender</strong> : @Model.Gender
+                    </h2>
+                }
+                else
+                {
+
+                    <h2>
+                        <strong>Gender</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.LocationLost != null)
+                {
+                    <h2>
+                        <strong>Location Lost</strong> : @Model.LocationLost
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Location Lost</strong> : Not specified
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.TimeLost != null)
+                {
+
+                    <h2>
+                        <strong>Time Lost</strong> : @Model.TimeLost
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Time Lost</strong> : Not spcified
+                    </h2>
+                }
+
+
+                <br />
+
+                @if (Model.TimeFound != null && Model.TimeFound != new DateTime(0001, 01, 01, 0, 00, 00))
+                {
+
+                    <h2>
+                        <strong>Time Found</strong> : @Model.TimeFound
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Time Found</strong> : Not spcified
+                    </h2>
+                }
+
+                <br />
+
+
+                @if (Model.Founder != null)
+                {
+                    <h2>
+                        <strong>Founder</strong> : @Model.Founder.FullName
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Founder</strong> : Not Found Yet
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.Owner != null)
+                {
+                    <h2>
+                        <strong>Owner</strong> : @Model.Owner.Email
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong>Owner</strong> : Not Specified
+                    </h2>
+                }
+                <br />
+
+
+            </div>
+
+            <div class="left">
+
+                <h2>
+                    <strong>Comments</strong>
+                </h2>
+                <div class="card col-12 thumbnail">
+                    <br />
+
+                    @if (Model.Comments.Count < 1)
+                    {
+
+                        <div>
+                            <h3>No comments posted for this pet.</h3>
+                        </div>
+                    }
+                    else
+                    {
+
+                        @foreach (var comment in ViewBag.Comments)
+                        {
+                            <div class="card col-12 commentsContainer">
+
+                                <h2>@comment.Content</h2>
+                                <span>
+                                    Created by
+                                    <strong class="profile"><a class="profileLink" asp-controller="Users" asp-action="Profile" asp-route-id="@comment.Creator.Id">@comment.Creator.Email</a></strong>
+                                    on
+                                    <i>@comment.CreationDate</i>
+                                    <br />
+                                    <br />
+
+                                    @if (comment.LikeDisabled == false)
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-success likeButton" href="/Admin/Comments/AddLike/@ViewData["CurrentId"].ToString()*@comment.Id.ToString()">Like</a>
+                                            :
+                                        </strong>
+                                    }
+                                    else
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-danger removelikeButton" href="/Admin/Comments/RemoveLike/@ViewData["CurrentId"].ToString()*@comment.Id.ToString()">Remove Like</a>
+                                            :
+                                        </strong>
+                                    }
+
+
+
+                                    <i>@comment.Likes.Count</i>
+
+                                </span>
+                                <br />
+                                <br />
+                                @if (this.User.Identity.Name == comment.Creator.Email || ViewData["isAdmin"].ToString() == "True")
+                                {
+
+                                    <a style="margin: 0 auto" class="btn btn-danger col-3" asp-controller="Pets" asp-action="RemoveCommentFromPet" asp-route-petId="@Model.Id" asp-route-commentId="@comment.Id">
+                                        Delete Comment
+                                    </a>
+                                }
+                                <br />
+                                <br />
+                            </div>
+                        }
+
+                    }
+                    <br />
+                </div>
+            </div>
+
+            <br />
+            <form method="post" asp-controller="Pets" asp-action="AddCommentToPet" asp-route-id="@Model.Id">
+
+                <h2 class=""><strong>Add Comment</strong></h2>
+                <div class="form-group row">
+                    <textarea class="form-control commentDescription" name="Description" placeholder="Enter Comment"
+                              minlength="10" required></textarea>
+                </div>
+
+                <input type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Add Comment" />
+            </form>
+
+            <br />
+            <br />
+
+
+
+            <div class="bottom">
+
+                <div class="card-footer text-center">
+                    <h1 class="display-3" style="background: lightgreen">Actions</h1>
+
+                    <a class="btn btn-lg btn-primary col-3" asp-controller="Pets" asp-action="All">Back</a>
+                    @if (Model.Status == "Lost")
+                    {
+                        <a class="btn btn-lg btn-success col-3" asp-controller="Pets" asp-action="PetFound" asp-route-id="@Model.Id">Found</a>
+                    }
+                    @if (Model.Status == "Lost")
+                    {
+
+                    }
+
+                    @if (this.User.Identity.Name == Model.Owner.Email || ViewData["isAdmin"].ToString() == "True")
+                    {
+
+                        <a class="btn btn-lg btn-warning col-3" asp-route-id="@Model.Id" asp-page="/PetsPages/Edit">Edit</a>
+                        <a class="btn btn-lg btn-danger col-3" asp-route-id="@Model.Id" asp-page="/PetsPages/Delete">Delete</a>
+                    }
+
+
+                </div>
+
+                <br />
+                <br />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

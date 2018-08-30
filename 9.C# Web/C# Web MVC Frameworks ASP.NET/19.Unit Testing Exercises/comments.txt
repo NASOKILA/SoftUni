@@ -1,0 +1,32 @@
+
+
+Shte govorim za :
+	Deploiment v Azure,
+	testvane na atributi i filtri,
+	i kak da testvame vliqnieto im vurhu daden kontroller, tova e integration testing !!!
+
+	Mojem da testvame admin kontrollera v Area-ta.
+
+	Mojem da pishem testove za filtri kato OnActionExecutng ili atributi.
+
+	Testvaneto na controlleri s atributi e trudno zashtoto trqbva da testvame nqkolko neshta na vednuj
+	i trqbva da testvame cqlata sistema, tova e integration test.
+
+	Edin normalen developer ne pravi integration testove.
+
+
+Mojem da proverqvame dali dadeno neshto e ot daden tip.
+	Assert.IsInstanceOfType(object, Type);
+
+
+
+	Bundle:
+		Tova pravi failovte po mali, subira gi na edin red i stawat po leki i se izprashtet po lesno.
+		Moje mnogo failove da se vkarat v edin za da ne se prashtat mnogo zaqvki po mrejata.
+
+
+
+	Mojem da vzemem IDto na tekushtiq potrebtel ot negovite claims !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+

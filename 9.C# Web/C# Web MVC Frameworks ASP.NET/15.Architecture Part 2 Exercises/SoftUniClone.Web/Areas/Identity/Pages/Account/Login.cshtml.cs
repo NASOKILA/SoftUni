@@ -16,13 +16,13 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
     [AllowAnonymous]
     public class LoginModel : PageModel
     {
-        private readonly SignInManager<User> signInManager;
-        private readonly ILogger<LoginModel> logger;
+        private readonly SignInManager<User> _signInManager;
+        private readonly ILogger<LoginModel> _logger;
 
         public LoginModel(SignInManager<User> signInManager, ILogger<LoginModel> logger)
         {
-            this.signInManager = signInManager;
-            this.logger = logger;
+            _signInManager = signInManager;
+            _logger = logger;
         }
 
         [BindProperty]
@@ -38,7 +38,8 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            public string Username { get; set; }
+            [EmailAddress]
+            public string Email { get; set; }
 
             [Required]
             [DataType(DataType.Password)]
@@ -60,7 +61,7 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
 
-            ExternalLogins = (await signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             ReturnUrl = returnUrl;
         }
@@ -73,10 +74,10 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await signInManager.PasswordSignInAsync(Input.Username, Input.Password, Input.RememberMe, lockoutOnFailure: true);
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
-                    logger.LogInformation("User logged in.");
+                    _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -85,7 +86,7 @@ namespace SoftUniClone.Web.Areas.Identity.Pages.Account
                 }
                 if (result.IsLockedOut)
                 {
-                    logger.LogWarning("User account locked out.");
+                    _logger.LogWarning("User account locked out.");
                     return RedirectToPage("./Lockout");
                 }
                 else

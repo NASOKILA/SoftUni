@@ -1,0 +1,67 @@
+
+
+Mejdu ASP Core Net 2.1  i  ASP Core Net 2.0  IMA Golqma RAZLIKA.
+
+
+WEBSOCKET:
+	Tova e neshto koeto vurzva klienta i servera.
+
+
+SIGNALR:
+	Pozvolqva ni da pravim prilojeniq v realno vreme.
+	Tova e tehnologiq na microsoft
+
+	Edin server moje da durji edin request mnogo vreme.
+	Edin server ima maximalno vreme za otgovarqne na zaqvka, ako ne moje da ni otgovori ni kazva che nqma nishto
+	i klienta izprashta nov request.
+
+	Za da zapochnem rabota s nego ni trqbva servarna i klientska chast.
+
+
+	01.Trqbva da go registritame v services kato middleware.
+
+	
+            //SignalR
+            services.AddSignalR();
+
+			//VkluchvaME SingleR, nqma default konfiguraciq
+            app.UseSignalR(opt => {
+                opt.MapHub<QuestionsHub>("/questions"); //mapvame QuestionsHub klasa kum "/questions" routa
+            });
+
+
+	02.Trqbvat ni Hubove (hubs), hubavo e da gi slagame v otdelna papka hubs, tova sa klasove koito nasledqvat klasa "Hub"
+
+		TOVA E SRVRNATA CHAST SEGA SLEDVA KLIENTSKATA :
+
+		01.Trqbva da izteglim SingelR bibliotekata obache chez npm t.e. otivame v glavnata papkata na proekta (tam kudeto e StartUp kasa)
+			i otvarqm konzola ot koqto da go instalirame.
+
+		02.Inicializirame si npm sistemata sus : npm init -y
+
+		03.instalirame i signalr : @npm install @aspnet/signalr  i  go poluchavame kato papka s typescript failove.
+
+
+
+		signalr.js faila v nodemodules @signalr dist  browser papkata 
+			e kombinaciq ot vsichki typescript failove.
+
+		Sus signalr mojem ot javacrtipt da izvikame metod na C# ot servera i obratnoto.
+
+		Signalr se polzva za notifikacii i takiva neshtai mojem da ogranichavame userite koito poluchavat notificationa.
+		Mojem da grupirame userite i da pokazvame neshto samo na tqh.
+
+		CHREZ SIGNALR PRAVIM KOMUNIKACIQ V REALNO VREME S DADEN USER.
+
+
+
+
+
+
+	V JavaScript Asynhromnite operacii vrushtat Promisi ot koito imame 2 metoad .then() za uspeh i .catch() za greshka.
+
+
+
+
+
+

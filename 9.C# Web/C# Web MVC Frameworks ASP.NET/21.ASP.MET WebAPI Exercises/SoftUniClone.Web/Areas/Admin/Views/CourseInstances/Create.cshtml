@@ -1,0 +1,30 @@
+﻿@model InstanceCreationBindingModel
+@{
+    ViewData["Title"] = "Create instance";
+}
+
+<h2>Create instance for course @Model.Name</h2>
+<form asp-area="Admin" asp-controller="CourseInstances" asp-action="Create" method="post">
+    <input type="hidden" asp-for="CourseId" />
+    @Html.FormGroupFor(model => model.Name)
+    @Html.FormGroupFor(model => model.Slug)
+    @Html.FormGroupFor(model => model.Description)
+    @Html.FormGroupFor(model => model.LecturerId)
+    @Html.FormGroupFor(model => model.StartDate)
+    @Html.FormGroupFor(model => model.EndDate)
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-push-2">
+            <input type="submit" value="Create" class="btn btn-success" />
+            <a asp-area="Admin" asp-controller="Courses" asp-action="Index" class="btn btn-default">Cancel</a>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/create-slug.js"></script>
+    <script>
+        $(function () {
+            createSlug("@(Html.IdFor(model => model.Name))", "@(Html.IdFor(model => model.Slug))");
+         });
+    </script>
+}

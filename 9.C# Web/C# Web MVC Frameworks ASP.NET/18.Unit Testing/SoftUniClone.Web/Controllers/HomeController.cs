@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using SoftUniClone.Models;
@@ -18,16 +13,16 @@ namespace SoftUniClone.Web.Controllers
 
         private readonly IStringLocalizer<HomeController> localizer;
 
-        public HomeController(IStringLocalizer<HomeController> localizer)
+        public HomeController()
         {
-            this.localizer = localizer;
-        }
 
+        }
+        
         public IActionResult Index()
         {
 
             //to use the localizator is easy firt we add stuff to it it has key and value
-            string title = this.localizer["Something"];
+           // string title = this.localizer["Something"];
 
 
             return View();
@@ -36,7 +31,7 @@ namespace SoftUniClone.Web.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
+            
             return View();
         }
 

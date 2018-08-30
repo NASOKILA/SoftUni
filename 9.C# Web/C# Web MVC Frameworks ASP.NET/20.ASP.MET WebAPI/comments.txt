@@ -1,0 +1,95 @@
+
+
+
+Ima razlika mejdu AJAX, API i Restfull API !!!
+
+All RESTFULL API's are API's but not all API's are RESTFULL API's !!!!!!!!!!!!!!!!
+
+
+API  -  Application Program Interface   -   Primerno .NET Core e API chrez koito si pravim aplikacii obache go instalirame kato paket lokalno v nashiq ptoekt
+	
+
+WEB API  -  E sushtoto samoche v internet, t.e. pravim zaqvki do tam za da go polzvame, vurvi na drug server, naricha se i web server.
+	Tova e tehnologiq na Microsoft.
+
+
+REST API  -  Representational State Transfer Application Program Interface
+	Bazira se na URIs, HTTP protocol, JSON for a data format
+	MNOGO LESNO SE POLZVAT OT DEVELOPERI ZASHTOTO MOJEM DA PRASHTAME ZAQVKI I DA POLUCHAVAME  I MANIPULIRAME DANNI !!!
+	Mojem da prashtame zaqvki GET, PUT, POST, DELETE i drugi.
+	Po princip raboti s JSON format, priema i ni vrushta json.
+	Tova e prolojenie koeto samo vrushta json format.
+
+Normal Token  vs  JWT (Json Web Token):
+	Tokena e prosto neshto koeto poluchavame i polzvame kato : hawiudh217887h384h4i238h382hui
+	Tova pak e token koito poluchavame ot servera obache e v JSON format, prosto taka e predstaven.
+
+
+Kakvo e BundleConfig ? 
+	Ne se polzva v ASP.NETCore 2.1 !!!!!
+
+
+
+
+KAKVO E HEAD ZAQVKA ?
+	Tova e zaqvka ot tip HEAD s koqto poluchavame samo Headerite bez bodito.
+
+
+
+Sttus kodove:
+	200 OK
+
+	201 Created - vrushtame go kogato sme suzdali dadeno neshto i slagame Location.
+	204 No Content - Kogato vsichko e nared obache nqm kakvo da vurnem
+	302 Redirect - Kogato redirektvame
+	400 Bad Request  -  Kogato modela ne e validen
+	404 Not Found  -  Kogato nqma taka va stranica
+	401 Unauthorized - Kogato usera nqma authorizaciq za tazi zaqvka
+	500 ISE  Internal Server Error, Kogato neshto pri nas ima greshka, trqbva da vurnem i opisanie.
+
+	...  ima oshte mnogo
+
+
+
+VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+API e prolojenie s kontrolleri koito samo vrushta json format.
+	Mojem da si napravim takova ot visual studio.
+	Imame Add API/Controller pri dobavqne na elementi.
+
+ima [ApiController] atribut i nasledqva Controller ili COntrollerBase sushto stava zashtoto Controller nasledqva ControllrBase klasa.
+
+mojem da polzvame postman za da testvame kontrollerite s Fiddler ili postman.
+
+
+
+
+
+
+JWT Json Web Token:
+	Tova e moderniq nachin da prashtame biskvitki i vsichko e kodirano za poveche sigurnost.
+	JWT ima 3 osnovni kodirani chasti:
+		1. algorituma s koito e keshirano vsichko i typut,
+		2. Informaciqta koqto e za potrebitelq i e keshirana,
+		3.mac kod, tova e podpis za authorizaciq, tova e za sigurnost, mojem da vidim koi go e napravil.
+
+	IZPOLZVAME JWT VMESTO BISKVITKI ZA POVECHE SIGURNOST ZASHTOTO VSICHKO E KRIPTIRANO I PODPISANO.
+
+	Mojesh da praktikuvash na https://jwtw.io saita
+
+
+	KAK SE POLZVA JWT V PRILOJENIE ?
+		Purvo trqbva da kajem na prilojenieto da go polzva kato go registrirame kato midleware.
+
+
+
+
+
+
+VAJNOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	How to get bytes of a string ?   Some functions dont work with simple sting but they want the format to be in bytes !!!!!!!
+
+using system:
+Encoding.UTF8.GetBytes("OurString");
+
+
+
