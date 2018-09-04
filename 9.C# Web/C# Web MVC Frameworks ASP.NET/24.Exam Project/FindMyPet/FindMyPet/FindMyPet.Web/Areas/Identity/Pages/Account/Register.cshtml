@@ -1,0 +1,69 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2 class="left">@ViewData["Title"]</h2>
+
+<div class="container forms">
+
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data">
+                <div class="right">
+                    <h4>Create a new account.</h4>
+                    <hr />
+                </div>
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+
+                <div class="form-group">
+                    <label asp-for="Input.FullName">Full Name <span class="requiredStar">*</span></label>
+                    <input asp-for="Input.FullName" class="form-control" />
+                    <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Input.Email">Email <span class="requiredStar">*</span></label>
+                    <input asp-for="Input.Email" class="form-control" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Input.Password">Password <span class="requiredStar">*</span></label>
+                    <input asp-for="Input.Password" class="form-control" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.ConfirmPassword">Confirm Password <span class="requiredStar">*</span></label>
+                    <input asp-for="Input.ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Input.DateOfBirth">Date of birth <span class="requiredStar">*</span></label>
+                    <input asp-for="Input.DateOfBirth" class="form-control" />
+                    <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Input.AvatarUpload">Avatar File Upload (optional)</label>
+                    <input asp-for="Input.AvatarUpload" class="form-control-file btn btn-block btn-lg" aria-describedby="fileHelp" />
+                    <span asp-validation-for="Input.AvatarUpload" class="text-danger"></span>
+                    <br/>
+                </div>
+
+                <button type="submit" class="btn btn-success bottom">Register</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
