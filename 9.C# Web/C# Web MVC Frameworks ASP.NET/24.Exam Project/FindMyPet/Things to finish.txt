@@ -1,2 +1,0 @@
-pagination, 
-deploy to azure

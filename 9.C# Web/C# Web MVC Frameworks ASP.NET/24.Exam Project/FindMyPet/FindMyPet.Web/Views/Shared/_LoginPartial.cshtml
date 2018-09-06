@@ -1,0 +1,48 @@
+@using Microsoft.AspNetCore.Identity
+@using System.IO;
+@inject SignInManager<FindMyPet.Models.User> SignInManager
+@inject UserManager<FindMyPet.Models.User> UserManager
+@inject FindMyPet.Data.FindMyPetDbContext findMyPetDbContext
+
+@if (SignInManager.IsSignedIn(User))
+{
+    string image = findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).AvatarUrl;
+    string emptyAvatarImage = "/images/blank-avatar.png";
+    string[] filePaths = Directory.GetFiles(@"wwwroot/images", "*", SearchOption.TopDirectoryOnly);
+
+    if (!filePaths.Any(p => p.Contains(this.User.Identity.Name)))
+    {
+        image = emptyAvatarImage;
+    }
+
+
+    if (image == null || image == "")
+    {
+        image = emptyAvatarImage;
+    }
+
+
+    <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post" id="logoutForm" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+
+                    <img class="avatar" src="@image" />
+                </a>
+            </li>
+            <li>
+                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName!</a>
+            </li>
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link logoutBtn">Logout</button>
+            </li>
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+    </ul>
+}

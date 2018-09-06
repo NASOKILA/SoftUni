@@ -1,0 +1,114 @@
+﻿@page
+@model FindMyPet.Web.Views.Pages.Pets.CreateModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Create";
+}
+
+<div class="left">
+    <h1>Create Pet</h1>
+</div>
+
+<div class="container">
+    <div class="row right">
+        <div class="col-12">
+
+            @if (ViewData["petExists"].ToString() == "True")
+            {
+                <span class="display-3 text-danger">Pet Already Exists !</span>
+            }
+
+                <form class="forms" method="post">
+
+                    <div class="form-group row">
+                        <label asp-for="Type">Type <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <select asp-for="Type" class="form-control custom-input" name="Type">
+                                <option value="Dog">Dog</option>
+                                <option value="Cat">Cat</option>
+                                <option value="Bird">Bird</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span asp-validation-for="Type" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Name">Name <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <input asp-for="Name" type="text" class="form-control custom-input" placeholder="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Age">Age <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <input asp-for="Age" type="number" class="form-control custom-input" placeholder="Age">
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="ImageUrl">Image Url <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <input asp-for="ImageUrl" type="url" class="form-control custom-input" placeholder="ImageUrl">
+                            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Gender">Gender (optional)</label>
+                        <div class="col-sm-6">
+                            <select asp-for="Gender" class="form-control custom-input" name="Gender">
+                                <option disabled selected>Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Breed">Breed (optional)</label>
+                        <div class="col-sm-6">
+                            <input asp-for="Breed" type="text" class="form-control custom-input" placeholder="Breed">
+                            <span asp-validation-for="Breed" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Color">Color (optional)</label>
+                        <div class="col-sm-6">
+                            <input asp-for="Color" type="text" class="form-control custom-input" placeholder="Color" />
+                            <span asp-validation-for="Color" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="LocationLost">Location Lost <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <input asp-for="LocationLost" type="text" class="form-control custom-input" placeholder="Location Lost" />
+                            <span asp-validation-for="LocationLost" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="TimeLost">Time Lost <span class="requiredStar">*</span></label>
+                        <div class="col-sm-6">
+                            <input asp-for="TimeLost" type="date" class="form-control custom-input" placeholder="Time Lost" />
+                            <span asp-validation-for="TimeLost" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="">
+                        <button type="submit" class="btn btn-success">Create</button>
+                        <a class="btn btn-outline-success" href="/Pets/All">Cancel</a>
+                    </div>
+
+                </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,268 @@
+﻿@model FindMyPet.Models.User
+@{
+    var context = new FindMyPet.Data.FindMyPetDbContext();
+
+    ViewData["Title"] = "Profile";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <br />
+            <div class="revealOnScroll" data-animation="bounceInDown">
+                <h1 class="display-3"><strong>User Profile Page</strong></h1>
+            </div>
+            <br />
+            <hr class="display-3" />
+            <div>
+                <br />
+                <h1 class="display-4"><strong class="revealOnScroll" data-animation="right">Email</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="left">@Model.Email</i></h1>
+                <br />
+
+                <h2 class="display-5"><strong class="revealOnScroll" data-animation="right2">FullName</strong> <span class="revealOnScroll" data-animation="forms"> : </span><i class="revealOnScroll" data-animation="left2">@Model.FullName</i></h2>
+                <br />
+
+                <h2 class="display-5"><strong class="revealOnScroll" data-animation="right3">FeedBack</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="left3">@Model.FeedBack</i></h2>
+                <br />
+
+
+                @if (Model.AvatarUrl != null && Model.AvatarUrl != "")
+                {
+                    <img width="250" class="card-image-top img-fluid img-thumbnail forms" src="@Model.AvatarUrl" />
+                }
+                else
+                {
+                    <img width="250" class="card-image-top img-fluid img-thumbnail forms" src="~/images/blank-avatar.png" />
+                }
+                <br />
+                <br />
+
+
+                @if (Model.DateOfBirth != null)
+                {
+                    <h2>
+                        <strong class="revealOnScroll" data-animation="left">Date of Birth</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="right">@Model.DateOfBirth</i>
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong class="revealOnScroll" data-animation="left">Date of Birth</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="right">Not specified</i>
+                    </h2>
+                }
+
+                <br />
+
+                @if (Model.PhoneNumber != null)
+                {
+                    <h2>
+                        <strong class="revealOnScroll" data-animation="left2">Phone Number</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="right2">@Model.PhoneNumber</i>
+                    </h2>
+                }
+                else
+                {
+                    <h2>
+                        <strong class="revealOnScroll" data-animation="left2">Phone Number</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="right2">Not specified</i>
+                    </h2>
+                }
+
+                <br />
+            </div>
+
+            <div class="revealOnScroll" data-animation="left">
+                <h1 class="display-3"><strong>Messages</strong></h1>
+                <div class="card col-12 thumbnail commentsContainer">
+                    <br />
+
+                    @if (ViewBag.Messages.Count < 1)
+                    {
+                        <div class="noCommentsPresent">
+                            <h3>No messages posted for this user.</h3>
+                        </div>
+                    }
+                    else
+                    {
+                        @foreach (var message in ViewBag.Messages)
+                        {
+                            <div>
+                                <h2 class="contentDiv">
+                                    @message.Content
+                                </h2>
+                                <span>
+                                    Created by
+                                    <strong style="color: grey"><a style="font-size:20px" asp-controller="Users" asp-action="Profile" asp-route-id="@message.Sender.Id">@message.Sender.Email</a></strong>
+                                    on
+                                    <i>@message.CreationDate</i>
+                                    <br />
+                                    <br />
+
+                                    @if (message.LikeDisabled == false)
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Messages", new {id = message.Id.ToString()})">Like</a>
+                                        </strong>
+                                    }
+                                    else
+                                    {
+                                        <strong style="color: darkblue">
+                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Messages", new {id = message.Id.ToString()})">Remove Like</a>
+                                        </strong>
+                                    }
+                                    :
+                                    <i>@message.Likes.Count</i>
+
+                                    <br />
+
+                                </span>
+                                <br />
+                                @if (ViewData["isAdmin"].ToString() == "True" || this.User.Identity.Name == Model.Email)
+                                {
+
+                                    <a style="margin: 0 auto" class="deleteBtn btn btn-danger col-3" data-url="@Url.Action("RemoveMessage", "Users", new {messageId = message.Id})">
+                                        Delete Message
+                                    </a>
+                                }
+                                <br />
+                                <br />
+                            </div>
+                        }
+                    }
+                    <br />
+                </div>
+            </div>
+            <br />
+            <div class="revealOnScroll" data-animation="rotateInUpLeft">
+            <form>
+                <h2 class=""><strong>Add Message</strong></h2>
+                <div class="form-group row">
+                    <textarea class="form-control messageDescription" name="Description" placeholder="Enter Comment"
+                              minlength="10" required></textarea>
+                </div>
+                <input type="button" id="btn-add-pet" data-url="@Url.Action("AddMessage", "Users", new { id = Model.Id})" class="btn btn-success btn-lg btn-block" value="Add Comment" />
+            </form>
+            </div>
+
+            <br />
+            <br />
+
+            <div class="revealOnScroll" data-animation="rotateInUpRight">
+                <div class="card-footer text-center">
+                    <h1 class="display-3" style="background: lightgreen">Actions</h1>
+                    <a class="btn btn-lg btn-primary col-3" asp-controller="Pets" asp-action="All">Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        $("#btn-add-pet").click(function () {
+
+            let addMessageUrl = $(this).data("url");
+
+            let id = addMessageUrl.split("/").pop();
+
+            let Description = $('.messageDescription').val();
+            
+            $('.messageDescription').val('');
+
+            $.get(addMessageUrl,
+                    {
+                    Description: Description,
+                    id: id
+                }).then((res) => {
+                    
+                    let currentMessage = "";
+
+                    $.ajax({
+                        url: '/Messages/GetLastMessage',
+                        method: 'GET',
+                        dataType: "json",
+                        success: function (currentMessage) {
+                            
+                        $(".noCommentsPresent").fadeOut();
+                            
+                    $('.commentsContainer')
+                        .append(
+                         "<div>"
+                            + "<h2 class=\"contentDiv\">"
+                                + Description
+                            + "</h2>"
+                        + "<span> Created by "
+                        + "<strong class=\"profile\">"
+                            + "<a class='profileLink' href='/Users/Profile/@ViewData["CurrentUserId"]'>@this.User.Identity.Name</a>"
+                        + "</strong> on "
+                        + "<i>" + new Date().toLocaleDateString('en-gb') + " " + new Date().toLocaleTimeString('en-gb') + "</i><br/><br/>"
+
+                        + "<strong style='color:darkblue'>"
+                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Messages/AddLike/" + currentMessage.id + "'>Like</a>"
+                            + "</strong>"
+                            + ":"
+                            + "<i class=\"commentLikes\">0</i>"
+                        + "</span><br/><br/>"
+                        +"<br /><br /></div>");
+
+                        },
+                        error : (err) => console.log(err)
+                    })
+                });
+        });
+
+
+    </script>
+
+    <script>
+        $(".deleteBtn").click(function () {
+            let deleteCommentUrl = $(this).data("url");
+            $.get(deleteCommentUrl);
+            $(this).parent().fadeOut();
+        });
+    </script>
+
+    <script>
+
+        $("body").on("click", ".likeButton", function () {
+            let addLikeUrl = $(this).data("url");
+            $.get(addLikeUrl);
+
+            let commentId = addLikeUrl.split("/").slice(-1).pop()
+            let currentLikes = Number($(this).parent().next()[0].innerText);
+            let newLikes = currentLikes + 1;
+
+            $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
+            
+            $(this).fadeOut(() => {
+                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Messages/RemoveLike/" + commentId + "'>Remove Like</a>").hide().appendTo($(this).parent()).fadeIn();
+            });
+        });
+
+    </script>
+
+    <script>
+
+        $("body").on("click", ".removelikeButton", function () {
+
+            let removeLikeUrl = $(this).data("url");
+            $.get(removeLikeUrl);
+
+            let commentId = removeLikeUrl.split("/").slice(-1).pop()
+            
+            let currentLikes = Number($(this).parent().next()[0].innerText);
+            
+            let newLikes = currentLikes - 1;
+            
+            $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
+
+            $(this).fadeOut(() => {
+                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Messages/AddLike/" + commentId + "'>Like</a>").hide().appendTo($(this).parent()).fadeIn();
+            });
+
+        });
+
+    </script>
+
+    <script src="~/js/scrolling-animations-functions.js"></script>
+}

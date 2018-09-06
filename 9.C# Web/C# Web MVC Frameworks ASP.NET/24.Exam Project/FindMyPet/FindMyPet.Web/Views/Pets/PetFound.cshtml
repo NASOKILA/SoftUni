@@ -1,0 +1,67 @@
+﻿@model FindMyPet.Web.Models.BindingModels.PetFoundBindingModel
+@{
+    ViewData["Title"] = "PetFound";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <br />
+            <div class="revealOnScroll" data-animation="zoomInDown">
+                <h1 class="display-3">Are you sure you found this pet ?</h1>
+            </div>
+            <br />
+            <hr class="display-3" />
+
+            <div class="forms">
+
+                <img width="500" class="card-image-top img-fluid img-thumbnail" src="@Model.ImageUrl" />
+                <br />
+                <br />
+
+                <br />
+                <h2 class="display-4">
+                    <strong class="revealOnScroll" data-animation="right">Type</strong>
+                    <span class="revealOnScroll" data-animation="forms"> : </span>
+                    <i class="revealOnScroll" data-animation="left">@Model.Type</i>
+                </h2>
+                <br />
+
+                <br />
+                <h2 class="display-5">
+                    <strong class="revealOnScroll" data-animation="right2">Name</strong>
+                    <span class="revealOnScroll" data-animation="forms"> : </span>
+                    <i class="revealOnScroll" data-animation="left2">@Model.Name</i>
+                </h2>
+                <br />
+
+                <h2>
+                    <strong class="revealOnScroll" data-animation="left2">Location Lost</strong>
+                    <span class="revealOnScroll" data-animation="forms"> : </span>
+                    <i class="revealOnScroll" data-animation="right2">@Model.LocationLost</i>
+                </h2>
+                <br />
+
+                <h2>
+                    <strong class="revealOnScroll" data-animation="left3">Time Lost</strong>
+                    <span class="revealOnScroll" data-animation="forms"> : </span>
+                    <i class="revealOnScroll" data-animation="right3">@Model.TimeLost</i>
+                </h2>
+
+                <br />
+                <br />
+
+                <form method="post" asp-controller="Pets" asp-action="PetFoundPost" asp-route-id="@Model.Id">
+
+                    <input type="submit" id="btn-add-game" class="revealOnScroll btn btn-success btn-lg btn-block" data-animation="right" data-timeout="100" value="Yes" />
+                    <a id="btn-add-game" href="/Pets/All" class="revealOnScroll btn btn-primary btn-lg btn-block" data-animation="left" data-timeout="100">No</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/scrolling-animations-functions.js"></script>
+}
