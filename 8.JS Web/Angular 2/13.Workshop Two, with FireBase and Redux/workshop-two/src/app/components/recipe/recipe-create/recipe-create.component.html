@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-xs-12">
+    <form #cf="ngForm"  (ngSubmit)="createRecipe(cf)">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              required
+              type="text"
+              id="name"
+              name="name"
+              ngModel
+              #name
+              class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group">
+            <label for="imagePath">Image URL</label>
+            <input
+              required
+              type="text"
+              id="imagePath"
+              name="imagePath"
+              ngModel
+              #imagePath
+              class="form-control">
+          </div>
+        </div>
+      </div>
+      <div *ngIf="imagePath.value" class="row">
+        <div class="col-xs-12">
+          <img width="250px" [src]="imagePath.value" class="img-responsive">
+          <br/>
+          <br/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="description">Description</label>
+          <div class="form-group">
+            <textarea
+              required
+              type="text"
+              id="description"
+              class="form-control"
+              name="description"
+              #description
+              ngModel
+              rows="6"></textarea>
+          </div>
+        </div>
+      </div>
+     <button [disabled]="cf.invalid" class="btn btn-primary" type="submit">Create</button>
+    </form>
+  </div>
+</div>
