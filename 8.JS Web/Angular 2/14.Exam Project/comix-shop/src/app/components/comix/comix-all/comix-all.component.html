@@ -3,6 +3,7 @@
     <div class="col-12">
 
       <br/>
+      <br/>
       <div class="text-center titleDiv">
         <h1 class="display-3 classTitle">Comics Store</h1>
       </div>
@@ -13,6 +14,7 @@
         itemsPerPage : 3,
         currentPage : currentPage
       }" class="card col-4 thumbnail classComix" routerLink="/comix/details/{{ comix._id }}">
+      
         <img class="card-image-top img-fluid img-thumbnail" src="{{ comix.image }}" />
         <div class="card-body">
           <h4 class="card-title">{{ comix.name }}</h4>

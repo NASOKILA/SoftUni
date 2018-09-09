@@ -1,0 +1,14 @@
+remove ids from complete order page, 
+put the documentation in the README file, 
+Add user change profile functionality,
+Add profile picture to the user,
+Append Pofile picture to navbar like in softuni
+Add disable user functionality to the administrators,
+change color of header for administrators,
+add modules to separate your project,
+add partial views,
+add lazy loading to load the data only when you need it,
+
+add google API for a location map in the about page,
+add paypal API for the order creation in the order config page,
+add google Authentication   OAuth

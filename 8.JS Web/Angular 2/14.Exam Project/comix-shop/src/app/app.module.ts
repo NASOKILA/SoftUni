@@ -31,7 +31,8 @@ import { CommentsService } from './components/comix/comments.service';
 import { UserDetailsComponent } from './components/user/user-details/user-details.component';
 import { OrderService } from './components/order/order.service';
 import { OrderDetailsComponent } from './components/order/order-details/order-details.component';
-import { NgxPaginationModule } from 'ngx-pagination'
+import { NgxPaginationModule } from 'ngx-pagination';
+import { ErrorComponent } from './components/common/error/error.component'
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { NgxPaginationModule } from 'ngx-pagination'
     ProfileComponent,
     UserAllComponent,
     UserDetailsComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

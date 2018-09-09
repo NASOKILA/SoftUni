@@ -48,7 +48,7 @@ export class RegisterComponent implements OnInit {
       this.toastr.error('Passwords do not match!', "Error!")
       return false;
     }
-    else if (email === null || email === "" || email.trim() === "") {
+    else if (email === null || email === "" || email.trim() === "" || !email.includes("@") || !email.includes(".")) {
       this.toastr.error('Invalid email input!', "Error!")
       return false;
     }

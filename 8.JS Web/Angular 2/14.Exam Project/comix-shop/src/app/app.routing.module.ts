@@ -20,6 +20,7 @@ import { UserAllComponent } from './components/user/user-all/user-all.component'
 import { ComixDeleteComponent } from './components/comix/comix-delete/comix-delete.component';
 import { UserDetailsComponent } from './components/user/user-details/user-details.component';
 import { OrderDetailsComponent } from './components/order/order-details/order-details.component';
+import { ErrorComponent } from './components/common/error/error.component';
 
 
 const routes = [
@@ -56,7 +57,7 @@ const routes = [
             { path: 'details/:id', component: UserDetailsComponent, canActivate: [AdminGuard] },
         ], canActivate: [AuthGuard]
     },
-    { path: '**', redirectTo: '' }
+    { path: '**', component: ErrorComponent }
 ]
 
 @NgModule({

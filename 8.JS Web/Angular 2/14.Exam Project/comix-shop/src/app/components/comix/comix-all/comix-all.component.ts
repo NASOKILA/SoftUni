@@ -63,7 +63,18 @@ export class ComixAllComponent implements OnInit {
                 });
               });
 
-            this.comixes = comixes;
+            this.comixes = comixes
+              .sort((a, b) => {
+
+                if(a.date < b.date)
+                  return true;                  
+                else if(Number(a.stock) < Number(b.stock))
+                  return true;
+                else
+                  return false;
+              })
+              
+          
           })
       })
       .catch(err => console.log(err));
