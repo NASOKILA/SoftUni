@@ -40,7 +40,6 @@ export class ComixDetailsComponent implements OnInit {
       .then((comix: ComixEditModel) => {
         this.comix = comix;
 
-        //get comments
         let commentsIdsArray: string[] = [];
 
         if (comix.comments !== undefined) {
@@ -56,17 +55,14 @@ export class ComixDetailsComponent implements OnInit {
 
   postComment() {
 
-    //create comment object
     let date = new Date().toLocaleDateString('en-US');
     let comixId = this.id;
     let description = this.commentDescription;
     let creator = this.authService.username;
 
-    //create comment first
     this.commentService.createComment(new CommentCreateModel(date, comixId, description, creator))
       .then((comment: CommentModel) => {
 
-        //add comment to comix by updating it
         if (this.comix.comments === undefined) {
           this.comix.comments = [];
         }
@@ -74,11 +70,9 @@ export class ComixDetailsComponent implements OnInit {
         this.comix.comments.push(comment._id);
         this.comixService.updateComix(this.comix)
           .then(() => {
-
-            //add comment to comments by updating it
+            
             this.comments.push(comment);
             this.toastr.success("Comment created successfully!", "Success!")
-
             this.commentDescription = "";
           });
       })

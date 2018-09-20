@@ -29,8 +29,8 @@
             <td>{{ order.buyer }}</td>
             <td>{{ order.price }}</td>
             <td>
-              <a class="btn btn-outline-primary tableDataRotateTop" routerLink="/order/details/{{ order._id }}">Details</a> |
-              <a class="btn btn-outline-danger tableDataRotateTop" (click)="deleteOrder(order._id)">Delete</a>
+              <a class="btn btn-outline-primary tableDataRotateTop" routerLink="/order/details/{{ order._id }}">Details <fa name="info"></fa> </a> |
+              <a class="btn btn-outline-danger tableDataRotateTop" (click)="deleteOrder(order._id)"><fa name="trash"></fa>  Delete</a>
             </td>
           </tr>
         </tbody>

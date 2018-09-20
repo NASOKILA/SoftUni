@@ -10,16 +10,16 @@
                 <form #f="ngForm" (ngSubmit)="login(f)">
 
                     <div class="form-group row">
-                        <label class="sr-only">Username</label>
+                        <label for="username"><fa name="user"></fa> Username <span class="red-star"> *</span></label>
                         <input class="form-control" required name="username" type="text" id="username" placeholder="Username" ngModel #username/>
                     </div>
 
                     <div class="form-group row">
-                        <label class="sr-only">Password</label>
+                        <label for="password"><fa name="key"></fa> Password <span class="red-star"> *</span></label>                        
                         <input class="form-control" required type="password" name="password" placeholder="Password" id="password" ngModel #password/>
                     </div>
 
-                    <input [disabled]="f.invalid" type="submit" class="btn btn-outline-warning btn-lg btn-block" value="Login" />
+                    <button [disabled]="f.invalid" type="submit" class="btn btn-outline-success btn-lg btn-block">Login <fa name="sign-in"></fa></button>
                 </form>
                 <br/>
             </div>

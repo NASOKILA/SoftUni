@@ -1,6 +1,5 @@
 <br/>
 <br/>
-
 <div *ngIf="user" class="container">
   <div *ngIf="userOrders" class="row">
     <div class="col-12 text-center">
@@ -13,8 +12,16 @@
       <h3 class="right">Username:</h3>
       <h1 class="display-4 left">{{ user.username }}</h1>
       <br/>
-
       <hr class="display 4" />
+      
+      <br/>
+      <h3 class="right">Avatar Image:</h3>
+      <img *ngIf="user.avatarUrl === null || user.avatarUrl === ''" class="avatar-image card-image-top img-fluid img-thumbnail forms" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909__340.png"/>
+      <img *ngIf="user.avatarUrl !== null && user.avatarUrl !== ''" class="avatar-image card-image-top img-fluid img-thumbnail forms" src="{{ user.avatarUrl }}"/>
+        
+      <br/>
+      <br/>
+      <hr />
 
       <br/>
       <h3 class="right2">Email:</h3>
@@ -29,13 +36,9 @@
       <br/>
 
       <hr class="display 4" />
-
       <br/>
-      
       <div class="bottom">
-
         <h3>Orders:</h3>
-        
         <table *ngIf="userOrders" class="table">
           <thead class="thead-light">
             <tr>

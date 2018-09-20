@@ -1,0 +1,9 @@
+
+.avatar-details-image {
+    max-width: 40%;
+}
+
+.verified-email {
+ background: lightgreen;
+ padding : 20px;   
+}

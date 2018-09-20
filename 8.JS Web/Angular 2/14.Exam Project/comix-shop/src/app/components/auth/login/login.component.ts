@@ -33,6 +33,7 @@ export class LoginComponent implements OnInit {
         this.authService.authtoken = data._kmd.authtoken;
         this.authService.username = data.username;
         this.authService.email = data.email;
+        this.authService.avatarUrl = data.avatarUrl;
 
         if (data._kmd.hasOwnProperty('roles')) {
           this.authService.role = "Admin";
@@ -45,6 +46,7 @@ export class LoginComponent implements OnInit {
         localStorage.setItem('username', this.authService.username);
         localStorage.setItem('email', this.authService.email);
         localStorage.setItem('role', this.authService.role);
+        localStorage.setItem('avatar', this.authService.avatarUrl);
 
         this.toastr.success('Login successfull!', 'Success!');
         this.router.navigate(['/home']);

@@ -15,7 +15,11 @@ export class RequesterService {
     public makeAuth(auth) {
         if (auth === 'basic') {
             return `Basic ${btoa(APP_KEY + ":" + APP_SECRET)}`;
-        } else {
+        } 
+        else if(auth === "master"){
+            return `Basic ${btoa( APP_KEY + ":" + "37acb6cc8ca24995b98c3978894a7e8b")}`;   
+        }
+        else {
             return `Kinvey ${localStorage.getItem('authtoken')}`
         }
     }
@@ -23,7 +27,6 @@ export class RequesterService {
     public makeRequest(method, module, endpoint, auth) {
 
         return {
-
             url: BASE_URL + module + '/' + APP_KEY + '/' + endpoint,
             method: method,
             headers: {
@@ -34,7 +37,8 @@ export class RequesterService {
 
     //get
     public get(module, endpoint, auth) {
-        return $.ajax(this.makeRequest('GET', module, endpoint, auth));
+        let obj = this.makeRequest('GET', module, endpoint, auth);
+        return $.ajax(obj);
     }
 
     //post
@@ -43,6 +47,7 @@ export class RequesterService {
         if (data) {
             obj.data = data;
         }
+
         return $.ajax(obj);
     }
 

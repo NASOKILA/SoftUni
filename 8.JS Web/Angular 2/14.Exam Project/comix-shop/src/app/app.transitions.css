@@ -31,5 +31,5 @@
   cursor: pointer;
   background-color: lightgray;
   border:5px solid #333;
-  transform: rotateY(360deg); /*we rotete it to the right 180 degrees*/
+  transform: rotateY(360deg);
 }

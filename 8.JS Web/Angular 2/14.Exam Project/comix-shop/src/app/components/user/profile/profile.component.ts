@@ -4,6 +4,8 @@ import { OrderModel } from '../../../models/order.model';
 import { UserService } from '../user.service';
 import { OrderService } from '../../order/order.service';
 import { ToastrService } from 'ngx-toastr';
+import  * as $  from 'jquery';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-profile',
@@ -16,7 +18,9 @@ import { ToastrService } from 'ngx-toastr';
 export class ProfileComponent implements OnInit {
 
 
-  myOrders: OrderModel[]
+  myOrders: OrderModel[];
+  currentUser : any;
+
   constructor(
     public authService: AuthService,
     private userService: UserService,
@@ -26,15 +30,16 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit(): void {
 
-    //get orders for this user
     this.orderService.getAllOrders()
       .then((orders: any) => {
-
+        
         this.userService.getAllUsers()
           .then((users) => {
             let currentUser = users.filter(
               u => u.username === this.authService.username
                 && u.email === this.authService.email)[0];
+          
+                this.currentUser = currentUser;
 
             this.myOrders = orders
               .filter(o => o._acl.creator === currentUser._id);
@@ -51,9 +56,31 @@ export class ProfileComponent implements OnInit {
           .then((orders: OrderModel[]) => {
 
             this.myOrders = orders;
-            this.toastr.success("Order deleted successfully!", "Success!");
+            this.toastr.success("Confirmation email sent successfully!", "Success!");
+            
           }).catch(err => this.toastr.error(err.responseJSON.error, 'Error!'))
       }).catch(err => this.toastr.error(err.responseJSON.error, 'Error!'))
+  }
+
+  verifyEmail(){
+    
+    //POST /rpc/:appKey/:username/user-email-verification-initiate HTTP/1.1
+    this.userService.verifyEmail(this.authService.username)
+    .then(res => {
+
+      console.log("VERIFICATION EMAIL SEND")
+      console.log(res)
+    })
+    .catch(err => {
+      console.log("ERROR")
+      console.log(err)
+    })
+
+    $(".verify-email-btn").fadeOut();
+    
+    $(".email-verification-message").fadeIn();
+    
+    this.toastr.success("Order deleted successfully!", "Success!");
   }
 
 }

@@ -61,9 +61,10 @@ export class RegisterComponent implements OnInit {
     const password = f.value.password;
     const confirmPassword = f.value.confirmPassword;
     const email = f.value.email;
+    const avatarUrl = f.value.avatarImage;
 
     if (this.validateForm(username, password, confirmPassword, email)) {
-      this.authService.register({ username, password, email })
+      this.authService.register({ username, password, email, avatarUrl })
         .toPromise().then((data: any) => {
           this.toastr.success('Registration successfull!', 'Success!');
           this.router.navigate(['auth/login']);

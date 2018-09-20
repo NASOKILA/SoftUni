@@ -14,25 +14,25 @@
                         <br/>
                         <form #f="ngForm" (ngSubmit)="createComix()">
                             <div class="form-group row">
-                                <label class="form-control-label">Name</label>
+                                <label class="form-control-label">Name <span class="red-star"> *</span></label>
                                 <input required type="text" id="name" name="name" #name [(ngModel)]="comix.name" class="form-control" placeholder="Enter Comix Name"
                                 />
                             </div>
 
                             <div class="form-group row">
-                                <label class="form-control-label">Description</label>
+                                <label class="form-control-label">Description <span class="red-star"> *</span></label>
                                 <textarea required minlength="20" rows="4" class="form-control" name="description" id="description" placeholder="Enter Comix Description"
                                     [(ngModel)]="comix.description" #description></textarea>
                             </div>
 
                             <div class="form-group row">
-                                <label class="form-control-label">Thumbnail</label>
+                                <label class="form-control-label">Thumbnail <span class="red-star"> *</span></label>
                                 <input required type="url" class="form-control" name="image" id="image" placeholder="Enter URL to Image" [(ngModel)]="comix.image"
                                     #description />
                             </div>
 
                             <div class="form-group row">
-                                <label class="form-control-label">Price &euro;</label>
+                                <label class="form-control-label">Price &euro; <span class="red-star"> *</span></label>
                                 <div class="input-group">
                                     <input required type="number" min="0" class="form-control" name="price" id="price" placeholder="Enter Price" #price [(ngModel)]="comix.price"
                                     />
@@ -41,7 +41,7 @@
                             </div>
 
                             <div class="form-group row">
-                                <label class="form-control-label">Stock</label>
+                                <label class="form-control-label">Stock <span class="red-star"> *</span></label>
                                 <div class="input-group">
                                     <input required min="0" type="number" class="form-control" name="price" id="price" placeholder="Enter Stock" #stock [(ngModel)]="comix.stock"
                                     />
@@ -50,7 +50,7 @@
                             </div>
 
                             <div class="form-group row">
-                                <label class="form-control-label">Release Date</label>
+                                <label class="form-control-label">Release Date <span class="red-star"> *</span></label>
                                 <input required min="0" type="date" class="form-control" name="date" id="date" #date [(ngModel)]="comix.date" placeholder="dd/MM/yyyy"
                                 />
                             </div>

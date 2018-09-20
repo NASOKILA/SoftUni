@@ -1,0 +1,37 @@
+<br/><br/>
+<div *ngIf="user">
+<main class="col-4 ml-auto mr-auto text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <br/>
+          <br/>
+          <h1 class="display-3 top">Update profile</h1>
+        <br/>
+        <form #f="ngForm" (ngSubmit)="updateUser(f)">
+
+          <div class="form-group row">
+            <label for="username" class="left"><fa name="user"></fa> Username <span class="red-star"> *</span></label>
+            <input class="form-control right" required name="username" type="text" id="username" [(ngModel)]="user.username" placeholder="Username" ngModel #username/>
+          </div>
+
+          <div class="form-group row">
+            <label for="email" class="left2"><fa name="envelope"></fa> Email <span class="red-star"> *</span></label>
+            <input class="form-control right2" required name="email" type="email" id="email" [(ngModel)]="user.email" placeholder="somebody@example.com" ngModel #email/>
+          </div>
+
+          <div class="form-group row">
+            <label for="avatarImage" class="left3"><fa name="image"></fa> Avatar Image ( optional )</label>
+            <input class="form-control right3" type="url" name="avatarImage" placeholder="Avatar Image" id="avatarImage" [(ngModel)]="user.avatarUrl"
+              ngModel #avatarImage/>
+          </div>
+          <br/>
+
+          <button [disabled]="f.invalid" type="submit" class="bottom btn btn-outline-success btn-lg btn-block">Update <fa name="refresh" animation="spin"></fa></button>
+        </form>
+        <br/>
+      </div>
+    </div>
+  </div>
+</main>
+</div>

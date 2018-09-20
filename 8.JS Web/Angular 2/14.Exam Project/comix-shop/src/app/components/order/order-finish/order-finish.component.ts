@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { OrderService } from '../order.service';
-import { ComixService } from '../../comix/comix.service';
 import { ActivatedRoute } from '@angular/router';
-import { AuthService } from '../../auth/auth.service';
 
 @Component({
   selector: 'app-order-finish',
@@ -15,13 +13,11 @@ import { AuthService } from '../../auth/auth.service';
 })
 export class OrderFinishComponent implements OnInit {
 
-
   public orderId: string;
-  public comixId: string;
-  public buyerId: string;
+  public buyer: string;
+  public comix: string;
+
   constructor(
-    private authService: AuthService,
-    private comixService: ComixService,
     private orderService: OrderService,
     private toastr: ToastrService,
     private route: ActivatedRoute) { }
@@ -30,20 +26,13 @@ export class OrderFinishComponent implements OnInit {
 
     let id = this.route.snapshot.params["id"];
 
-    //get comix
     this.orderService.getOrderById(id)
       .then((selectedOrder: any) => {
 
-        this.comixService.getAllComixes()
-          .then((comixes: any) => {
-
-            let selectedComix = comixes.filter(com => com.name === selectedOrder.comix)[0];
-            this.orderId = selectedOrder._id;
-            this.buyerId = selectedOrder._acl.creator;
-            this.comixId = selectedComix._id;
-
-          }).catch(err => this.toastr.error(err.responseJSON.error, "Error!"));
-
+        this.orderId = selectedOrder._id;
+        this.buyer = selectedOrder.buyer;        
+        this.comix = selectedOrder.comix;        
       })
+      .catch(err => this.toastr.error(err.responseJSON.error, "Error!"));
   }
 }

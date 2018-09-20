@@ -1,3 +1,4 @@
+<br/><br/>
 <div *ngIf="users" class="container">
   <div class="row">
     <div class="col-12 text-center">
@@ -25,7 +26,11 @@
             <td>{{ user.role }}</td>
             <td>{{ user.email }}</td>
             <td>
-              <a class="btn btn-outline-primary tableDataRotate" routerLink="/user/details/{{ user._id }}">Details</a>
+              <a class="btn btn-outline-primary tableDataRotate" routerLink="/user/details/{{ user._id }}">Details</a> |
+
+
+              <a *ngIf="!user._kmd.status" class="btn btn-outline-danger tableDataRotate disable-user" (click)="diasableUser($event, user._id)">Disable</a>
+              <a *ngIf="user._kmd.status" class="btn btn-outline-success tableDataRotate enable-user" (click)="enableUser($event,user._id)">Enable</a>
             </td>
           </tr>
         </tbody>

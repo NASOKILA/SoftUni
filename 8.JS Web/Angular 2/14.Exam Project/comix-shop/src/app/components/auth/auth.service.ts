@@ -4,7 +4,6 @@ import { HttpHeaders, HttpClient } from "@angular/common/http";
 import { LoginModel } from "../../models/login.model";
 import { RegisterModel } from "../../models/register.model";
 
-
 const appKey: string = "kid_rkTx5Dqrm";
 const appSecret: string = "4242e34801db43bdb6dd91adeb4d1a02";
 const registerUrl: string = `https://baas.kinvey.com/user/${appKey}`;
@@ -20,6 +19,10 @@ export class AuthService {
 
     private currentUsername: string = localStorage.getItem('username')
         ? localStorage.getItem('username')
+        : null;
+
+    private currentAvatarUrl: string = localStorage.getItem('avatar')
+        ? localStorage.getItem('avatar')
         : null;
 
     private currentEmail: string = localStorage.getItem('email')
@@ -48,10 +51,7 @@ export class AuthService {
     }
 
     public login(loginModel: LoginModel) {
-        return this.http.post(
-            loginUrl,
-            JSON.stringify(loginModel),
-            { headers: this.createAuthHeaders("Basic") }
+        return this.http.post(loginUrl, JSON.stringify(loginModel), { headers: this.createAuthHeaders("Basic") }
         );
     }
 
@@ -60,6 +60,16 @@ export class AuthService {
             registerUrl,
             JSON.stringify(registerModel),
             { headers: this.createAuthHeaders("Basic") }
+        );
+    }
+
+    public update(user : any) {
+
+        let updateUrl = registerUrl + "/" + user._id
+        return this.http.put(
+            updateUrl,
+            JSON.stringify(user),
+            { headers: this.createAuthHeaders("Kinvey") }
         );
     }
 
@@ -86,6 +96,14 @@ export class AuthService {
     set username(newUsername: string) {
         this.currentUsername = newUsername;
     }
+
+    get avatarUrl() {
+        return this.currentAvatarUrl;
+    }
+    set avatarUrl(newAvatarUrl: string) {
+        this.currentAvatarUrl = newAvatarUrl;
+    }
+
 
     //getter and setter for the email field
     get email() {

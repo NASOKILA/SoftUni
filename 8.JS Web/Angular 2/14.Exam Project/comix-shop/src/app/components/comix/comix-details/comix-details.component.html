@@ -52,11 +52,12 @@
                   <br/>
                   <h5>{{ comment.description }}</h5>
                   <span>Created by
-                    <strong style="color: grey">{{ comment.creator }}</strong> on
+                    <strong class="comix-creator"><a href="/comix-shop/user/details/{{comment._acl.creator}}">{{ comment.creator }}</a></strong> on
                     <i>{{ comment.date }}</i>
                   </span>
+                  <br/>
                   <button *ngIf="authService.isAdmin() || comment.creator === authService.username" style="margin: 0 auto" class="btn btn-danger col-3"
-                  (click)="deleteComment(comment._id)">Delete Comment</button>
+                  (click)="deleteComment(comment._id)">Delete Comment <fa name="trash"></fa></button>
                   <br/>
                 </div>
                 <br/>
@@ -72,11 +73,10 @@
         <div class="form-group row">
           <label class="form-control-label">Add Comment</label>
           <textarea class="form-control commentDescription" name="commentDescription" [(ngModel)]="commentDescription" placeholder="Enter Comment"
-            minlength="10" required></textarea>
+            minlength="1" required></textarea>
         </div>
 
-        <input [disabled]="f.invalid" type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Add Comment"
-        />
+        <button [disabled]="f.invalid" type="submit" id="btn-add-game" class="add-comment-btn col-6 btn btn-outline-success btn-lg">Add Comment <fa name="plus" animation="spin" ></fa></button>
       </form>
 
       <br/>
@@ -87,29 +87,29 @@
 
         <div *ngIf="comix.stock > 0 && authService.isAdmin()" class="card-footer text-center">
           <h1 class="display-3" style="background: lightgreen">Buy It Now</h1>
-          <a class="btn btn-outline-primary" routerLink="/comix/all">Back</a> |
-          <a *ngIf="authService.isAdmin()" class="btn btn-warning" routerLink="/comix/edit/{{ comix._id }}">Edit</a> |
-          <a *ngIf="authService.isAdmin()" class="btn btn-danger" routerLink="/comix/delete/{{ comix._id }}">Delete</a> |
-        <a class="btn btn-primary" routerLink="/order/confirm/{{ comix._id }}">Buy</a>
+          <a class="btn btn-outline-primary" routerLink="/comix/all"><fa name="arrow-left"></fa> Back</a> |
+          <a *ngIf="authService.isAdmin()" class="btn btn-warning" routerLink="/comix/edit/{{ comix._id }}">Edit <fa name="edit"></fa></a> |
+          <a *ngIf="authService.isAdmin()" class="btn btn-danger" routerLink="/comix/delete/{{ comix._id }}"><fa name="trash"></fa> Delete</a> |
+        <a class="btn btn-primary" routerLink="/order/confirm/{{ comix._id }}">Buy <fa name="shopping-cart"></fa></a>
       </div>
       
       <div *ngIf="comix.stock > 0 && !authService.isAdmin()" class="card-footer text-center">
         <h1 class="display-3" style="background: lightgreen">Buy It Now</h1>
-        <a class="btn btn-outline-primary" routerLink="/comix/all">Back</a> |
-        <a class="btn btn-primary" routerLink="/order/confirm/{{ comix._id }}">Buy</a>
+        <a class="btn btn-outline-primary" routerLink="/comix/all"><fa name="arrow-left"></fa> Back</a> |
+        <a class="btn btn-primary" routerLink="/order/confirm/{{ comix._id }}">Buy <fa name="shopping-cart"></fa></a>
       </div>
       
       <div *ngIf="comix.stock < 1 && !authService.isAdmin()" class="card-footer text-center">
         
         <h1 class="display-3" style="background: lightcoral">Out Of Stock</h1>
-        <a class="btn btn-outline-primary" routerLink="/comix/all">Back</a>
+        <a class="btn btn-outline-primary" routerLink="/comix/all"><fa name="arrow-left"></fa> Back</a>
       </div>
       <div *ngIf="comix.stock < 1 && authService.isAdmin()" class="card-footer text-center">
         
         <h1 class="display-3" style="background: lightcoral">Out Of Stock</h1>
-        <a class="btn btn-outline-primary" routerLink="/comix/all">Back</a> |
-        <a *ngIf="authService.isAdmin()" class="btn btn-warning" routerLink="/comix/edit/{{ comix._id }}">Edit</a> |
-        <a *ngIf="authService.isAdmin()" class="btn btn-danger" routerLink="/comix/delete/{{ comix._id }}">Delete</a>
+        <a class="btn btn-outline-primary" routerLink="/comix/all"><fa name="arrow-left"></fa> Back</a> |
+        <a *ngIf="authService.isAdmin()" class="btn btn-warning" routerLink="/comix/edit/{{ comix._id }}">Edit <fa name="edit"></fa></a> |
+        <a *ngIf="authService.isAdmin()" class="btn btn-danger" routerLink="/comix/delete/{{ comix._id }}"><fa name="trash"></fa> Delete</a>
       </div>
     </div>
       <br/>

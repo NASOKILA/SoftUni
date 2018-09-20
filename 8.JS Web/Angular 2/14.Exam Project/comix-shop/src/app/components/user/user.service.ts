@@ -33,8 +33,24 @@ export class UserService {
         return this.requester.get('user', id, 'kinvey');
     }
 
-    public deleteUserById(id: string) {
+    public disableUserById(id: string) {
+        id = id + "?soft=true";
         return this.requester.remove('user', id, 'kinvey');
+    }
+
+    public enableUserById(id: string) {
+        id = id + "/_restore";
+        return this.requester.post('user', id, "master", {});
+    }
+
+    public changePassword(username: string) {
+        username = username + "/user-password-reset-initiate";
+        return this.requester.post('rpc', username, "basic", {});
+    }
+
+    public verifyEmail(username: string) {
+        username = username + "/user-email-verification-initiate";
+        return this.requester.post('rpc', username, "basic", {});
     }
 }
 

@@ -1,3 +1,5 @@
+<br/>
+<br/>
 <div *ngIf="orders" class="container">
   <div class="row">
     <div class="col-12 text-center">
@@ -29,8 +31,8 @@
             <td>{{ order.buyer }}</td>
             <td>{{ order.price }}</td>
             <td class="tableDataRotate">
-              <a class="btn btn-outline-primary" routerLink="/order/details/{{ order._id }}">Details</a> |
-              <a class="btn btn-outline-danger" (click)="deleteOrder(order._id)">Delete</a>
+              <a class="btn btn-outline-primary" routerLink="/order/details/{{ order._id }}">Details <fa name="info"></fa></a> |
+              <a class="btn btn-outline-danger" (click)="deleteOrder(order._id)"><fa name="trash"></fa> Delete</a>
             </td>
           </tr>
         </tbody>

@@ -72,6 +72,5 @@ export class ComixEditComponent implements OnInit {
           this.router.navigate(['/comix/all'])
         }).catch(err => this.toastr.error(err.responseJSON.error, "Error!"));
     }
-  }
-
+  }    
 }

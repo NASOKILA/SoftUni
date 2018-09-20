@@ -6,7 +6,7 @@
     <div class="col-4">
         <main class="text-center">
             <div class="container">
-                <div class="row forms">
+                <div class="forms">
                     <div class="col-12">
                         <div class="text-center">
                             <h1 class="display-3">Delete Comics</h1>
@@ -53,8 +53,7 @@
                                 <input type="date" disabled class="form-control deleteInput" name="date" #date value="{{ comix.date }}" placeholder="dd/MM/yyyy" required/>
                             </div>
 
-                            <input [disabled]="f.invalid" type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Delete Comics"
-                            />
+                            <button [disabled]="f.invalid" type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block">Delete Comics <fa name="trash"></fa></button>
                         </form>
                         <br/>
                     </div>

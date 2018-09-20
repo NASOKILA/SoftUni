@@ -6,8 +6,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
+
 import { ComixAllComponent } from './components/comix/comix-all/comix-all.component';
 import { ComixCreateComponent } from './components/comix/comix-create/comix-create.component';
 import { ComixDetailsComponent } from './components/comix/comix-details/comix-details.component';
@@ -32,18 +34,24 @@ import { UserDetailsComponent } from './components/user/user-details/user-detail
 import { OrderService } from './components/order/order.service';
 import { OrderDetailsComponent } from './components/order/order-details/order-details.component';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { ErrorComponent } from './components/common/error/error.component'
+import { ErrorComponent } from './components/common/error/error.component';
+import { UserchangeComponent } from './components/user/userchange/userchange.component';
+import { ChangepasswordComponent } from './components/user/changepassword/changepassword.component'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { CommonModule } from '../../node_modules/@angular/common';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent,
     ComixAllComponent,
     ComixCreateComponent,
     ComixDetailsComponent,
     ComixEditComponent,
     ComixDeleteComponent,
+    LoginComponent,
+    RegisterComponent,
     OrderConfirmComponent,
     OrderFinishComponent,
     HeaderComponent,
@@ -55,16 +63,21 @@ import { ErrorComponent } from './components/common/error/error.component'
     UserAllComponent,
     UserDetailsComponent,
     OrderDetailsComponent,
-    ErrorComponent
+    ErrorComponent,
+    UserchangeComponent,
+    ChangepasswordComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    FontAwesomeModule,
+    AngularFontAwesomeModule,
   ],
   providers: [
     AuthService,

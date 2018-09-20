@@ -1,6 +1,5 @@
 <br/>
 <br/>
-
 <div *ngIf="order" class="container">
     <div class="row">
         <div class="col-12 text-center">
@@ -35,8 +34,8 @@
             <hr class="display 4" />
             <br/>
 
-            <a *ngIf="authService.isAdmin()" class="btn btn-primary tableDataRotate" routerLink="/order/all">All Orders</a>
-            <a *ngIf="!authService.isAdmin()" class="btn btn-primary tableDataRotate" routerLink="/order/my">My Orders</a>
+            <a *ngIf="authService.isAdmin()" class="btn btn-primary tableDataRotate" routerLink="/order/all">All Orders <fa name="shopping-cart"></fa></a>
+            <a *ngIf="!authService.isAdmin()" class="btn btn-primary tableDataRotate" routerLink="/order/my">My Orders <fa name="shopping-cart"></fa></a>
             <br/>
             <br/>
             <br/>

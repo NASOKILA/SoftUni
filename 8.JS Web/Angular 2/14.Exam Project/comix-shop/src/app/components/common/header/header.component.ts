@@ -23,6 +23,7 @@ export class HeaderComponent implements OnInit {
     this.isAuthenticated = localStorage.getItem("authtoken") ? true : false;
 
 
+
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function (event : any) {
   if (!event.target.matches('.dropbtn')) {

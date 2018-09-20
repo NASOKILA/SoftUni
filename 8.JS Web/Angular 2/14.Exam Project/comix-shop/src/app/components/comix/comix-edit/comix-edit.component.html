@@ -2,12 +2,11 @@
 <br/>
 
 <div *ngIf="comix" class="row">
-
     <div class="col-4"></div>
     <div class="col-4">
         <main class="text-center">
             <div class="container">
-                <div class="row">
+                <div class="forms">
                     <div class="col-12">
                         <div class="text-center">
                             <h1 class="display-3">Edit Comics</h1>
@@ -56,8 +55,7 @@
                                 />
                             </div>
 
-                            <input [disabled]="f.invalid" type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Edit Comics"
-                            />
+                            <button [disabled]="f.invalid" type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block">Update Comics <fa name="refresh" animation="spin"></fa></button>
                         </form>
                         <br/>
                     </div>
