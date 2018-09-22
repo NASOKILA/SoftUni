@@ -74,7 +74,7 @@ export default class Create extends Component {
                         message: "House Created Successfully !"
                     })
 
-                    this.props.history.push('/home')
+                    this.props.history.push('/house-shop')
                 }).catch(err => {
                     console.log(err)
                     this.setState({
@@ -90,7 +90,7 @@ export default class Create extends Component {
             <div>
                 <br/>
                 <br/>
-                <main className="mt-3">
+                <main className="mt-3 forms">
                     <h1 className="text-center">Create House</h1>
                     <hr className="bg-secondary half-width" />
 

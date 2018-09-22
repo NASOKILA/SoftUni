@@ -59,7 +59,7 @@ export default class Delete extends Component {
                     message: "House Deleted Successfully !"
                 })
 
-                this.props.history.push('/home');
+                return this.props.history.push('/house-shop');
 
             }).catch(err => {
                 console.log(err)
@@ -75,10 +75,10 @@ export default class Delete extends Component {
         if(this.state.Location !== null){
 
             return (<div>
+                <main className="mt-3 forms">
                 <br/>
                 <br/>
 
-                <main className="mt-3 forms">
                     <h1 className="text-center">Delete House</h1>
                     <hr className="bg-secondary half-width" />
                     <form className="mx-auto half-width" onSubmit={this.handleSubmit}>

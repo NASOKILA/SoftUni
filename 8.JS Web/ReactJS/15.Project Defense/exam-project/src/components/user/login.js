@@ -49,13 +49,11 @@ export default class Login extends Component {
 
                 observer.trigger(observer.events.notification, { success: true, message: "LoggedIn Successfully!", type: 'success' })
 
-
-
                 this.setState({
                     message: "LoggedIn Successfully!"
                 });
 
-                this.props.history.push('/home')
+                return this.props.history.push('/house-shop')
             })
             .catch(res => {
 
@@ -95,6 +93,8 @@ export default class Login extends Component {
                             <label htmlFor="password">Password</label>
                             <input type="password" onChange={this.handleChange} className="form-control" id="password" placeholder="Password..." name="password" />
                         </div>
+                        <br/>
+                        <hr className="bg-secondary half-width" />
                         <div className="button-holder d-flex justify-content-center">
                             <input type="submit" className="btn btn-success" value="Login" />
                         </div>

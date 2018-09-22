@@ -105,7 +105,7 @@ export default class Register extends Component {
                         localStorage.setItem('admin', 'false');
                     }
                 
-                    this.props.history.push('/home')
+                    return this.props.history.push('/house-shop')
                 })
                 .catch(res => observer.trigger(observer.events.notification, {error: true, message: "Invalid User Credentials!", type: 'error'}));        
     
@@ -159,6 +159,7 @@ export default class Register extends Component {
                     <input type="password" onChange={this.handleChange} className="form-control" id="confirmPassword" placeholder="Confirm Password..." name="repeatPassword"/>
                 </div>
                 <br/>
+                <hr className="bg-secondary half-width" />
                 <div className="button-holder d-flex justify-content-center">
                     <input type="submit" className="btn btn-success" value="Register"/>
                 </div>

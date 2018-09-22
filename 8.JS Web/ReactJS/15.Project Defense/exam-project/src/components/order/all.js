@@ -43,7 +43,8 @@ export default class All extends Component {
             return (
 
                 <main className="mt-3 mb-5">
-
+                <br/>
+                <br/>
                 <div className="jumbotron detailsDataFromLeft">
                     <h1 className="text-center">All Orders</h1>
                     <hr className="hr-2 bg-dark" />
@@ -71,7 +72,8 @@ export default class All extends Component {
         return (
 
             <main className="mt-3 mb-5">
-
+                <br/>
+                <br/>
                 <div className="jumbotron detailsDataFromLeft">
                     <h1 className="text-center">All Orders</h1>
                     <hr className="hr-2 bg-dark" />
@@ -94,9 +96,9 @@ export default class All extends Component {
 
                             return <tr className="table-success housebuttons" key={counter}>
                                 <th scope="row">{++counter}</th>
-                                <td><a className="TableOrderId" href={'/order/details/' + o._id}>{o._id}</a></td>
-                                <td><a className="TableOrderId" href={'/house/details/' + o.Product._id}>{o.Product._id}</a></td>
-                                <td><a className="TableOrderId" href={'/user/profile/' + this.state.users.filter(u => u.username === o.Customer)[0]._id}>{o.Customer}</a></td>
+                                <td><a className="TableOrderId" href={'/house-shop/order/details/' + o._id}>{o._id}</a></td>
+                                <td><a className="TableOrderId" href={'/house-shop/house/details/' + o.Product._id}>{o.Product._id}</a></td>
+                                <td><a className="TableOrderId" href={'/house-shop/user/profile/' + this.state.users.filter(u => u.username === o.Customer)[0]._id}>{o.Customer}</a></td>
                                 <td>{o.Product.Location}</td>
                                 <td>{o.OrderedOn}</td>
                             </tr>

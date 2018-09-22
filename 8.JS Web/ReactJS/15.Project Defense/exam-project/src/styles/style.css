@@ -86,13 +86,12 @@ a {
 
 .TableOrderId {
     color: black;
-
+    padding: 1rem 1rem;
 }
 
 .TableOrderId:hover {
     background-color: darkcyan;
     position: relative;
-    padding: 10px 0px;
     border-radius: 25px;
 }
 
@@ -104,5 +103,31 @@ a {
     background-color: lightcoral;    
 }
 
+nav {
+    background-color: black;
+    z-index: 1;
+    position: fixed !important;
+    padding: 0rem 1rem !important;
+    width:100%;
+    top:0;
+}
+
+.headerDiv {
+    margin-bottom: 80px;
+    width:100%;
+}
 
 
+.dropbtn { background-color: #31373c; color: #d3d3d3; padding: 16px; font-size: 16px; border: none; cursor: pointer; } 
+
+.dropbtn:hover, .dropbtn:focus { border-radius: 25px; background-color: #d3d3d3; color: #31373c; } 
+
+.dropdown { position: relative; display: inline-block; } 
+
+.dropdown-content { display: none; position: absolute; background-color: #31373c; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; } 
+
+.dropdown-content a { color: #d3d3d3; padding: 12px 16px; text-decoration: none; display: block; } 
+
+.dropdown-content a:hover {background-color: #d3d3d3} 
+
+.show {display:block;}

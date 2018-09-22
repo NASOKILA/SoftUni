@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from  'react-router-dom';
+import { Route, Switch } from  'react-router-dom';
 
 import Home from '../home/home';
 import About from '../home/about';
@@ -19,31 +19,38 @@ import All from '../order/all';
 import Profile from '../user/profile';
 import MyOrders from '../order/my-orders';
 import OrderDetails from '../order/order-details';
+import ErrorComponent from '../common/error';
 
 
 
 const Router = () => {
 
     return (<div>
+        <Switch>
+        <Route path="/house-shop/" exact component={Home}/>
         <Route path="/" exact component={Home}/>
-        <Route path="/home" exact component={Home}/>
-        <Route path="/about" exact component={About}/>
+        <Route path="/house-shop/home" exact component={Home}/>
+        <Route path="/house-shop/about" exact component={About}/>
 
-        <Route path="/user/login" exact component={Login}/>
-        <Route path="/user/register" exact component={Register}/>
-        <Route path="/user/logout" exact component={Logout}/>
-        <Route path="/user/profile/:id" exact component={Profile}/>
+        <Route path="/house-shop/user/login" exact component={Login}/>
+        <Route path="/house-shop/user/register" exact component={Register}/>
+        <Route path="/house-shop/user/logout" exact component={Logout}/>
+        <Route path="/house-shop/user/profile/:id" exact component={Profile}/>
 
-        <Route path="/house/create" exact component={Create}/>
-        <Route path="/house/details/:id" exact component={Details}/>
-        <Route path="/house/edit/:id" exact component={Edit}/>
-        <Route path="/house/delete/:id" exact component={Delete}/>
-        <Route path="/house/confirm-order/:id" exact component={ConfirmOrder}/>
+        <Route path="/house-shop/house/create" exact component={Create}/>
+        <Route path="/house-shop/house/details/:id" exact component={Details}/>
+        <Route path="/house-shop/house/edit/:id" exact component={Edit}/>
+        <Route path="/house-shop/house/delete/:id" exact component={Delete}/>
+        <Route path="/house-shop/house/confirm-order/:id" exact component={ConfirmOrder}/>
 
-        <Route path="/order/completed/:id" exact component={OrderCompleted}/>
-        <Route path="/order/all" exact component={All}/>
-        <Route path="/order/my" exact component={MyOrders}/>
-        <Route path="/order/details/:id" exact component={OrderDetails}/>
+        <Route path="/house-shop/order/completed/:id" exact component={OrderCompleted}/>
+        <Route path="/house-shop/order/all" exact component={All}/>
+        <Route path="/house-shop/order/my" exact component={MyOrders}/>
+        <Route path="/house-shop/order/details/:id" exact component={OrderDetails}/>
+        <Route component={ErrorComponent}/>
+        </Switch>
+
+        
     </div>)
 }
 

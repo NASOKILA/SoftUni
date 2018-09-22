@@ -38,6 +38,7 @@ export default class ConfirmOrder extends Component {
                 <div>
                     <main className="mt-3 mb-5">
                         <br />
+                        <br />
 
                         <div className="jumbotron detailsDataFromLeft">
                             <h1>Confirm Order Page</h1>
@@ -75,8 +76,8 @@ export default class ConfirmOrder extends Component {
                             <hr className="hr-2 bg-dark" />
                             <div className="product-action-holder mt-4 d-flex justify-content-around">
 
-                                <a className="btn btn-lg btn-success housebuttons" href={"/order/completed/" + this.state.house._id}>Buy</a>
-                                <a className="btn btn-lg btn-info housebuttons" href={"/house/details/" + this.state.house._id}>Back</a>
+                                <a className="btn btn-lg btn-success housebuttons" href={"/house-shop/order/completed/" + this.state.house._id}>Buy</a>
+                                <a className="btn btn-lg btn-info housebuttons" href={"/house-shop/house/details/" + this.state.house._id}>Back</a>
                             </div>
                         </div>
                     </main>
