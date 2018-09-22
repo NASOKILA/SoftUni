@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - FindMyPet.Web</title>
 
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -27,6 +28,10 @@
 
 </head>
 <body>
+    @using Microsoft.AspNetCore.Identity
+    @inject SignInManager<FindMyPet.Models.User> SignInManager
+    @inject UserManager<FindMyPet.Models.User> UserManager
+    @inject FindMyPet.Data.FindMyPetDbContext findMyPetDbContext
 
     @if (ViewData["IsAdmin"] != null)
     {
@@ -46,13 +51,13 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a asp-area="Admin" asp-controller="Home" asp-action="Index">Home</a></li>
-                            <li><a asp-area="Admin" asp-controller="Home" asp-action="About">About</a></li>
+                            <li><a asp-area="Admin" asp-controller="Home" asp-action="Index">Home <fa class="fas fa-home"></fa></a></li>
+                            <li><a asp-area="Admin" asp-controller="Home" asp-action="About">About <fa class="fas fa-map-marker-alt"></fa></a></li>
                             @if (this.User.Identity.IsAuthenticated)
                             {
-                                <li><a asp-area="Admin" asp-controller="Users" asp-action="MyProfile">My Profile</a></li>
-                                <li><a asp-area="Admin" asp-controller="PetsPages" asp-action="Create">Create Pet</a></li>
-                                <li><a asp-area="Admin" asp-controller="PetsPages" asp-action="AllUsers">All Users</a></li>
+                                <li><a asp-area="Admin" asp-controller="Users" asp-action="MyProfile">My Profile <fa class="fas fa-user-circle"></fa></a></li>
+                                <li><a asp-area="Admin" asp-controller="PetsPages" asp-action="Create">Create Pet <fa class="fas fa-paw"></fa></a></li>
+                                <li><a asp-area="Admin" asp-controller="PetsPages" asp-action="AllUsers">All Users <fa class="fas fa-users"></fa></a></li>
                             }
                         </ul>
                         <partial name="_LoginPartial" />
@@ -75,15 +80,50 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                            <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home <fa class="fas fa-home"></fa></a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="About">About <fa class="fas fa-map-marker-alt"></fa></a></li>
                             @if (this.User.Identity.IsAuthenticated)
                             {
-                                <li><a asp-area="" asp-controller="Users" asp-action="MyProfile">My Profile</a></li>
-                                <li><a asp-area="" asp-controller="PetsPages" asp-action="Create">Create Pet</a></li>
+                                <li><a asp-area="" asp-controller="Users" asp-action="MyProfile">My Profile <fa class="fas fa-user-circle"></fa></a></li>
+                                <li><a asp-area="" asp-controller="PetsPages" asp-action="Create">Create Pet <fa class="fas fa-paw"></fa></a></li>
                             }
                         </ul>
-                        <partial name="_LoginPartial" />
+
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            string image = findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).AvatarUrl;
+
+
+                            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post" id="logoutForm" class="navbar-right">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                                            @if (image != null && image != "")
+                                            {
+                                                <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="@image" />
+                                            }
+                                            else
+                                            {
+                                                <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="~/images/blank-avatar.png" />
+                                            }
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName! <i class="fas fa-cog fa-spin"></i></a>
+                                    </li>
+                                    <li>
+                                        <button type="submit" class="btn btn-link navbar-btn navbar-link logoutBtn">Logout <i class="fas fa-sign-out-alt"></i></button>
+                                    </li>
+                                </ul>
+                            </form>
+                        }
+                        else
+                        {
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a asp-area="Identity" asp-page="/Account/Register">Register <i class="fas fa-registered"></i></a></li>
+                                <li><a asp-area="Identity" asp-page="/Account/Login">Login <i class="fas fa-sign-in-alt"></i></a></li>
+                            </ul>
+                        }
                     </div>
                 </div>
             </nav>
@@ -91,7 +131,7 @@
     }
     else
     {
-        <nav  class="navbar navbar-inverse navbar-fixed-top normalNav">
+        <nav class="navbar navbar-inverse navbar-fixed-top normalNav">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -104,15 +144,51 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home <fa class="fas fa-home"></fa></a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About">About <fa class="fas fa-map-marker-alt"></fa></a></li>
                         @if (this.User.Identity.IsAuthenticated)
                         {
-                        <li><a asp-area="" asp-controller="Users" asp-action="MyProfile">My Profile</a></li>
-                        <li><a asp-area="" asp-controller="PetsPages" asp-action="Create">Create Pet</a></li>
+                            <li><a asp-area="" asp-controller="Users" asp-action="MyProfile">My Profile <fa class="fas fa-user-circle"></fa></a></li>
+                            <li><a asp-area="" asp-controller="PetsPages" asp-action="Create">Create Pet <fa class="fas fa-paw"></fa></a></li>
                         }
                     </ul>
-                    <partial name="_LoginPartial" />
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        string image = findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).AvatarUrl;
+
+
+                        <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post" id="logoutForm" class="navbar-right">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                                        @if (image != null && image != "")
+                                        {
+                                            <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="@image" />
+                                        }
+                                        else
+                                        {
+                                            <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="~/images/blank-avatar.png" />
+                                        }
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName!</a>
+                                </li>
+                                <li>
+                                    <button type="submit" class="btn btn-link navbar-btn navbar-link logoutBtn">Logout <fa class="fas fa-sign-out"></fa></button>
+                                </li>
+                            </ul>
+                        </form>
+                    }
+                    else
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a asp-area="Identity" asp-page="/Account/Register">Register <i class="fas fa-registered"></i></a></li>
+                            <li><a asp-area="Identity" asp-page="/Account/Login">Login <i class="fas fa-sign-in-alt"></i></a></li>
+                        </ul>
+                    }
+
                 </div>
             </div>
         </nav>
@@ -126,7 +202,7 @@
     </div>
     <div class="container body-content">
 
-        <hr/>
+        <hr />
         <footer>
             <h3>&copy; 2018 - FindMyPet.Web</h3>
         </footer>
@@ -154,5 +230,81 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN3rUjPXSpHS0ZYPn1VTLjSMk2wcX3JzU&callback=initMap"
+            async defer></script>
+
+    <script>
+
+        function initMap() {
+
+            let options = {
+                zoom: 14,
+                center: { lat: 42.0209, lng: 23.0943 }
+            };
+
+            let map = new google.maps.Map(document.getElementById('map'), options);
+
+            //add marker on map click, listen for click map
+            google.maps.event.addListener(map, 'click', function (e) {
+                addMarker({ coords: e.latLng })
+            })
+
+
+            //custom marker for map
+            addMarker({
+                coords: { lat: 42.0209, lng: 23.0943 },
+                iconImage: 'https://findicons.com/files/icons/2813/flat_jewels/256/location_pin.png',
+                textOnClick: 'Home : Hristo Chernopeev 37'
+            });
+
+            //custom marker for map
+            addMarker({
+                coords: { lat: 42.0201, lng: 23.0913 },
+                iconImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Home_font_awesome.svg/1024px-Home_font_awesome.svg.png',
+                textOnClick: 'Office : Ulica Krushevo 5'
+            });
+
+            //We can hve functions to add markers
+            function addMarker(props) {
+
+                //create the marker
+                let marker = new google.maps.Marker({
+                    position: props.coords,
+                    map: map,
+                });
+
+                //check for icon
+                if (props.iconImage) {
+
+                    //icon for marker
+                    var icon = {
+                        url: props.iconImage,
+                        scaledSize: new google.maps.Size(50, 50),
+                        origin: new google.maps.Point(0, 0),
+                        anchor: new google.maps.Point(0, 0)
+                    };
+
+                    marker.setIcon(icon);
+
+                    //check for text
+                    if (props.textOnClick) {
+
+                        //additional window pulps up whenmarker marker klicked
+                        let infoWindow = new google.maps.InfoWindow({
+                            content: '<h5> ' + props.textOnClick + '</h5>'
+                        });
+
+                        //listener for marker
+                        marker.addListener('click', function () {
+                            infoWindow.open(map, marker);
+                        })
+                    }
+                }
+            }
+        }
+        
+    </script>
+
 </body>
 </html>

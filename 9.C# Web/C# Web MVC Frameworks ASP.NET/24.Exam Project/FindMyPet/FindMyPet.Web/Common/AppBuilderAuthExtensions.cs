@@ -41,6 +41,7 @@ namespace FindMyPet.Web.Common
                     user = new User()
                     {
                         UserName = "admin@abv.bg",
+                        FullName = "Administrator",
                         Email = "admin@abv.bg"
                         
                     };

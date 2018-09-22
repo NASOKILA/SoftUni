@@ -50,8 +50,8 @@
                 <br />
                 <form method="post" asp-area="Admin" asp-controller="Pets" asp-action="PetFoundPost" asp-route-id="@Model.Id">
 
-                    <input type="submit" id="btn-add-game" class="revealOnScroll btn btn-success btn-lg btn-block" data-animation="right" data-timeout="100" value="Yes" />
-                    <a id="btn-add-game" href="/Admin/Pets/All" class="revealOnScroll btn btn-primary btn-lg btn-block" data-animation="left" data-timeout="100" >No</a>
+                    <button type="submit" id="btn-add-game" class="right btn btn-success btn-lg btn-block" data-timeout="100">Yes <i class="fa fa-check"></i></button>
+                    <a id="btn-add-game" href="/Admin/Pets/All" class="left btn btn-primary btn-lg btn-block"  data-timeout="100">No <i class="fa fa-times-circle"></i></a>
                 </form>
             </div>
         </div>

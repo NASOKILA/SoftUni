@@ -2,6 +2,7 @@
 @model LoginModel
 
 @{
+    Layout = "/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Log in";
 }
 
@@ -19,12 +20,12 @@
                 </div>
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
-                    <label asp-for="Input.Email"></label>
+                    <label asp-for="Input.Email"><i class="fas fa-envelope"></i> Email <span class="requiredStar"> *</span></label>
                     <input asp-for="Input.Email" class="form-control" />
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Input.Password"></label>
+                    <label asp-for="Input.Password"><i class="fas fa-key"></i> Password <span class="requiredStar"> *</span></label>
                     <input asp-for="Input.Password" class="form-control" />
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
                 </div>
@@ -37,7 +38,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-lg btn-success bottom">Log in</button>
+                    <button type="submit" class="btn btn-lg btn-success bottom">Log in <i class="fas fa-sign-in-alt"></i></button>
                 </div>
                 <div class="form-group">
                     <p>
@@ -71,7 +72,7 @@
                             <p>
                                 @foreach (var provider in Model.ExternalLogins)
                                 {
-                                    <button type="submit" class="btn btn-lg btn-primary tableDataRotateTop" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    <button type="submit" class="btn btn-lg btn-primary tableDataRotateTop" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName <i class="fas fa-sign-in-alt"></i></button>
                                 }
                             </p>
                         </div>

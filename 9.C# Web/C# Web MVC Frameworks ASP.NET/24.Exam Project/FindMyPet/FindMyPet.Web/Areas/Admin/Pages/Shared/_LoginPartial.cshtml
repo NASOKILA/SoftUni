@@ -28,10 +28,10 @@
                 </a>
             </li>
             <li>
-                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName!</a>
+                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName! <i class="fa fa-cog fa-spin"></i></a>
             </li>
             <li>
-                <button type="submit" class="logoutBtnAdmin btn btn-link navbar-btn navbar-link">Logout</button>
+                <button type="submit" class="logoutBtnAdmin btn btn-link navbar-btn navbar-link">Logout <i class="fa fa-sign-out-alt"></i></button>
             </li>
         </ul>
     </form>
@@ -39,7 +39,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li><a asp-area="Identity" asp-page="/Account/Register">Register</a></li>
-        <li><a asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Register">Register <i class="fa fa-registered"></i></a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Login">Login <i class="fa fa-sign-in-alt"></i></a></li>
     </ul>
 }

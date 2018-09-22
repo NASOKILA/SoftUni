@@ -10,6 +10,9 @@ namespace SoftUniClone.Web.Areas.Identity.Services
         public async Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var apiKey = "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";
+
+            var myapiKey = apiKey.Substring(3, apiKey.Length - 3);
+
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("atanas_kambitov@abv.bg", "Admin");
             var to = new EmailAddress(email, email);

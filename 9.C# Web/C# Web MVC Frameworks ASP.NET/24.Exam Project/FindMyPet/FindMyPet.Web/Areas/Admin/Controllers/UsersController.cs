@@ -24,17 +24,18 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Profile(string id)
         {
-            if (!this.User.Identity.IsAuthenticated){
+            if (!this.User.Identity.IsAuthenticated)
+            {
                 return Redirect(StaticConstants.LoginRedirect);
             }
-            
+
             string thisUserId = context.Users.FirstOrDefault(u => u.Email == this.User.Identity.Name).Id;
 
             if (id == thisUserId)
             {
-                return new RedirectToActionResult(StaticConstants.MyProfile, StaticConstants.Users, new { @area = StaticConstants.AdminRole });
+                return new RedirectToActionResult(StaticConstants.MyProfile, StaticConstants.Users, new { Area = StaticConstants.AdminRole });
             }
-            
+
             User user = context.Users
                 .Include(u => u.MessagesSent)
                     .ThenInclude(ms => ms.Likes)
@@ -48,7 +49,8 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
 
             if (user == null)
                 return RedirectToAction(StaticConstants.All, StaticConstants.Pets);
-            
+
+
             var allLikes = context.Likes
                 .Include(l => l.Creator)
                 .ToList();
@@ -62,8 +64,9 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
                 else
                     currentMessage.LikeDisabled = false;
             }
-            
+
             ViewBag.Messages = user.MessagesReceived.ToList();
+            ViewData["CurrentUserId"] = thisUserId;
             ViewData[StaticConstants.CurrentId] = id;
 
             bool isLoggedIn = false;
@@ -73,7 +76,9 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
             if (currentUser.Identity.IsAuthenticated)
             {
                 isLoggedIn = true;
+
                 isAdmin = currentUser.Claims.Any(c => c.Value == StaticConstants.AdminRole);
+                
             }
 
             ViewData[StaticConstants.LoggedIn] = isLoggedIn.ToString();

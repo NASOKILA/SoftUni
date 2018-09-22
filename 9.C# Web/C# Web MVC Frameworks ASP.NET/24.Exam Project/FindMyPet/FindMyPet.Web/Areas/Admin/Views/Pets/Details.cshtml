@@ -27,15 +27,17 @@
                 <h2 class="display-5"><strong class="revealOnScroll" data-animation="right3">Status</strong><span class="revealOnScroll" data-animation="forms"> : </span><i class="revealOnScroll" data-animation="left3">@Model.Status</i></h2>
                 <br />
 
+                <div class="revealOnScroll" data-animation="right3">
+
                 @if (Model.ImageUrl != null && Model.ImageUrl != "")
                 {
-
                     <img class="revealOnScroll card-image-top img-fluid img-thumbnail" data-animation="jackInTheBox" data-timeout="600" src="@Model.ImageUrl" />
                 }
                 else
                 {
                     <img class="card-image-top img-fluid img-thumbnail" data-animation="jackInTheBox" data-timeout="600" src="~/images/pet-lost-avatar.png" />
                 }
+                </div>
 
                 <br />
                 <br />
@@ -208,13 +210,13 @@
                                     @if (comment.LikeDisabled == false)
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Comments", new {Area = "Admin", id = comment.Id.ToString()})">Like</a>
+                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Comments", new {Area = "Admin", id = comment.Id.ToString()})">Like <i class="fa fa-thumbs-up"></i></a>
                                         </strong>
                                     }
                                     else
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Comments", new {Area = "Admin", id = comment.Id.ToString()})">Remove Like</a>
+                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Comments", new {Area = "Admin", id = comment.Id.ToString()})">Remove Like <i class="fa fa-thumbs-down"></i></a>
                                         </strong>
                                     }
                                     :
@@ -225,7 +227,7 @@
                                 @if (this.User.Identity.Name == comment.Creator.Email || ViewData["isAdmin"].ToString() == "True")
                                 {
                                     <a style="margin: 0 auto" class="deleteBtn btn btn-danger col-3" autocomplete="off" data-url="@Url.Action("RemoveCommentFromPet", "Pets", new {Area = "Admin", commentId = comment.Id} )">
-                                        Delete Comment
+                                        Delete Comment <i class="fa fa-trash-alt"></i>
                                     </a>
                                 }
                                 <br />
@@ -247,7 +249,7 @@
                                   minlength="10" required></textarea>
                     </div>
 
-                    <input type="button" id="btn-add-pet" data-url="@Url.Action("AddCommentToPet", "Pets", new { Area = "Admin", id = Model.Id})" class="btn btn-success btn-lg btn-block" value="Add Comment" />
+                    <button type="button" id="btn-add-pet" data-url="@Url.Action("AddCommentToPet", "Pets", new { Area = "Admin", id = Model.Id})" class="btn btn-success btn-lg btn-block">Add Comment <i class="fa fa-plus"></i></button>
                 </form>
             </div>
             <br />
@@ -257,16 +259,16 @@
                 <div class="card-footer text-center">
                     <h1 class="display-3">Actions</h1>
                     <hr />
-                    <a class="btn btn-lg btn-primary col-3" asp-area="Admin" asp-controller="Pets" asp-action="All">Back</a>
-                    @if (Model.Status == "Lost")
+                    <a class="btn btn-lg btn-primary col-3" asp-area="Admin" asp-controller="Pets" asp-action="All">Back <i class="fa fa-arrow-left"></i></a>
+                    @if (Model.Status == "Lost" && Model.Owner.Email != this.User.Identity.Name)
                     {
-                        <a class="btn btn-lg btn-success col-3" asp-area="Admin" asp-controller="Pets" asp-action="PetFound" asp-route-id="@Model.Id">Found</a>
+                        <a class="btn btn-lg btn-success col-3" asp-area="Admin" asp-controller="Pets" asp-action="PetFound" asp-route-id="@Model.Id">Found <i class="fa fa-check"></i></a>
                     }
 
                     @if (this.User.Identity.Name == Model.Owner.Email || ViewData["isAdmin"].ToString() == "True")
                     {
-                        <a class="btn btn-lg btn-warning col-3" asp-area="Admin" asp-route-id="@Model.Id" asp-page="/PetsPages/Edit">Edit</a>
-                        <a class="btn btn-lg btn-danger col-3" asp-area="Admin" asp-route-id="@Model.Id" asp-page="/PetsPages/Delete">Delete</a>
+                        <a class="btn btn-lg btn-warning col-3" asp-area="Admin" asp-route-id="@Model.Id" asp-page="/PetsPages/Edit">Edit <i class="fa fa-edit"></i></a>
+                        <a class="btn btn-lg btn-danger col-3" asp-area="Admin" asp-route-id="@Model.Id" asp-page="/PetsPages/Delete">Delete <i class="fa fa-trash-alt"></i></a>
                     }
                 </div>
 
@@ -321,12 +323,12 @@
                         + "<i>" + new Date().toLocaleDateString('en-gb') + " " + new Date().toLocaleTimeString('en-gb') + "</i><br/><br/>"
 
                         + "<strong style='color:darkblue'>"
-                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Admin/Comments/AddLike/" + currentComment.id + "'>Like</a>"
+                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Admin/Comments/AddLike/" + currentComment.id + "'>Like <i class='fa fa-thumbs-up'></i></a>"
                             + "</strong>"
                             + ":"
                             + "<i class=\"commentLikes\">0</i>"
                         + "</span><br/><br/>"
-                        + "<a style='margin: 0 auto' class='deleteBtn btn btn-danger col-3' autocomplete='off' data-url='/Admin/Pets/RemoveCommentFromPet?commentId=" + currentComment.id + "'>Delete Comment<a></strong>"
+                        + "<a style='margin: 0 auto' class='deleteBtn btn btn-danger col-3' autocomplete='off' data-url='/Admin/Pets/RemoveCommentFromPet?commentId=" + currentComment.id + "'>Delete Comment <i class='fa fa-trash-alt'></i><a></strong>"
 
                         +"<br /><br /></div>");
 
@@ -362,7 +364,7 @@
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
             
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Admin/Comments/RemoveLike/" + commentId + "'>Remove Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Admin/Comments/RemoveLike/" + commentId + "'>Remove Like <i class='fa fa-thumbs-down'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
         });
 
@@ -385,7 +387,7 @@
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
 
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Admin/Comments/AddLike/" + commentId + "'>Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Admin/Comments/AddLike/" + commentId + "'>Like <i class='fa fa-thumbs-up'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
         });
 

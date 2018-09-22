@@ -52,7 +52,6 @@ namespace FindMyPet.Web.Areas.Identity.Pages.Account.Manage
             [Display(Name = StaticConstants.FullName)]
             public string FullName { get; set; }
             
-            [Required]
             [EmailAddress]
             public string Email { get; set; }
 
@@ -170,7 +169,6 @@ namespace FindMyPet.Web.Areas.Identity.Pages.Account.Manage
             }
 
             user.PhoneNumber = Input.PhoneNumber;
-            user.Email = Input.Email;
             user.DateOfBirth = Input.DateOfBirth;
             user.FullName = Input.FullName;
 

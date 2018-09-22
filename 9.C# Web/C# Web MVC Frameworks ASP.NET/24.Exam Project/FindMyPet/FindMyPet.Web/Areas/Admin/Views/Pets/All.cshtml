@@ -71,15 +71,16 @@
                 </a>
 
                 <div class="classButtons">
-                    <a class="btn btn-primary col-3" asp-controller="Pets" asp-action="Details" asp-route-id="@pet.Id">Details</a>
-                    @if (pet.Status == "Lost")
+                    
+                    <a class="btn btn-sm btn-primary col-3" asp-controller="Pets" asp-action="Details" asp-route-id="@pet.Id">Details <i class="fas fa-info"></i></a>
+                    @if (pet.Status == "Lost" && pet.Owner.Email != this.User.Identity.Name)
                     {
-                        <a class="btn btn-success col-3" asp-controller="Pets" asp-action="PetFound" asp-route-id="@pet.Id">Found</a>
+                        <a class="btn btn-sm btn-success col-3" asp-controller="Pets" asp-action="PetFound" asp-route-id="@pet.Id">Found <i class="fas fa-check"></i></a>
                     }
                     @if (this.User.Identity.Name == pet.Owner.Email || this.User.Claims.Any(c => c.Value == "Admin"))
                     {
-                        <a class="btn btn-warning col-3" asp-route-id="@pet.Id" asp-page="/PetsPages/Edit">Edit</a>
-                        <a class="btn btn-danger col-3" asp-route-id="@pet.Id" asp-page="/PetsPages/Delete">Delete</a>
+                        <a class="btn btn-sm btn-warning col-3" asp-route-id="@pet.Id" asp-page="/PetsPages/Edit">Edit <i class="fas fa-edit"></i></a>
+                        <a class="btn btn-sm btn-danger col-3" asp-route-id="@pet.Id" asp-page="/PetsPages/Delete">Delete <i class="fas fa-trash-alt"></i></a>
                     }
                 </div>
             </div>

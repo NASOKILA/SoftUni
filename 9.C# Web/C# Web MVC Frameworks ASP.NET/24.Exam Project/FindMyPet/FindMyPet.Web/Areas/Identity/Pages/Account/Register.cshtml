@@ -18,25 +18,25 @@
                 <div asp-validation-summary="All" class="text-danger"></div>
 
                 <div class="form-group">
-                    <label asp-for="Input.FullName">Full Name <span class="requiredStar">*</span></label>
+                    <label asp-for="Input.FullName"><fa class="fas fa-user"></fa> Full Name <span class="requiredStar">*</span></label>
                     <input asp-for="Input.FullName" class="form-control" />
                     <span asp-validation-for="Input.FullName" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="Input.Email">Email <span class="requiredStar">*</span></label>
+                    <label asp-for="Input.Email"><fa class="fas fa-envelope"></fa> Email <span class="requiredStar">*</span></label>
                     <input asp-for="Input.Email" class="form-control" />
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="Input.Password">Password <span class="requiredStar">*</span></label>
+                    <label asp-for="Input.Password"><fa class="fas fa-key"></fa> Password <span class="requiredStar">*</span></label>
                     <input asp-for="Input.Password" class="form-control" />
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="Input.ConfirmPassword">Confirm Password <span class="requiredStar">*</span></label>
+                    <label asp-for="Input.ConfirmPassword"><fa class="fas fa-check"></fa> Confirm Password <span class="requiredStar">*</span></label>
                     <input asp-for="Input.ConfirmPassword" class="form-control" />
                     <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                 </div>
@@ -48,14 +48,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="Input.AvatarUpload">Avatar File Upload (optional)</label>
+                    <label asp-for="Input.AvatarUpload"><fa class="fas fa-image"></fa> Avatar File Upload (optional)</label>
                     <input asp-for="Input.AvatarUpload" class="form-control-file btn btn-block btn-lg btn-light" aria-describedby="fileHelp" />
                     <span asp-validation-for="Input.AvatarUpload" class="text-danger"></span>
                     <br/>
                 </div>
 
                 <div class="bottom ">
-                    <button type="submit" class="btn btn-lg btn-success">Register</button>
+                    <button type="submit" class="btn btn-lg btn-success">Register <fa class="fas fa-registered"></fa></button>
                 </div>
             </form>
         </div>

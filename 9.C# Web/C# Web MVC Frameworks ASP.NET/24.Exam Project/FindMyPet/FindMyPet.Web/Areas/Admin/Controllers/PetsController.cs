@@ -116,6 +116,18 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
                     page = 2;
                 }
 
+                if (allPets.Count < 1) {
+
+                    PaginationViewModel paginationInitial = new PaginationViewModel()
+                    {
+                        Page = page.Value,
+                        Count = count.Value,
+                        Pets = pets
+                    };
+
+                    return View(paginationInitial);
+                }
+
                 return new RedirectToActionResult(StaticConstants.All, StaticConstants.Pets, new { @area = StaticConstants.AdminRole, @page = page });
             }
 
@@ -249,15 +261,19 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
                 .Include(c => c.Likes)
                 .FirstOrDefault(c => c.Id == commentId);
 
-            foreach (Like like in comment.Likes)
+            if (comment != null)
             {
-                this.context.Likes.Remove(like);
+                foreach (Like like in comment.Likes)
+                {
+                    this.context.Likes.Remove(like);
+                }
+
+                this.context.SaveChanges();
+                
+                this.context.Comments.Remove(comment);
+
+                this.context.SaveChanges();
             }
-            this.context.SaveChanges();
-
-
-            this.context.Comments.Remove(comment);
-            this.context.SaveChanges();
         }
 
         [HttpGet]
@@ -312,14 +328,15 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
             Pet pet = context.Pets
                 .Include(p => p.Owner).FirstOrDefault(p => p.Id == id);
 
+            if (pet == null)
+                return RedirectToAction(StaticConstants.All, StaticConstants.Pets, new { Id = id });
+
             User currentUser = this.context.Users.FirstOrDefault(u => u.Email == this.User.Identity.Name);
 
             if (pet.Status == StaticConstants.Found)
-            {
                 return RedirectToAction(StaticConstants.All, StaticConstants.Pets);
-            }
-            
-            string content = "Your pet " + pet.Name + " was found by " + this.User.Identity.Name + " at " + DateTime.Now + ".";
+
+            string content = "Confirmation message! " + this.User.Identity.Name + " claims of having found your pet " + pet.Name + " on " + DateTime.Now + ".";
 
             Message foundMessage = new Message()
             {
@@ -331,55 +348,122 @@ namespace FindMyPet.Web.Areas.Admin.Controllers
                 SenderId = currentUser.Id
             };
 
-            string contentForFounder = "You found pet " + pet.Name + " of type " + pet.Type + " on " + DateTime.Now + ".";
-
-            Message foundMessageForFounder = new Message()
-            {
-                CreationDate = DateTime.Now,
-                Content = contentForFounder,
-                LikeDisabled = false,
-                Likes = new List<Like>(),
-                ReceverId = currentUser.Id,
-                SenderId = currentUser.Id
-            };
-
-            this.context.Messages.Add(foundMessageForFounder);
             this.context.Messages.Add(foundMessage);
             this.context.SaveChanges();
-            
-            pet.Status = StaticConstants.Found;
-            pet.TimeFound = DateTime.Now;
-            context.Pets.Update(pet);
-            context.SaveChanges();
-            
-            if (pet == null)
-                return RedirectToAction(StaticConstants.All, StaticConstants.Pets, new { Id = id });
-            
-            currentUser.PetsFound.Add(pet);
-            
-            switch (pet.Type)
-            {
-                case StaticConstants.Other:
-                    currentUser.FeedBack = currentUser.FeedBack + fifty;
-                    break;
-                case StaticConstants.Dog:
-                    currentUser.FeedBack = currentUser.FeedBack + oneHundred;
-                    break;
-                case StaticConstants.Cat:
-                    currentUser.FeedBack = currentUser.FeedBack + twoHundred;
-                    break;
-                case StaticConstants.Bird:
-                    currentUser.FeedBack = currentUser.FeedBack + threeHundred;
-                    break;
-                default:
-                    break;
-            }
-            
-            currentUser.PetsFound.Add(pet);
-            context.Users.Update(currentUser);
-            context.SaveChanges();
-            
+
             return View(StaticConstants.PetFoundCompleted);
+        }
+
+        [HttpGet]
+        public void PetConfirmFounder(int messageId)
+        {
+            Message message = this.context.Messages.Include(m => m.Likes).FirstOrDefault(m => m.Id == messageId);
+
+            User currentUser = this.context.Users.FirstOrDefault(u => u.Email == this.User.Identity.Name);
+
+            User claimerUser = this.context.Users.FirstOrDefault(u => u.Id == message.SenderId);
+
+            var messageContent = message
+                .Content.Split(" ").ToList();
+
+            messageContent.RemoveRange(0, 9);
+            messageContent.Reverse();
+            messageContent.RemoveRange(0, 3);
+            messageContent.Reverse();
+
+
+            if (messageContent.Last() == "on")
+            {
+                messageContent.Remove(messageContent.Last());
+            }
+
+            string petName = String.Join(" ", messageContent.ToArray());
+
+            Pet pet = context.Pets
+                .Include(p => p.Owner)
+                .FirstOrDefault(p => p.Name == petName && p.Owner.Email == currentUser.Email);
+
+            if (pet != null)
+            {
+                if (claimerUser != null)
+                {
+                    if (pet.Status != StaticConstants.Found)
+                    {
+
+                        //send messages to both users
+                        string contentForFounder = "Owner confirmation completed! You found pet " + pet.Name + " of type " + pet.Type + " on " + message.CreationDate + ".";
+
+                        Message foundMessageForFounder = new Message()
+                        {
+                            CreationDate = DateTime.Now,
+                            Content = contentForFounder,
+                            LikeDisabled = false,
+                            Likes = new List<Like>(),
+                            ReceverId = claimerUser.Id,
+                            SenderId = currentUser.Id
+                        };
+
+                        string content = "Confirmation completed! " + claimerUser.Email + " found your pet " + pet.Name + " on " + message.CreationDate + ".";
+
+                        Message foundMessage = new Message()
+                        {
+                            CreationDate = DateTime.Now,
+                            Content = content,
+                            LikeDisabled = false,
+                            Likes = new List<Like>(),
+                            ReceverId = currentUser.Id,
+                            SenderId = claimerUser.Id
+                        };
+
+                        this.context.Messages.Add(foundMessageForFounder);
+                        this.context.Messages.Add(foundMessage);
+                        this.context.SaveChanges();
+
+                        pet.Status = StaticConstants.Found;
+                        pet.TimeFound = message.CreationDate;
+                        pet.FounderId = claimerUser.Id;
+                        context.Pets.Update(pet);
+                        context.SaveChanges();
+
+                        claimerUser.PetsFound.Add(pet);
+
+                        switch (pet.Type)
+                        {
+                            case StaticConstants.Other:
+                                claimerUser.FeedBack = claimerUser.FeedBack + fifty;
+                                break;
+                            case StaticConstants.Dog:
+                                claimerUser.FeedBack = claimerUser.FeedBack + oneHundred;
+                                break;
+                            case StaticConstants.Cat:
+                                claimerUser.FeedBack = claimerUser.FeedBack + twoHundred;
+                                break;
+                            case StaticConstants.Bird:
+                                claimerUser.FeedBack = claimerUser.FeedBack + threeHundred;
+                                break;
+                            default:
+                                break;
+                        }
+
+                        claimerUser.PetsFound.Add(pet);
+                        context.Users.Update(claimerUser);
+                        context.SaveChanges();
+
+
+                        foreach (Like like in message.Likes)
+                        {
+                            this.context.Likes.Remove(like);
+                        }
+
+                        this.context.SaveChanges();
+
+                        this.context.Messages.Remove(message);
+
+                        this.context.SaveChanges();
+                    }
+                }
+            }
+
         }
     }
 }

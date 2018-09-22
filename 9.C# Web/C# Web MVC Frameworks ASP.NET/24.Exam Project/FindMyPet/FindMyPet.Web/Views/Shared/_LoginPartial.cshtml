@@ -7,34 +7,27 @@
 @if (SignInManager.IsSignedIn(User))
 {
     string image = findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).AvatarUrl;
-    string emptyAvatarImage = "/images/blank-avatar.png";
-    string[] filePaths = Directory.GetFiles(@"wwwroot/images", "*", SearchOption.TopDirectoryOnly);
-
-    if (!filePaths.Any(p => p.Contains(this.User.Identity.Name)))
-    {
-        image = emptyAvatarImage;
-    }
-
-
-    if (image == null || image == "")
-    {
-        image = emptyAvatarImage;
-    }
-
-
+   
+   
     <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post" id="logoutForm" class="navbar-right">
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
-
-                    <img class="avatar" src="@image" />
+                    @if (image != null && image != "")
+                    {
+                        <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="@image" />
+                    }
+                    else
+                    {
+                        <img style="width:40px; height:40px; border-radius:100%; position:absolute; right:15px; top:5px" src="~/images/blank-avatar.png" />
+                    }
                 </a>
             </li>
             <li>
-                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName!</a>
+                <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @findMyPetDbContext.Users.Find(UserManager.GetUserId(User)).UserName! <fa class="fas fa-cog fa-spin"></fa></a>
             </li>
             <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link logoutBtn">Logout</button>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link logoutBtn">Logout <fa class="fas fa-sign-out-alt"></fa></button>
             </li>
         </ul>
     </form>
@@ -42,7 +35,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li><a asp-area="Identity" asp-page="/Account/Register">Register</a></li>
-        <li><a asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Register">Register <i class="fas fa-registered"></i></a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Login">Login <i class="fas fa-sign-in-alt"></i></a></li>
     </ul>
 }

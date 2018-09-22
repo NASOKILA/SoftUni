@@ -54,8 +54,8 @@
 
                 <form method="post" asp-controller="Pets" asp-action="PetFoundPost" asp-route-id="@Model.Id">
 
-                    <input type="submit" id="btn-add-game" class="revealOnScroll btn btn-success btn-lg btn-block" data-animation="right" data-timeout="100" value="Yes" />
-                    <a id="btn-add-game" href="/Pets/All" class="revealOnScroll btn btn-primary btn-lg btn-block" data-animation="left" data-timeout="100">No</a>
+                    <button type="submit" id="btn-add-game" class="btn btn-success btn-lg btn-block right"  data-timeout="100" >Yes <i class="fas fa-check-circle"></i></button>
+                    <a id="btn-add-game" href="/Pets/All" class="btn btn-primary btn-lg btn-block left" data-timeout="100">No <i class="fas fa-times-circle"></i></a>
                 </form>
             </div>
         </div>

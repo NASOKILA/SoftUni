@@ -108,8 +108,9 @@ namespace FindMyPet.Web.Admin.Pages.PetsPages
                 this.Gender = pet.Gender;
                 this.Breed = pet.Breed;
                 this.Color = pet.Color;
-            
 
+
+            ViewData[StaticConstants.PetExists] = false;
             return Page();
         }
         
@@ -122,11 +123,22 @@ namespace FindMyPet.Web.Admin.Pages.PetsPages
 
             if (!ModelState.IsValid)
             {
+                ViewData[StaticConstants.PetExists] = false;
                 return Page();
             }
-            
-            
-                Pet pet = context.Pets.FirstOrDefault(p => p.Id == id);
+
+            var petsExists = context.Pets.Any(p => p.Name == this.Name && p.Type == this.Type && p.ImageUrl == this.ImageUrl);
+
+            if (petsExists)
+            {
+                ViewData[StaticConstants.PetExists] = true;
+                return Page();
+            }
+
+            ViewData[StaticConstants.PetExists] = false;
+
+
+            Pet pet = context.Pets.FirstOrDefault(p => p.Id == id);
 
                 if (pet == null)
                     return RedirectToAction(StaticConstants.All, StaticConstants.Pets);

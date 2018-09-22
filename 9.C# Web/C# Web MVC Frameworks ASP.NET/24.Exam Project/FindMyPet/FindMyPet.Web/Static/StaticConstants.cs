@@ -39,7 +39,7 @@
         public const string Other = "Other";
 
         public const string PetFoundCompleted = "PetFoundCompleted";
-
+        
         public const string LoginRedirect = "/Identity/Account/Login";
 
         public const string AllUsersRedirect = "/PetsPages/AllUsers";
@@ -73,5 +73,10 @@
         public const string DateOfBirth = "DateOfBirth";
 
         public const string AvatarUpload = "AvatarUpload";
+
+        public const string RemoveMessage = "RemoveMessage";
+        
+        public const string AdminId = "a12a2f64-ee0a-439a-92de-7a8c3d8ae485";
+        
     }
 }

@@ -27,7 +27,7 @@
                             <td>@user.FullName</td>
                             <td>@user.FeedBack</td>
 
-                            @if (@user.AvatarUrl != null)
+                            @if (@user.AvatarUrl != null && user.AvatarUrl != "")
                             {
                                 <td><img class="tableAvatar" src="@user.AvatarUrl" alt="No Avatar" /></td>
                             }
@@ -36,23 +36,23 @@
                             }
                             
                             <td class="tableDataRotate">
-                                <a class="btn btn-primary tableDataRotate" asp-controller="Users" asp-action="Profile" asp-route-id="@user.Id">Details</a> |
+                                <a class="btn btn-primary tableDataRotate" asp-controller="Users" asp-action="Profile" asp-route-id="@user.Id">Details <i class="fas fa-info"></i></a> |
 
                                 @if (user.LockoutEnd != null)
                                 {
 
                                     if (user.LockoutEnd > DateTime.Now)
                                     {
-                                        <a class="btn btn-success tableDataRotate" asp-controller="Users" asp-action="UnlockUser" asp-route-id="@user.Id">Free User</a>
+                                        <a class="btn btn-success tableDataRotate" asp-controller="Users" asp-action="UnlockUser" asp-route-id="@user.Id">Free User <i class="fas fa-lock-open"></i></a>
                                     }
                                     else
                                     {
-                                        <a class="btn btn-danger tableDataRotate" asp-controller="Users" asp-action="LockUser" asp-route-id="@user.Id">Lock User</a>
+                                        <a class="btn btn-danger tableDataRotate" asp-controller="Users" asp-action="LockUser" asp-route-id="@user.Id">Lock User <i class="fas fa-lock"></i></a>
                                     }
                                 }
                                 else
                                 {
-                                    <a class="btn btn-danger tableDataRotate" asp-controller="Users" asp-action="LockUser" asp-route-id="@user.Id">Lock User</a>
+                                    <a class="btn btn-danger tableDataRotate" asp-controller="Users" asp-action="LockUser" asp-route-id="@user.Id">Lock User <i class="fas fa-lock"></i></a>
                                 }
 
                             </td>

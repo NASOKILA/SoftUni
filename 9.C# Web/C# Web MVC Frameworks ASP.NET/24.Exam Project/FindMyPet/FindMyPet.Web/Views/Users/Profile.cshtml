@@ -26,7 +26,6 @@
                 <h2 class="display-5"><strong class="revealOnScroll" data-animation="right3">FeedBack</strong> <span class="revealOnScroll" data-animation="forms"> : </span> <i class="revealOnScroll" data-animation="left3">@Model.FeedBack</i></h2>
                 <br />
 
-
                 @if (Model.AvatarUrl != null && Model.AvatarUrl != "")
                 {
                     <img width="250" class="card-image-top img-fluid img-thumbnail forms" src="@Model.AvatarUrl" />
@@ -100,13 +99,13 @@
                                     @if (message.LikeDisabled == false)
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Messages", new {id = message.Id.ToString()})">Like</a>
+                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Messages", new {id = message.Id.ToString()})">Like <i class="fa fa-thumbs-up"></i></a>
                                         </strong>
                                     }
                                     else
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Messages", new {id = message.Id.ToString()})">Remove Like</a>
+                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Messages", new {id = message.Id.ToString()})">Remove Like <i class="fa fa-thumbs-down"></i></a>
                                         </strong>
                                     }
                                     :
@@ -120,7 +119,7 @@
                                 {
 
                                     <a style="margin: 0 auto" class="deleteBtn btn btn-danger col-3" data-url="@Url.Action("RemoveMessage", "Users", new {messageId = message.Id})">
-                                        Delete Message
+                                        Delete Message <i class='fa fa-trash-alt'></i>
                                     </a>
                                 }
                                 <br />
@@ -133,14 +132,14 @@
             </div>
             <br />
             <div class="revealOnScroll" data-animation="rotateInUpLeft">
-            <form>
-                <h2 class=""><strong>Add Message</strong></h2>
-                <div class="form-group row">
-                    <textarea class="form-control messageDescription" name="Description" placeholder="Enter Comment"
-                              minlength="10" required></textarea>
-                </div>
-                <input type="button" id="btn-add-pet" data-url="@Url.Action("AddMessage", "Users", new { id = Model.Id})" class="btn btn-success btn-lg btn-block" value="Add Comment" />
-            </form>
+                <form>
+                    <h2 class=""><strong>Add Message</strong></h2>
+                    <div class="form-group row">
+                        <textarea class="form-control messageDescription" name="Description" placeholder="Enter Comment"
+                                  minlength="10" required></textarea>
+                    </div>
+                    <button type="button" id="btn-add-pet" data-url="@Url.Action("AddMessage", "Users", new { id = Model.Id})" class="btn btn-success btn-lg btn-block">Add Message <i class='fa fa-plus'></i></button>
+                </form>
             </div>
 
             <br />
@@ -149,7 +148,7 @@
             <div class="revealOnScroll" data-animation="rotateInUpRight">
                 <div class="card-footer text-center">
                     <h1 class="display-3" style="background: lightgreen">Actions</h1>
-                    <a class="btn btn-lg btn-primary col-3" asp-controller="Pets" asp-action="All">Home</a>
+                    <a class="btn btn-lg btn-primary col-3" asp-controller="Pets" asp-action="All">Home <i class="fa fa-home"></i></a>
                 </div>
             </div>
         </div>
@@ -198,7 +197,7 @@
                         + "<i>" + new Date().toLocaleDateString('en-gb') + " " + new Date().toLocaleTimeString('en-gb') + "</i><br/><br/>"
 
                         + "<strong style='color:darkblue'>"
-                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Messages/AddLike/" + currentMessage.id + "'>Like</a>"
+                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Messages/AddLike/" + currentMessage.id + "'>Like <i class='fa fa-thumbs-up'></i></a>"
                             + "</strong>"
                             + ":"
                             + "<i class=\"commentLikes\">0</i>"
@@ -235,7 +234,7 @@
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
             
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Messages/RemoveLike/" + commentId + "'>Remove Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Messages/RemoveLike/" + commentId + "'>Remove Like <i class='fa fa-thumbs-down'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
         });
 
@@ -257,7 +256,7 @@
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
 
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Messages/AddLike/" + commentId + "'>Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Messages/AddLike/" + commentId + "'>Like <i class='fa fa-thumbs-up'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
 
         });

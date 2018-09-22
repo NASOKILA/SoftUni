@@ -98,13 +98,13 @@
                                     @if (message.LikeDisabled == false)
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Messages", new {Area="Admin", id = message.Id.ToString()})">Like</a>
+                                            <a class="btn btn-sm btn-success likeButton" data-url="@Url.Action("AddLike", "Messages", new { Area = "Admin", id = message.Id.ToString() })">Like <i class="fa fa-thumbs-up"></i></a>
                                         </strong>
                                     }
                                     else
                                     {
                                         <strong style="color: darkblue">
-                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Messages", new {Area="Admin", id = message.Id.ToString()})">Remove Like</a>
+                                            <a class="btn btn-sm btn-danger removelikeButton" data-url="@Url.Action("RemoveLike", "Messages", new { Area = "Admin", id = message.Id.ToString() })">Remove Like <i class="fa fa-thumbs-down"></i></a>
                                         </strong>
                                     }
                                     :
@@ -114,8 +114,8 @@
                                 <br />
                                 @if (ViewData["isAdmin"].ToString() == "True" || this.User.Identity.Name == Model.Email)
                                 {
-                                    <a style="margin: 0 auto" class="deleteBtn btn btn-danger col-3" data-url="@Url.Action("RemoveMessage", "Users", new {Area="Admin", messageId = message.Id})">
-                                        Delete Message
+                                    <a style="margin: 0 auto" class="deleteBtn btn btn-danger col-3" data-url="@Url.Action("RemoveMessage", "Users", new { Area = "Admin", messageId = message.Id })">
+                                        Delete Message <i class="fa fa-trash-alt"></i>
                                     </a>
                                 }
                                 <br />
@@ -136,7 +136,7 @@
                                   minlength="10" required></textarea>
                     </div>
 
-                    <input type="button" id="btn-add-pet" data-url="@Url.Action("AddMessage", "Users", new {Area="Admin", id = Model.Id})" class="btn btn-success btn-lg btn-block" value="Add Comment" />
+                    <button type="button" id="btn-add-pet" data-url="@Url.Action("AddMessage", "Users", new { Area = "Admin", id = Model.Id })" class="btn btn-success btn-lg btn-block">Add Message <i class="fa fa-plus"></i></button>
                 </form>
             </div>
             <br />
@@ -145,7 +145,7 @@
             <div class="revealOnScroll" data-animation="rotateInUpRight">
                 <div class="card-footer text-center">
                     <h1 class="display-3" style="background: lightgreen">Actions</h1>
-                    <a class="btn btn-primary btn-lg col-3" asp-area="Admin" asp-controller="Pets" asp-action="All">Home</a>
+                    <a class="btn btn-primary btn-lg col-3" asp-area="Admin" asp-controller="Pets" asp-action="All">Home <i class="fa fa-home"></i></a>
                 </div>
             </div>
         </div>
@@ -156,60 +156,58 @@
 @section Scripts {
 
     <script>
-        $("#btn-add-pet").click(function () {
-
-            let addMessageUrl = $(this).data("url");
-
-            let id = addMessageUrl.split("/").pop();
-
-            let Description = $('.messageDescription').val();
-
-            $('.messageDescription').val('');
-
-            $.get(addMessageUrl,
-                    {
-                    Description: Description,
-                    id: id
-                }).then((res) => {
-                    
-                    let currentMessage = "";
-
-                    $.ajax({
-                        url: '/Messages/GetLastMessage',
-                        method: 'GET',
-                        dataType: "json",
-                        success: function (currentMessage) {
-
-
+            $("#btn-add-pet").click(function () {
+    
+                let addMessageUrl = $(this).data("url");
+    
+                let id = addMessageUrl.split("/").pop();
+    
+                let Description = $('.messageDescription').val();
+    
+                $('.messageDescription').val('');
+    
+                $.get(addMessageUrl,
+                        {
+                        Description: Description,
+                        id: id
+                    }).then((res) => {
+    
+                        let currentMessage = "";
+    
+                        $.ajax({
+                            url: '/Messages/GetLastMessage',
+                            method: 'GET',
+                            dataType: "json",
+                            success: function (currentMessage) {
+    
                             $(".noCommentsPresent").fadeOut();
-                            
-                    $('.commentsContainer')
-                        .append(
-                         "<div>"
-                            + "<h2 class=\"contentDiv\">"
-                                + Description
-                            + "</h2>"
-                        + "<span> Created by "
-                        + "<strong class=\"profile\">"
-                            + "<a class='profileLink' href='/Admin/Users/Profile/@context.Users.FirstOrDefault(u => u.Email == this.User.Identity.Name).Id'>@this.User.Identity.Name</a>"
-                        + "</strong> on "
-                        + "<i>" + new Date().toLocaleDateString('en-gb') + " " + new Date().toLocaleTimeString('en-gb') + "</i><br/><br/>"
-
-                        + "<strong style='color:darkblue'>"
-                        + "<a class='btn btn-sm btn-success likeButton' data-url='/Admin/Messages/AddLike/" + currentMessage.id + "'>Like</a>"
-                            + "</strong>"
-                            + ":"
-                            + "<i class=\"commentLikes\">0</i>"
-                        + "</span><br/><br/>"
-                        + "<a style='margin: 0 auto' class='deleteBtn btn btn-danger col-3' autocomplete='off' data-url='/Admin/Users/RemoveMessage?messageId=" + currentMessage.id + "'>Delete Comment<a></strong>"
-                        + "<br /><br /></div>");
-                        },
-                        error : (err) => console.log(err)
-                    })
-                });
-        });
-
-
+    
+                        $('.commentsContainer')
+                            .append(
+                             "<div>"
+                                + "<h2 class=\"contentDiv\">"
+                                    + Description
+                                + "</h2>"
+                            + "<span> Created by "
+                            + "<strong class=\"profile\">"
+                                + "<a class='profileLink' href='/Admin/Users/Profile/@ViewData["CurrentUserId"]'>@this.User.Identity.Name</a>"
+                            + "</strong> on "
+                            + "<i>" + new Date().toLocaleDateString('en-gb') + " " + new Date().toLocaleTimeString('en-gb') + "</i><br/><br/>"
+    
+                            + "<strong style='color:darkblue'>"
+                            + "<a class='btn btn-sm btn-success likeButton' data-url='/Admin/Messages/AddLike/" + currentMessage.id + "'>Like <i class='fa fa-thumbs-up'></i></a>"
+                                + "</strong>"
+                                + ":"
+                                + "<i class=\"commentLikes\">0</i>"
+                            + "</span><br/><br/>"
+                            + "<a style='margin: 0 auto' class='deleteBtn btn btn-danger col-3' autocomplete='off' data-url='/Admin/Users/RemoveMessage?messageId=" + currentMessage.id + "'>Delete Comment <i class='fa fa-trash-alt'></i><a></strong>"
+                            + "<br /><br /></div>");
+                            },
+                            error : (err) => console.log(err)
+                        })
+                    });
+            });
+    
     </script>
 
     <script>
@@ -230,9 +228,9 @@
             let newLikes = currentLikes + 1;
 
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
-            
+
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Admin/Messages/RemoveLike/" + commentId + "'>Remove Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-danger removelikeButton' data-url='/Admin/Messages/RemoveLike/" + commentId + "'>Remove Like <i class='fa fa-thumbs-down'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
         });
     </script>
@@ -247,13 +245,13 @@
             let commentId = removeLikeUrl.split("/").slice(-1).pop()
 
             let currentLikes = Number($(this).parent().next()[0].innerText);
-            
+
             let newLikes = currentLikes - 1;
 
             $(this).parent().next().replaceWith("<i class=\"commentLikes\">" + newLikes + "</i>");
 
             $(this).fadeOut(() => {
-                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Admin/Messages/AddLike/" + commentId + "'>Like</a>").hide().appendTo($(this).parent()).fadeIn();
+                $("<a class='btn btn-sm btn-success likeButton'  data-url='/Admin/Messages/AddLike/" + commentId + "'>Like <i class='fa fa-thumbs-up'></i></a>").hide().appendTo($(this).parent()).fadeIn();
             });
 
         });

@@ -246,7 +246,6 @@ namespace FindMyPet.Web.Controllers
                 .Include(m => m.Likes)
                 .FirstOrDefault(m => m.Id == messageId);
             
-
             foreach (Like like in message.Likes)
             {
                 this.context.Likes.Remove(like);
@@ -255,6 +254,7 @@ namespace FindMyPet.Web.Controllers
             this.context.SaveChanges();
             
             this.context.Messages.Remove(message);
+
             this.context.SaveChanges();
         }
     }

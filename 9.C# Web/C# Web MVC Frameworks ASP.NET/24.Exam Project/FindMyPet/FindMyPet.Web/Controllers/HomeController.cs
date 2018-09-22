@@ -31,7 +31,8 @@ namespace FindMyPet.Web.Controllers
         }
         
         public IActionResult Index()
-        {  
+        {
+            
             bool isLoggedIn = false;
             bool isAdmin = false;
 

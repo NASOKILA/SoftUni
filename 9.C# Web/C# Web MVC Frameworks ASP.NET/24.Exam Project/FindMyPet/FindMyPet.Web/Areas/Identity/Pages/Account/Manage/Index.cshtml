@@ -15,35 +15,34 @@
             <div asp-validation-summary="All" class="text-danger"></div>
 
             <div class="form-group">
-                <label asp-for="Input.FullName">Full name</label>
+                <label asp-for="Input.FullName"><fa class="fas fa-user"></fa> Full name <span class="requiredStar"> *</span></label>
                 <input asp-for="Input.FullName" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label asp-for="Input.Email"></label>
+                <label asp-for="Input.Email"><fa class="fas fa-envelope"></fa> Email <span class="requiredStar"> *</span></label>
                 @if (Model.IsEmailConfirmed)
                 {
                     <div class="input-group">
-                        <input asp-for="Input.Email" class="form-control" />
+                        <input disabled asp-for="Input.Email" class="form-control" />
                         <span class="input-group-addon" aria-hidden="true"><span class="glyphicon glyphicon-ok text-success"></span></span>
                     </div>
                 }
                 else
                 {
-                    <input asp-for="Input.Email" class="form-control" />
-                    <button id="email-verification" type="submit" asp-page-handler="SendVerificationEmail" class="btn btn-link">Send verification email</button>
+                    <input disabled asp-for="Input.Email" class="form-control" />
                 }
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Input.DateOfBirth">Date of birth</label>
+                <label asp-for="Input.DateOfBirth"><i class="fas fa-calendar-alt"></i> Date of birth <span class="requiredStar"> *</span></label>
                 <input asp-for="Input.DateOfBirth" class="form-control" />
                 <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Input.AvatarUpload">Change Avatar File (optional)</label>
+                <label asp-for="Input.AvatarUpload"><i class="fas fa-image"></i> Change Avatar File (optional)</label>
                 <input asp-for="Input.AvatarUpload" class="form-control-file btn btn-block btn-lg" aria-describedby="fileHelp" />
                 <span asp-validation-for="Input.AvatarUpload" class="text-danger"></span>
                 @if (ViewData["Image"] != null && ViewData["Image"] != "")
@@ -61,12 +60,12 @@
             </div>
             
             <div class="form-group">
-                <label asp-for="Input.PhoneNumber"></label>
+                <label asp-for="Input.PhoneNumber"><i class="fas fa-phone"></i> Phone Number (optional)</label>
                 <input asp-for="Input.PhoneNumber" class="form-control" />
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
 
-            <button type="submit" class="btn btn-default">Save</button>
+            <button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Save</button>
         </form>
     </div>
 </div>
