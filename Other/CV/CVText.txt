@@ -1,0 +1,8 @@
+My name is Atanas, currently working as a Software Engineer in an agile team of 5 people.
+
+I offer 1 year of professional experience for Sainsbury's in West Midlands UK and 2 additional years of hands-on experience on projects from a private university called "SoftUni".
+
+I am looking for an opportunity in Switzerland as I am about to reallocate soon.
+
+The technologies I am working with at the moment are C#, JavaScript, .Net, Reactjs, HTML5, CSS3, Less & Sass, Microservice architecture, DevOps, Azure, Docker, Kubernetes and more. 
+
