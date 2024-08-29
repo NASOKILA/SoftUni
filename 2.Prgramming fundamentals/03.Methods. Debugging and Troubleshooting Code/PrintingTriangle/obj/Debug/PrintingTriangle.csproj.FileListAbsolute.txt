@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\bin\Debug\PrintingTriangle.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\bin\Debug\PrintingTriangle.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\bin\Debug\PrintingTriangle.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\obj\Debug\PrintingTriangle.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\obj\Debug\PrintingTriangle.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrintingTriangle\obj\Debug\PrintingTriangle.pdb

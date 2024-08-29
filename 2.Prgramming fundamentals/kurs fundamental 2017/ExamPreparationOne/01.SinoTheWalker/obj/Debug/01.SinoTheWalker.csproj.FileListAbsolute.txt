@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\bin\Debug\01.SinoTheWalker.exe.config
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\bin\Debug\01.SinoTheWalker.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\bin\Debug\01.SinoTheWalker.pdb
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\obj\Debug\01.SinoTheWalker.exe
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\obj\Debug\01.SinoTheWalker.pdb
-C:\Users\nasko\Desktop\ExamPreparationOne\01.SinoTheWalker\obj\Debug\01.SinoTheWalker.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\bin\Debug\Zadacah za izpit Dnevna Pechalba.exe.config
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\bin\Debug\Zadacah za izpit Dnevna Pechalba.exe
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\bin\Debug\Zadacah za izpit Dnevna Pechalba.pdb
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\obj\Debug\Zadacah za izpit Dnevna Pechalba.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\obj\Debug\Zadacah za izpit Dnevna Pechalba.exe
-C:\Users\nasko\Desktop\Zadacah za izpit Dnevna Pechalba\Zadacah za izpit Dnevna Pechalba\obj\Debug\Zadacah za izpit Dnevna Pechalba.pdb

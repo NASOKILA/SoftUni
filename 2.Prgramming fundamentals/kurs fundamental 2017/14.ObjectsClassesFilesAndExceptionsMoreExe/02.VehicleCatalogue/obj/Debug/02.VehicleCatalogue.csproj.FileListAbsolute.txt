@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\bin\Debug\02.VehicleCatalogue.exe.config
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\bin\Debug\02.VehicleCatalogue.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\bin\Debug\02.VehicleCatalogue.pdb
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\obj\Debug\02.VehicleCatalogue.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\obj\Debug\02.VehicleCatalogue.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\02.VehicleCatalogue\obj\Debug\02.VehicleCatalogue.pdb

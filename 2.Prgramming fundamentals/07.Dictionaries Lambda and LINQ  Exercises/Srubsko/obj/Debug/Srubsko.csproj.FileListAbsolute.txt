@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\bin\Debug\Srubsko.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\bin\Debug\Srubsko.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\bin\Debug\Srubsko.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\obj\Debug\Srubsko.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\obj\Debug\Srubsko.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\Srubsko\obj\Debug\Srubsko.csprojResolveAssemblyReference.cache

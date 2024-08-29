@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\bin\Debug\_08.House_Builder.exe.config
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\bin\Debug\_08.House_Builder.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\bin\Debug\_08.House_Builder.pdb
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\obj\Debug\08. House Builder.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\obj\Debug\_08.House_Builder.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\08. House Builder\obj\Debug\_08.House_Builder.pdb

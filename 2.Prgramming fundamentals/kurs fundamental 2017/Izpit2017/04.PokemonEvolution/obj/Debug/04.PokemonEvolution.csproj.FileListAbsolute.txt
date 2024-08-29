@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\bin\Debug\04.PokemonEvolution.exe.config
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\bin\Debug\04.PokemonEvolution.exe
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\bin\Debug\04.PokemonEvolution.pdb
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\obj\Debug\04.PokemonEvolution.exe
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\obj\Debug\04.PokemonEvolution.pdb
-C:\Users\user\Desktop\Izpit2017\04.PokemonEvolution\obj\Debug\04.PokemonEvolution.csprojResolveAssemblyReference.cache

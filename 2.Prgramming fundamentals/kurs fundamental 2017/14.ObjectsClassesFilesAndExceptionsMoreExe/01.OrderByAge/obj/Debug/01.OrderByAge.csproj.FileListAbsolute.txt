@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\01.OrderByAge\bin\Debug\01.OrderByAge.exe.config
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\01.OrderByAge\bin\Debug\01.OrderByAge.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\01.OrderByAge\bin\Debug\01.OrderByAge.pdb
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\01.OrderByAge\obj\Debug\01.OrderByAge.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\01.OrderByAge\obj\Debug\01.OrderByAge.pdb

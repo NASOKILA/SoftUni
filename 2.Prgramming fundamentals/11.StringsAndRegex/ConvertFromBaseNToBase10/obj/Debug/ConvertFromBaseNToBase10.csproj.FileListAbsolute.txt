@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\bin\Debug\ConvertFromBaseNToBase10.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\bin\Debug\ConvertFromBaseNToBase10.exe
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\bin\Debug\ConvertFromBaseNToBase10.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\obj\Debug\ConvertFromBaseNToBase10.exe
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\obj\Debug\ConvertFromBaseNToBase10.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\ConvertFromBaseNToBase10\obj\Debug\ConvertFromBaseNToBase10.csprojResolveAssemblyReference.cache

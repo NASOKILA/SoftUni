@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\bin\Debug\CountNumbers.exe.config
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\bin\Debug\CountNumbers.exe
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\bin\Debug\CountNumbers.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\obj\Debug\CountNumbers.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\obj\Debug\CountNumbers.exe
-C:\Users\nasko\Desktop\ArraysAndLists\CountNumbers\obj\Debug\CountNumbers.pdb

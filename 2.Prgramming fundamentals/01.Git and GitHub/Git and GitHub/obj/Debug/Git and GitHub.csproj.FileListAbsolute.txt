@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\Git and GitHub\Git and GitHub\bin\Debug\Git and GitHub.exe.config
-C:\Users\nasko\Desktop\softuni\Git and GitHub\Git and GitHub\bin\Debug\Git and GitHub.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\bin\Debug\Git and GitHub.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\bin\Debug\Git and GitHub.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\bin\Debug\Git and GitHub.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\obj\Debug\Git and GitHub.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\obj\Debug\Git and GitHub.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\1.Git and GitHub\Git and GitHub\obj\Debug\Git and GitHub.pdb

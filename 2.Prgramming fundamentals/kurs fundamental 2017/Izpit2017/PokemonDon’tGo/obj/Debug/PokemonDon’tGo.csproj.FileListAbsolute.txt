@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\bin\Debug\PokemonDon’tGo.exe.config
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\bin\Debug\PokemonDon’tGo.exe
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\bin\Debug\PokemonDon’tGo.pdb
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\obj\Debug\PokemonDon’tGo.exe
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\obj\Debug\PokemonDon’tGo.pdb
-C:\Users\user\Desktop\Izpit2017\PokemonDon’tGo\obj\Debug\PokemonDon’tGo.csprojResolveAssemblyReference.cache

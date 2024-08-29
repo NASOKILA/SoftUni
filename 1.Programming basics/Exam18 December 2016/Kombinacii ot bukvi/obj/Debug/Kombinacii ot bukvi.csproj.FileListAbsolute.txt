@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\bin\Debug\Kombinacii ot bukvi.exe.config
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\bin\Debug\Kombinacii ot bukvi.exe
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\bin\Debug\Kombinacii ot bukvi.pdb
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\obj\Debug\Kombinacii ot bukvi.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\obj\Debug\Kombinacii ot bukvi.exe
-C:\Users\nasko\Desktop\softuni\Izpit 18 dekemvri 2016\Kombinacii ot bukvi\obj\Debug\Kombinacii ot bukvi.pdb

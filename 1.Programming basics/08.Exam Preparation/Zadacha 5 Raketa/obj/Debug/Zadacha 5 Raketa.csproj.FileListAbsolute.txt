@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Podgotovka\Zadacha 5 Raketa\bin\Debug\Zadacha 5 Raketa.exe.config
-C:\Users\nasko\Desktop\Podgotovka\Zadacha 5 Raketa\bin\Debug\Zadacha 5 Raketa.exe
-C:\Users\nasko\Desktop\Podgotovka\Zadacha 5 Raketa\bin\Debug\Zadacha 5 Raketa.pdb
-C:\Users\nasko\Desktop\Podgotovka\Zadacha 5 Raketa\obj\Debug\Zadacha 5 Raketa.exe
-C:\Users\nasko\Desktop\Podgotovka\Zadacha 5 Raketa\obj\Debug\Zadacha 5 Raketa.pdb

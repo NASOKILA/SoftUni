@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe.config
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.pdb
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.pdb

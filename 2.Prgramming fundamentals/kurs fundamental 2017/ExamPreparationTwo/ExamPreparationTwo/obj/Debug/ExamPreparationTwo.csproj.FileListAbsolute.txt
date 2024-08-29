@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\bin\Debug\ExamPreparationTwo.exe.config
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\bin\Debug\ExamPreparationTwo.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\bin\Debug\ExamPreparationTwo.pdb
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\obj\Debug\ExamPreparationTwo.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\obj\Debug\ExamPreparationTwo.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\ExamPreparationTwo\obj\Debug\ExamPreparationTwo.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\ExamPreparationTwo\bin\Debug\ExamPreparationTwo.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\ExamPreparationTwo\obj\Debug\ExamPreparationTwo.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\ExamPreparationTwo\obj\Debug\ExamPreparationTwo.pdb

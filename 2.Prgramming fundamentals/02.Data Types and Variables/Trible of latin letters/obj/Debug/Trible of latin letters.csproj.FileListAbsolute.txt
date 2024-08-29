@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Trible of latin letters\bin\Debug\Trible of latin letters.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Trible of latin letters\bin\Debug\Trible of latin letters.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Trible of latin letters\bin\Debug\Trible of latin letters.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Trible of latin letters\obj\Debug\Trible of latin letters.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Trible of latin letters\obj\Debug\Trible of latin letters.pdb

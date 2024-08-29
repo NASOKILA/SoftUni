@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100 zavurshvashti na 7\bin\Debug\Chisla ot 1 do 100 zavurshvashti na 7.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100 zavurshvashti na 7\bin\Debug\Chisla ot 1 do 100 zavurshvashti na 7.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100 zavurshvashti na 7\bin\Debug\Chisla ot 1 do 100 zavurshvashti na 7.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100 zavurshvashti na 7\obj\Debug\Chisla ot 1 do 100 zavurshvashti na 7.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100 zavurshvashti na 7\obj\Debug\Chisla ot 1 do 100 zavurshvashti na 7.pdb

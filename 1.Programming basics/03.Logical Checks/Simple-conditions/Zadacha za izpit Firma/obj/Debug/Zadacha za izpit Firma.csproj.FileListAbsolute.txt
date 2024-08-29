@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\bin\Debug\Zadacha za izpit Firma.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\obj\Debug\Zadacha za izpit Firma.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\bin\Debug\Zadacha za izpit Firma.exe
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\bin\Debug\Zadacha za izpit Firma.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\obj\Debug\Zadacha za izpit Firma.exe
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Firma\obj\Debug\Zadacha za izpit Firma.pdb

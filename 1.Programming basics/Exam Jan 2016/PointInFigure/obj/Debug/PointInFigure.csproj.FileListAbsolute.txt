@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PointInFigure\bin\Debug\PointInFigure.exe.config
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PointInFigure\bin\Debug\PointInFigure.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PointInFigure\bin\Debug\PointInFigure.pdb
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PointInFigure\obj\Debug\PointInFigure.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\PointInFigure\obj\Debug\PointInFigure.pdb

@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\bin\Debug\03.ValidationData.exe.config
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\bin\Debug\03.ValidationData.exe
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\bin\Debug\03.ValidationData.pdb
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\obj\Debug\03.ValidationData.exe
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\obj\Debug\03.ValidationData.pdb
-C:\Users\user\Desktop\02.Encapsulation and validation\03.ValidationData\obj\Debug\03.ValidationData.csprojResolveAssemblyReference.cache

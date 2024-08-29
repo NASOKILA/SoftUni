@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik ot 10 x 10 zvezdichki\bin\Debug\Pravougulnik ot 10 x 10 zvezdichki.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik ot 10 x 10 zvezdichki\bin\Debug\Pravougulnik ot 10 x 10 zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik ot 10 x 10 zvezdichki\bin\Debug\Pravougulnik ot 10 x 10 zvezdichki.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik ot 10 x 10 zvezdichki\obj\Debug\Pravougulnik ot 10 x 10 zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik ot 10 x 10 zvezdichki\obj\Debug\Pravougulnik ot 10 x 10 zvezdichki.pdb

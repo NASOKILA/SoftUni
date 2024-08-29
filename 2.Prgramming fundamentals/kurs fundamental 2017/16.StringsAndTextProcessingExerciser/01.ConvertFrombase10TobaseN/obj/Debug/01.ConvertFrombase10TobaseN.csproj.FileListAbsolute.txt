@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\bin\Debug\01.ConvertFrombase10TobaseN.exe.config
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\bin\Debug\01.ConvertFrombase10TobaseN.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\bin\Debug\01.ConvertFrombase10TobaseN.pdb
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\obj\Debug\01.ConvertFrombase10TobaseN.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\obj\Debug\01.ConvertFrombase10TobaseN.pdb
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\obj\Debug\01.ConvertFrombase10TobaseN.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\bin\Debug\01.ConvertFrombase10TobaseN.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\obj\Debug\01.ConvertFrombase10TobaseN.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\01.ConvertFrombase10TobaseN\obj\Debug\01.ConvertFrombase10TobaseN.pdb

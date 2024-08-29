@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\bin\Debug\ExtractSentencesByKeyword.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\bin\Debug\ExtractSentencesByKeyword.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\bin\Debug\ExtractSentencesByKeyword.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\obj\Debug\ExtractSentencesByKeyword.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\obj\Debug\ExtractSentencesByKeyword.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\obj\Debug\ExtractSentencesByKeyword.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\bin\Debug\ExtractSentencesByKeyword.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\obj\Debug\ExtractSentencesByKeyword.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\11.StringsAndRegex\ExtractSentencesByKeyword\obj\Debug\ExtractSentencesByKeyword.pdb

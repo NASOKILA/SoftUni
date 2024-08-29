@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\5. BPM Counter\bin\Debug\_5.BPM_Counter.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\5. BPM Counter\bin\Debug\_5.BPM_Counter.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\5. BPM Counter\bin\Debug\_5.BPM_Counter.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\5. BPM Counter\obj\Debug\_5.BPM_Counter.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\5. BPM Counter\obj\Debug\_5.BPM_Counter.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\bin\Debug\Fruit shop.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\bin\Debug\Fruit shop.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\bin\Debug\Fruit shop.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\obj\Debug\Fruit shop.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\obj\Debug\Fruit shop.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Fruit shop\obj\Debug\Fruit shop.pdb

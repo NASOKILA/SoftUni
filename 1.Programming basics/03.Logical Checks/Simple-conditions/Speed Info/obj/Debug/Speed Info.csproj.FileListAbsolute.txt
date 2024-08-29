@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Speed Info\bin\Debug\Speed Info.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Speed Info\bin\Debug\Speed Info.exe
-C:\Users\nasko\Desktop\Simple-conditions\Speed Info\bin\Debug\Speed Info.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Speed Info\obj\Debug\Speed Info.exe
-C:\Users\nasko\Desktop\Simple-conditions\Speed Info\obj\Debug\Speed Info.pdb

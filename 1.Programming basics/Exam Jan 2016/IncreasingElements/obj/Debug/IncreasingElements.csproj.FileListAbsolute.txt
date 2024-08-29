@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\bin\Debug\IncreasingElements.exe.config
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\bin\Debug\IncreasingElements.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\bin\Debug\IncreasingElements.pdb
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\obj\Debug\IncreasingElements.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\obj\Debug\IncreasingElements.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\IncreasingElements\obj\Debug\IncreasingElements.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\IncreasingElements\bin\Debug\IncreasingElements.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\IncreasingElements\obj\Debug\IncreasingElements.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Programming basics\Izpit Jan 2016\IncreasingElements\obj\Debug\IncreasingElements.pdb

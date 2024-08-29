@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Excellent or not\bin\Debug\Excellent or not.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Excellent or not\bin\Debug\Excellent or not.exe
-C:\Users\nasko\Desktop\Simple-conditions\Excellent or not\bin\Debug\Excellent or not.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Excellent or not\obj\Debug\Excellent or not.exe
-C:\Users\nasko\Desktop\Simple-conditions\Excellent or not\obj\Debug\Excellent or not.pdb

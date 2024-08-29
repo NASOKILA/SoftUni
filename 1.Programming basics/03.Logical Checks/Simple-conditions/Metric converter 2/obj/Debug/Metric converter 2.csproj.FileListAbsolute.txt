@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Metric converter 2\bin\Debug\Metric converter 2.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Metric converter 2\bin\Debug\Metric converter 2.exe
-C:\Users\nasko\Desktop\Simple-conditions\Metric converter 2\bin\Debug\Metric converter 2.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Metric converter 2\obj\Debug\Metric converter 2.exe
-C:\Users\nasko\Desktop\Simple-conditions\Metric converter 2\obj\Debug\Metric converter 2.pdb

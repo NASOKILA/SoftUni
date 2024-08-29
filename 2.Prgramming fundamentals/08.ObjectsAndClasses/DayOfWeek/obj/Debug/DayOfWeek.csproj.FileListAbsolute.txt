@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\ObjectsAndClasses\DayOfWeek\bin\Debug\DayOfWeek.exe.config
-C:\Users\nasko\Desktop\ObjectsAndClasses\DayOfWeek\bin\Debug\DayOfWeek.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\DayOfWeek\bin\Debug\DayOfWeek.pdb
-C:\Users\nasko\Desktop\ObjectsAndClasses\DayOfWeek\obj\Debug\DayOfWeek.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\DayOfWeek\obj\Debug\DayOfWeek.pdb

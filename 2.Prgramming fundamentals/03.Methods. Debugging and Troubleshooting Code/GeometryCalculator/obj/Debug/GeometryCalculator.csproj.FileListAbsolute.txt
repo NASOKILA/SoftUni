@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\bin\Debug\GeometryCalculator.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\bin\Debug\GeometryCalculator.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\bin\Debug\GeometryCalculator.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\obj\Debug\GeometryCalculator.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\obj\Debug\GeometryCalculator.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\GeometryCalculator\obj\Debug\GeometryCalculator.pdb

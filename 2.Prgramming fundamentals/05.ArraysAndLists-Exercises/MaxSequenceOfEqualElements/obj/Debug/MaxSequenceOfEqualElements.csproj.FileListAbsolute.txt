@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\bin\Debug\MaxSequenceOfEqualElements.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\bin\Debug\MaxSequenceOfEqualElements.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\bin\Debug\MaxSequenceOfEqualElements.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\obj\Debug\MaxSequenceOfEqualElements.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\obj\Debug\MaxSequenceOfEqualElements.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\bin\Debug\MaxSequenceOfEqualElements.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\obj\Debug\MaxSequenceOfEqualElements.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\MaxSequenceOfEqualElements\obj\Debug\MaxSequenceOfEqualElements.pdb

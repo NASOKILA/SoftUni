@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\bin\Debug\FilesAndExceptions.exe.config
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\bin\Debug\FilesAndExceptions.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\bin\Debug\FilesAndExceptions.pdb
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\obj\Debug\FilesAndExceptions.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\obj\Debug\FilesAndExceptions.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\FilesAndExceptions\obj\Debug\FilesAndExceptions.pdb

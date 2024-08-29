@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\bin\Debug\Lqva i dqsna suma.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\bin\Debug\Lqva i dqsna suma.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\bin\Debug\Lqva i dqsna suma.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\obj\Debug\Lqva i dqsna suma.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\obj\Debug\Lqva i dqsna suma.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Lqva i dqsna suma\obj\Debug\Lqva i dqsna suma.pdb

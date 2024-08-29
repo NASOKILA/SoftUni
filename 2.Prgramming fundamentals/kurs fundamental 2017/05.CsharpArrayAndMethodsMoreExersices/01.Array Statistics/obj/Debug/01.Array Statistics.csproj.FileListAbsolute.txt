@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\01.Array Statistics\bin\Debug\01.Array Statistics.exe.config
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\01.Array Statistics\bin\Debug\01.Array Statistics.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\01.Array Statistics\bin\Debug\01.Array Statistics.pdb
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\01.Array Statistics\obj\Debug\01.Array Statistics.exe
-C:\Users\nasko\Desktop\CsharpArrayAndMethodsMoreExersices\01.Array Statistics\obj\Debug\01.Array Statistics.pdb

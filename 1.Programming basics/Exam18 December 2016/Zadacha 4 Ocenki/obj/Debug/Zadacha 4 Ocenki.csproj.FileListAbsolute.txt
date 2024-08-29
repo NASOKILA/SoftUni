@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\bin\Debug\Zadacha 4 Ocenki.exe.config
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\bin\Debug\Zadacha 4 Ocenki.exe
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\bin\Debug\Zadacha 4 Ocenki.pdb
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\obj\Debug\Zadacha 4 Ocenki.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\obj\Debug\Zadacha 4 Ocenki.exe
-C:\Users\nasko\Desktop\Izpit 18 dekemvri 2016\Zadacha 4 Ocenki\obj\Debug\Zadacha 4 Ocenki.pdb

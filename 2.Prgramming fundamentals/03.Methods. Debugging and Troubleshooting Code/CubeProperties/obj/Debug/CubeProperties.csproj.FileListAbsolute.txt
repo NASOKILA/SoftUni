@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\bin\Debug\CubeProperties.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\bin\Debug\CubeProperties.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\bin\Debug\CubeProperties.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\obj\Debug\CubeProperties.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\obj\Debug\CubeProperties.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\CubeProperties\obj\Debug\CubeProperties.pdb

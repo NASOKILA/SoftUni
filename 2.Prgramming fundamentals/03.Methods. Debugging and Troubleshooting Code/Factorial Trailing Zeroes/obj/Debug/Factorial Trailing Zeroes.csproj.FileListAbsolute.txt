@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\bin\Debug\Factorial Trailing Zeroes.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\obj\Debug\Factorial Trailing Zeroes.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\bin\Debug\Factorial Trailing Zeroes.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\bin\Debug\Factorial Trailing Zeroes.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\obj\Debug\Factorial Trailing Zeroes.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\obj\Debug\Factorial Trailing Zeroes.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\bin\Debug\Factorial Trailing Zeroes.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\obj\Debug\Factorial Trailing Zeroes.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\Factorial Trailing Zeroes\obj\Debug\Factorial Trailing Zeroes.pdb

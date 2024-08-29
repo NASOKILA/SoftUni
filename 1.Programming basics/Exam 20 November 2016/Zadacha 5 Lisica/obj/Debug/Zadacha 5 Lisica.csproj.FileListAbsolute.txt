@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\bin\Debug\Zadacha 5 Lisica.exe.config
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\bin\Debug\Zadacha 5 Lisica.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\bin\Debug\Zadacha 5 Lisica.pdb
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\obj\Debug\Zadacha 5 Lisica.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\obj\Debug\Zadacha 5 Lisica.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 5 Lisica\obj\Debug\Zadacha 5 Lisica.pdb

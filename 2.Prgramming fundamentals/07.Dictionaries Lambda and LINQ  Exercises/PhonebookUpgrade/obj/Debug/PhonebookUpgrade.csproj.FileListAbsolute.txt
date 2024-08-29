@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\bin\Debug\PhonebookUpgrade.exe.config
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\bin\Debug\PhonebookUpgrade.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\bin\Debug\PhonebookUpgrade.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\obj\Debug\PhonebookUpgrade.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\obj\Debug\PhonebookUpgrade.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\obj\Debug\PhonebookUpgrade.csprojResolveAssemblyReference.cache
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\bin\Debug\PhonebookUpgrade.exe.config
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\obj\Debug\PhonebookUpgrade.exe
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\7.Dictionaries Lambda and LINQ  Exercises\PhonebookUpgrade\obj\Debug\PhonebookUpgrade.pdb

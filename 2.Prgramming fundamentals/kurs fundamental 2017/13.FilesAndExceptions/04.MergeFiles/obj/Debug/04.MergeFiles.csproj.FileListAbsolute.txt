@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\FilesAndExceptions\04.MergeFiles\bin\Debug\04.MergeFiles.exe.config
-C:\Users\nasko\Desktop\FilesAndExceptions\04.MergeFiles\bin\Debug\04.MergeFiles.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\04.MergeFiles\bin\Debug\04.MergeFiles.pdb
-C:\Users\nasko\Desktop\FilesAndExceptions\04.MergeFiles\obj\Debug\04.MergeFiles.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\04.MergeFiles\obj\Debug\04.MergeFiles.pdb

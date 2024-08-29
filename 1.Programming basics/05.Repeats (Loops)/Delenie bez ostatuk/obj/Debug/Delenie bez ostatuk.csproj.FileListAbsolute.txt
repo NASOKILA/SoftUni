@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Delenie bez ostatuk\bin\Debug\Delenie bez ostatuk.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Delenie bez ostatuk\bin\Debug\Delenie bez ostatuk.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Delenie bez ostatuk\bin\Debug\Delenie bez ostatuk.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Delenie bez ostatuk\obj\Debug\Delenie bez ostatuk.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Delenie bez ostatuk\obj\Debug\Delenie bez ostatuk.pdb

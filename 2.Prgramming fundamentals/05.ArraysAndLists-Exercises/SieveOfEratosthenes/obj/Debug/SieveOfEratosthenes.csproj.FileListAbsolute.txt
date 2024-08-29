@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\bin\Debug\SieveOfEratosthenes.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\bin\Debug\SieveOfEratosthenes.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\bin\Debug\SieveOfEratosthenes.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\obj\Debug\SieveOfEratosthenes.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\obj\Debug\SieveOfEratosthenes.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\obj\Debug\SieveOfEratosthenes.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\bin\Debug\SieveOfEratosthenes.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\obj\Debug\SieveOfEratosthenes.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\SieveOfEratosthenes\obj\Debug\SieveOfEratosthenes.pdb

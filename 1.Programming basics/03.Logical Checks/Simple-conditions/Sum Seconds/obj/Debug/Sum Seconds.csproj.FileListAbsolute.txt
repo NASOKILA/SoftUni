@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\bin\Debug\Sum Seconds.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\bin\Debug\Sum Seconds.exe
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\bin\Debug\Sum Seconds.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\obj\Debug\Sum Seconds.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\obj\Debug\Sum Seconds.exe
-C:\Users\nasko\Desktop\Simple-conditions\Sum Seconds\obj\Debug\Sum Seconds.pdb

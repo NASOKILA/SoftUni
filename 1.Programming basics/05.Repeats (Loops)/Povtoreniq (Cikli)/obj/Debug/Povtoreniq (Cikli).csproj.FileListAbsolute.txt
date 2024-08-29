@@ -1,7 +1,0 @@
-C:\Users\nasko\Desktop\Povtoreniq (Cikli)\Povtoreniq (Cikli)\bin\Debug\Povtoreniq (Cikli).exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\bin\Debug\Povtoreniq (Cikli).exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\bin\Debug\Povtoreniq (Cikli).exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\bin\Debug\Povtoreniq (Cikli).pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\obj\Debug\Povtoreniq (Cikli).csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\obj\Debug\Povtoreniq (Cikli).exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Povtoreniq (Cikli)\obj\Debug\Povtoreniq (Cikli).pdb

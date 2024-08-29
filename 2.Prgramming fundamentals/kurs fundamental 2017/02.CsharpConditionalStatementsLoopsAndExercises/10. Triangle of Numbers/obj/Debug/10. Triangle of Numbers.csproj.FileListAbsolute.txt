@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\10. Triangle of Numbers\bin\Debug\_10.Triangle_of_Numbers.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\10. Triangle of Numbers\bin\Debug\_10.Triangle_of_Numbers.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\10. Triangle of Numbers\bin\Debug\_10.Triangle_of_Numbers.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\10. Triangle of Numbers\obj\Debug\_10.Triangle_of_Numbers.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\10. Triangle of Numbers\obj\Debug\_10.Triangle_of_Numbers.pdb

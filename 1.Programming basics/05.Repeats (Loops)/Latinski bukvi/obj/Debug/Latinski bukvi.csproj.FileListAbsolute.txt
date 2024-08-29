@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Latinski bukvi\bin\Debug\Latinski bukvi.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Latinski bukvi\bin\Debug\Latinski bukvi.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Latinski bukvi\bin\Debug\Latinski bukvi.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Latinski bukvi\obj\Debug\Latinski bukvi.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Latinski bukvi\obj\Debug\Latinski bukvi.pdb

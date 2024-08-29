@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\05.OnlyLetters\bin\Debug\05.OnlyLetters.exe.config
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\05.OnlyLetters\bin\Debug\05.OnlyLetters.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\05.OnlyLetters\bin\Debug\05.OnlyLetters.pdb
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\05.OnlyLetters\obj\Debug\05.OnlyLetters.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\05.OnlyLetters\obj\Debug\05.OnlyLetters.pdb

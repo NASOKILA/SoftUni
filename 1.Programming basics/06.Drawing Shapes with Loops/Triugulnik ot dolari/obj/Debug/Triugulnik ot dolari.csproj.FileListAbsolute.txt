@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\bin\Debug\Triugulnik ot dolari.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\bin\Debug\Triugulnik ot dolari.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\bin\Debug\Triugulnik ot dolari.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\obj\Debug\Triugulnik ot dolari.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\obj\Debug\Triugulnik ot dolari.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Triugulnik ot dolari\obj\Debug\Triugulnik ot dolari.pdb

@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\bin\Debug\SoftUniKaraoke.exe.config
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\bin\Debug\SoftUniKaraoke.exe
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\bin\Debug\SoftUniKaraoke.pdb
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\obj\Debug\SoftUniKaraoke.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\obj\Debug\SoftUniKaraoke.exe
-C:\Users\user\Desktop\ExamPreparation1\SoftUniKaraoke\obj\Debug\SoftUniKaraoke.pdb

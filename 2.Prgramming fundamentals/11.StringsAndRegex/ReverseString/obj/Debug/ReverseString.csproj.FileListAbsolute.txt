@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\ReverseString\bin\Debug\ReverseString.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\ReverseString\bin\Debug\ReverseString.exe
-C:\Users\nasko\Desktop\StringsAndRegex\ReverseString\bin\Debug\ReverseString.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\ReverseString\obj\Debug\ReverseString.exe
-C:\Users\nasko\Desktop\StringsAndRegex\ReverseString\obj\Debug\ReverseString.pdb

@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\5.Word in Plural\bin\Debug\5.Word in Plural.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\5.Word in Plural\bin\Debug\5.Word in Plural.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\5.Word in Plural\bin\Debug\5.Word in Plural.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\5.Word in Plural\obj\Debug\5.Word in Plural.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\5.Word in Plural\obj\Debug\5.Word in Plural.pdb

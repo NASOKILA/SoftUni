@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\bin\Debug\06.ReplaceATag.exe.config
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\bin\Debug\06.ReplaceATag.exe
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\bin\Debug\06.ReplaceATag.pdb
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\obj\Debug\06.ReplaceATag.exe
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\obj\Debug\06.ReplaceATag.pdb
-C:\Users\user\Desktop\RegularExpressions\06.ReplaceATag\obj\Debug\06.ReplaceATag.csprojResolveAssemblyReference.cache

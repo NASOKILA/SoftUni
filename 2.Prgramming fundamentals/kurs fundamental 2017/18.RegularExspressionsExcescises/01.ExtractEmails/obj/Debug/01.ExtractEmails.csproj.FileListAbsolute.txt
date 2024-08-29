@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\bin\Debug\01.ExtractEmails.exe.config
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\bin\Debug\01.ExtractEmails.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\bin\Debug\01.ExtractEmails.pdb
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\obj\Debug\01.ExtractEmails.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\obj\Debug\01.ExtractEmails.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\01.ExtractEmails\obj\Debug\01.ExtractEmails.pdb

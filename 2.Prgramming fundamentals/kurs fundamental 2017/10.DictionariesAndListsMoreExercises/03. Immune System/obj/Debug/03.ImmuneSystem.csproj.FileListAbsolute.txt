@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\bin\Debug\_03.Immune_System.exe.config
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\bin\Debug\_03.Immune_System.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\bin\Debug\_03.Immune_System.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\obj\Debug\03.ImmuneSystem.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\obj\Debug\_03.Immune_System.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\03. Immune System\obj\Debug\_03.Immune_System.pdb

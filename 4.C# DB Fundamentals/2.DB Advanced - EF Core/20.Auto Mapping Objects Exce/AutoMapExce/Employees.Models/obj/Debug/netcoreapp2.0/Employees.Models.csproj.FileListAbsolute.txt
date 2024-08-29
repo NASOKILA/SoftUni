@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.deps.json
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.dll
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\bin\Debug\netcoreapp2.0\Employees.Models.pdb
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.AssemblyInfo.cs
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.dll
-C:\Users\user\Desktop\AutoMapExce\Employees.Models\obj\Debug\netcoreapp2.0\Employees.Models.pdb

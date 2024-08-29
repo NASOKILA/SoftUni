@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\bin\Debug\05.ClosestTwoPoints.exe.config
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\bin\Debug\05.ClosestTwoPoints.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\bin\Debug\05.ClosestTwoPoints.pdb
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\obj\Debug\05.ClosestTwoPoints.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\obj\Debug\05.ClosestTwoPoints.pdb
-C:\Users\nasko\Desktop\ObjectsAndClasses\05.ClosestTwoPoints\obj\Debug\05.ClosestTwoPoints.csprojResolveAssemblyReference.cache

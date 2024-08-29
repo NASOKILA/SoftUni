@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.exe.config
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\10.DictionariesAndListsMoreExercises\07.TakeSkipRope\bin\Debug\07.TakeSkipRope.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\10.DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\10.DictionariesAndListsMoreExercises\07.TakeSkipRope\obj\Debug\07.TakeSkipRope.pdb

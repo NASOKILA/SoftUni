@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\bin\Debug\02.CommandInterpreter.exe.config
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\bin\Debug\02.CommandInterpreter.exe
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\bin\Debug\02.CommandInterpreter.pdb
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\obj\Debug\02.CommandInterpreter.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\obj\Debug\02.CommandInterpreter.exe
-C:\Users\user\Desktop\ExamPreparationThree\02.CommandInterpreter\obj\Debug\02.CommandInterpreter.pdb

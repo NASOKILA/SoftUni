@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\bin\Debug\Time+15 minutes.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\bin\Debug\Time+15 minutes.exe
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\bin\Debug\Time+15 minutes.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\obj\Debug\Time+15 minutes.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\obj\Debug\Time+15 minutes.exe
-C:\Users\nasko\Desktop\Simple-conditions\Time+15 minutes\obj\Debug\Time+15 minutes.pdb

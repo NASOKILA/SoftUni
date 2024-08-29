@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\bin\Debug\Zadacha 2 Domashni lubimci.exe.config
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\bin\Debug\Zadacha 2 Domashni lubimci.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\bin\Debug\Zadacha 2 Domashni lubimci.pdb
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\obj\Debug\Zadacha 2 Domashni lubimci.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\obj\Debug\Zadacha 2 Domashni lubimci.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 2 Domashni lubimci\obj\Debug\Zadacha 2 Domashni lubimci.pdb

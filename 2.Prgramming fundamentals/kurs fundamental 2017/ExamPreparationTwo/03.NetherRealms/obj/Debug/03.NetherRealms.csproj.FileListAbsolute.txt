@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\bin\Debug\03.NetherRealms.exe.config
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\bin\Debug\03.NetherRealms.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\bin\Debug\03.NetherRealms.pdb
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\obj\Debug\03.NetherRealms.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\obj\Debug\03.NetherRealms.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\03.NetherRealms\obj\Debug\03.NetherRealms.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\03.NetherRealms\bin\Debug\03.NetherRealms.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\03.NetherRealms\obj\Debug\03.NetherRealms.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\03.NetherRealms\obj\Debug\03.NetherRealms.pdb

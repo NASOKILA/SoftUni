@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\bin\Debug\02.OddFilter.exe.config
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\bin\Debug\02.OddFilter.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\bin\Debug\02.OddFilter.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\obj\Debug\02.OddFilter.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\obj\Debug\02.OddFilter.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\02.OddFilter\obj\Debug\02.OddFilter.pdb

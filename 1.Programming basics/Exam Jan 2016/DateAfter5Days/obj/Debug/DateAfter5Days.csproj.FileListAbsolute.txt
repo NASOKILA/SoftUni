@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\DateAfter5Days\bin\Debug\DateAfter5Days.exe.config
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\DateAfter5Days\bin\Debug\DateAfter5Days.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\DateAfter5Days\bin\Debug\DateAfter5Days.pdb
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\DateAfter5Days\obj\Debug\DateAfter5Days.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\DateAfter5Days\obj\Debug\DateAfter5Days.pdb

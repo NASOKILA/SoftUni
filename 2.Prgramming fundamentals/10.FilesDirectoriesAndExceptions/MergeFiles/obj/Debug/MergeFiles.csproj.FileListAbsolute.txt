@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\bin\Debug\MergeFiles.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\bin\Debug\MergeFiles.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\bin\Debug\MergeFiles.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\obj\Debug\MergeFiles.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\obj\Debug\MergeFiles.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\MergeFiles\obj\Debug\MergeFiles.pdb

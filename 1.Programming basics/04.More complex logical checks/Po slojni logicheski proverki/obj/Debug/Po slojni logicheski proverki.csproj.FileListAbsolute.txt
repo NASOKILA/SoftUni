@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\bin\Debug\Po slojni logicheski proverki.exe.config
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\bin\Debug\Po slojni logicheski proverki.exe
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\bin\Debug\Po slojni logicheski proverki.pdb
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\obj\Debug\Po slojni logicheski proverki.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\obj\Debug\Po slojni logicheski proverki.exe
-C:\Users\nasko\Desktop\Po slojni logicheski proverki\Po slojni logicheski proverki\obj\Debug\Po slojni logicheski proverki.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Po slojni logicheski proverki\bin\Debug\Po slojni logicheski proverki.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Po slojni logicheski proverki\obj\Debug\Po slojni logicheski proverki.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Po slojni logicheski proverki\obj\Debug\Po slojni logicheski proverki.pdb

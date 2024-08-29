@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparationTwo\01.CharityMarathon\bin\Debug\01.CharityMarathon.exe.config
-C:\Users\nasko\Desktop\ExamPreparationTwo\01.CharityMarathon\bin\Debug\01.CharityMarathon.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\01.CharityMarathon\bin\Debug\01.CharityMarathon.pdb
-C:\Users\nasko\Desktop\ExamPreparationTwo\01.CharityMarathon\obj\Debug\01.CharityMarathon.exe
-C:\Users\nasko\Desktop\ExamPreparationTwo\01.CharityMarathon\obj\Debug\01.CharityMarathon.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\01.CharityMarathon\bin\Debug\01.CharityMarathon.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\01.CharityMarathon\obj\Debug\01.CharityMarathon.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\ExamPreparationTwo\01.CharityMarathon\obj\Debug\01.CharityMarathon.pdb

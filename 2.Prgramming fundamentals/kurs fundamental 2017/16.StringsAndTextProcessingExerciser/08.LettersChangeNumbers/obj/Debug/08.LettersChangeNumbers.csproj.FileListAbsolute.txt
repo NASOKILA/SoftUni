@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\bin\Debug\08.LettersChangeNumbers.exe.config
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\obj\Debug\08.LettersChangeNumbers.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\bin\Debug\08.LettersChangeNumbers.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\bin\Debug\08.LettersChangeNumbers.pdb
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\obj\Debug\08.LettersChangeNumbers.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\08.LettersChangeNumbers\obj\Debug\08.LettersChangeNumbers.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\08.LettersChangeNumbers\bin\Debug\08.LettersChangeNumbers.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\08.LettersChangeNumbers\obj\Debug\08.LettersChangeNumbers.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\08.LettersChangeNumbers\obj\Debug\08.LettersChangeNumbers.pdb

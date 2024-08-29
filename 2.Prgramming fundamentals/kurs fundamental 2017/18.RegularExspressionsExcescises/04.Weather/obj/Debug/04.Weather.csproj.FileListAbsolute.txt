@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\bin\Debug\04.Weather.exe.config
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\bin\Debug\04.Weather.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\bin\Debug\04.Weather.pdb
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\obj\Debug\04.Weather.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\obj\Debug\04.Weather.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\04.Weather\obj\Debug\04.Weather.pdb

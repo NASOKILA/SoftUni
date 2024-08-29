@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\bin\Debug\4.Month Printer.exe.config
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\bin\Debug\4.Month Printer.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\bin\Debug\4.Month Printer.pdb
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\obj\Debug\4.Month Printer.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\obj\Debug\4.Month Printer.exe
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\4.Month Printer\obj\Debug\4.Month Printer.pdb

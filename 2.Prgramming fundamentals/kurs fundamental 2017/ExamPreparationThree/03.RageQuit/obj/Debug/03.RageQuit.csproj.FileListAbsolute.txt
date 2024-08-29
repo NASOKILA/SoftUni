@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\bin\Debug\03.RageQuit.exe.config
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\bin\Debug\03.RageQuit.exe
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\bin\Debug\03.RageQuit.pdb
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\obj\Debug\03.RageQuit.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\obj\Debug\03.RageQuit.exe
-C:\Users\user\Desktop\ExamPreparationThree\03.RageQuit\obj\Debug\03.RageQuit.pdb

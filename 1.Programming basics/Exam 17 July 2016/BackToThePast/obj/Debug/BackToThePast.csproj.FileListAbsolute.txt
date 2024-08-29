@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 17 July 2016\BackToThePast\bin\Debug\BackToThePast.exe.config
-C:\Users\nasko\Desktop\Izpit 17 July 2016\BackToThePast\bin\Debug\BackToThePast.exe
-C:\Users\nasko\Desktop\Izpit 17 July 2016\BackToThePast\bin\Debug\BackToThePast.pdb
-C:\Users\nasko\Desktop\Izpit 17 July 2016\BackToThePast\obj\Debug\BackToThePast.exe
-C:\Users\nasko\Desktop\Izpit 17 July 2016\BackToThePast\obj\Debug\BackToThePast.pdb

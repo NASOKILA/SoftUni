@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\07.Hideout\bin\Debug\07.Hideout.exe.config
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\07.Hideout\bin\Debug\07.Hideout.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\07.Hideout\bin\Debug\07.Hideout.pdb
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\07.Hideout\obj\Debug\07.Hideout.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\07.Hideout\obj\Debug\07.Hideout.pdb
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\07.Hideout\bin\Debug\07.Hideout.exe.config
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\07.Hideout\obj\Debug\07.Hideout.exe
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\07.Hideout\obj\Debug\07.Hideout.pdb

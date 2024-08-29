@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\USD to BGN\bin\Debug\USD to BGN.exe.config
-C:\Users\nasko\Desktop\Simple calculations\USD to BGN\bin\Debug\USD to BGN.exe
-C:\Users\nasko\Desktop\Simple calculations\USD to BGN\bin\Debug\USD to BGN.pdb
-C:\Users\nasko\Desktop\Simple calculations\USD to BGN\obj\Debug\USD to BGN.exe
-C:\Users\nasko\Desktop\Simple calculations\USD to BGN\obj\Debug\USD to BGN.pdb

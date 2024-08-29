@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe.config
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.pdb
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.pdb

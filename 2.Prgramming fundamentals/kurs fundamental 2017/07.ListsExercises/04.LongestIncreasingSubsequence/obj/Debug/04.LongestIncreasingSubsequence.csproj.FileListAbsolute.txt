@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\bin\Debug\04.LongestIncreasingSubsequence.exe.config
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\bin\Debug\04.LongestIncreasingSubsequence.exe
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\bin\Debug\04.LongestIncreasingSubsequence.pdb
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\obj\Debug\04.LongestIncreasingSubsequence.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\obj\Debug\04.LongestIncreasingSubsequence.exe
-C:\Users\user\Desktop\7.ListsExercises\04.LongestIncreasingSubsequence\obj\Debug\04.LongestIncreasingSubsequence.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\bin\Debug\Zadacha za izpit Hotelska staq.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\bin\Debug\Zadacha za izpit Hotelska staq.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\bin\Debug\Zadacha za izpit Hotelska staq.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\obj\Debug\Zadacha za izpit Hotelska staq.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\obj\Debug\Zadacha za izpit Hotelska staq.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Hotelska staq\obj\Debug\Zadacha za izpit Hotelska staq.pdb

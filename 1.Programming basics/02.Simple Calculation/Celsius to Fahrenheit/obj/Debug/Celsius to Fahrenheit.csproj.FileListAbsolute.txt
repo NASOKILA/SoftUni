@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\Celsius to Fahrenheit\bin\Debug\Celsius to Fahrenheit.exe.config
-C:\Users\nasko\Desktop\Simple calculations\Celsius to Fahrenheit\bin\Debug\Celsius to Fahrenheit.exe
-C:\Users\nasko\Desktop\Simple calculations\Celsius to Fahrenheit\bin\Debug\Celsius to Fahrenheit.pdb
-C:\Users\nasko\Desktop\Simple calculations\Celsius to Fahrenheit\obj\Debug\Celsius to Fahrenheit.exe
-C:\Users\nasko\Desktop\Simple calculations\Celsius to Fahrenheit\obj\Debug\Celsius to Fahrenheit.pdb

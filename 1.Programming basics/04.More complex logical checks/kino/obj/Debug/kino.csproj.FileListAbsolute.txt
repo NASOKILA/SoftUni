@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\bin\Debug\kino.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\bin\Debug\kino.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\bin\Debug\kino.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\obj\Debug\kino.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\obj\Debug\kino.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\kino\obj\Debug\kino.pdb

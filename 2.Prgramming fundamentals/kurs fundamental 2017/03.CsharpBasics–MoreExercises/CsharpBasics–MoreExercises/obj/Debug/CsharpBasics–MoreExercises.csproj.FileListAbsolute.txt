@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\bin\Debug\CsharpBasics–MoreExercises.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\bin\Debug\CsharpBasics–MoreExercises.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\bin\Debug\CsharpBasics–MoreExercises.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\obj\Debug\CsharpBasics–MoreExercises.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\obj\Debug\CsharpBasics–MoreExercises.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\CsharpBasics–MoreExercises\obj\Debug\CsharpBasics–MoreExercises.pdb

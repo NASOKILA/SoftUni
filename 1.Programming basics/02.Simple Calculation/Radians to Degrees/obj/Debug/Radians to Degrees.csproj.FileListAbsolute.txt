@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\Radians to Degrees\bin\Debug\Radians to Degrees.exe.config
-C:\Users\nasko\Desktop\Simple calculations\Radians to Degrees\bin\Debug\Radians to Degrees.exe
-C:\Users\nasko\Desktop\Simple calculations\Radians to Degrees\bin\Debug\Radians to Degrees.pdb
-C:\Users\nasko\Desktop\Simple calculations\Radians to Degrees\obj\Debug\Radians to Degrees.exe
-C:\Users\nasko\Desktop\Simple calculations\Radians to Degrees\obj\Debug\Radians to Degrees.pdb

@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.deps.json
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.dll
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.AssemblyInfo.cs
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.pdb
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.dll
-C:\Users\user\Desktop\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.pdb

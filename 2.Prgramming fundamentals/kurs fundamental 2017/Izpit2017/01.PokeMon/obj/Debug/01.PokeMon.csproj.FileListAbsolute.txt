@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\bin\Debug\01.PokeMon.exe.config
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\bin\Debug\01.PokeMon.exe
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\bin\Debug\01.PokeMon.pdb
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\obj\Debug\01.PokeMon.exe
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\obj\Debug\01.PokeMon.pdb
-C:\Users\user\Desktop\Izpit2017\01.PokeMon\obj\Debug\01.PokeMon.csprojResolveAssemblyReference.cache

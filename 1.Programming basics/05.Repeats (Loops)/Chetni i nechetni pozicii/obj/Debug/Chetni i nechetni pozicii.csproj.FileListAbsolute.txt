@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\bin\Debug\Chetni i nechetni pozicii.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\bin\Debug\Chetni i nechetni pozicii.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\bin\Debug\Chetni i nechetni pozicii.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\obj\Debug\Chetni i nechetni pozicii.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\obj\Debug\Chetni i nechetni pozicii.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chetni i nechetni pozicii\obj\Debug\Chetni i nechetni pozicii.pdb

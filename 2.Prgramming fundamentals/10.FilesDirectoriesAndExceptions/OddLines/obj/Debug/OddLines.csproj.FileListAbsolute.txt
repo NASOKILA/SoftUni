@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\bin\Debug\OddLines.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\bin\Debug\OddLines.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\bin\Debug\OddLines.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\obj\Debug\OddLines.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\obj\Debug\OddLines.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\OddLines\obj\Debug\OddLines.pdb

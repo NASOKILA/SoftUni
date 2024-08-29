@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\bin\Debug\Sumirane na cifrite na chislo.exe.config
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\bin\Debug\Sumirane na cifrite na chislo.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\bin\Debug\Sumirane na cifrite na chislo.pdb
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\obj\Debug\Sumirane na cifrite na chislo.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\obj\Debug\Sumirane na cifrite na chislo.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Sumirane na cifrite na chislo\obj\Debug\Sumirane na cifrite na chislo.pdb

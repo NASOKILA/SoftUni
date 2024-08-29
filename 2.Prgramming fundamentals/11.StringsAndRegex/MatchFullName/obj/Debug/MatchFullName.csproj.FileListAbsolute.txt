@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\bin\Debug\MatchFullName.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\bin\Debug\MatchFullName.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\bin\Debug\MatchFullName.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\obj\Debug\MatchFullName.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\obj\Debug\MatchFullName.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MatchFullName\obj\Debug\MatchFullName.pdb

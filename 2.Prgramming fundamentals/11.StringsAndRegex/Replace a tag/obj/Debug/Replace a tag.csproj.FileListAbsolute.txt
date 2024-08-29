@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\bin\Debug\Replace a tag.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\bin\Debug\Replace a tag.exe
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\bin\Debug\Replace a tag.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\obj\Debug\Replace a tag.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\obj\Debug\Replace a tag.exe
-C:\Users\nasko\Desktop\StringsAndRegex\Replace a tag\obj\Debug\Replace a tag.pdb

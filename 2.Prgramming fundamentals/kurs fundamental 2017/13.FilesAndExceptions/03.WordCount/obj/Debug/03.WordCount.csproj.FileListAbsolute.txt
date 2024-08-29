@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\FilesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe.config
-C:\Users\nasko\Desktop\FilesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\03.WordCount\bin\Debug\03.WordCount.pdb
-C:\Users\nasko\Desktop\FilesAndExceptions\03.WordCount\obj\Debug\03.WordCount.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\03.WordCount\obj\Debug\03.WordCount.pdb

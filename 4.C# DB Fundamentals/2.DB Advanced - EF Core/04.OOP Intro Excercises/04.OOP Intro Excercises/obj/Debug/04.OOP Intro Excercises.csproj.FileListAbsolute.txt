@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\bin\Debug\04.OOP Intro Excercises.exe.config
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\bin\Debug\04.OOP Intro Excercises.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\bin\Debug\04.OOP Intro Excercises.pdb
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\obj\Debug\04.OOP Intro Excercises.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\obj\Debug\04.OOP Intro Excercises.exe
-C:\Users\user\Desktop\04.OOP Intro Excercises\04.OOP Intro Excercises\obj\Debug\04.OOP Intro Excercises.pdb

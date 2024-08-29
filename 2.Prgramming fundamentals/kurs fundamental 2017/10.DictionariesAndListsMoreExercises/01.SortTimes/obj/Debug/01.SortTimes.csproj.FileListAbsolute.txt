@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\bin\Debug\01.SortTimes.exe.config
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\bin\Debug\01.SortTimes.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\bin\Debug\01.SortTimes.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\obj\Debug\01.SortTimes.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\obj\Debug\01.SortTimes.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\01.SortTimes\obj\Debug\01.SortTimes.csprojResolveAssemblyReference.cache

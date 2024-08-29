@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\bin\Debug\04.MatchDates.exe.config
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\bin\Debug\04.MatchDates.exe
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\bin\Debug\04.MatchDates.pdb
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\obj\Debug\04.MatchDates.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\obj\Debug\04.MatchDates.exe
-C:\Users\user\Desktop\RegularExpressions\04.MatchDates\obj\Debug\04.MatchDates.pdb

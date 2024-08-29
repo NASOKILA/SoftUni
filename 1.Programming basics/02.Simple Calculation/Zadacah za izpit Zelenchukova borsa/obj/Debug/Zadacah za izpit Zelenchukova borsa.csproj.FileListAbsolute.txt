@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\bin\Debug\Zadacah za izpit Zelenchukova borsa.exe.config
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\bin\Debug\Zadacah za izpit Zelenchukova borsa.exe
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\bin\Debug\Zadacah za izpit Zelenchukova borsa.pdb
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\obj\Debug\Zadacah za izpit Zelenchukova borsa.exe
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\obj\Debug\Zadacah za izpit Zelenchukova borsa.pdb
-C:\Users\nasko\Desktop\softuni\Simple calculations\Zadacah za izpit Zelenchukova borsa\obj\Debug\Zadacah za izpit Zelenchukova borsa.csprojResolveAssemblyReference.cache

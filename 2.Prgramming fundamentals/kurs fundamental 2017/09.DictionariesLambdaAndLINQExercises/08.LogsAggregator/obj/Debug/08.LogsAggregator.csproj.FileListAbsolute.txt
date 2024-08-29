@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\bin\Debug\08.LogsAggregator.exe.config
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\bin\Debug\08.LogsAggregator.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\bin\Debug\08.LogsAggregator.pdb
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\obj\Debug\08.LogsAggregator.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\obj\Debug\08.LogsAggregator.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\08.LogsAggregator\obj\Debug\08.LogsAggregator.pdb

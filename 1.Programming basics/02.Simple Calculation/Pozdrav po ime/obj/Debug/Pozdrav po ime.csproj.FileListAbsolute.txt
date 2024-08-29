@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\Pozdrav po ime\bin\Debug\Pozdrav po ime.exe.config
-C:\Users\nasko\Desktop\Simple calculations\Pozdrav po ime\bin\Debug\Pozdrav po ime.exe
-C:\Users\nasko\Desktop\Simple calculations\Pozdrav po ime\bin\Debug\Pozdrav po ime.pdb
-C:\Users\nasko\Desktop\Simple calculations\Pozdrav po ime\obj\Debug\Pozdrav po ime.exe
-C:\Users\nasko\Desktop\Simple calculations\Pozdrav po ime\obj\Debug\Pozdrav po ime.pdb

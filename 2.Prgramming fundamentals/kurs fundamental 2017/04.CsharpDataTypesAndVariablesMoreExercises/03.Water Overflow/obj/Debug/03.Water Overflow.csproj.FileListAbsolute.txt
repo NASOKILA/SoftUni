@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\03.Water Overflow\bin\Debug\03.Water Overflow.exe.config
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\03.Water Overflow\bin\Debug\03.Water Overflow.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\03.Water Overflow\bin\Debug\03.Water Overflow.pdb
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\03.Water Overflow\obj\Debug\03.Water Overflow.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\03.Water Overflow\obj\Debug\03.Water Overflow.pdb

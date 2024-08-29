@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Vlojeni cikli\Vuvejdane na chetno chislo (s obrabotka na greshen vhod)\bin\Debug\Vuvejdane na chetno chislo (s obrabotka na greshen vhod).exe.config
-C:\Users\nasko\Desktop\Vlojeni cikli\Vuvejdane na chetno chislo (s obrabotka na greshen vhod)\bin\Debug\Vuvejdane na chetno chislo (s obrabotka na greshen vhod).exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Vuvejdane na chetno chislo (s obrabotka na greshen vhod)\bin\Debug\Vuvejdane na chetno chislo (s obrabotka na greshen vhod).pdb
-C:\Users\nasko\Desktop\Vlojeni cikli\Vuvejdane na chetno chislo (s obrabotka na greshen vhod)\obj\Debug\Vuvejdane na chetno chislo (s obrabotka na greshen vhod).exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Vuvejdane na chetno chislo (s obrabotka na greshen vhod)\obj\Debug\Vuvejdane na chetno chislo (s obrabotka na greshen vhod).pdb

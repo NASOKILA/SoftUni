@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\bin\Debug\02.AdvertisementMessage.exe.config
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\bin\Debug\02.AdvertisementMessage.exe
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\bin\Debug\02.AdvertisementMessage.pdb
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\obj\Debug\02.AdvertisementMessage.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\obj\Debug\02.AdvertisementMessage.exe
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\02.AdvertisementMessage\obj\Debug\02.AdvertisementMessage.pdb

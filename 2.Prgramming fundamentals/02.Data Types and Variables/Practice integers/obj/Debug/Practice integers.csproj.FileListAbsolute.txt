@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\bin\Debug\Practice integers.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\bin\Debug\Practice integers.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\bin\Debug\Practice integers.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\obj\Debug\Practice integers.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\obj\Debug\Practice integers.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice integers\obj\Debug\Practice integers.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice integers\bin\Debug\Practice integers.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice integers\obj\Debug\Practice integers.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice integers\obj\Debug\Practice integers.pdb

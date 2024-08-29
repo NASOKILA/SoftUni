@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\bin\Debug\06.ByteFlip.exe.config
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\bin\Debug\06.ByteFlip.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\bin\Debug\06.ByteFlip.pdb
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\obj\Debug\06.ByteFlip.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\obj\Debug\06.ByteFlip.exe
-C:\Users\nasko\Desktop\DictionariesAndListsMoreExercises\06.ByteFlip\obj\Debug\06.ByteFlip.pdb

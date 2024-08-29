@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\FastPrimeChecker-Refactor\bin\Debug\FastPrimeChecker-Refactor.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\FastPrimeChecker-Refactor\bin\Debug\FastPrimeChecker-Refactor.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\FastPrimeChecker-Refactor\bin\Debug\FastPrimeChecker-Refactor.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\FastPrimeChecker-Refactor\obj\Debug\FastPrimeChecker-Refactor.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\FastPrimeChecker-Refactor\obj\Debug\FastPrimeChecker-Refactor.pdb

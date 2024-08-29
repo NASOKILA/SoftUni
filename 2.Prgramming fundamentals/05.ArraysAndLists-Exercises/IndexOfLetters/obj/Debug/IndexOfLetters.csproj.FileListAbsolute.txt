@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\bin\Debug\IndexOfLetters.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\bin\Debug\IndexOfLetters.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\bin\Debug\IndexOfLetters.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\obj\Debug\IndexOfLetters.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\obj\Debug\IndexOfLetters.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\bin\Debug\IndexOfLetters.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\obj\Debug\IndexOfLetters.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\5.ArraysAndLists-Exercises\IndexOfLetters\obj\Debug\IndexOfLetters.pdb

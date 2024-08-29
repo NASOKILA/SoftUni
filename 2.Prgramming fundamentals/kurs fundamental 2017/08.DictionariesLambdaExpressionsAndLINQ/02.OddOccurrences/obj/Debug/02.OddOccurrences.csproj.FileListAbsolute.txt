@@ -1,5 +1,0 @@
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\02.OddOccurrences\bin\Debug\02.OddOccurrences.exe.config
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\02.OddOccurrences\bin\Debug\02.OddOccurrences.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\02.OddOccurrences\bin\Debug\02.OddOccurrences.pdb
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\02.OddOccurrences\obj\Debug\02.OddOccurrences.exe
-c:\users\nasko\documents\visual studio 2015\Projects\DictionariesLambdaExpressionsAndLINQ\02.OddOccurrences\obj\Debug\02.OddOccurrences.pdb

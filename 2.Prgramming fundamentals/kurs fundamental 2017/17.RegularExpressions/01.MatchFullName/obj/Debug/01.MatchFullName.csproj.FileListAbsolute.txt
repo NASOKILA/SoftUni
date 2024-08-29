@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\RegularExpressions\01.MatchFullName\bin\Debug\01.MatchFullName.exe.config
-C:\Users\user\Desktop\RegularExpressions\01.MatchFullName\bin\Debug\01.MatchFullName.exe
-C:\Users\user\Desktop\RegularExpressions\01.MatchFullName\bin\Debug\01.MatchFullName.pdb
-C:\Users\user\Desktop\RegularExpressions\01.MatchFullName\obj\Debug\01.MatchFullName.exe
-C:\Users\user\Desktop\RegularExpressions\01.MatchFullName\obj\Debug\01.MatchFullName.pdb

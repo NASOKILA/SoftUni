@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\bin\Debug\Zadacha 4 SoftUni camp.exe.config
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\bin\Debug\Zadacha 4 SoftUni camp.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\bin\Debug\Zadacha 4 SoftUni camp.pdb
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\obj\Debug\Zadacha 4 SoftUni camp.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\obj\Debug\Zadacha 4 SoftUni camp.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 4 SoftUni camp\obj\Debug\Zadacha 4 SoftUni camp.pdb

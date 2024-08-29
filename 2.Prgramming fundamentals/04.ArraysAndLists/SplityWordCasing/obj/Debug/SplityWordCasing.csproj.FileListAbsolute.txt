@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\bin\Debug\SplityWordCasing.exe.config
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\bin\Debug\SplityWordCasing.exe
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\bin\Debug\SplityWordCasing.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\obj\Debug\SplityWordCasing.exe
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\obj\Debug\SplityWordCasing.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\SplityWordCasing\obj\Debug\SplityWordCasing.csprojResolveAssemblyReference.cache

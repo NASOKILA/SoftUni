@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\bin\Debug\03.KarateStrings.exe.config
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\bin\Debug\03.KarateStrings.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\bin\Debug\03.KarateStrings.pdb
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\obj\Debug\03.KarateStrings.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\obj\Debug\03.KarateStrings.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\03.KarateStrings\obj\Debug\03.KarateStrings.pdb
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\03.KarateStrings\bin\Debug\03.KarateStrings.exe.config
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\03.KarateStrings\obj\Debug\03.KarateStrings.exe
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\03.KarateStrings\obj\Debug\03.KarateStrings.pdb

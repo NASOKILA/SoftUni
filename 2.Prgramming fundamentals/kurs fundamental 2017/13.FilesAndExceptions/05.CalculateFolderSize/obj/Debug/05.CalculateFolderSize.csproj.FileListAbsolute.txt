@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\bin\Debug\05.CalculateFolderSize.exe.config
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\bin\Debug\05.CalculateFolderSize.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\bin\Debug\05.CalculateFolderSize.pdb
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\obj\Debug\05.CalculateFolderSize.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\obj\Debug\05.CalculateFolderSize.exe
-C:\Users\nasko\Desktop\FilesAndExceptions\05.CalculateFolderSize\obj\Debug\05.CalculateFolderSize.pdb

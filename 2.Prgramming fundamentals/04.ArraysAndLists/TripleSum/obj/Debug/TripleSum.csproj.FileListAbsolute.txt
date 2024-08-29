@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\bin\Debug\TripleSum.exe.config
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\bin\Debug\TripleSum.exe
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\bin\Debug\TripleSum.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\obj\Debug\TripleSum.exe
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\obj\Debug\TripleSum.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\TripleSum\obj\Debug\TripleSum.csprojResolveAssemblyReference.cache

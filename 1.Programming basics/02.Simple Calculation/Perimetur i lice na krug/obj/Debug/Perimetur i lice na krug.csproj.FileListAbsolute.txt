@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\Perimetur i lice na krug\bin\Debug\Perimetur i lice na krug.exe.config
-C:\Users\nasko\Desktop\Simple calculations\Perimetur i lice na krug\bin\Debug\Perimetur i lice na krug.exe
-C:\Users\nasko\Desktop\Simple calculations\Perimetur i lice na krug\bin\Debug\Perimetur i lice na krug.pdb
-C:\Users\nasko\Desktop\Simple calculations\Perimetur i lice na krug\obj\Debug\Perimetur i lice na krug.exe
-C:\Users\nasko\Desktop\Simple calculations\Perimetur i lice na krug\obj\Debug\Perimetur i lice na krug.pdb

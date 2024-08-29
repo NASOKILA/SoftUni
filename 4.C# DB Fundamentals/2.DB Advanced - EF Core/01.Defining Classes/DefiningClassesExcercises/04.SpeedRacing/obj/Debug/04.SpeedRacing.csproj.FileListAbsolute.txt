@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\bin\Debug\04.SpeedRacing.exe.config
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\bin\Debug\04.SpeedRacing.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\bin\Debug\04.SpeedRacing.pdb
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\obj\Debug\04.SpeedRacing.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\obj\Debug\04.SpeedRacing.exe
-C:\Users\user\Desktop\DefiningClassesExcercises\04.SpeedRacing\obj\Debug\04.SpeedRacing.pdb

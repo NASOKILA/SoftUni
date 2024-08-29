@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\bin\Debug\07.PopulationCounter.exe.config
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\bin\Debug\07.PopulationCounter.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\bin\Debug\07.PopulationCounter.pdb
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\obj\Debug\07.PopulationCounter.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\obj\Debug\07.PopulationCounter.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\07.PopulationCounter\obj\Debug\07.PopulationCounter.pdb

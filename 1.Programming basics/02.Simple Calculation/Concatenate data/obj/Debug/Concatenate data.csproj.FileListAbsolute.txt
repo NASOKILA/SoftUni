@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\Concatenate data\bin\Debug\Concatenate data.exe.config
-C:\Users\nasko\Desktop\Simple calculations\Concatenate data\bin\Debug\Concatenate data.exe
-C:\Users\nasko\Desktop\Simple calculations\Concatenate data\bin\Debug\Concatenate data.pdb
-C:\Users\nasko\Desktop\Simple calculations\Concatenate data\obj\Debug\Concatenate data.exe
-C:\Users\nasko\Desktop\Simple calculations\Concatenate data\obj\Debug\Concatenate data.pdb

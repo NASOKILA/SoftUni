@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Elevator\bin\Debug\Elevator.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Elevator\bin\Debug\Elevator.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Elevator\bin\Debug\Elevator.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Elevator\obj\Debug\Elevator.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Elevator\obj\Debug\Elevator.pdb

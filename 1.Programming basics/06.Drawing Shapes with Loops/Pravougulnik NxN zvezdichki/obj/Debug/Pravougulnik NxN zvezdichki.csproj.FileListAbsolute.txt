@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik NxN zvezdichki\bin\Debug\Pravougulnik NxN zvezdichki.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik NxN zvezdichki\bin\Debug\Pravougulnik NxN zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik NxN zvezdichki\bin\Debug\Pravougulnik NxN zvezdichki.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik NxN zvezdichki\obj\Debug\Pravougulnik NxN zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Pravougulnik NxN zvezdichki\obj\Debug\Pravougulnik NxN zvezdichki.pdb

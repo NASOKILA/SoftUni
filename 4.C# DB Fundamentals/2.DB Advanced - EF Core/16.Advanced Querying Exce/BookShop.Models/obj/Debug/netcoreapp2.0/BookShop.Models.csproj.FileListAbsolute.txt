@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.deps.json
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.dll
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.pdb
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfo.cs
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.dll
-C:\Users\user\Desktop\SoftUni\4.C# DB Fundamentals\2.DB Advanced - EF Core\16.Advanced Querying Exce\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.pdb

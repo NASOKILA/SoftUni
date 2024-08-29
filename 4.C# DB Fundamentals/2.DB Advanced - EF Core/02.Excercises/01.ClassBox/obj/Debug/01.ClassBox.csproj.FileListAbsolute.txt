@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\02.Excercises\01.ClassBox\bin\Debug\01.ClassBox.exe.config
-C:\Users\user\Desktop\02.Excercises\01.ClassBox\bin\Debug\01.ClassBox.exe
-C:\Users\user\Desktop\02.Excercises\01.ClassBox\bin\Debug\01.ClassBox.pdb
-C:\Users\user\Desktop\02.Excercises\01.ClassBox\obj\Debug\01.ClassBox.exe
-C:\Users\user\Desktop\02.Excercises\01.ClassBox\obj\Debug\01.ClassBox.pdb

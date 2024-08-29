@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.pdb
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb

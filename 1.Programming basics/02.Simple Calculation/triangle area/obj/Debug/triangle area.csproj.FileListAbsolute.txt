@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple calculations\triangle area\bin\Debug\triangle area.exe.config
-C:\Users\nasko\Desktop\Simple calculations\triangle area\bin\Debug\triangle area.exe
-C:\Users\nasko\Desktop\Simple calculations\triangle area\bin\Debug\triangle area.pdb
-C:\Users\nasko\Desktop\Simple calculations\triangle area\obj\Debug\triangle area.exe
-C:\Users\nasko\Desktop\Simple calculations\triangle area\obj\Debug\triangle area.pdb

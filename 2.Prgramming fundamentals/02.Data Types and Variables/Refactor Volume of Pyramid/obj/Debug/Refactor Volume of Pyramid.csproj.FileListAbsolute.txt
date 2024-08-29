@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\bin\Debug\Refactor Volume of Pyramid.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\bin\Debug\Refactor Volume of Pyramid.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\bin\Debug\Refactor Volume of Pyramid.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\obj\Debug\Refactor Volume of Pyramid.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\obj\Debug\Refactor Volume of Pyramid.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Refactor Volume of Pyramid\obj\Debug\Refactor Volume of Pyramid.pdb

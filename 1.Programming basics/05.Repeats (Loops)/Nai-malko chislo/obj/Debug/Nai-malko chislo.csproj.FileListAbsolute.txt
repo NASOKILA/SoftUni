@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Nai-malko chislo\bin\Debug\Nai-malko chislo.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Nai-malko chislo\bin\Debug\Nai-malko chislo.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Nai-malko chislo\bin\Debug\Nai-malko chislo.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Nai-malko chislo\obj\Debug\Nai-malko chislo.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Nai-malko chislo\obj\Debug\Nai-malko chislo.pdb

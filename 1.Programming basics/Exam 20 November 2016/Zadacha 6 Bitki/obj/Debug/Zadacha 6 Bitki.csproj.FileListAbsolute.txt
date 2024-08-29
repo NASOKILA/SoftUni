@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 6 Bitki\bin\Debug\Zadacha 6 Bitki.exe.config
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 6 Bitki\bin\Debug\Zadacha 6 Bitki.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 6 Bitki\bin\Debug\Zadacha 6 Bitki.pdb
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 6 Bitki\obj\Debug\Zadacha 6 Bitki.exe
-C:\Users\nasko\Desktop\Izpit 20ti noemvri\Zadacha 6 Bitki\obj\Debug\Zadacha 6 Bitki.pdb

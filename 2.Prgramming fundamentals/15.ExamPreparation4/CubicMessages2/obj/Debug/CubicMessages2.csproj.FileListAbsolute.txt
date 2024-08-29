@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages2\bin\Debug\CubicMessages2.exe.config
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages2\bin\Debug\CubicMessages2.exe
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages2\bin\Debug\CubicMessages2.pdb
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages2\obj\Debug\CubicMessages2.exe
-C:\Users\nasko\Desktop\ExamPreparation2\CubicMessages2\obj\Debug\CubicMessages2.pdb

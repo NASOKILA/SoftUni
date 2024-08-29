@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\bin\Debug\Practice Characters and Strings.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\bin\Debug\Practice Characters and Strings.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\bin\Debug\Practice Characters and Strings.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\obj\Debug\Practice Characters and Strings.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\obj\Debug\Practice Characters and Strings.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\bin\Debug\Practice Characters and Strings.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\obj\Debug\Practice Characters and Strings.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\Practice Characters and Strings\obj\Debug\Practice Characters and Strings.pdb

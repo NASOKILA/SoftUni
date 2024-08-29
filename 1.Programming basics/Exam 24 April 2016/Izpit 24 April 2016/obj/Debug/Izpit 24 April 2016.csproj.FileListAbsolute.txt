@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\bin\Debug\Izpit 24 April 2016.exe.config
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\bin\Debug\Izpit 24 April 2016.exe
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\bin\Debug\Izpit 24 April 2016.pdb
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\obj\Debug\Izpit 24 April 2016.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\obj\Debug\Izpit 24 April 2016.exe
-C:\Users\nasko\Desktop\Izpit 24 April 2016\Izpit 24 April 2016\obj\Debug\Izpit 24 April 2016.pdb

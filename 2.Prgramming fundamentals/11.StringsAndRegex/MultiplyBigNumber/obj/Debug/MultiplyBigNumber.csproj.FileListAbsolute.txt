@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\MultiplyBigNumber\bin\Debug\MultiplyBigNumber.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\MultiplyBigNumber\bin\Debug\MultiplyBigNumber.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MultiplyBigNumber\bin\Debug\MultiplyBigNumber.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\MultiplyBigNumber\obj\Debug\MultiplyBigNumber.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MultiplyBigNumber\obj\Debug\MultiplyBigNumber.pdb

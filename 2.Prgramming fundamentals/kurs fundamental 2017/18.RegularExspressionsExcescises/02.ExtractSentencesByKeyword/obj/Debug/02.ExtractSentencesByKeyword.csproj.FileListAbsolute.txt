@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\bin\Debug\02.ExtractSentencesByKeyword.exe.config
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\bin\Debug\02.ExtractSentencesByKeyword.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\bin\Debug\02.ExtractSentencesByKeyword.pdb
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\obj\Debug\02.ExtractSentencesByKeyword.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\obj\Debug\02.ExtractSentencesByKeyword.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\02.ExtractSentencesByKeyword\obj\Debug\02.ExtractSentencesByKeyword.pdb

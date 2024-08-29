@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\bin\Debug\IntegerToHexAndBinary.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\bin\Debug\IntegerToHexAndBinary.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\bin\Debug\IntegerToHexAndBinary.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\obj\Debug\IntegerToHexAndBinary.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\obj\Debug\IntegerToHexAndBinary.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\obj\Debug\IntegerToHexAndBinary.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\bin\Debug\IntegerToHexAndBinary.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\obj\Debug\IntegerToHexAndBinary.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\IntegerToHexAndBinary\obj\Debug\IntegerToHexAndBinary.pdb

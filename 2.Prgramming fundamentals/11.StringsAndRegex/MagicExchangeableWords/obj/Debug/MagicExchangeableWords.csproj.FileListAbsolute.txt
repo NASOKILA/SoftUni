@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\bin\Debug\MagicExchangeableWords.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\bin\Debug\MagicExchangeableWords.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\bin\Debug\MagicExchangeableWords.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\obj\Debug\MagicExchangeableWords.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\obj\Debug\MagicExchangeableWords.exe
-C:\Users\nasko\Desktop\StringsAndRegex\MagicExchangeableWords\obj\Debug\MagicExchangeableWords.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\MagicExchangeableWords\bin\Debug\MagicExchangeableWords.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\MagicExchangeableWords\obj\Debug\MagicExchangeableWords.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\11.StringsAndRegex\MagicExchangeableWords\obj\Debug\MagicExchangeableWords.pdb

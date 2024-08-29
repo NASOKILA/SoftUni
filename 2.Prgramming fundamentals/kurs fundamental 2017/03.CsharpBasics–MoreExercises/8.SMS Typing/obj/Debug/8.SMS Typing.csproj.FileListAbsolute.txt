@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\bin\Debug\8.SMS Typing.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\bin\Debug\8.SMS Typing.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\bin\Debug\8.SMS Typing.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\obj\Debug\8.SMS Typing.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\obj\Debug\8.SMS Typing.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\8.SMS Typing\obj\Debug\8.SMS Typing.pdb

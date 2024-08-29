@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\ArraysAndLists\SquareNumbers\bin\Debug\SquareNumbers.exe.config
-C:\Users\nasko\Desktop\ArraysAndLists\SquareNumbers\bin\Debug\SquareNumbers.exe
-C:\Users\nasko\Desktop\ArraysAndLists\SquareNumbers\bin\Debug\SquareNumbers.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\SquareNumbers\obj\Debug\SquareNumbers.exe
-C:\Users\nasko\Desktop\ArraysAndLists\SquareNumbers\obj\Debug\SquareNumbers.pdb

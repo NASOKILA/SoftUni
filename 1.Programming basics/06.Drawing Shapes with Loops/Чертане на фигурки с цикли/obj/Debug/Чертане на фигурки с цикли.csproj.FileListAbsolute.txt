@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\bin\Debug\Чертане на фигурки с цикли.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\bin\Debug\Чертане на фигурки с цикли.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\bin\Debug\Чертане на фигурки с цикли.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\obj\Debug\Чертане на фигурки с цикли.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\obj\Debug\Чертане на фигурки с цикли.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Чертане на фигурки с цикли\obj\Debug\Чертане на фигурки с цикли.pdb
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Чертане на фигурки с цикли\bin\Debug\Чертане на фигурки с цикли.exe.config
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Чертане на фигурки с цикли\obj\Debug\Чертане на фигурки с цикли.exe
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Чертане на фигурки с цикли\obj\Debug\Чертане на фигурки с цикли.pdb

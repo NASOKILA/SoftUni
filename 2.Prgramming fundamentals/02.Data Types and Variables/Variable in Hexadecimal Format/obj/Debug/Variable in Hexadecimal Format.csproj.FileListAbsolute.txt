@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Variable in Hexadecimal Format\bin\Debug\Variable in Hexadecimal Format.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Variable in Hexadecimal Format\bin\Debug\Variable in Hexadecimal Format.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Variable in Hexadecimal Format\bin\Debug\Variable in Hexadecimal Format.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Variable in Hexadecimal Format\obj\Debug\Variable in Hexadecimal Format.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\Variable in Hexadecimal Format\obj\Debug\Variable in Hexadecimal Format.pdb

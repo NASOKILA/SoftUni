@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumStep3\bin\Debug\SumStep3.exe.config
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumStep3\bin\Debug\SumStep3.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumStep3\bin\Debug\SumStep3.pdb
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumStep3\obj\Debug\SumStep3.exe
-C:\Users\nasko\Desktop\Izpit Exam - Jan 2016\SumStep3\obj\Debug\SumStep3.pdb

@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\fruit or vegetable\bin\Debug\fruit or vegetable.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\fruit or vegetable\bin\Debug\fruit or vegetable.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\fruit or vegetable\bin\Debug\fruit or vegetable.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\fruit or vegetable\obj\Debug\fruit or vegetable.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\fruit or vegetable\obj\Debug\fruit or vegetable.pdb

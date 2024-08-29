@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\bin\Debug\04.AverageGrades.exe.config
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\bin\Debug\04.AverageGrades.exe
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\bin\Debug\04.AverageGrades.pdb
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\obj\Debug\04.AverageGrades.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\obj\Debug\04.AverageGrades.exe
-C:\Users\nasko\Desktop\ObjectsAndClassesExercises\04.AverageGrades\obj\Debug\04.AverageGrades.pdb

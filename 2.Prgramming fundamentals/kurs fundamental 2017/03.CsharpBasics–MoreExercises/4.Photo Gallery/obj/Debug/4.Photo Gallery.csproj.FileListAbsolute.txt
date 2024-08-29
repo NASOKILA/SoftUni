@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\bin\Debug\4.Photo Gallery.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\obj\Debug\4.Photo Gallery.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\bin\Debug\4.Photo Gallery.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\bin\Debug\4.Photo Gallery.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\obj\Debug\4.Photo Gallery.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\4.Photo Gallery\obj\Debug\4.Photo Gallery.pdb

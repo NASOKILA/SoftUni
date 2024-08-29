@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100\bin\Debug\Chisla ot 1 do 100.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100\bin\Debug\Chisla ot 1 do 100.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100\bin\Debug\Chisla ot 1 do 100.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100\obj\Debug\Chisla ot 1 do 100.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Chisla ot 1 do 100\obj\Debug\Chisla ot 1 do 100.pdb

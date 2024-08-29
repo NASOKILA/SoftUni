@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 17 July 2016\StopNumber\bin\Debug\StopNumber.exe.config
-C:\Users\nasko\Desktop\Izpit 17 July 2016\StopNumber\bin\Debug\StopNumber.exe
-C:\Users\nasko\Desktop\Izpit 17 July 2016\StopNumber\bin\Debug\StopNumber.pdb
-C:\Users\nasko\Desktop\Izpit 17 July 2016\StopNumber\obj\Debug\StopNumber.exe
-C:\Users\nasko\Desktop\Izpit 17 July 2016\StopNumber\obj\Debug\StopNumber.pdb

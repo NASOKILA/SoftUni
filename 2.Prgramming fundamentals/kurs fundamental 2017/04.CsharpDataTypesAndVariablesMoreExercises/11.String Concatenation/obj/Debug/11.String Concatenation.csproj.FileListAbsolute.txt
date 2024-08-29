@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\11.String Concatenation\bin\Debug\11.String Concatenation.exe.config
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\11.String Concatenation\bin\Debug\11.String Concatenation.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\11.String Concatenation\bin\Debug\11.String Concatenation.pdb
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\11.String Concatenation\obj\Debug\11.String Concatenation.exe
-C:\Users\nasko\Desktop\4.CsharpDataTypesAndVariablesMoreExercises\11.String Concatenation\obj\Debug\11.String Concatenation.pdb

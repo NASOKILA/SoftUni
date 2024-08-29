@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\04.FixEmails\bin\Debug\04.FixEmails.exe.config
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\04.FixEmails\bin\Debug\04.FixEmails.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\04.FixEmails\bin\Debug\04.FixEmails.pdb
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\04.FixEmails\obj\Debug\04.FixEmails.exe
-C:\Users\nasko\Desktop\DictionariesLambdaAndLINQExercises\04.FixEmails\obj\Debug\04.FixEmails.pdb

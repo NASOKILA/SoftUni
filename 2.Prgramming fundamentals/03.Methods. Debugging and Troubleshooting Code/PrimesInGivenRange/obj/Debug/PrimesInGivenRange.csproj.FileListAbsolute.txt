@@ -1,2 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrimesInGivenRange\bin\Debug\PrimesInGivenRange.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\PrimesInGivenRange\bin\Debug\PrimesInGivenRange.exe.config

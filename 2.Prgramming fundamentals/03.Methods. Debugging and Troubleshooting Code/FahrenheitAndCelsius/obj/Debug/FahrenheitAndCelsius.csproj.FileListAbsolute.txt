@@ -1,1 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\FahrenheitAndCelsius\bin\Debug\FahrenheitAndCelsius.exe.config

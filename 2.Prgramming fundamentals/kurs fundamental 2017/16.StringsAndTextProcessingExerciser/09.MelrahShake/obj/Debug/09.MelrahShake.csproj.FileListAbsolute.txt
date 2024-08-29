@@ -1,7 +1,0 @@
-C:\Users\user\Desktop\StringsAndTextProcessingExerciser\09.MelrahShake\bin\Debug\09.MelrahShake.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\bin\Debug\09.MelrahShake.exe.config
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\bin\Debug\09.MelrahShake.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\bin\Debug\09.MelrahShake.pdb
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\obj\Debug\09.MelrahShake.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\obj\Debug\09.MelrahShake.exe
-C:\Users\user\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\16.StringsAndTextProcessingExerciser\09.MelrahShake\obj\Debug\09.MelrahShake.pdb

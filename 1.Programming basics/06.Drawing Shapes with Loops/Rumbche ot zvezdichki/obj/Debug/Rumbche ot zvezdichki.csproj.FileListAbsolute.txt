@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\bin\Debug\Rumbche ot zvezdichki.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\bin\Debug\Rumbche ot zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\bin\Debug\Rumbche ot zvezdichki.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\obj\Debug\Rumbche ot zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\obj\Debug\Rumbche ot zvezdichki.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Rumbche ot zvezdichki\obj\Debug\Rumbche ot zvezdichki.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Rumbche ot zvezdichki\bin\Debug\Rumbche ot zvezdichki.exe.config
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Rumbche ot zvezdichki\obj\Debug\Rumbche ot zvezdichki.exe
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Rumbche ot zvezdichki\obj\Debug\Rumbche ot zvezdichki.pdb

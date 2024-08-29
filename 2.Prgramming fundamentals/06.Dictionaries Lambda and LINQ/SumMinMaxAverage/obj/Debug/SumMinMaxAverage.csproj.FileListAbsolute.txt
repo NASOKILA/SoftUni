@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\bin\Debug\SumMinMaxAverage.exe.config
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\bin\Debug\SumMinMaxAverage.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\bin\Debug\SumMinMaxAverage.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\obj\Debug\SumMinMaxAverage.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\obj\Debug\SumMinMaxAverage.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\SumMinMaxAverage\obj\Debug\SumMinMaxAverage.pdb

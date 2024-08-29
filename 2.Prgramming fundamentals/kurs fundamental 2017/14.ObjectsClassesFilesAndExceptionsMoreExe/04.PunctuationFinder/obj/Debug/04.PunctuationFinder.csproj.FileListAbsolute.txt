@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\bin\Debug\04.PunctuationFinder.exe.config
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\bin\Debug\04.PunctuationFinder.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\bin\Debug\04.PunctuationFinder.pdb
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\obj\Debug\04.PunctuationFinder.exe
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\obj\Debug\04.PunctuationFinder.pdb
-C:\Users\user\Desktop\ObjectsClassesFilesAndExceptionsMoreExe\04.PunctuationFinder\obj\Debug\04.PunctuationFinder.csprojResolveAssemblyReference.cache

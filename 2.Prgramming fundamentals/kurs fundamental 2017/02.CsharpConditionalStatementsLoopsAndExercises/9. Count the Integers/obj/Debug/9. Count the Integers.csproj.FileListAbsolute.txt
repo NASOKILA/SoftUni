@@ -1,1 +1,0 @@
-C:\Users\nasko\Desktop\Csharp Conditional Statements and Loops\9. Count the Integers\bin\Debug\_9.Count_the_Integers.exe.config

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\bin\Debug\RageQuit2.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\bin\Debug\RageQuit2.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\bin\Debug\RageQuit2.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\obj\Debug\RageQuit2.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\obj\Debug\RageQuit2.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\12.ExamPreparationOne\RageQuit2\obj\Debug\RageQuit2.pdb

@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\bin\Debug\06.ValidUsernames.exe.config
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\bin\Debug\06.ValidUsernames.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\bin\Debug\06.ValidUsernames.pdb
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\obj\Debug\06.ValidUsernames.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\obj\Debug\06.ValidUsernames.exe
-C:\Users\user\Desktop\RegularExspressionsExcescises\06.ValidUsernames\obj\Debug\06.ValidUsernames.pdb

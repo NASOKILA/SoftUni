@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\bin\Debug\Point in figure.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\bin\Debug\Point in figure.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\bin\Debug\Point in figure.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\obj\Debug\Point in figure.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\obj\Debug\Point in figure.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Point in figure\obj\Debug\Point in figure.pdb

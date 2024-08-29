@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\bin\Debug\zadacha za izpit Puteshestvie.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\bin\Debug\zadacha za izpit Puteshestvie.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\bin\Debug\zadacha za izpit Puteshestvie.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\obj\Debug\zadacha za izpit Puteshestvie.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\obj\Debug\zadacha za izpit Puteshestvie.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Puteshestvie\obj\Debug\zadacha za izpit Puteshestvie.pdb

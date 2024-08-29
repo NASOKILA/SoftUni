@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\bin\Debug\Exellent-result.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\bin\Debug\Exellent-result.exe
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\bin\Debug\Exellent-result.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\obj\Debug\Exellent-result.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\obj\Debug\Exellent-result.exe
-C:\Users\nasko\Desktop\Simple-conditions\Exellent-result\obj\Debug\Exellent-result.pdb

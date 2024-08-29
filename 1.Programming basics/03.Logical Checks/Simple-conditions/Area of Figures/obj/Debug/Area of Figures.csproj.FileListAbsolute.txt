@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\bin\Debug\Area of Figures.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\bin\Debug\Area of Figures.exe
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\bin\Debug\Area of Figures.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\obj\Debug\Area of Figures.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\obj\Debug\Area of Figures.exe
-C:\Users\nasko\Desktop\Simple-conditions\Area of Figures\obj\Debug\Area of Figures.pdb

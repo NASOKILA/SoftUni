@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\bin\Debug\ObjectsAndClasses.exe.config
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\bin\Debug\ObjectsAndClasses.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\bin\Debug\ObjectsAndClasses.pdb
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.exe
-C:\Users\nasko\Desktop\ObjectsAndClasses\ObjectsAndClasses\obj\Debug\ObjectsAndClasses.pdb

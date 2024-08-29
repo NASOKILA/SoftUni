@@ -1,2 +1,0 @@
-add paypal API for the order creation in the order config page,
-  

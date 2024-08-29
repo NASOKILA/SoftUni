@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\bin\Debug\06.EmailStatistics.exe.config
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\bin\Debug\06.EmailStatistics.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\bin\Debug\06.EmailStatistics.pdb
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\obj\Debug\06.EmailStatistics.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\obj\Debug\06.EmailStatistics.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\06.EmailStatistics\obj\Debug\06.EmailStatistics.pdb
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\06.EmailStatistics\bin\Debug\06.EmailStatistics.exe.config
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\06.EmailStatistics\obj\Debug\06.EmailStatistics.exe
-C:\Users\nasko\Desktop\SoftUni\2.Prgramming fundamentals\kurs fundamental 2017\19.RegularExpressionsMoreExercises\06.EmailStatistics\obj\Debug\06.EmailStatistics.pdb

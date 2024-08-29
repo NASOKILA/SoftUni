@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\bin\Debug\animal type.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\bin\Debug\animal type.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\bin\Debug\animal type.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\obj\Debug\animal type.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\obj\Debug\animal type.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\animal type\obj\Debug\animal type.pdb

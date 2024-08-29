@@ -1,8 +1,0 @@
-C:\Users\nasko\Desktop\Izpit 28ti August 2016\Axe\bin\Debug\Axe.exe.config
-C:\Users\nasko\Desktop\Izpit 28ti August 2016\Axe\bin\Debug\Axe.exe
-C:\Users\nasko\Desktop\Izpit 28ti August 2016\Axe\bin\Debug\Axe.pdb
-C:\Users\nasko\Desktop\Izpit 28ti August 2016\Axe\obj\Debug\Axe.exe
-C:\Users\nasko\Desktop\Izpit 28ti August 2016\Axe\obj\Debug\Axe.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Axe\bin\Debug\Axe.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Axe\obj\Debug\Axe.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\1.Programming basics\Izpit 28ti August 2016\Axe\obj\Debug\Axe.pdb

@@ -1,3 +1,0 @@
-C:\Users\nasko\Desktop\Methods.DebuggingAndTroubleshootingCode\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\3.Methods. Debugging and Troubleshooting Code\SignOfIntegerNumber\bin\Debug\SignOfIntegerNumber.exe.config

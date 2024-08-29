@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\bin\Debug\Zadacha za izpit Peperuda.exe.config
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\bin\Debug\Zadacha za izpit Peperuda.exe
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\bin\Debug\Zadacha za izpit Peperuda.pdb
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\obj\Debug\Zadacha za izpit Peperuda.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\obj\Debug\Zadacha za izpit Peperuda.exe
-C:\Users\nasko\Desktop\softuni\6.Чертане на фигурки с цикли\Zadacha za izpit Peperuda\obj\Debug\Zadacha za izpit Peperuda.pdb

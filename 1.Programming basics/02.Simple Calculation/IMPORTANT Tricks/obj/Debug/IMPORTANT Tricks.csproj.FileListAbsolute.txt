@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\bin\Debug\IMPORTANT Tricks.exe.config
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\bin\Debug\IMPORTANT Tricks.exe
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\bin\Debug\IMPORTANT Tricks.pdb
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\obj\Debug\IMPORTANT Tricks.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\obj\Debug\IMPORTANT Tricks.exe
-C:\Users\nasko\Desktop\softuni\Simple calculations\IMPORTANT Tricks\obj\Debug\IMPORTANT Tricks.pdb

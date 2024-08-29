@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadrat ot NxN zvezdichki\bin\Debug\Kvadrat ot NxN zvezdichki.exe.config
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadrat ot NxN zvezdichki\bin\Debug\Kvadrat ot NxN zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadrat ot NxN zvezdichki\bin\Debug\Kvadrat ot NxN zvezdichki.pdb
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadrat ot NxN zvezdichki\obj\Debug\Kvadrat ot NxN zvezdichki.exe
-C:\Users\nasko\Desktop\Чертане на фигурки с цикли\Kvadrat ot NxN zvezdichki\obj\Debug\Kvadrat ot NxN zvezdichki.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\bin\Debug\Zadacha za izpit Trabi v basein.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\bin\Debug\Zadacha za izpit Trabi v basein.exe
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\bin\Debug\Zadacha za izpit Trabi v basein.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\obj\Debug\Zadacha za izpit Trabi v basein.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\obj\Debug\Zadacha za izpit Trabi v basein.exe
-C:\Users\nasko\Desktop\Simple-conditions\Zadacha za izpit Trabi v basein\obj\Debug\Zadacha za izpit Trabi v basein.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\bin\Debug\BookLibrary.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\obj\Debug\BookLibrary.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\bin\Debug\BookLibrary.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\bin\Debug\BookLibrary.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\obj\Debug\BookLibrary.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\BookLibrary\obj\Debug\BookLibrary.pdb

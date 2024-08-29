@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.exe.config
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.pdb
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.exe
-C:\Users\nasko\Desktop\softuni\Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\bin\Debug\DifferentIntegersSize.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\2.Prgramming fundamentals\2.Data Types and Variables\DifferentIntegersSize\obj\Debug\DifferentIntegersSize.pdb

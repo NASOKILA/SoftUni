@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\StringAndTextProcessing\StringAndTextProcessing\bin\Release\StringAndTextProcessing.exe.config
-C:\Users\user\Desktop\StringAndTextProcessing\StringAndTextProcessing\bin\Release\StringAndTextProcessing.exe
-C:\Users\user\Desktop\StringAndTextProcessing\StringAndTextProcessing\bin\Release\StringAndTextProcessing.pdb
-C:\Users\user\Desktop\StringAndTextProcessing\StringAndTextProcessing\obj\Release\StringAndTextProcessing.exe
-C:\Users\user\Desktop\StringAndTextProcessing\StringAndTextProcessing\obj\Release\StringAndTextProcessing.pdb

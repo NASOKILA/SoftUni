@@ -1,6 +1,0 @@
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\bin\Debug\AverageGrades.exe.config
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\bin\Debug\AverageGrades.exe
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\bin\Debug\AverageGrades.pdb
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\obj\Debug\AverageGrades.csprojResolveAssemblyReference.cache
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\obj\Debug\AverageGrades.exe
-C:\Users\NASKO\Desktop\SoftUni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AverageGrades\obj\Debug\AverageGrades.pdb

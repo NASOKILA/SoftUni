@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\bin\Debug\Zadacha za izpit Navreme za izpit.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\bin\Debug\Zadacha za izpit Navreme za izpit.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\bin\Debug\Zadacha za izpit Navreme za izpit.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\obj\Debug\Zadacha za izpit Navreme za izpit.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\obj\Debug\Zadacha za izpit Navreme za izpit.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\Zadacha za izpit Navreme za izpit\obj\Debug\Zadacha za izpit Navreme za izpit.pdb

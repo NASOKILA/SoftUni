@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Sumirane na chisla\bin\Debug\Sumirane na chisla.exe.config
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Sumirane na chisla\bin\Debug\Sumirane na chisla.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Sumirane na chisla\bin\Debug\Sumirane na chisla.pdb
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Sumirane na chisla\obj\Debug\Sumirane na chisla.exe
-C:\Users\nasko\Desktop\softuni\5. Povtoreniq (Cikli)\Sumirane na chisla\obj\Debug\Sumirane na chisla.pdb

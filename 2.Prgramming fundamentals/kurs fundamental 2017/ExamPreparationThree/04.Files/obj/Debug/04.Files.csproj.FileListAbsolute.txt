@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\bin\Debug\04.Files.exe.config
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\bin\Debug\04.Files.exe
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\bin\Debug\04.Files.pdb
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\obj\Debug\04.Files.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\obj\Debug\04.Files.exe
-C:\Users\user\Desktop\ExamPreparationThree\04.Files\obj\Debug\04.Files.pdb

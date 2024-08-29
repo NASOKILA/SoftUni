@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\bin\Debug\_2.Vapor_Store.exe.config
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\bin\Debug\_2.Vapor_Store.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\bin\Debug\_2.Vapor_Store.pdb
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\obj\Debug\2. Vapor Store.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\obj\Debug\_2.Vapor_Store.exe
-C:\Users\nasko\Desktop\CsharpBasics–MoreExercises\2. Vapor Store\obj\Debug\_2.Vapor_Store.pdb

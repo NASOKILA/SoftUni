@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\bin\Debug\zadacha za izpit Operacii mejdu chisla.exe.config
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\bin\Debug\zadacha za izpit Operacii mejdu chisla.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\bin\Debug\zadacha za izpit Operacii mejdu chisla.pdb
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\obj\Debug\zadacha za izpit Operacii mejdu chisla.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\obj\Debug\zadacha za izpit Operacii mejdu chisla.exe
-C:\Users\nasko\Desktop\softuni\4.По-сложни логически проверки\zadacha za izpit Operacii mejdu chisla\obj\Debug\zadacha za izpit Operacii mejdu chisla.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\bin\Debug\02.EmailMe.exe.config
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\bin\Debug\02.EmailMe.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\bin\Debug\02.EmailMe.pdb
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\obj\Debug\02.EmailMe.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\obj\Debug\02.EmailMe.exe
-C:\Users\nasko\Desktop\19.RegularExpressionsMoreExercises\02.EmailMe\obj\Debug\02.EmailMe.pdb

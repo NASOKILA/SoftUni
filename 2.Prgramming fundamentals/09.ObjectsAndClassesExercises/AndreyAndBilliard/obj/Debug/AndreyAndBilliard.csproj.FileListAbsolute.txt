@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\bin\Debug\AndreyAndBilliard.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\bin\Debug\AndreyAndBilliard.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\bin\Debug\AndreyAndBilliard.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\obj\Debug\AndreyAndBilliard.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\obj\Debug\AndreyAndBilliard.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\9.ObjectsAndClassesExercises\AndreyAndBilliard\obj\Debug\AndreyAndBilliard.pdb

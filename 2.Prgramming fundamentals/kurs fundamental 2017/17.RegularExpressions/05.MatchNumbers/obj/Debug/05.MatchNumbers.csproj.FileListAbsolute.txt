@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\bin\Debug\05.MatchNumbers.exe.config
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\bin\Debug\05.MatchNumbers.exe
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\bin\Debug\05.MatchNumbers.pdb
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\obj\Debug\05.MatchNumbers.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\obj\Debug\05.MatchNumbers.exe
-C:\Users\user\Desktop\RegularExpressions\05.MatchNumbers\obj\Debug\05.MatchNumbers.pdb

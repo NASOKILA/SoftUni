@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\bin\Debug\CountRealNumbers.exe.config
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\bin\Debug\CountRealNumbers.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\bin\Debug\CountRealNumbers.pdb
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\obj\Debug\CountRealNumbers.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\obj\Debug\CountRealNumbers.exe
-C:\Users\nasko\Desktop\Dictionaries Lambda and LINQ\CountRealNumbers\obj\Debug\CountRealNumbers.pdb

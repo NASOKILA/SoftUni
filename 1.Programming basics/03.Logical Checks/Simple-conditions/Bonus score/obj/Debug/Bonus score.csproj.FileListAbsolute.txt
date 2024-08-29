@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\bin\Debug\Bonus score.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\bin\Debug\Bonus score.exe
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\bin\Debug\Bonus score.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\obj\Debug\Bonus score.exe
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\obj\Debug\Bonus score.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Bonus score\obj\Debug\Bonus score.csprojResolveAssemblyReference.cache

@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\Greater Number\bin\Debug\Greater Number.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\Greater Number\bin\Debug\Greater Number.exe
-C:\Users\nasko\Desktop\Simple-conditions\Greater Number\bin\Debug\Greater Number.pdb
-C:\Users\nasko\Desktop\Simple-conditions\Greater Number\obj\Debug\Greater Number.exe
-C:\Users\nasko\Desktop\Simple-conditions\Greater Number\obj\Debug\Greater Number.pdb

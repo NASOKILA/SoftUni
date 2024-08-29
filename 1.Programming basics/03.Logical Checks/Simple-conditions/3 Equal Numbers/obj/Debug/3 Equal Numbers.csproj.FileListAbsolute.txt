@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\bin\Debug\3 Equal Numbers.exe.config
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\bin\Debug\3 Equal Numbers.exe
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\bin\Debug\3 Equal Numbers.pdb
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\obj\Debug\3 Equal Numbers.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\obj\Debug\3 Equal Numbers.exe
-C:\Users\nasko\Desktop\Simple-conditions\3 Equal Numbers\obj\Debug\3 Equal Numbers.pdb

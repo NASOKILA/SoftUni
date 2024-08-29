@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\Vlojeni cikli\Chetni stepeni na 2\bin\Debug\Chetni stepeni na 2.exe.config
-C:\Users\nasko\Desktop\Vlojeni cikli\Chetni stepeni na 2\bin\Debug\Chetni stepeni na 2.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Chetni stepeni na 2\bin\Debug\Chetni stepeni na 2.pdb
-C:\Users\nasko\Desktop\Vlojeni cikli\Chetni stepeni na 2\obj\Debug\Chetni stepeni na 2.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Chetni stepeni na 2\obj\Debug\Chetni stepeni na 2.pdb

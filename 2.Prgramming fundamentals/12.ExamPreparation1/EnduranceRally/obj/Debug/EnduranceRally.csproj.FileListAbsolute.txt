@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\bin\Debug\EnduranceRally.exe.config
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\bin\Debug\EnduranceRally.exe
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\bin\Debug\EnduranceRally.pdb
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\obj\Debug\EnduranceRally.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\obj\Debug\EnduranceRally.exe
-C:\Users\user\Desktop\ExamPreparation1\EnduranceRally\obj\Debug\EnduranceRally.pdb

@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\bin\Debug\CounsSubstringOccurencies.exe.config
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\bin\Debug\CounsSubstringOccurencies.exe
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\bin\Debug\CounsSubstringOccurencies.pdb
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\obj\Debug\CounsSubstringOccurencies.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\obj\Debug\CounsSubstringOccurencies.exe
-C:\Users\nasko\Desktop\StringsAndRegex\CounsSubstringOccurencies\obj\Debug\CounsSubstringOccurencies.pdb

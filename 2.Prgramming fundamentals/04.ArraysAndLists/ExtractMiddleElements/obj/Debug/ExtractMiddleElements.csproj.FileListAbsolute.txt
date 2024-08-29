@@ -1,5 +1,0 @@
-C:\Users\nasko\Desktop\ArraysAndLists\ExtractMiddleElements\bin\Debug\ExtractMiddleElements.exe.config
-C:\Users\nasko\Desktop\ArraysAndLists\ExtractMiddleElements\bin\Debug\ExtractMiddleElements.exe
-C:\Users\nasko\Desktop\ArraysAndLists\ExtractMiddleElements\bin\Debug\ExtractMiddleElements.pdb
-C:\Users\nasko\Desktop\ArraysAndLists\ExtractMiddleElements\obj\Debug\ExtractMiddleElements.exe
-C:\Users\nasko\Desktop\ArraysAndLists\ExtractMiddleElements\obj\Debug\ExtractMiddleElements.pdb

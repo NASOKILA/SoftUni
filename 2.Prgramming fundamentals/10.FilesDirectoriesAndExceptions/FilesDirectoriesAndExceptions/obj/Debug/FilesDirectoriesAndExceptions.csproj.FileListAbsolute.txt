@@ -1,9 +1,0 @@
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\bin\Debug\FilesDirectoriesAndExceptions.exe.config
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\bin\Debug\FilesDirectoriesAndExceptions.exe
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\bin\Debug\FilesDirectoriesAndExceptions.pdb
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.exe
-C:\Users\nasko\Desktop\FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.pdb
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\bin\Debug\FilesDirectoriesAndExceptions.exe.config
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.exe
-C:\Users\nasko\Desktop\softuni\SoftUni\Prgramming fundamentals\10.FilesDirectoriesAndExceptions\FilesDirectoriesAndExceptions\obj\Debug\FilesDirectoriesAndExceptions.pdb

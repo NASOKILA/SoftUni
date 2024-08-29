@@ -1,6 +1,0 @@
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\bin\Debug\Fibonacci.exe.config
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\bin\Debug\Fibonacci.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\bin\Debug\Fibonacci.pdb
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\obj\Debug\Fibonacci.csprojResolveAssemblyReference.cache
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\obj\Debug\Fibonacci.exe
-C:\Users\nasko\Desktop\Vlojeni cikli\Fibonacci\obj\Debug\Fibonacci.pdb
